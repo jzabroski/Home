@@ -12,3 +12,17 @@ Faker.Net, AutoFixture
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | Apistry | | | |
+
+# Data Access Layer
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| EntityFrameworkCore | | | |
+| NHibernateCore | | | |
+
+# SQL
+| GitHub | Blog | Description | Radar Positioning |
+| ------ | ---- | ----------- | ----------------- |
+
+# HTML5 Controls
+| GitHub | NodeJS Module | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
