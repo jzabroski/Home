@@ -1,6 +1,12 @@
 # Home
 My technology radar
 
+# Chocolatey Packages
+| PackageName | Description | Radar Positioning |
+| ----------- | ----------- | ----------------- |
+| treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
+| notepadplusplus | Text editor with nice syntax highlighting and search. | - |
+
 # Test Data
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
