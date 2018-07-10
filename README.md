@@ -11,13 +11,15 @@ My technology radar
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [ObjectHydrator](https://github.com/PrintsCharming/ObjectHydrator) <br />[Foundation.ObjectHydrator.Core](https://github.com/rukai-kooboo/ObjectHydrator) | https://www.nuget.org/packages/objecthydrator/ <br />https://www.nuget.org/packages/Foundation.ObjectHydrator.Core/ | NuGet package ObjectHydrator Hasn't been updated since 2015. GitHub activity February 2018. | - |
-
-Faker.Net, AutoFixture
+| [Faker.Net](https://github.com/oriches/faker-cs) | https://www.nuget.org/packages/Faker.Net/ | n/a | n/a |
+| [AutoFixture](https://github.com/AutoFixture/AutoFixture) | https://www.nuget.org/packages/AutoFixture/ | n/a | n/a |
 
 # Documentation
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | Apistry | | | |
+| Swashbuckle | Swagger UI | |
+
 
 # Command Line Parsing
 | GitHub | NuGet | Description | Radar Positioning |
@@ -33,6 +35,12 @@ Faker.Net, AutoFixture
 # SQL
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
+
+# eMail
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| PreMailer.Net | | | |
+| Papercut | | | |
 
 # HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
