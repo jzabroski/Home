@@ -47,4 +47,4 @@ My technology radar
 # HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
-| | | | |
+| React.js | | Functional UI | |
