@@ -29,6 +29,7 @@ My technology radar
 # Data Access Layer
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
+| [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | NHibernateCore | | | |
 
@@ -40,10 +41,10 @@ My technology radar
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| PreMailer.Net | | | |
-| Papercut | | | |
+| [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) | [PreMailer.Net](https://www.nuget.org/packages/PreMailer.Net/) | | |
+| [Papercut](https://github.com/ChangemakerStudios/Papercut) | | | |
 
 # HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
-
+| | | | |
