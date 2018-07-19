@@ -17,8 +17,8 @@ My technology radar
 # Documentation
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| Apistry | | | |
-| Swashbuckle | Swagger UI | |
+| Apistry | | | Outgoing |
+| [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) | [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) | Swagger UI<br />Swagger tools for documenting APIs built on ASP.NET Core | Incoming |
 
 
 # Command Line Parsing
@@ -29,12 +29,13 @@ My technology radar
 # Data Access Layer
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| EntityFrameworkCore | | | |
+| [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | NHibernateCore | | | |
 
 # SQL
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
+| | | | |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
