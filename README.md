@@ -33,6 +33,11 @@ My technology radar
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | NHibernateCore | | | |
 
+# Batch Jobs
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Shift](https://github.com/hhalim/Shift) | [Shift](https://www.nuget.org/packages/Shift) | Durable and reliable long running and background jobs processing. Features: Detailed progress tracking. Stop, reset, and restart jobs. Scale out with multiple Shift servers. Encryption for serialized data. Run in most .NET apps, Windows services, Azure WebJobs. Auto removal of completed jobs. Can use either Redis, MongoDB, Azure DocumentDB, or Microsoft SQL Server for main storage. Free for personal and commercial use, no limit. | Incoming |
+
 # SQL
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
