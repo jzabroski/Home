@@ -32,6 +32,7 @@ My technology radar
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | NHibernateCore | | | |
+| [Relinq](https://github.com/re-motion/Relinq) | | | |
 
 # Batch Jobs
 | GitHub | NuGet | Description | Radar Positioning |
