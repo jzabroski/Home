@@ -42,7 +42,7 @@ My technology radar
 # SQL
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
-| | | | |
+| [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming | |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
