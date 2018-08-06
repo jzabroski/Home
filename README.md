@@ -20,6 +20,10 @@ My technology radar
 | Apistry | | | Outgoing |
 | [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) | [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) | Swagger UI<br />Swagger tools for documenting APIs built on ASP.NET Core | Incoming |
 
+# Application Package Management
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Squirrel](https://github.com/Squirrel/) | [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)<br>[Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac)<br>[Squirrel.Server](https://github.com/Squirrel/Squirrel.Server) | An installation and update framework for Windows desktop apps<br>Cocoa framework for updating OS X apps<br>Implements the server side of the Squirrel client frameworks | Incoming |
 
 # Command Line Parsing
 | GitHub | NuGet | Description | Radar Positioning |
