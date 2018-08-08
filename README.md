@@ -61,10 +61,16 @@ My technology radar
 | ------ | ----- | ----------- | ----------------- |
 | [Shift](https://github.com/hhalim/Shift) | [Shift](https://www.nuget.org/packages/Shift) | Durable and reliable long running and background jobs processing. Features: Detailed progress tracking. Stop, reset, and restart jobs. Scale out with multiple Shift servers. Encryption for serialized data. Run in most .NET apps, Windows services, Azure WebJobs. Auto removal of completed jobs. Can use either Redis, MongoDB, Azure DocumentDB, or Microsoft SQL Server for main storage. Free for personal and commercial use, no limit. | Incoming |
 
+# Service Discovery
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ---- | ----------- | ----------------- |
+| [Consul.Net](https://github.com/PlayFab/consuldotnet) | [Consul.Net](https://www.nuget.org/packages/Consul/) | The problems Consul solves are varied, but each individual feature has been solved by many different systems. Although there is no single system that provides all the features of Consul, there are other options available to solve some of these problems. | Incoming |
+
+
 # SQL
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
-| [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming | |
+| [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
