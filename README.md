@@ -68,9 +68,12 @@ My technology radar
 
 
 # SQL
+
+## Administrative Scripts
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
 | [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming |
+| [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit) | na | Useful links, scripts, tools and best practice for Microsoft SQL Server Database http://sqlserver-kit.org | Incoming |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
