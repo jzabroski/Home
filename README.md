@@ -75,6 +75,14 @@ My technology radar
 | [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming |
 | [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit) | na | Useful links, scripts, tools and best practice for Microsoft SQL Server Database http://sqlserver-kit.org | Incoming |
 
+See also: http://www.sqlservercentral.com/scripts/change+index+name/70054/ for Michael Søndergaard's SQLServerCentral.com article _Fix Index Naming_ from 2010/10/11.
+
+```
+EXECUTE dbautils.spFixIndexNaming
+```
+
+See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-setup-might-fail-due-to-broken-dependency/ for Karthick P.K - karthick krishnamurthy's script to detect invalid object references/missing dependencies. While he uses it to address replication issues, it can also be useful to run after a large database upgrade or when you first come into a company as a consultant.
+
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
