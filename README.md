@@ -122,3 +122,9 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | GitHub | PSGallery | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | [WFTools](https://github.com/RamblingCookieMonster/PowerShell) | [WFTools](https://www.powershellgallery.com/packages/WFTools/0.1.58) | Various PowerShell functions and scripts<br>* Import-PSCredential<br>* Export-PSCredential | Stable |
+
+# Certifications
+
+| Certificate Owner | Certificate Name | Description | Website |
+| ----------------- | ---------------- | ----------- | ------- |
+| Microsoft | Exam 70-741 | Networking with Windows Server 2016 | https://www.microsoft.com/en-us/learning/exam-70-741.aspx |
