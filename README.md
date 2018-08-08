@@ -106,3 +106,11 @@ My technology radar
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
+
+# PowerShell
+
+## Basic Utilities
+
+| GitHub | PSGallery | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [WFTools](https://github.com/RamblingCookieMonster/PowerShell) | [WFTools](https://www.powershellgallery.com/packages/WFTools/0.1.58) | Various PowerShell functions and scripts<br>* Import-PSCredential<br>* Export-PSCredential | Stable |
