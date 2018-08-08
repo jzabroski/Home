@@ -38,6 +38,24 @@ My technology radar
 | NHibernateCore | | | |
 | [Relinq](https://github.com/re-motion/Relinq) | | | |
 
+# Serialization
+
+## POCO Serialization
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [MessagePack](https://github.com/neuecc/MessagePack-CSharp/) | [MessagePack](https://www.nuget.org/packages/MessagePack/) | Extremely Fast MessagePack(MsgPack) Serializer for C#(.NET, .NET Core, Unity, Xamarin). | Incoming |
+
+## JSON Serialization
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Utf8Json](https://github.com/neuecc/Utf8Json) | [Utf8Json](https://www.nuget.org/packages/Utf8Json/) | Fastest JSON serialization library | Incoming |
+| [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) | [NewtonSoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) | Slowest but most widely supported JSON serialization library | Outgoing |
+
+# DateTime Manipulation
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [NodaTime](https://github.com/nodatime/nodatime) | [NodaTime](https://www.nuget.org/packages/NodaTime/) | Noda Time is an alternative date and time API for .NET. It helps you to think about your data more clearly, and express operations on that data more precisely. | Incoming |
+
 # Batch Jobs
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
@@ -52,9 +70,30 @@ My technology radar
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) | [PreMailer.Net](https://www.nuget.org/packages/PreMailer.Net/) | | |
-| [Papercut](https://github.com/ChangemakerStudios/Papercut) | | | |
+| [Papercut](https://github.com/ChangemakerStudios/Papercut) | n/a | Papercut - built on .NET. Ever need to test emails from an application, but don't necessarily want it sending them out? Don't want to hassle with pointing it to a physical SMTP server? All you want to is verify it can send email, and take a look at the message. Papercut is your answer.  | Stable |
 
-# HTML5 Controls
+# Logging
+
+## Just Logging
+
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [NLog](https://github.com/NLog/NLog) | [NLog](NLog - Advanced and Structured Logging for Various .NET Platforms) | Logs and metrics are one! | Incoming |
+
+## Logging AND Metrics
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [logary](https://github.com/logary/logary) | [logary](https://www.nuget.org/packages/Logary) | Logs and metrics are one! | Incoming |
+| [Its.Log](https://github.com/jonsequitur/its.log) | [Its.Log](https://www.nuget.org/packages/Its.Log/) | Get information out of your code at runtime to send it to log files, perf counters, consoles, services, sensors. Maximum flexibility and maintainability, minimum code. | Stable |
+
+# Web Programming
+
+## HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | React.js | | Functional UI | |
+
+## HTML Archive/Replay
+| GitHub | NodeJS Module | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
