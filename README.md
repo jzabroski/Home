@@ -137,3 +137,8 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 # Performance
 
 http://techgenix.com/Key-Performance-Monitor-Counters/
+
+# Security
+
+## Group MSA accounts
+Group MSA Accounts are a great way to avoid using passwords for service accounts.
