@@ -69,6 +69,11 @@ My technology radar
 
 # SQL
 
+## SQL Server Reporting Services
+| GitHub | PSGallery | Description | Radar Positioning |
+| ------ | ---- | ----------- | ----------------- |
+| [ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools/) | [ReportingServicesTools](https://www.powershellgallery.com/packages/ReportingServicesTools/) | Provides extra functionality for SSRS (SQL Server Reporting Services). | Incoming |
+
 ## Administrative Scripts
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
