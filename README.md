@@ -145,3 +145,15 @@ Group MSA Accounts are a great way to avoid using passwords for service accounts
 a) Painful to set-up.
 b) Painful to change or undo.
 c) Even more pain when changing SQL Server to run as a gMSA.
+
+# kdb
+
+## Libraries
+| GitHub | NA | Description | Radar Positioning |
+| ------ | -- | ----------- | ----------------- |
+| [AquaQAnalytics/TorQ](https://github.com/AquaQAnalytics/TorQ) | NA | - | Incoming |
+
+## C# Client
+| GitHub | NA | Description | Radar Positioning |
+| ------ | -- | ----------- | ----------------- |
+| [exxeleron/qSharp](https://github.com/exxeleron/qSharp) | NA | - | Incoming |
