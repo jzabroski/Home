@@ -140,5 +140,8 @@ http://techgenix.com/Key-Performance-Monitor-Counters/
 
 # Security
 
-## Group MSA accounts
-Group MSA Accounts are a great way to avoid using passwords for service accounts.
+## Group MSA (gMSA) Accounts
+Group MSA Accounts are a great way to avoid using passwords for service accounts. However, they can be:
+a) Painful to set-up.
+b) Painful to change or undo.
+c) Even more pain when changing SQL Server to run as a gMSA.
