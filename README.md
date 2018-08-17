@@ -157,3 +157,7 @@ c) Even more pain when changing SQL Server to run as a gMSA.
 | GitHub | NA | Description | Radar Positioning |
 | ------ | -- | ----------- | ----------------- |
 | [exxeleron/qSharp](https://github.com/exxeleron/qSharp) | NA | - | Incoming |
+
+# Quick PowerShell Snippets
+
+Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Fusion\ -Name EnableLog -Value 1
