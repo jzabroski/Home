@@ -38,14 +38,23 @@ My technology radar
 | [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/)) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
 | [Relinq](https://github.com/re-motion/Relinq) | | | |
 
+# Data Import
+## CSV
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [CsvHelper](https://github.com/JoshClose/CsvHelper) | [CsvHelper](https://www.nuget.org/packages/CsvHelper/) | Library to help reading and writing CSV files | Stable |
+
 # Serialization
 
+## Third-party Benchmarks
+### JSON
 https://github.com/ngs-doo/json-benchmark
 
 ## POCO Serialization
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [MessagePack](https://github.com/neuecc/MessagePack-CSharp/) | [MessagePack](https://www.nuget.org/packages/MessagePack/) | Extremely Fast MessagePack(MsgPack) Serializer for C#(.NET, .NET Core, Unity, Xamarin). | Incoming |
+| [Microsoft/Bond](https://github.com/Microsoft/bond) | [Bond.CSharp](https://www.nuget.org/packages/Bond.CSharp/) | Bond is an open source, cross-platform framework for working with schematized data. It supports cross-language serialization/deserialization and powerful generic mechanisms for efficiently manipulating data. | Incoming |
 
 ## JSON Serialization
 | GitHub | NuGet | Description | Radar Positioning |
@@ -68,6 +77,46 @@ https://github.com/ngs-doo/json-benchmark
 | ------ | ---- | ----------- | ----------------- |
 | [Consul.Net](https://github.com/PlayFab/consuldotnet) | [Consul.Net](https://www.nuget.org/packages/Consul/) | The problems Consul solves are varied, but each individual feature has been solved by many different systems. Although there is no single system that provides all the features of Consul, there are other options available to solve some of these problems. | Incoming |
 
+See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-setup-might-fail-due-to-broken-dependency/ for Karthick P.K - karthick krishnamurthy's script to detect invalid object references/missing dependencies. While he uses it to address replication issues, it can also be useful to run after a large database upgrade or when you first come into a company as a consultant.
+
+# eMail
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) | [PreMailer.Net](https://www.nuget.org/packages/PreMailer.Net/) | | |
+| [Papercut](https://github.com/ChangemakerStudios/Papercut) | n/a | Papercut - built on .NET. Ever need to test emails from an application, but don't necessarily want it sending them out? Don't want to hassle with pointing it to a physical SMTP server? All you want to is verify it can send email, and take a look at the message. Papercut is your answer.  | Stable |
+
+# Logging
+
+## Just Logging
+
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [NLog](https://github.com/NLog/NLog) | [NLog](https://www.nuget.org/packages/NLog/) | Logs and metrics are one! | Stable |
+
+## Just Metrics
+
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Metrics.NET](https://github.com/Recognos/Metrics.NET) | [Metrics.NET](https://www.nuget.org/packages/Metrics.NET/) | Logs and metrics are one! | Incoming |
+
+
+## Logging AND Metrics
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [logary](https://github.com/logary/logary) | [logary](https://www.nuget.org/packages/Logary) | Logs and metrics are one! | Incoming |
+| [Its.Log](https://github.com/jonsequitur/its.log) | [Its.Log](https://www.nuget.org/packages/Its.Log/) | Get information out of your code at runtime to send it to log files, perf counters, consoles, services, sensors. Maximum flexibility and maintainability, minimum code. | Stable |
+
+# Web Programming
+
+## HTML5 Controls
+| GitHub | NodeJS Module | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| React.js | | Functional UI | |
+
+## HTML Archive/Replay
+| GitHub | NodeJS Module | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
 
 # SQL
 
@@ -87,40 +136,6 @@ See also: http://www.sqlservercentral.com/scripts/change+index+name/70054/ for M
 ```
 EXECUTE dbautils.spFixIndexNaming
 ```
-
-See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-setup-might-fail-due-to-broken-dependency/ for Karthick P.K - karthick krishnamurthy's script to detect invalid object references/missing dependencies. While he uses it to address replication issues, it can also be useful to run after a large database upgrade or when you first come into a company as a consultant.
-
-# eMail
-| GitHub | NuGet | Description | Radar Positioning |
-| ------ | ----- | ----------- | ----------------- |
-| [PreMailer.Net](https://github.com/milkshakesoftware/PreMailer.Net) | [PreMailer.Net](https://www.nuget.org/packages/PreMailer.Net/) | | |
-| [Papercut](https://github.com/ChangemakerStudios/Papercut) | n/a | Papercut - built on .NET. Ever need to test emails from an application, but don't necessarily want it sending them out? Don't want to hassle with pointing it to a physical SMTP server? All you want to is verify it can send email, and take a look at the message. Papercut is your answer.  | Stable |
-
-# Logging
-
-## Just Logging
-
-| GitHub | NuGet | Description | Radar Positioning |
-| ------ | ----- | ----------- | ----------------- |
-| [NLog](https://github.com/NLog/NLog) | [NLog](NLog - Advanced and Structured Logging for Various .NET Platforms) | Logs and metrics are one! | Incoming |
-
-## Logging AND Metrics
-| GitHub | NuGet | Description | Radar Positioning |
-| ------ | ----- | ----------- | ----------------- |
-| [logary](https://github.com/logary/logary) | [logary](https://www.nuget.org/packages/Logary) | Logs and metrics are one! | Incoming |
-| [Its.Log](https://github.com/jonsequitur/its.log) | [Its.Log](https://www.nuget.org/packages/Its.Log/) | Get information out of your code at runtime to send it to log files, perf counters, consoles, services, sensors. Maximum flexibility and maintainability, minimum code. | Stable |
-
-# Web Programming
-
-## HTML5 Controls
-| GitHub | NodeJS Module | Description | Radar Positioning |
-| ------ | ------------- | ----------- | ----------------- |
-| React.js | | Functional UI | |
-
-## HTML Archive/Replay
-| GitHub | NodeJS Module | Description | Radar Positioning |
-| ------ | ------------- | ----------- | ----------------- |
-| [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
 
 # PowerShell
 
