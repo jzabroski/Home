@@ -40,6 +40,8 @@ My technology radar
 
 # Serialization
 
+https://github.com/ngs-doo/json-benchmark
+
 ## POCO Serialization
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
