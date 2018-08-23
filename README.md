@@ -113,6 +113,9 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | ------ | ------------- | ----------- | ----------------- |
 | React.js | | Functional UI | |
 
+## HTML5 Specifications
+[HTML5 Speech Recognition](http://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech)
+
 ## HTML Archive/Replay
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
