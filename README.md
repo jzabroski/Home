@@ -112,6 +112,10 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | [logary](https://github.com/logary/logary) | [logary](https://www.nuget.org/packages/Logary) | Logs and metrics are one! | Incoming |
 | [Its.Log](https://github.com/jonsequitur/its.log) | [Its.Log](https://www.nuget.org/packages/Its.Log/) | Get information out of your code at runtime to send it to log files, perf counters, consoles, services, sensors. Maximum flexibility and maintainability, minimum code. | Stable |
 
+# Tracing
+
+https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent/
+
 # Web Programming
 
 ## HTML5 Controls
