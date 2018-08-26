@@ -22,7 +22,7 @@ My technology radar
 
 # Application Package Management
 | GitHub | NuGet | Description | Radar Positioning |
-| ------ | ----- | ----------- | ----------------- |
+| ------ | ----- | ---------- | ----------------- |
 | [Squirrel](https://github.com/Squirrel/) | [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)<br>[Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac)<br>[Squirrel.Server](https://github.com/Squirrel/Squirrel.Server) | An installation and update framework for Windows desktop apps<br>Cocoa framework for updating OS X apps<br>Implements the server side of the Squirrel client frameworks | Incoming |
 
 # Command Line Parsing
@@ -37,6 +37,12 @@ My technology radar
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/)) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
 | [Relinq](https://github.com/re-motion/Relinq) | | | |
+
+# Data Migration
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMogrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
+| RoundHousE | | | Outgoing |
 
 # Data Import
 ## CSV
