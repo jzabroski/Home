@@ -112,9 +112,17 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | [logary](https://github.com/logary/logary) | [logary](https://www.nuget.org/packages/Logary) | Logs and metrics are one! | Incoming |
 | [Its.Log](https://github.com/jonsequitur/its.log) | [Its.Log](https://www.nuget.org/packages/Its.Log/) | Get information out of your code at runtime to send it to log files, perf counters, consoles, services, sensors. Maximum flexibility and maintainability, minimum code. | Stable |
 
-# Tracing
+# Performance
+## Tracing / Trace Analysis
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [PerfView](https://github.com/Microsoft/perfview/)  | [Microsoft.Diagnostics.Tracing.TraceEvent](https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent/) | Event Tracing for Windows (ETW) is a powerful logging mechanism built into the Windows OS and is used extensively in Windows. See  https://github.com/Microsoft/perfview/blob/master/documentation/TraceEvent/TraceEventLibrary.md for more. | Stable |
 
-https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent/
+
+## Unit Testing
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [xunit-performance](https://github.com/Microsoft/xunit-performance) | | | Incoming |
 
 # Web Programming
 
