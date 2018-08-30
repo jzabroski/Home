@@ -129,7 +129,8 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 ## HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
-| React.js | | Functional UI | |
+| React.js | | Functional UI | Incoming |
+| [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) | [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd)| Beautiful and accessible drag and drop for lists with React | Incoming |
 
 ## HTML5 Specifications
 [HTML5 Speech Recognition](http://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech)
@@ -200,5 +201,5 @@ Group MSA Accounts are a great way to avoid using passwords for service accounts
 | [exxeleron/qSharp](https://github.com/exxeleron/qSharp) | NA | - | Incoming |
 
 # Quick PowerShell Snippets
-
+## Fusion logging
 Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Fusion\ -Name EnableLog -Value 1
