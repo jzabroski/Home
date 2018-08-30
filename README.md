@@ -164,8 +164,9 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | ------ | ---- | ----------- | ----------------- |
 | [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming |
 | [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit) | na | Useful links, scripts, tools and best practice for Microsoft SQL Server Database http://sqlserver-kit.org | Incoming |
-
+| [dbachecks](https://github.com/sqlcollaborative/dbachecks) | https://dbachecks.io | SQL Server Environmental Validation | Incoming |
 See also: http://www.sqlservercentral.com/scripts/change+index+name/70054/ for Michael Søndergaard's SQLServerCentral.com article _Fix Index Naming_ from 2010/10/11.
+See also https://github.com/sqlcollaborative/dbachecks
 
 ```
 EXECUTE dbautils.spFixIndexNaming
