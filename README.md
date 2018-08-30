@@ -7,6 +7,9 @@ My technology radar
 | treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
 | notepadplusplus | Text editor with nice syntax highlighting and search. | - |
 
+# dotnet
+https://github.com/natemcmaster/dotnet-tools
+
 # Test Data
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
