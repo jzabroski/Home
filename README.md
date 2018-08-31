@@ -182,6 +182,9 @@ EXECUTE dbautils.spFixIndexNaming
 | [PPoShTools](https://github.com/PPOSHGROUP/PPoShTools) | [PPoShTools](https://www.powershellgallery.com/packages/PPoShTools) | Various PowerShell functions and scripts<br>* Write-ErrorRecord | Incoming |
 | [PSSE](https://github.com/ahhh/PSSE) | - | PowerShell Scripting Expert repository, contains template code for security and administrative scripting, largely derived through taking the SecurityTube PowerShell for Pentesters course | Incoming |
 | [nishang](https://github.com/samratashok/nishang) | - | Nishang - Offensive PowerShell for penetration testing and offensive security. | Incoming |
+| [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) | [PSScriptAnalyzer](https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.17.1) | | |
+
+See also: https://www.shelltools.net/
 
 # Certifications
 
