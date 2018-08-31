@@ -1,5 +1,13 @@
 # Home
 My technology radar
+# 6 R's of a Cloud Migration
+The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
+* Remove
+* Retain
+* Replatform
+* Rehost
+* Repurchase
+* Refactor
 
 # Chocolatey Packages
 | PackageName | Description | Radar Positioning |
