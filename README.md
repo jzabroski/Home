@@ -24,8 +24,8 @@ https://github.com/natemcmaster/dotnet-tools
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [ObjectHydrator](https://github.com/PrintsCharming/ObjectHydrator) <br />[Foundation.ObjectHydrator.Core](https://github.com/rukai-kooboo/ObjectHydrator) | https://www.nuget.org/packages/objecthydrator/ <br />https://www.nuget.org/packages/Foundation.ObjectHydrator.Core/ | NuGet package ObjectHydrator Hasn't been updated since 2015. GitHub activity February 2018. | - |
-| [Faker.Net](https://github.com/oriches/faker-cs) | https://www.nuget.org/packages/Faker.Net/ | n/a | n/a |
-| [AutoFixture](https://github.com/AutoFixture/AutoFixture) | https://www.nuget.org/packages/AutoFixture/ | n/a | n/a |
+| [Faker.NET.Portable](https://github.com/WormieCorp/Faker.NET.Portable) | https://www.nuget.org/packages/Faker.Net.Portable | C# port of the Ruby Faker gem (http://faker.rubyforge.org/) and is used to easily generate fake data: names, addresses, phone numbers, etc. | n/a |
+| [AutoFixture](https://github.com/AutoFixture/AutoFixture) | https://www.nuget.org/packages/AutoFixture/ | AutoFixture is an open source library for .NET designed to minimize the 'Arrange' phase of your unit tests in order to maximize maintainability. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data. | n/a |
 
 ## Mocking
 | GitHub | NuGet | Description | Radar Positioning |
