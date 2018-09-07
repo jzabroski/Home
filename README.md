@@ -173,11 +173,16 @@ Cerebral, MobX, Redux, atom-react, Redux-saga
 ## Administrative Scripts
 | GitHub | Blog | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
+| [sql-server-maintenance-solution](https://github.com/olahallengren/sql-server-maintenance-solution) | https://ola.hallengren.com/ | The SQL Server Maintenance Solution comprises scripts for running backups, integrity checks, and index and statistics maintenance on all editions of Microsoft SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server 2017. | Stable |
 | [CISL](https://github.com/NikoNeugebauer/CISL) | na | Microsoft SQL Server Columnstore Indexes Scripts Library | Incoming |
 | [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit) | na | Useful links, scripts, tools and best practice for Microsoft SQL Server Database http://sqlserver-kit.org | Incoming |
 | [dbachecks](https://github.com/sqlcollaborative/dbachecks) | https://dbachecks.io | SQL Server Environmental Validation | Incoming |
 See also: http://www.sqlservercentral.com/scripts/change+index+name/70054/ for Michael Søndergaard's SQLServerCentral.com article _Fix Index Naming_ from 2010/10/11.
 See also https://github.com/sqlcollaborative/dbachecks
+
+## Maintenance Tools
+Data Migration Assistant https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017
+https://www.microsoft.com/en-us/download/details.aspx?id=53595
 
 ```
 EXECUTE dbautils.spFixIndexNaming
