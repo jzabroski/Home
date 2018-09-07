@@ -188,6 +188,11 @@ https://www.microsoft.com/en-us/download/details.aspx?id=53595
 EXECUTE dbautils.spFixIndexNaming
 ```
 
+# Backup Software
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [AlphaVSS](https://github.com/alphaleonis/AlphaVSS/) | [AlphaVSS](https://www.nuget.org/packages/AlphaVSS/) | Windows only. Wrapper for COM Volume Shadow Copy service API. See also: https://alphavss.alphaleonis.com/ | Stable |
+
 # PowerShell
 
 ## Basic Utilities
