@@ -161,6 +161,8 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | ------ | ------------- | ----------- | ----------------- |
 | [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
 
+Cerebral, MobX, Redux, atom-react, Redux-saga
+
 # SQL
 
 ## SQL Server Reporting Services
