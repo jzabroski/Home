@@ -153,6 +153,8 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | [learning-react](https://github.com/MoonHighway/learning-react/) | n/a | Free O'Reilly ebook: Learning React | Stable |
 | [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) | [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd)| Beautiful and accessible drag and drop for lists with React | Incoming |
 
+See also: https://developers.google.com/web/updates/
+
 ## HTML5 Specifications
 [HTML5 Speech Recognition](http://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech)
 
