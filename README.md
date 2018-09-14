@@ -252,3 +252,4 @@ https://blogs.technet.microsoft.com/mist/2018/02/14/windows-authentication-http-
 
 # Duplicate File Finder
 https://github.com/adrianlopezroche/fdupes
+https://github.com/jbruchon/jdupes
