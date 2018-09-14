@@ -245,3 +245,5 @@ Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Fusion\ -Name EnableLog -Value 1
 # Build Server Plug-ins
 | GitHub | Description | Radar Positioning |
 | [teamcity-runas-plugin](https://github.com/JetBrains/teamcity-runas-plugin) | The teamcity-runas plugin to run TeamCity build steps under a specified user account on Windows or Linux. | Stable |
+
+https://blogs.technet.microsoft.com/mist/2018/02/14/windows-authentication-http-request-flow-in-iis/
