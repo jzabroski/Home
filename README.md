@@ -241,3 +241,7 @@ Group MSA Accounts are a great way to avoid using passwords for service accounts
 # Quick PowerShell Snippets
 ## Fusion logging
 Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Fusion\ -Name EnableLog -Value 1
+
+# Build Server Plug-ins
+| GitHub | Description | Radar Positioning |
+| [teamcity-runas-plugin](https://github.com/JetBrains/teamcity-runas-plugin) | The teamcity-runas plugin to run TeamCity build steps under a specified user account on Windows or Linux. | Stable |
