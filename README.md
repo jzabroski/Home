@@ -138,6 +138,8 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | ------ | ----- | ----------- | ----------------- |
 | [PerfView](https://github.com/Microsoft/perfview/)  | [Microsoft.Diagnostics.Tracing.TraceEvent](https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent/) | Event Tracing for Windows (ETW) is a powerful logging mechanism built into the Windows OS and is used extensively in Windows. See  https://github.com/Microsoft/perfview/blob/master/documentation/TraceEvent/TraceEventLibrary.md for more. | Stable |
 
+## Tips - Troubleshooting Slow Disk I/O in SQL Server 
+https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-in-sql-server/
 
 ## Unit Testing
 | GitHub | NuGet | Description | Radar Positioning |
