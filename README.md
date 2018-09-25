@@ -57,8 +57,8 @@ https://github.com/natemcmaster/dotnet-tools
 | ------ | ----- | ----------- | ----------------- |
 | [CursesSharp](https://github.com/sushihangover/CursesSharp) | | | |
 
-
-# Data Access Layer
+# Data
+## Data Access Layer
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
@@ -66,17 +66,23 @@ https://github.com/natemcmaster/dotnet-tools
 | [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/)) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
 | [Relinq](https://github.com/re-motion/Relinq) | | | |
 
-# Data Migration
+## Data <-> Entity Mapping
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMogrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
+| [ValueInjecter](https://github.com/omuleanu/ValueInjecter) | [ValueInjecter](https://www.nuget.org/packages/ValueInjecter/) | convention based mapper | Stable |
+
+## Data Migration
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMigrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
 | RoundHousE | | | Outgoing |
 
-# Data Import
-## CSV
+## Data Import
+### CSV
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [CsvHelper](https://github.com/JoshClose/CsvHelper) | [CsvHelper](https://www.nuget.org/packages/CsvHelper/) | Library to help reading and writing CSV files | Stable |
+
 
 # Serialization
 
