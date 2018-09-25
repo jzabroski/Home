@@ -14,8 +14,7 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 | Preparation | Presentation | Performance | Practice |
 | ----------- | ------------ | ----------- | -------- |
 | Arouse Interest | Encounter | Apply | Integrate |
-| * Positive suggestions<br/>* Learner benefit statements<br/>* Clear, meaningful goals<br/>* Calm learners’ fears<br/>* Remove learning barriers<br/>* Involvement from the start| * A variety of presentation methods<br/>* Content chunked into shorter encounters<br />* 70% of classroom time left for learners to practice and integrate new material | * Immediate real-world application<br/>*  Action plans<br/>* Ongoing coaching / mentoring<br/>* Evaluation and feedback<br/>* Follow-through reinforcement activities | * Hands-on trial and error<br/>* Feedback<br/>* Time for reflection<br/>* Learning games<br/>* Problem-solving and skill-building
-exercises<br/>* Dialog and collaborative teaching |
+| * Positive suggestions<br/>* Learner benefit statements<br/>* Clear, meaningful goals<br/>* Calm learners’ fears<br/>* Remove learning barriers<br/>* Involvement from the start| * A variety of presentation methods<br/>* Content chunked into shorter encounters<br />* 70% of classroom time left for learners to practice and integrate new material | * Immediate real-world application<br/>*  Action plans<br/>* Ongoing coaching / mentoring<br/>* Evaluation and feedback<br/>* Follow-through reinforcement activities | * Hands-on trial and error<br/>* Feedback<br/>* Time for reflection<br/>* Learning games<br/>* Problem-solving and skill-building exercises<br/>* Dialog and collaborative teaching |
 
 # Chocolatey Packages
 | PackageName | Description | Radar Positioning |
