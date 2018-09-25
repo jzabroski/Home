@@ -45,10 +45,18 @@ https://github.com/natemcmaster/dotnet-tools
 | ------ | ----- | ---------- | ----------------- |
 | [Squirrel](https://github.com/Squirrel/) | [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)<br>[Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac)<br>[Squirrel.Server](https://github.com/Squirrel/Squirrel.Server) | An installation and update framework for Windows desktop apps<br>Cocoa framework for updating OS X apps<br>Implements the server side of the Squirrel client frameworks | Incoming |
 
-# Command Line Parsing
+# Command Line
+
+## Command Line Parsing
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [FluentCommandLineParser](https://github.com/fclp/fluent-command-line-parser) | | | |
+
+## Command Line Curses
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [CursesSharp](https://github.com/sushihangover/CursesSharp) | | | |
+
 
 # Data Access Layer
 | GitHub | NuGet | Description | Radar Positioning |
