@@ -240,6 +240,12 @@ https://www.microsoft.com/en-us/download/details.aspx?id=53595
 EXECUTE dbautils.spFixIndexNaming
 ```
 
+# Software Licensing
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [Portable.Licensing](https://github.com/dnauck/Portable.Licensing) | [Portable.Licensing](https://www.nuget.org/packages/Portable.Licensing/) | Portable.Licensing is a cross platform software licensing framework which allows you to implement licensing into your application or library. It provides you all tools to create and validate licenses for your software.<br/>Portable.Licensing is using the latest military strength, state-of-the-art cryptographic algorithm to ensure that your software and thus your intellectual property is protected. | Stable |
+
+
 # Backup Software
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
