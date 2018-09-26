@@ -202,7 +202,7 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 | React.js | | Functional UI | Incoming |
 | [learning-react](https://github.com/MoonHighway/learning-react/) | n/a | Free O'Reilly ebook: Learning React | Stable |
 | [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) | [react-beautiful-dnd](https://www.npmjs.com/package/react-beautiful-dnd)| Beautiful and accessible drag and drop for lists with React | Incoming |
-
+| [bulma](https://github.com/jgthms/bulma) | [bulma](https://www.npmjs.com/package/bulma) | Bulma is a modern CSS framework based on Flexbox. | Incoming |
 See also: https://developers.google.com/web/updates/
 
 ## HTML5 Specifications
