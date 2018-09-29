@@ -117,6 +117,8 @@ https://github.com/natemcmaster/dotnet-tools
 | ------ | ----- | ----------- | ----------------- |
 | [CsvHelper](https://github.com/JoshClose/CsvHelper) | [CsvHelper](https://www.nuget.org/packages/CsvHelper/) | Library to help reading and writing CSV files | Stable |
 
+### Data Cleansing
+[OpenRefine](http://openrefine.org/) (formerly Google Refine)
 
 # Serialization
 
