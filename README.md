@@ -314,3 +314,6 @@ https://blogs.technet.microsoft.com/mist/2018/02/14/windows-authentication-http-
 # Duplicate File Finder
 https://github.com/adrianlopezroche/fdupes
 https://github.com/jbruchon/jdupes
+
+# Productivity Power Packs
+https://github.com/digitalcreations/MaxTo/issues - for multi monitor displays
