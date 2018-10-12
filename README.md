@@ -317,3 +317,6 @@ https://github.com/jbruchon/jdupes
 
 # Productivity Power Packs
 https://github.com/digitalcreations/MaxTo/issues - for multi monitor displays
+
+# Amazon RDS
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.SQLServer.CommonDBATasks.html
