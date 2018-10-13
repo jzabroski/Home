@@ -1,34 +1,34 @@
-using AutoFixture;
-using FluentValidation.TestHelper;
-using Moq;
-using Xunit;
-using System;
+    using AutoFixture;
+    using FluentValidation.TestHelper;
+    using Moq;
+    using Xunit;
+    using System;
 
-public interface IRepository<T>
-{
-    T FindById(long id);
-}
-
-public class Customer
-{
-    public long Id { get; set; }
-}
-
-public class CustomerValidator : AbstractValidator<Customer>
-{
-    CustomerValidator(IRepository<T> repository)
+    public interface IRepository<T>
     {
-        RuleFor(c => c.Id)
-            .NotEmpty();
-  
-        RuleFor(c => c.Id)
-            .Must(c => repository.FindById(c) != null)
-            .When(c => c != 0);
+        T FindById(long id);
     }
-}
+
+    public class Customer
+    {
+        public long Id { get; set; }
+    }
+
+    public class CustomerValidator : AbstractValidator<Customer>
+    {
+        CustomerValidator(IRepository<T> repository)
+        {
+            RuleFor(c => c.Id)
+                .NotEmpty();
   
-public class ExampleTests
-{
+            RuleFor(c => c.Id)
+                .Must(c => repository.FindById(c) != null)
+                .When(c => c != 0);
+        }
+    }
+  
+    public class ExampleTests
+    {
     Fixture = new Fixture();
     
     [Fact]
@@ -49,4 +49,4 @@ public class ExampleTests
         // verify the mocked interactions are called
         repository.Verify();
     }
-}
+    }
