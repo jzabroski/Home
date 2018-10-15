@@ -74,6 +74,8 @@ https://github.com/natemcmaster/dotnet-tools
 | Apistry | | | Outgoing |
 | [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) | [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) | Swagger UI<br />Swagger tools for documenting APIs built on ASP.NET Core | Incoming |
 
+See also: https://app.quicktype.io/ for automatic inference of JSON contracts from an API call
+
 # Application Package Management
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ---------- | ----------------- |
