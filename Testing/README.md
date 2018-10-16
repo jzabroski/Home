@@ -42,7 +42,9 @@
             // the previous line is equivalent to:
             // var sut = new CustomerValidator(repository.Object);
         
-            // Act and Assert using fluent Should* extension methods (ShouldNotHaveValidationErrorFor, ShouldHaveValidationErrorFor)
+            // Act and Assert using fluent Should* extension methods:
+            // - ShouldNotHaveValidationErrorFor
+            // - ShouldHaveValidationErrorFor
             sut.ShouldNotHaveValidationErrorFor(x => x.Id, Fixture.Create<Customer>());
         
             // verify the mocked interactions are called
