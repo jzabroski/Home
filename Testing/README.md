@@ -29,24 +29,24 @@
   
     public class ExampleTests
     {
-    Fixture = new Fixture();
+        Fixture = new Fixture();
     
-    [Fact]
-    public void Validate()
-    {
-        var existingCustomer = Fixture.Create<Customer>();
-        var repository = Fixture.Freeze<Mock<IRepository<Customer>>();
-        repository.Setup(x => x.FindById(It.IsAny<long>())).Returns(existingCustomer);
+        [Fact]
+        public void Validate()
+        {
+            var existingCustomer = Fixture.Create<Customer>();
+            var repository = Fixture.Freeze<Mock<IRepository<Customer>>();
+            repository.Setup(x => x.FindById(It.IsAny<long>())).Returns(existingCustomer);
         
-        var sut = Fixture.Create<CustomerValidator>();
-        // the previous line is equivalent to:
-        // var sut = new CustomerValidator(repository.Object);
+            var sut = Fixture.Create<CustomerValidator>();
+            // the previous line is equivalent to:
+            // var sut = new CustomerValidator(repository.Object);
         
-        // Act and Assert using fluent Should*
-        extension method
-        sut.ShouldNotHaveValidationErrorFor(x => x.Id, Fixture.Create<Customer>());
+            // Act and Assert using fluent Should*
+            extension method
+            sut.ShouldNotHaveValidationErrorFor(x => x.Id, Fixture.Create<Customer>());
         
-        // verify the mocked interactions are called
-        repository.Verify();
-    }
+            // verify the mocked interactions are called
+            repository.Verify();
+        }
     }
