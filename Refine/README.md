@@ -40,4 +40,5 @@ Possible entities:
 # TODO Service Modeling
 
 Possible services:
-1. Data characterization
+1. Data characterization: over a sample of the whole data set, characterize data as string(length, encoding), date(year, month, day, time, timezone, offset), min(#), max(#), uniqueness
+2. Data validation
