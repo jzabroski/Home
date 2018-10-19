@@ -7,6 +7,7 @@ This page will serve as a design document for my decisions.
 For purposes of comparing my tool decisions to that of OpenRefine project (because I think my tool choice will end up superior and resulting in rapid develpment and fewer lines of code and cleaner semantics), here are OpenRefine's major dependencies:
 
 - org.json
+  - mainly for [Table Schema Validation errors](https://github.com/OpenRefine/OpenRefine/blob/master/main/resources/schemas/TableSchemaValidator.json)
 - javax.servlet
 - org.slf4j
 - Simile-Butterfly
