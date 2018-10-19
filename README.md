@@ -1,4 +1,6 @@
 # Home
+https://developers.google.com/speed/pagespeed/insights/
+
 My technology radar
 # 6 R's of a Cloud Migration
 The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
