@@ -14,6 +14,11 @@ For purposes of comparing my tool decisions to that of OpenRefine project (becau
 - TestNg
 - eclipse
   - https://github.com/OpenRefine/OpenRefine/tree/master/broker/core/IDEs/eclipse
+- Google AppEngine
+  - com.google.appengine
+- Apache
+  - org.apache
+
 # TODO List
 
 1. Write StarUML Interaction diagram, similar to the startProject/openProject/obtainLock/addTransformations/releaseLock/getState/expire life-cycle
