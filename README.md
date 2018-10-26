@@ -260,6 +260,13 @@ EXECUTE dbautils.spFixIndexNaming
 | ------ | ------------- | ----------- | ----------------- |
 | [AlphaVSS](https://github.com/alphaleonis/AlphaVSS/) | [AlphaVSS](https://www.nuget.org/packages/AlphaVSS/) | Windows only. Wrapper for COM Volume Shadow Copy service API. See also: https://alphavss.alphaleonis.com/ | Stable |
 
+# R / Python  Statistics Projects
+| GitHub | Project Page | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [stylo](https://github.com/computationalstylistics/stylo) | [computationalstylistics](https://computationalstylistics.github.io/) | R package for stylometric analyses | Assessing |
+| [PyStyl](https://github.com/mikekestemont/pystyl) | ? | Python package for stylometry | Assessing |
+| BeautifulSoup | ? | ? | ? |
+
 # PowerShell
 
 ## Basic Utilities
