@@ -19,6 +19,8 @@ SELECT DATEADD(QUARTER, DATEDIFF(QUARTER, 0, @ThisDate) - 1, 0) -- Beginning of 
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate), 0)     -- Beginning of this year
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate) + 1, 0) -- Beginning of next year
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate) - 1, 0) -- Beginning of previous year
+SELECT DATEADD(SECOND, @SecondsFromsUnixEpoch / 1000, '19700101') -- Convert from UNIX to SQL DateTime
+SELECT CAST(DATEDIFF(SECOND, '19700101', DATEADD(HOUR, 5, CAST('2012-10-10 14:05:55.000' AS DATETIME))) AS BIGINT) * 1000 -- Convert from SQL DateTime to UNIX, 5 hour offset from GMT time
 ```
 
 # SQL Permissions with AD Groups
