@@ -30,8 +30,8 @@ If the user has a default schema, that default schema will used. If the user doe
 
 You can test effective permissions this way:
 ```sql
--- '<domain>\<username>'
+-- '<domain>\<username>' is a domain user in the group you wish to test
 EXECUTE AS LOGIN = '<domain>\<username>';
-SELECT * FROM fn_my_permissions('Edgar.Report13F.ConvertsQuarterOverQuarter', 'OBJECT');
+SELECT * FROM fn_my_permissions('Database.Schema.Table', 'OBJECT');
 REVERT;
 ```
