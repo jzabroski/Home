@@ -54,6 +54,12 @@ emphasize critical features of the concept
 # dotnet
 https://github.com/natemcmaster/dotnet-tools
 
+# Parsing
+
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+[Verex](https://github.com/MohammadHamdyGhanem/Verex) | | Verex: The Verbal Regex Builder | Assessing |
+
 # Testing
 
 ## Test Data
