@@ -1,7 +1,11 @@
 # Dynamic Range Queries
-https://gertjans.home.xs4all.nl/sql/date-range-scans.html
-https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
-https://www.itprotoday.com/software-development/interval-queries-sql-server
+1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
+2. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
+3. https://www.itprotoday.com/software-development/interval-queries-sql-server
+
+See also:
+1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
+> SQL Server 2012 has added support for the auto grid spatial index, available for both the geography and geometry data types. An auto grid uses eight levels instead of the usual four levels. The advantage of using an auto grid is that when creating an index we can get good index support without studying the queries that will run against the table. In addition, you do not need to add a GRIDS clause to your CREATE SPATIAL INDEX statement because the database engine determines the best strategy to use to maximize performance.
 
 # Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
