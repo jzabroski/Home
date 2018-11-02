@@ -1,5 +1,7 @@
 # Dynamic Range Queries
 https://gertjans.home.xs4all.nl/sql/date-range-scans.html
+https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
+https://www.itprotoday.com/software-development/interval-queries-sql-server
 
 # Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
