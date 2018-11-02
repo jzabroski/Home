@@ -1,6 +1,9 @@
 # Dynamic Range Queries
 https://gertjans.home.xs4all.nl/sql/date-range-scans.html
 
+# Fast Delete From Partition
+https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
+
 # Common Date Routines
 
 ```sql
