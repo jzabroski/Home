@@ -1,3 +1,6 @@
+# Dynamic Range Queries
+https://gertjans.home.xs4all.nl/sql/date-range-scans.html
+
 # Common Date Routines
 
 ```sql
