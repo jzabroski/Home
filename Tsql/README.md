@@ -19,8 +19,24 @@ SELECT DATEADD(QUARTER, DATEDIFF(QUARTER, 0, @ThisDate) - 1, 0) -- Beginning of 
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate), 0)     -- Beginning of this year
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate) + 1, 0) -- Beginning of next year
 SELECT DATEADD(YEAR, DATEDIFF(YEAR, 0, @ThisDate) - 1, 0) -- Beginning of previous year
-SELECT DATEADD(SECOND, @SecondsFromsUnixEpoch / 1000, '19700101') -- Convert from UNIX to SQL DateTime
-SELECT CAST(DATEDIFF(SECOND, '19700101', DATEADD(HOUR, 5, CAST('2012-10-10 14:05:55.000' AS DATETIME))) AS BIGINT) * 1000 -- Convert from SQL DateTime to UNIX, 5 hour offset from GMT time
+```
+
+# Less Common Date Routines
+From Books OnLine:
+> When you refer to date data type string literals in indexed computed columns in SQL Server, we recommend that you explicitly convert the literal to the date type that you want by using a deterministic date format style. For a list of the date format styles that are deterministic, see `CAST` and `CONVERT`. Expressions that involve implicit conversion of character strings to date data types are considered nondeterministic, unless the database compatibility level is set to 80 or earlier. This is because the results depend on the LANGUAGE and `DATEFORMAT` settings of the server session. For example, the results of the expression `CONVERT (datetime, '30 listopad 1996', 113)` depend on the LANGUAGE setting because the string '30 listopad 1996' means different months in different languages. Similarly, in the expression `DATEADD(mm,3,'2000-12-01')`, the Database Engine interprets the string `'2000-12-01'` based on the `DATEFORMAT` setting.
+
+```sql
+-- Convert from UNIX to SQL DateTime (Nondeterministic - cannot be used in a computed column)
+SELECT DATEADD(SECOND, @SecondsFromsUnixEpoch / 1000, '19700101')
+
+-- Convert from SQL DateTime to UNIX, 5 hour offset from GMT time (Nondeterministic - cannot be used in a computed column)
+SELECT CAST(DATEDIFF(SECOND, '19700101', DATEADD(HOUR, 5, CAST('2012-10-10 14:05:55.000' AS DATETIME))) AS BIGINT) * 1000 
+
+-- Convert from UNIX to SQL DateTime (Deterministic - can be used in a computed column)
+SELECT DATEADD(SECOND, @SecondsFromsUnixEpoch / 1000, CONVERT(DATE, '1970-01-01', 120))
+
+-- Convert from SQL DateTime to UNIX, 5 hour offset from GMT time (Deterministic - can be used in a computed column)
+SELECT CAST(DATEDIFF(SECOND, CONVERT(DATE, '1970-01-01', 120), DATEADD(HOUR, 5, CAST('2012-10-10 14:05:55.000' AS DATETIME))) AS BIGINT) * 1000 
 ```
 
 # SQL Permissions with AD Groups
