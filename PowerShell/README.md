@@ -26,3 +26,20 @@ Get-Process w3wp | select name,starttime
 Enter-PSSession -ComputerName .
 Get-Process VisualCronService | select name,starttime
 ```
+
+# Get Monitor
+```powershell
+$Monitors = Get-WmiObject WmiMonitorID -Namespace root\wmi
+$LogFile = "C:\monitors.txt"
+
+"Manufacturer,Name,Serial" | Out-File $LogFile
+
+ForEach ($Monitor in $Monitors)
+{
+	$Manufacturer = ($Monitor.ManufacturerName -notmatch 0 | ForEach{[char]$_}) -join ""
+	$Name = ($Monitor.UserFriendlyName -notmatch 0 | ForEach{[char]$_}) -join ""
+	$Serial = ($Monitor.SerialNumberID -notmatch 0 | ForEach{[char]$_}) -join ""
+	
+	"$Manufacturer,$Name,$Serial" | Out-File $LogFile -append
+}
+```
