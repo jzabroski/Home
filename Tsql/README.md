@@ -51,6 +51,17 @@ SELECT DATEADD(SECOND, @SecondsFromsUnixEpoch / 1000, CONVERT(DATE, '1970-01-01'
 SELECT CAST(DATEDIFF(SECOND, CONVERT(DATE, '1970-01-01', 120), DATEADD(HOUR, 5, CAST('2012-10-10 14:05:55.000' AS DATETIME))) AS BIGINT) * 1000 
 ```
 
+Direct conversion from C# to TSQL:
+```csharp
+DateTimeOffset.TryParse("1915-12-31 06:00:00.0000000 +00:00", out var dt);
+Console.WriteLine(dt.ToUnixTimeSeconds()); // -1704218400
+```
+```sql
+DECLARE @DateTimeOS DATETIMEOFFSET(7) = CAST('1915-12-31 06:00:00.0000000 +00:00' AS DATETIMEOFFSET)
+DECLARE @UnixDate BIGINT = CAST(DATEDIFF(SECOND, CONVERT(DATE, '1970-01-01', 120), DATEADD(HOUR, 0, CAST(@DateTimeOS AS DATETIME))) AS BIGINT)
+SELECT @UnixDate -- -1704218400
+```
+
 # SQL Permissions with AD Groups
 
 Be careful using AD Groups to define roles. See: https://docs.microsoft.com/en-us/sql/t-sql/statements/create-user-transact-sql?view=sql-server-2017 and also: https://docs.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine?view=sql-server-2017#_algorithm
