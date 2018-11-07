@@ -42,3 +42,8 @@ Possible entities:
 Possible services:
 1. Data characterization: over a sample of the whole data set, characterize data as string(length, encoding), date(year, month, day, time, timezone, offset), min(#), max(#), uniqueness
 2. Data validation
+
+# Other Products
+1. Tableau Prep - see https://twitter.com/tableau/status/991757992923156481 pivot, join, coordinated pivots
+  see also: https://pbs.twimg.com/media/DS5iaj9VAAAIItX.jpg
+2. Snowflake - see https://image-store.slidesharecdn.com/b9e60cdc-fc82-4a40-9599-67b9c0c042b7-original.jpeg
