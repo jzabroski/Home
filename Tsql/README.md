@@ -8,8 +8,9 @@ See also:
 > SQL Server 2012 has added support for the auto grid spatial index, available for both the geography and geometry data types. An auto grid uses eight levels instead of the usual four levels. The advantage of using an auto grid is that when creating an index we can get good index support without studying the queries that will run against the table. In addition, you do not need to add a GRIDS clause to your CREATE SPATIAL INDEX statement because the database engine determines the best strategy to use to maximize performance.
 
 # Spatial Indexes
-[How to ensure your spatial index is being used - Bob Beauchemin](http://sqlskills.com/BLOGS/BOBB/post/How-to-ensure-your-spatial-index-is-being-used.aspx)
-[Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
+1. [How to ensure your spatial index is being used - Bob Beauchemin](http://sqlskills.com/BLOGS/BOBB/post/How-to-ensure-your-spatial-index-is-being-used.aspx)
+2. [Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
+3. [Spatial Index Diagnostic Procs – Intro - Bob Beauchemin](https://www.sqlskills.com/blogs/bobb/spatial-index-diagnostic-procs-intro/)
 
 # Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
