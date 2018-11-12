@@ -87,7 +87,8 @@ https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigqu
 1. Frame defined by ROWS
 2. Frame defined by RANGE
 
-||RANGE clause||numeric values||date values||
+|| ||RANGE clause||numeric values||date values||
+| -- | ------ | --- | --- | --- |
 |Redshift|✘|✘|✘|
 |PostgreSQL|✓|✘|✘|
 |BigQuery|✓|✓|✘|
