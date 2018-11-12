@@ -81,3 +81,14 @@ EXECUTE AS LOGIN = '<domain>\<username>';
 SELECT * FROM fn_my_permissions('Database.Schema.Table', 'OBJECT');
 REVERT;
 ```
+
+# WINDOW Function ROWS and RANGE
+https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigquery/
+1. Frame defined by ROWS
+2. Frame defined by RANGE
+
+||RANGE clause||numeric values||date values||
+|Redshift|✘|✘|✘|
+|PostgreSQL|✓|✘|✘|
+|BigQuery|✓|✓|✘|
+|Oracle|✓|✓|✓|
