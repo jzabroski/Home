@@ -97,3 +97,11 @@ https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigqu
 |PostgreSQL|✓|✘|✘|
 |BigQuery|✓|✓|✘|
 |Oracle|✓|✓|✓|
+
+# RedShift
+http://www.47lining.com/index.php/2016/05/31/improving-redshift-query-performance-through-effective-use-of-zone-maps/
+> *The 3 Major Reasons for Slow Redshift Queries*
+> There are three primary reasons for poorly performing queries in Amazon Redshift:
+> 1. Ineffective zone maps
+> 2. Excessive network traffic
+> 3. Too many query steps
