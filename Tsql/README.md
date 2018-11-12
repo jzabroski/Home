@@ -12,7 +12,11 @@ See also:
 2. [Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
 3. [Spatial Index Diagnostic Procs – Intro - Bob Beauchemin](https://www.sqlskills.com/blogs/bobb/spatial-index-diagnostic-procs-intro/)
 
-# Fast Delete From Partition
+# Working With Partitions
+It can be a quick win for many customers to get them to use partitions.
+## How to Partition an existing SQL Server Table
+https://www.mssqltips.com/sqlservertip/2888/how-to-partition-an-existing-sql-server-table/
+## Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
 
 # Common Date Routines
