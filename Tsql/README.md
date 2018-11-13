@@ -1,7 +1,8 @@
 # Dynamic Range Queries
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
-2. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
-3. https://www.itprotoday.com/software-development/interval-queries-sql-server
+2. http://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
+3. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
+4. https://www.itprotoday.com/software-development/interval-queries-sql-server
 
 See also:
 1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
