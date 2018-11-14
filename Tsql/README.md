@@ -91,6 +91,12 @@ REVERT;
 [SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679)
 [SqlServerSamples](https://archive.codeplex.com/?p=sqlserversamples)
 
+# Trivia
+[Authoritative source that <> and != are identical in performance in SQL Server](https://dba.stackexchange.com/questions/155650/authoritative-source-that-and-are-identical-in-performance-in-sql-server/155670#155670)
+> * I use WinDbg; other debuggers are available. Public symbols are available via the usual Microsoft symbol server. For more information, see Looking deeper into SQL Server using Minidumps by the SQL Server Customer Advisory Team and SQL Server Debugging with WinDbg – an Introduction by Klaus Aschenbrenner. 
+> 
+> ** Using EAX on 32-bit Intel derivatives for return values from a function is common. Certainly the Win32 ABI does it that way, and I'm pretty sure it inherits that practice from back in the old MS-DOS days, where AX was used for the same purpose - Michael Kjörling
+
 # WINDOW Function ROWS and RANGE
 https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigquery/
 1. Frame defined by ROWS
