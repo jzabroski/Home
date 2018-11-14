@@ -19,6 +19,8 @@ It can be a quick win for many customers to get them to use partitions.
 https://www.mssqltips.com/sqlservertip/2888/how-to-partition-an-existing-sql-server-table/
 ## Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
+## Partition Basics
+https://www.cathrinewilhelmsen.net/2015/04/12/table-partitioning-in-sql-server/ - excellent tutorial to share with others
 
 # Common Date Routines
 
