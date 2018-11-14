@@ -87,6 +87,10 @@ SELECT * FROM fn_my_permissions('Database.Schema.Table', 'OBJECT');
 REVERT;
 ```
 
+# Samples
+[SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679)
+[SqlServerSamples](https://archive.codeplex.com/?p=sqlserversamples)
+
 # WINDOW Function ROWS and RANGE
 https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigquery/
 1. Frame defined by ROWS
