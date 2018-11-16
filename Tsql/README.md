@@ -102,6 +102,17 @@ REVERT;
 > ** Using EAX on 32-bit Intel derivatives for return values from a function is common. Certainly the Win32 ABI does it that way, and I'm pretty sure it inherits that practice from back in the old MS-DOS days, where AX was used for the same purpose - Michael Kjörling
 
 # WINDOW Function ROWS and RANGE
+https://www.brentozar.com/archive/2017/09/indexing-windowing-functions-vs/
+> Using Indexing for Windowing Functions: WHERE vs. OVER by Erik Darling, the following indexes helped us to reduce query time to about 200 ms:
+> 
+>    CREATE NONCLUSTERED INDEX entries_index 
+>    ON dbo.entries (client_id, creation_date ASC) 
+>    INCLUDE (status, uuid)
+> 
+>    CREATE NONCLUSTERED INDEX inverted_entries_index 
+>    ON dbo.entries (status) 
+>    INCLUDE (client_id, creation_date, uuid)
+
 https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigquery/
 1. Frame defined by ROWS
 2. Frame defined by RANGE
