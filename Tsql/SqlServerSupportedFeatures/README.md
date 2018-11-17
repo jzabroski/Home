@@ -1,5 +1,7 @@
 # SQL Server OEM
 1. [Features Supported by the Editions of SQL Server 2012](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/cc645993(v=sql.110))
+2. [SQL Server 2016 - Scale Limits](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017#Cross-BoxScaleLimits)
+3. [SQL Server 2017 - Scale Limits](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017?view=sql-server-2017)
 
 # Amazon RDS
 
