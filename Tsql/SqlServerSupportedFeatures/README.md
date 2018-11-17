@@ -1,3 +1,6 @@
+# SQL Server OEM
+1. [Features Supported by the Editions of SQL Server 2012](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/cc645993(v=sql.110))
+
 # Amazon RDS
 
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html#SQLServer.Concepts.General.FeatureNonSupport
