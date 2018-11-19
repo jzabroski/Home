@@ -23,6 +23,11 @@ https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-
 https://www.cathrinewilhelmsen.net/2015/04/12/table-partitioning-in-sql-server/ - excellent tutorial to share with others
 https://docs.microsoft.com/en-us/sql/t-sql/functions/partition-transact-sql?view=sql-server-2017 - use `SELECT $PARTITION.pfMyFunctionName(value)` to determine which partition a value would fall in.
 [USING $PARTITION TO FIND THE LAST TIME AN EVENT OCCURED](https://simonlearningsqlserver.wordpress.com/2017/02/14/using-partition-to-find-the-last-time-an-event-occured/) - go sequentially through each partition seeing if the searchable object fits into the partition.
+## Partitions and Statistics
+
+1. [UPDATEs to Statistics: From SQL Server 7.0 to SQL Server 2017](https://sqlperformance.com/2017/10/sql-statistics/updates-to-statistics)
+> **SQL Server 2014** 
+> * Incremental statistics are introduced for partitions, and can be viewed through the new DMF sys.dm_db_incremental_stats_properties. Incremental statistics provide a way to update statistics for a partition without updating them for the entire table. However, the additional statistics information from the incremental statistics is not used by the Query Optimizer, but it is folded into the main histogram for the table.
 
 # Common Date Routines
 
