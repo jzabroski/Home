@@ -1,3 +1,5 @@
+1. [Introduction to K by Arthur Whitney](http://vector.org.uk/art10010830)
+
 **Problem:** Incorporate new data into my database of splayed tables without downtime.
 
 **Solution:** https://www.aquaq.co.uk/q/avoiding-end-of-day-halts-with-torq/
