@@ -3,6 +3,9 @@
 2. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
 3. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
 4. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
+5. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
+6. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
+   > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
 
 # Dynamic Range Queries
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
