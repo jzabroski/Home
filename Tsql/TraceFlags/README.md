@@ -8,5 +8,7 @@
 [Tuning options for SQL Server when running in high performance workloads](https://support.microsoft.com/en-us/help/920093/tuning-options-for-sql-server-when-running-in-high-performance-workloa])
 1. Trace flag 2301: Enable advanced decision support optimizations
     > Trace flag 2301 enables advanced optimizations that are specific to decision support queries. This option applies to decision support processing of large data sets. 
+    
     and
+    
     > https://blogs.msdn.microsoft.com/ianjo/2006/04/24/query-processor-modelling-extensions-in-sql-server-2005-sp1/
