@@ -1,3 +1,9 @@
+# Bitmap Filters
+1. Bitmap Filter (Star Join Query Optimization)(https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/)
+2. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
+3. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
+4. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
+
 # Dynamic Range Queries
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
 2. http://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
