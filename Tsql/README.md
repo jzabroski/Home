@@ -39,6 +39,9 @@ https://docs.microsoft.com/en-us/sql/t-sql/functions/partition-transact-sql?view
 > **SQL Server 2014** 
 > * Incremental statistics are introduced for partitions, and can be viewed through the new DMF sys.dm_db_incremental_stats_properties. Incremental statistics provide a way to update statistics for a partition without updating them for the entire table. However, the additional statistics information from the incremental statistics is not used by the Query Optimizer, but it is folded into the main histogram for the table.
 
+# Deleting Data in Batches
+1. http://michaeljswart.com/2014/09/take-care-when-scripting-batches/
+
 # Common Date Routines
 
 ```sql
