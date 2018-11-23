@@ -6,6 +6,13 @@
 5. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
 6. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
    > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
+7. [Improves the query performance when an optimized bitmap filter is applied to a query plan in SQL Server 2016 and 2017](https://support.microsoft.com/en-us/help/4089276/improve-query-performance-when-optimized-bitmap-filter-used-in-query)
+> When a query plan uses a batch-mode hash join where one of the inputs is an optimized bitmap filter with an underlying bookmark lookup or key lookup in Microsoft SQL Server 2016 and SQL Server 2017, inaccurate estimations are produced. This update improves the query performance for the scenario.
+> 
+> Applies to:
+> 
+> * Cumulative Update 6 for SQL Server 2017
+> * Cumulative update 8 for SQL Server 2016 SP1  
 
 # Dynamic Range Queries
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
