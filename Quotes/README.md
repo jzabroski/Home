@@ -1,3 +1,6 @@
+> Recognizes right answer when told. ~ Tom Breuer
+
+
 > He who has a why to live can bear almost any how.
 > ~ Friedrich Nietzsche
 
