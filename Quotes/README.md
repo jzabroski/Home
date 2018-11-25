@@ -1,5 +1,8 @@
 > Recognizes right answer when told. ~ Tom Breuer
 
+> Someone who majors in the minors and minors in the majors. ~ Tom Breuer
+
+> Fulton's Folly
 
 > He who has a why to live can bear almost any how.
 > ~ Friedrich Nietzsche
