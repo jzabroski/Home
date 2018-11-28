@@ -30,3 +30,9 @@ cinst -y chocolatey --version 0.10.11
 
 1. Packages
    1. Does Not Exist - TODO Create - https://www.userbenchmark.com/resources/download/UserBenchMark.exe
+   
+# Chocolatey Packages
+| PackageName | Description | Radar Positioning |
+| ----------- | ----------- | ----------------- |
+| treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
+| notepadplusplus | Text editor with nice syntax highlighting and search. | - |
