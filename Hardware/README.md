@@ -5,6 +5,8 @@ Office Set-up:
     * G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform / Intel X99 Platform Desktop Memory Model F4-3200C15Q-64GTZSW
 2. SSD
     * Intel 905p Optane 960GB
+    * RAID
+        * ASUS HYPER M.2 X16 CARD [ASUS](https://www.asus.com/us/Motherboard-Accessories/HYPER-M-2-X16-CARD/)
 3. CPU
     * Intel i9-9900k
 4. Monitors
