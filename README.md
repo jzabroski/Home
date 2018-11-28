@@ -37,6 +37,11 @@ https://github.com/natemcmaster/dotnet-tools
 | [Moq](https://github.com/moq/moq4) | [Moq](https://www.nuget.org/packages/Moq/) | | Stable |
 | [NSubstitute](https://github.com/nsubstitute/NSubstitute) | [NSubstitute](https://www.nuget.org/packages/NSubstitute) | A friendly substitute for .NET mocking libraries. http://nsubstitute.github.com | Stable |
 
+## Convention Tests
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [TestStack.ConventionTests)](https://github.com/TestStack/TestStack.ConventionTests) | [TestStack.ConventionTests](https://www.nuget.org/packages/TestStack.ConventionTests/) | ConventionTests help you go beyond the compiler with conventions! | Assessing |
+
 # Documentation
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
@@ -68,7 +73,7 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 | ------ | ----- | ----------- | ----------------- |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
-| [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/)) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
+| [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
 | [Relinq](https://github.com/re-motion/Relinq) | | | |
 
 ## Data <-> Entity Mapping
