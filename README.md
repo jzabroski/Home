@@ -11,12 +11,6 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 * Repurchase
 * Refactor
 
-# Chocolatey Packages
-| PackageName | Description | Radar Positioning |
-| ----------- | ----------- | ----------------- |
-| treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
-| notepadplusplus | Text editor with nice syntax highlighting and search. | - |
-
 # dotnet
 https://github.com/natemcmaster/dotnet-tools
 
