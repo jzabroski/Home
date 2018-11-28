@@ -9,7 +9,7 @@ Office Set-up:
     * Intel i9-9900k
 4. Monitors
     * 2 Dell U3818DW (UltraSharp 38" Curved Monitor)
-    * Loctek monitor arms
+    * Loctek Monitor Mount Heavy Duty Gas Spring Swing Monitor Arm Desk Mount Stand Fits for 10"-34" Monitor Weighting 13.2-33 lbs - D7L [Amazon](https://www.amazon.com/gp/product/B01BXP9LT6/)
 5. Desk
     * Autonomous AI SmartDesk 2 Business Edition - XL
 6. Mouse
