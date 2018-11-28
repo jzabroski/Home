@@ -37,9 +37,12 @@ https://www.mssqltips.com/sqlservertip/2888/how-to-partition-an-existing-sql-ser
 ## Fast Delete From Partition
 https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-delete-all-data-from-a-partition-of-a-partition
 ## Partition Basics
-https://www.cathrinewilhelmsen.net/2015/04/12/table-partitioning-in-sql-server/ - excellent tutorial to share with others
-https://docs.microsoft.com/en-us/sql/t-sql/functions/partition-transact-sql?view=sql-server-2017 - use `SELECT $PARTITION.pfMyFunctionName(value)` to determine which partition a value would fall in.
-[USING $PARTITION TO FIND THE LAST TIME AN EVENT OCCURED](https://simonlearningsqlserver.wordpress.com/2017/02/14/using-partition-to-find-the-last-time-an-event-occured/) - go sequentially through each partition seeing if the searchable object fits into the partition.
+1. https://www.cathrinewilhelmsen.net/2015/04/12/table-partitioning-in-sql-server/ - excellent tutorial to share with others
+2. https://docs.microsoft.com/en-us/sql/t-sql/functions/partition-transact-sql?view=sql-server-2017 - use `SELECT $PARTITION.pfMyFunctionName(value)` to determine which partition a value would fall in.
+3. [USING $PARTITION TO FIND THE LAST TIME AN EVENT OCCURED](https://simonlearningsqlserver.wordpress.com/2017/02/14/using-partition-to-find-the-last-time-an-event-occured/) - go sequentially through each partition seeing if the searchable object fits into the partition.
+4. [Oops… I forgot to leave an empty SQL table partition, how can I split it with minimal IO impact?](https://blogs.msdn.microsoft.com/sql_pfe_blog/2013/08/13/oops-i-forgot-to-leave-an-empty-sql-table-partition-how-can-i-split-it-with-minimal-io-impact/)
+> the solution is to switch the data from [the last partition] into an empty table to make the last partition empty. You can then split the partition to add new boundary and then switch the data back into Partition 4.
+
 ## Partitions and Statistics
 
 1. [UPDATEs to Statistics: From SQL Server 7.0 to SQL Server 2017](https://sqlperformance.com/2017/10/sql-statistics/updates-to-statistics)
