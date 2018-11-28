@@ -18,24 +18,24 @@ https://github.com/natemcmaster/dotnet-tools
 
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-[Verex](https://github.com/MohammadHamdyGhanem/Verex) | | Verex: The Verbal Regex Builder | Assessing |
+[Verex](https://github.com/MohammadHamdyGhanem/Verex) | [Verex](https://www.nuget.org/packages/Verex/) | Verex: The Verbal Regex Builder | Assessing |
 
 # Testing
 
 ## Test Data
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [ObjectHydrator](https://github.com/PrintsCharming/ObjectHydrator) <br />[Foundation.ObjectHydrator.Core](https://github.com/rukai-kooboo/ObjectHydrator) | https://www.nuget.org/packages/objecthydrator/ <br />https://www.nuget.org/packages/Foundation.ObjectHydrator.Core/ | NuGet package ObjectHydrator Hasn't been updated since 2015. GitHub activity February 2018. | - |
-| [Faker.NET.Portable](https://github.com/WormieCorp/Faker.NET.Portable) | https://www.nuget.org/packages/Faker.Net.Portable | C# port of the Ruby Faker gem (http://faker.rubyforge.org/) and is used to easily generate fake data: names, addresses, phone numbers, etc. | n/a |
-| [AutoFixture](https://github.com/AutoFixture/AutoFixture) | https://www.nuget.org/packages/AutoFixture/ | AutoFixture is an open source library for .NET designed to minimize the 'Arrange' phase of your unit tests in order to maximize maintainability. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data. | n/a |
-| [NBuilder](https://github.com/nbuilder/nbuilder) | https://www.nuget.org/packages/nbuilder/ | Through a fluent, extensible interface, NBuilder allows you to rapidly create test data, automatically assigning values to properties and public fields that are one of the built in .NET data types (e.g. ints and strings). NBuilder allows you to override for properties you are interested in using lambda expressions. | n/a |
+  | [ObjectHydrator](https://github.com/PrintsCharming/ObjectHydrator) <br />[Foundation.ObjectHydrator.Core](https://github.com/rukai-kooboo/ObjectHydrator) | [ObjectHydrator](https://www.nuget.org/packages/objecthydrator/) <br />[Foundation.ObjectHydrator.Core](https://www.nuget.org/packages/Foundation.ObjectHydrator.Core/) | NuGet package ObjectHydrator Hasn't been updated since 2015. GitHub activity February 2018. | - |
+| [Faker.NET.Portable](https://github.com/WormieCorp/Faker.NET.Portable) | [Faker.Net.Portable](https://www.nuget.org/packages/Faker.Net.Portable) | C# port of the Ruby Faker gem (http://faker.rubyforge.org/) and is used to easily generate fake data: names, addresses, phone numbers, etc. | n/a |
+| [AutoFixture](https://github.com/AutoFixture/AutoFixture) | [AutoFixture](https://www.nuget.org/packages/AutoFixture/) | AutoFixture is an open source library for .NET designed to minimize the 'Arrange' phase of your unit tests in order to maximize maintainability. Its primary goal is to allow developers to focus on what is being tested rather than how to setup the test scenario, by making it easier to create object graphs containing test data. | n/a |
+| [NBuilder](https://github.com/nbuilder/nbuilder) | [NBuilder](https://www.nuget.org/packages/nbuilder/) | Through a fluent, extensible interface, NBuilder allows you to rapidly create test data, automatically assigning values to properties and public fields that are one of the built in .NET data types (e.g. ints and strings). NBuilder allows you to override for properties you are interested in using lambda expressions. | n/a |
 
 ## Mocking
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| Prig | | | Assessing |
-| Moq | | | Stable |
-| NSubstitute | | | Stable |
+| [Prig](https://github.com/urasandesu/Prig) | [Prig](https://www.nuget.org/packages/Prig/) | Prig(PRototyping jIG) is a framework that generates a Test Double like Microsoft Fakes/Typemock Isolator/Telerik JustMock based on Unmanaged Profiler APIs. This framework enables that any methods are replaced with mocks. For example, a static property, a private method, a non-virtual member and so on. | Assessing |
+| [Moq](https://github.com/moq/moq4) | [Moq](https://www.nuget.org/packages/Moq/) | | Stable |
+| [NSubstitute](https://github.com/nsubstitute/NSubstitute) | [NSubstitute](https://www.nuget.org/packages/NSubstitute) | A friendly substitute for .NET mocking libraries. http://nsubstitute.github.com | Stable |
 
 # Documentation
 | GitHub | NuGet | Description | Radar Positioning |
