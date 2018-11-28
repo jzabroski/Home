@@ -41,7 +41,15 @@ https://dba.stackexchange.com/questions/171625/what-could-be-the-fastest-way-to-
 2. https://docs.microsoft.com/en-us/sql/t-sql/functions/partition-transact-sql?view=sql-server-2017 - use `SELECT $PARTITION.pfMyFunctionName(value)` to determine which partition a value would fall in.
 3. [USING $PARTITION TO FIND THE LAST TIME AN EVENT OCCURED](https://simonlearningsqlserver.wordpress.com/2017/02/14/using-partition-to-find-the-last-time-an-event-occured/) - go sequentially through each partition seeing if the searchable object fits into the partition.
 4. [Oops… I forgot to leave an empty SQL table partition, how can I split it with minimal IO impact?](https://blogs.msdn.microsoft.com/sql_pfe_blog/2013/08/13/oops-i-forgot-to-leave-an-empty-sql-table-partition-how-can-i-split-it-with-minimal-io-impact/)
-> the solution is to switch the data from [the last partition] into an empty table to make the last partition empty. You can then split the partition to add new boundary and then switch the data back into Partition 4.
+   > the solution is to switch the data from [the last partition] into an empty table to make the last partition empty. You can then split the partition to add new boundary and then switch the data back into Partition 4.
+   
+   > ```
+   > SELECT Operation, AllocUnitName, COUNT(*) as NumLogRecords
+   > FROM fn_dblog(NULL, NULL)
+   > WHERE AllocUnitName = 'dbo.TableName.IndexName'
+   > GROUP BY Operation, AllocUnitName
+   > ORDER BY COUNT(*) DESC
+   > ```
 
 ## Partitions and Statistics
 
