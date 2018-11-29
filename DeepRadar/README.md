@@ -39,3 +39,16 @@ Implementation of a Recommendation System for Software Engineering using n-gram 
 35. https://github.com/farihan/ExcelToJSON - Read data in excel and convert to json
 36. https://github.com/hari-net-trainer/BudgetPlanner - Budget Planner
 37. https://github.com/RevyakinaDiana/ReSystem/blob/master/WebDocumentooborot/WebApplication3/Fold/IdentityStore.cs - identity management
+38. https://github.com/PaulSchrum/InvoiceSystemTerraG - System to generate invoices from Paul's Excel timesheet .xls file.
+39. https://github.com/ensc-glog/HeritageNHibernate - NHibernate examples. Docs in Spanish
+40. https://github.com/J0k3rCa4d/NHCookbook - NHibernate mapping recipes
+41. https://github.com/EmperorAtlantis/NhibernateConsole/blob/master/ConsoleApp1/Program.cs - NHibernate schema export
+42. https://github.com/smichelotti/LeagueScheduler
+43. https://github.com/maxkalama/LearningAndTesting
+44. https://github.com/warrior888/toci_phoenix/tree/master/Toci.Db/DbVirtualization
+45. https://github.com/jodufra/unhibernate - NHibernate.Mapping.ByCode wrapper
+46. https://github.com/chriseldredge/Lucene.Net.Linq - LINQ provider to run native queries on a Lucene.Net index Lucene.Net.Linq is a .net library that enables LINQ queries to run natively on a Lucene.Net index.
+47. https://github.com/tojoirinah/Facturation/tree/master/Facturation/Facturation.RepositoryHelper/Mappings - NHibernate mapping demo
+48. https://github.com/kenoma/adaptive-neuro-fuzzy This C# implementation of ANFIS (Adaptive Neuro Fuzzy Inference System) is designed to solve task y=f(x) in form of IF–THEN rules
+49. https://github.com/yvmahajan/Employee.API - Develop RESTfull service for Employee.
+
