@@ -74,7 +74,37 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
-| [Relinq](https://github.com/re-motion/Relinq) | | | |
+| [Relinq](https://github.com/re-motion/Relinq) | [Remotion.Linq](https://www.nuget.org/packages/Remotion.Linq/) | re-linq Frontend: A foundation for parsing LINQ expression trees and generating queries in SQL or other languages.<br />
+Key features:<br />
+- Transforms expression trees into abstract syntax trees resemblying LINQ query expressions (from ... select syntax)<br />
+- Simplifies many aspects of this tree (sub queries, transparent identifieres, pre-evaluation ...)<br />
+- Provides basic infrastructure for backend development (e.g. SQL generation) <br />
+- Provides a framework for user-defined query extensions and transformations | Assessing |
+
+## Relinq examples
+1. https://github.com/tushartushar/miningSmellData - Smell mining data for open-source C# projects
+2. https://github.com/mmozuras/LinqToImap - nables writing of LINQ queries against email services that support Imap.
+3. https://github.com/robincornelius/TwitTicker - A simple twitter feed reader
+4. https://github.com/kuserich/ngram-recommendation-system -  Coverage Status
+Implementation of a Recommendation System for Software Engineering using n-gram language models as described by Santos et al. (2016). The recommender has been implemented using the KaVE Project.
+5. https://github.com/Chillisoft/habanero.linq - 
+6. https://github.com/re-motion/Samples-Relinq-ProjectionSupport - Sample for re-linq: how to implement projection support
+7. https://github.com/chrisblock/LinqToRest - Re-Linq based LINQ provider for OData Queries.
+8. https://github.com/niudadun/ss - SmartFlow
+9. https://github.com/re-motion/Samples-Relinq-LinqToHql-V2 - Sample for re-linq: how to generate a HQL-based query from a LINQ expression tree http://www.codeproject.com/Articles/42059/re-linq-ishing-the-Pain-Using-re-linq-to-Implement
+10. https://github.com/re-motion/Web-CodeGenerator OUTDATED] Contains scaffolding infrastructure for re-motion-based CRUD application  https://www.re-motion.org/jira/browse/UIG
+11. https://github.com/aspnet/EntityFramework.ApiDocs - Reference documentation for Entity Framework APIs
+12. https://github.com/Vasilut/DifferentProjects - Different projects in C# - see ExcelDataProcesor
+13. https://github.com/GraemeF/Twiddler - This is something for fiddling with Twitter. Especially reading it, as you can't tweet yet.
+14. https://github.com/re-motion/Samples-Relinq-LinqToHql-V1-SqlBackend - Sample for re-linq: How to implement a bridge between LINQ and NHibernate using the re-linq SqlBackend
+15. https://github.com/BrightstarDB/BrightstarDB - This is the core development repository for BrightstarDB.
+16. https://github.com/re-motion/Relinq-EagerFetching - https://www.re-motion.org/jira/browse/RMLNQFETCH
+17. https://github.com/pollirrata/Voila - 
+18. https://github.com/gordonwatts/LINQtoROOT - Convert a LINQ query into a ROOT TSelector, and run it
+19. https://github.com/mgerasim/geospace - uses NHibernate.Fakes
+20. https://github.com/westfin/Pad - LinqPad clone
+21. https://github.com/misiektg86/Home.Bills.Domain - Home.Bills DDD
+22. [nhibernate/nhibernate/src/NHibernate/Linq/ReWriters/RemoveUnnecessaryBodyOperators.cs](https://github.com/paulbatum/nhibernate/blob/a2da70209680aecfe036b84bb36476109f8ed11c/nhibernate/src/NHibernate/Linq/ReWriters/RemoveUnnecessaryBodyOperators.cs) 
 
 ## Data <-> Entity Mapping
 | GitHub | NuGet | Description | Radar Positioning |
@@ -133,6 +163,12 @@ https://github.com/ngs-doo/json-benchmark
 | [Consul.Net](https://github.com/PlayFab/consuldotnet) | [Consul.Net](https://www.nuget.org/packages/Consul/) | The problems Consul solves are varied, but each individual feature has been solved by many different systems. Although there is no single system that provides all the features of Consul, there are other options available to solve some of these problems. | Incoming |
 
 See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-setup-might-fail-due-to-broken-dependency/ for Karthick P.K - karthick krishnamurthy's script to detect invalid object references/missing dependencies. While he uses it to address replication issues, it can also be useful to run after a large database upgrade or when you first come into a company as a consultant.
+
+# Remote Administration
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ---- | ----------- | ----------------- |
+| [QuasarRAT](https://github.com/quasar/QuasarRAT) | | **Free, Open-Source Remote Administration Tool for Windows**<br />
+Quasar is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.| |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
