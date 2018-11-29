@@ -51,4 +51,4 @@ Implementation of a Recommendation System for Software Engineering using n-gram 
 47. https://github.com/tojoirinah/Facturation/tree/master/Facturation/Facturation.RepositoryHelper/Mappings - NHibernate mapping demo
 48. https://github.com/kenoma/adaptive-neuro-fuzzy This C# implementation of ANFIS (Adaptive Neuro Fuzzy Inference System) is designed to solve task y=f(x) in form of IF–THEN rules
 49. https://github.com/yvmahajan/Employee.API - Develop RESTfull service for Employee.
-
+50. https://github.com/dx-prog/Sprockets.Lucene.Net - Update to lucene.net to use latest remotion
