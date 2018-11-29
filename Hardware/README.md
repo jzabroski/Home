@@ -1,8 +1,13 @@
 Office Set-up:
 1. RAM
-    * G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform / Intel X99 Platform Desktop Memory Model F4-3200C14Q-64GTZSW [Amazon](https://www.amazon.com/G-SKILL-TridentZ-3200MHz-PC4-25600-F4-3200C14Q-64GTZ/dp/B01AQIQFUE)
-    * G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform Desktop Memory Model F4-3200C14Q-64GTZ
-    * G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform / Intel X99 Platform Desktop Memory Model F4-3200C15Q-64GTZSW
+    * WINNER: G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform / Intel X99 Platform Desktop Memory Model F4-3200C14Q-64GTZSW [Amazon](https://www.amazon.com/G-SKILL-TridentZ-3200MHz-PC4-25600-F4-3200C14Q-64GTZ/dp/B01AQIQFUE)
+       * Brand G.SKILL , Series TridentZ Series , Model F4-3200C14Q-64GTZ
+       * Capacity 64GB (4 x 16GB) , Type 288-Pin DDR4 SDRAM , Speed DDR4 3200 (PC4 25600) , Cas Latency 14
+       * Timing 14-14-14-34 , Voltage 1.35V ECC
+       * No Buffered/Registered Unbuffered
+       * Kit Dual Channel Kit Heat Spreader Yes
+    * RUNNER-UP: G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform Desktop Memory Model F4-3200C14Q-64GTZ
+    * LOSER: G.SKILL TridentZ Series 64GB (4 x 16GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel Z370 Platform / Intel X99 Platform Desktop Memory Model F4-3200C15Q-64GTZSW
 2. SSD
     * Intel 905p Optane 960GB
     * RAID
