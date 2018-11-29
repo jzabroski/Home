@@ -81,31 +81,6 @@ Key features:<br />
 - Provides basic infrastructure for backend development (e.g. SQL generation) <br />
 - Provides a framework for user-defined query extensions and transformations | Assessing |
 
-## Relinq examples
-1. https://github.com/tushartushar/miningSmellData - Smell mining data for open-source C# projects
-2. https://github.com/mmozuras/LinqToImap - nables writing of LINQ queries against email services that support Imap.
-3. https://github.com/robincornelius/TwitTicker - A simple twitter feed reader
-4. https://github.com/kuserich/ngram-recommendation-system -  Coverage Status
-Implementation of a Recommendation System for Software Engineering using n-gram language models as described by Santos et al. (2016). The recommender has been implemented using the KaVE Project.
-5. https://github.com/Chillisoft/habanero.linq - 
-6. https://github.com/re-motion/Samples-Relinq-ProjectionSupport - Sample for re-linq: how to implement projection support
-7. https://github.com/chrisblock/LinqToRest - Re-Linq based LINQ provider for OData Queries.
-8. https://github.com/niudadun/ss - SmartFlow
-9. https://github.com/re-motion/Samples-Relinq-LinqToHql-V2 - Sample for re-linq: how to generate a HQL-based query from a LINQ expression tree http://www.codeproject.com/Articles/42059/re-linq-ishing-the-Pain-Using-re-linq-to-Implement
-10. https://github.com/re-motion/Web-CodeGenerator OUTDATED] Contains scaffolding infrastructure for re-motion-based CRUD application  https://www.re-motion.org/jira/browse/UIG
-11. https://github.com/aspnet/EntityFramework.ApiDocs - Reference documentation for Entity Framework APIs
-12. https://github.com/Vasilut/DifferentProjects - Different projects in C# - see ExcelDataProcesor
-13. https://github.com/GraemeF/Twiddler - This is something for fiddling with Twitter. Especially reading it, as you can't tweet yet.
-14. https://github.com/re-motion/Samples-Relinq-LinqToHql-V1-SqlBackend - Sample for re-linq: How to implement a bridge between LINQ and NHibernate using the re-linq SqlBackend
-15. https://github.com/BrightstarDB/BrightstarDB - This is the core development repository for BrightstarDB.
-16. https://github.com/re-motion/Relinq-EagerFetching - https://www.re-motion.org/jira/browse/RMLNQFETCH
-17. https://github.com/pollirrata/Voila - 
-18. https://github.com/gordonwatts/LINQtoROOT - Convert a LINQ query into a ROOT TSelector, and run it
-19. https://github.com/mgerasim/geospace - uses NHibernate.Fakes
-20. https://github.com/westfin/Pad - LinqPad clone
-21. https://github.com/misiektg86/Home.Bills.Domain - Home.Bills DDD
-22. [nhibernate/nhibernate/src/NHibernate/Linq/ReWriters/RemoveUnnecessaryBodyOperators.cs](https://github.com/paulbatum/nhibernate/blob/a2da70209680aecfe036b84bb36476109f8ed11c/nhibernate/src/NHibernate/Linq/ReWriters/RemoveUnnecessaryBodyOperators.cs) 
-
 ## Data <-> Entity Mapping
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
