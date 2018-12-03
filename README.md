@@ -47,6 +47,10 @@ https://github.com/natemcmaster/dotnet-tools
 | ------ | ----- | ----------- | ----------------- |
 | Apistry | | | Outgoing |
 | [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle) | [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore/) | Swagger UI<br />Swagger tools for documenting APIs built on ASP.NET Core | Incoming |
+| [postman-app-support](https://github.com/postmanlabs/postman-app-support) | n/a | [GetPostman.Com](https://www.getpostman.com/) | Outgoing |
+
+Dropping Postman due to performance concerns. See https://github.com/postmanlabs/postman-app-support/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3APerformance
+
 
 See also: https://app.quicktype.io/ for automatic inference of JSON contracts from an API call
 
