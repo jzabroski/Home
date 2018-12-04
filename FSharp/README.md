@@ -1,6 +1,8 @@
 # Reflection and generics
 https://www.demystifyfp.com/fsharp/blog/generic-programming-made-easy/
 
+# Generic Math code
+http://tomasp.net/blog/fsharp-generic-numeric.aspx/
 
 # Bioinformatics
 https://github.com/CSBiology/BioFSharp
