@@ -264,6 +264,7 @@ EXECUTE dbautils.spFixIndexNaming
 | ------ | ------------- | ----------- | ----------------- |
 | [WFTools](https://github.com/RamblingCookieMonster/PowerShell) | [WFTools](https://www.powershellgallery.com/packages/WFTools/0.1.58) | Various PowerShell functions and scripts<br>* Import-PSCredential<br>* Export-PSCredential | Stable |
 | [PPoShTools](https://github.com/PPOSHGROUP/PPoShTools) | [PPoShTools](https://www.powershellgallery.com/packages/PPoShTools) | Various PowerShell functions and scripts<br>* Write-ErrorRecord | Incoming |
+| [BAMCIS.CredentialManager](https://github.com/bamcisnetworks/BAMCIS.CredentialManager) | [BAMCIS.CredentialManager](https://www.powershellgallery.com/packages/BAMCIS.CredentialManager/1.0.0.0) | Provides a wrapper around the Credential Manager Win32 API. | Stable |
 | [PSSE](https://github.com/ahhh/PSSE) | - | PowerShell Scripting Expert repository, contains template code for security and administrative scripting, largely derived through taking the SecurityTube PowerShell for Pentesters course | Incoming |
 | [nishang](https://github.com/samratashok/nishang) | - | Nishang - Offensive PowerShell for penetration testing and offensive security. | Incoming |
 | [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer) | [PSScriptAnalyzer](https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.17.1) | | |
