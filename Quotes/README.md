@@ -13,6 +13,16 @@
 > We probably just had a Orville and Wilbur Kitty Hawk moment in science--and the analysts want to know why "only 59 seconds?"
 > ~ SeekingAlpha user [dunwoody_joe](https://seekingalpha.com/user/1099753/comments), commenting on [Sangamo's Gene Therapy Results](https://seekingalpha.com/article/4204400-sangamos-gene-therapy-results)
 
+> # Regularizing a Linear Model
+> If I could leave readers with only one thought, it would be this: *the strength of your indicators is vastly more important than the strength of the predictive model that uses them to signal trades.* Some of the best, most stable, and profitable trading systems I've seen over the years use a simple linear or nearly linear model with high quality indicators as inputs. [...]
+>
+> There are many advantages to using a linear model for a predictive-model-based trading system, as opposed to a complex, nonlinear model:
+> * Linear models are less likel, often *much* less likely to overfit the training data. As a result, the *training bias* is minimized. [...]
+> * Linear models are easier to understand than  many or most nonlinear models. Understanding how indicator values relate to trade decisions can be an extremely valuable property of prediction models.
+> * Linear models are usually faster to train than nonlinear models. [...]
+>
+> *Testing and Tuning Market Trading Systems Algorithms in C++* by Timoth Masters
+
 > Comparing, say, Kx systems Q/KDB (80s technology which still sells for upwards of $100k a CPU, and is worth every penny) to Hive or Redis is an exercise in high comedy. Q does what Hive does. It does what Redis does. It does both, several other impressive things modern “big data” types haven’t thought of yet, and it does them better, using only a few pages of tight C code, and a few more pages of tight K code.
 > ~ scottlocklin.wordpress.com
 
