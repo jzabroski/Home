@@ -21,7 +21,7 @@
 > * Linear models are easier to understand than  many or most nonlinear models. Understanding how indicator values relate to trade decisions can be an extremely valuable property of prediction models.
 > * Linear models are usually faster to train than nonlinear models. [...]
 >
-> *Testing and Tuning Market Trading Systems Algorithms in C++* by Timoth Masters
+> *Testing and Tuning Market Trading Systems Algorithms in C++* by Timothy Masters
 
 > Comparing, say, Kx systems Q/KDB (80s technology which still sells for upwards of $100k a CPU, and is worth every penny) to Hive or Redis is an exercise in high comedy. Q does what Hive does. It does what Redis does. It does both, several other impressive things modern “big data” types haven’t thought of yet, and it does them better, using only a few pages of tight C code, and a few more pages of tight K code.
 > ~ scottlocklin.wordpress.com
