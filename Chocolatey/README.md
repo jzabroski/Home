@@ -9,6 +9,7 @@ choco.exe list --localy-only --all-versions --include-programs
     cpu-z.install 1.87
     cyberduck.install 6.2.9.26659
     DotNet4.5.2 4.5.2.20140902
+    dotnetcore-sdk
     easy.install 0.6.11.4
     jdk8 8.0.162
     jdupes 1.10.3
