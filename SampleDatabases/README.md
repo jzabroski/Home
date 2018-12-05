@@ -4,3 +4,4 @@
 4. AdventureWorks
 5. https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm
 6. Drug abuse databases?
+7. https://github.com/elastic/examples
