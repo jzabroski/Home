@@ -7,6 +7,8 @@ choco.exe list --localy-only --all-versions --include-programs
     chocolatey 0.10.11
     chocolatey-core.extension 1.3.3
     cpu-z.install 1.87
+    crystaldiskmark 5.2.0
+    diskmarkstream 1.1.2
     cyberduck.install 6.2.9.26659
     DotNet4.5.2 4.5.2.20140902
     dotnetcore-sdk
@@ -31,6 +33,7 @@ cinst -y chocolatey --version 0.10.11
 
 1. Packages
    1. Does Not Exist - TODO Create - https://www.userbenchmark.com/resources/download/UserBenchMark.exe
+   2. Does Not Exist - TODO Create - https://totusoft.com/lanspeed
    
 # Chocolatey Packages
 | PackageName | Description | Radar Positioning |
