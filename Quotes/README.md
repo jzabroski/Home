@@ -33,7 +33,7 @@
 > This is an area of massive growth for which no existing solution is quite adequate. 
 > ~ [monodeldiablo](https://news.ycombinator.com/user?id=monodeldiablo) - https://news.ycombinator.com/item?id=13582631
 
-> [The Discrete-time Stochastic Systems] class was the first time I saw probability applied to an algorithm. I had seen algorithms take an averaged value as input before, but this was different: the variance and mean were internal values in these algorithms. The course was about "time series" data where every piece of data is a regularly spaced sample.
+> [The Discrete-time Stochastic Systems] class was the first time I saw probability applied to an algorithm. I had seen algorithms take an averaged value as input before, but this was different: the variance and mean were internal values in these algorithms. The course was about "time series" data where every piece of data is a regularly spaced sample. [... In the Machine Learning class] the data was not assumed to be uniformly spaced in time, and they covered more algorithms but with less rigor. I later realized that similar methods were also being taught in the economics, electrical engineering, and computer science departments. 
 > Page xvii, Machine Learning in Action by Peter Harrington
 
 
