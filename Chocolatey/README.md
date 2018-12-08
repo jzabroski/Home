@@ -1,6 +1,8 @@
 ```powershell
 choco.exe list --localy-only --all-versions --include-programs
 ```
+TIP: When benchmarking, it is a good idea to use several different benchmark programs, as some may have bugs. For example, CrystalDiskMark was great for mechanical hard drives, but NVMe SSDs have exposed potential bugs in its timing data.
+
     7zip 18.5.0.20180730
     7zip.install 18.5.0.20180730
     adobereader 2015.007.20033.02
@@ -9,6 +11,7 @@ choco.exe list --localy-only --all-versions --include-programs
     cpu-z.install 1.87
     crystaldiskmark 5.2.0
     diskmarkstream 1.1.2
+    iometer 1.1.0
     cyberduck.install 6.2.9.26659
     DotNet4.5.2 4.5.2.20140902
     dotnetcore-sdk
