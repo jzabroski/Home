@@ -33,6 +33,11 @@
 > This is an area of massive growth for which no existing solution is quite adequate. 
 > ~ [monodeldiablo](https://news.ycombinator.com/user?id=monodeldiablo) - https://news.ycombinator.com/item?id=13582631
 
+> [The Discrete-time Stochastic Systems] class was the first time I saw probability applied to an algorithm. I had seen algorithms take an averaged value as input before, but this was different: the variance and mean were internal values in these algorithms. The course was about "time series" data where every piece of data is a regularly spaced sample.
+> Page xvii, Machine Learning in Action by Peter Harrington
+
+
+
 > Consistency means not only using the same ratios or formulas; it also means using the correct time period. Let's use a simple example: Think about depositing $10,000 in a bank on January 1. At the end of the year, you receive your statement and see your interest for the year was $1,000, bringing your year-end balance to $11,000. *What is the return on your investment for the year?* It is 10% ()the year's earnings of $1,000 divided by the initial investmment, or opening balance, of $10,000). However, when we calculated ROA (ROE) above, we divided the income for the year by the assets (equity) at year-end. This calculation is comparable to divdiing the $1,000 of interest by the $11,000 year-end balance, giving a return of 9.1%, which is not correct. To accurately measure the yearly return on the assets invested, we need to divide the total yearly income by the initial investment, which is the beginning-of-the-year amount of total assets or equity.
 > 
 >    Initial Investment on January 1st = $10,000
