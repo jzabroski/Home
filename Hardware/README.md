@@ -14,12 +14,14 @@ Office Set-up:
         * ASUS HYPER M.2 X16 CARD [ASUS](https://www.asus.com/us/Motherboard-Accessories/HYPER-M-2-X16-CARD/)
 3. CPU
     * Intel i9-9900k
-4. Monitors
+4. Motherboard
+    * [ASRock Z390 Phantom Gaming 4](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming%204/index.us.asp#Download)
+5. Monitors
     * 2 Dell U3818DW (UltraSharp 38" Curved Monitor)
     * Loctek Monitor Mount Heavy Duty Gas Spring Swing Monitor Arm Desk Mount Stand Fits for 10"-34" Monitor Weighting 13.2-33 lbs - D7L [Amazon](https://www.amazon.com/gp/product/B01BXP9LT6/)
-5. Desk
+6. Desk
     * Autonomous AI SmartDesk 2 Business Edition - XL
-6. Mouse
+7. Mouse
     * Logitech MX Master 2S
-7. Keyboard
+8. Keyboard
     * Microsoft Natural Ergonomic 4000
