@@ -19,7 +19,7 @@
 > If I could leave readers with only one thought, it would be this: *the strength of your indicators is vastly more important than the strength of the predictive model that uses them to signal trades.* Some of the best, most stable, and profitable trading systems I've seen over the years use a simple linear or nearly linear model with high quality indicators as inputs. [...]
 >
 > There are many advantages to using a linear model for a predictive-model-based trading system, as opposed to a complex, nonlinear model:
-> * Linear models are less likel, often *much* less likely to overfit the training data. As a result, the *training bias* is minimized. [...]
+> * Linear models are less likely, often *much* less likely to overfit the training data. As a result, the *training bias* is minimized. [...]
 > * Linear models are easier to understand than  many or most nonlinear models. Understanding how indicator values relate to trade decisions can be an extremely valuable property of prediction models.
 > * Linear models are usually faster to train than nonlinear models. [...]
 >
