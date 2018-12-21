@@ -1,12 +1,13 @@
 # Bitmap Filters
-1. Bitmap Filter (Star Join Query Optimization)(https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/)
-2. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
-3. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
-4. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
-5. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
-6. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
+1. https://www.researchgate.net/publication/4330987_Optimizing_Star_Join_Queries_for_Data_Warehousing_in_Microsoft_SQL_Server
+2. Bitmap Filter (Star Join Query Optimization)(https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/)
+3. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
+4. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
+5. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
+6. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
+7. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
    > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
-7. [Improves the query performance when an optimized bitmap filter is applied to a query plan in SQL Server 2016 and 2017](https://support.microsoft.com/en-us/help/4089276/improve-query-performance-when-optimized-bitmap-filter-used-in-query)
+8. [Improves the query performance when an optimized bitmap filter is applied to a query plan in SQL Server 2016 and 2017](https://support.microsoft.com/en-us/help/4089276/improve-query-performance-when-optimized-bitmap-filter-used-in-query)
 > When a query plan uses a batch-mode hash join where one of the inputs is an optimized bitmap filter with an underlying bookmark lookup or key lookup in Microsoft SQL Server 2016 and SQL Server 2017, inaccurate estimations are produced. This update improves the query performance for the scenario.
 > 
 > Applies to:
@@ -20,7 +21,8 @@
 3. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
 4. https://www.itprotoday.com/software-development/interval-queries-sql-server
 5. https://github.com/icomefromthenet/mysqlfastintervallookup
-6. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
+6. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
+7. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
 
 See also:
 1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
