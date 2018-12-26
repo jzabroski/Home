@@ -6,3 +6,5 @@
 6. Drug abuse databases?
 7. https://github.com/elastic/examples
 8. https://data.gov.au/dataset/geocoded-national-address-file-g-naf
+9. https://www.cdc.gov/cancer/dcpc/data/index.htm - cancer data
+10. https://clinicaltrials.gov/
