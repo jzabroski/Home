@@ -1,6 +1,9 @@
 
 
 ```powershell
+# DiskSpd: https://gallery.technet.microsoft.com/DiskSpd-a-robust-storage-6cd2f223
+# https://blogs.technet.microsoft.com/josebda/2015/07/03/drive-performance-report-generator-powershell-script-using-diskspd-by-arnaud-torres/
+
 # Drive performance Report Generator
 # by Arnaud TORRES
 # Microsoft provides script, macro, and other code examples for illustration only, without warranty either expressed or implied, including but not
