@@ -50,6 +50,15 @@
 > Analysts often mistakenly divide income by end-of-year assets or equity to determine ROA or ROE. They do this because the numbers are readily available on each year's Income Statement and Balance Sheet. In contrast, many textbooks, when dividing an Income Statement number by a Balance Sheet number, average the Balance Sheet number over the year. The average is usually computed as the average of the begin-of-year (which is the same as the end of the previous year) and end-of-year balances. This alternative may make sense if a firm is growing rapidly and additional investments are being made during the year. However, in general, the opening numbers provide a more realistic ratio.
 > ~ Determining a Firm's Financial Health (PIPES-A), Lessons in Corporate Finance: A Case Studies Approach to Financial Tools, Financial Policies, and Valuation by Paul Asquith
 
+> # Dependencies and glue
+> 
+> While writing the preceding section, I ran into a difficulty that took me a while to resolve. Supposedly, it is advantageous to organise things such that the core is a sink in the dependency graph, but what does this mean for the language definition/implementation pieces?
+> 
+> Eventually I realised my mistake --- I had confused in my mind the two kinds of language embedding an interface could be. There is no problem if something is a data type, but there is if you use a Java-style interface. An interface, as I have stated, is a tagless-final embedding --- the interface defines a language; the implementors of the language define an interpreter. Components that are parameterised by an interface are _parameterised by the interpreter_. That is, in the ML sense, those components are functors, which take an instantiation of some signature to plug into its machinery.
+> 
+> Thus, the core of the application should consist of: a functor parameterised by a bunch of interface language signatures that it defines and controls. All external components that you wish to make communicate with the core logic must implement one of the well-defined IO signatures. That's it.
+> [Language-oriented software engineering: (sort of) a book review of Clean Architecture](http://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html)
+
 > # What is a framework?
 > 
 > > A framework F is an interpreter from language Fi to language Fo (the API).
@@ -57,4 +66,4 @@
 > The trouble with frameworks is that to use it, you have to match your application to the language of the API. If you're not careful, you end up coupling your system to the framework. This means that you create a cycle between yourself and the framework by architecting your component as an interpreter from Fo to Fi. This gives rise to all sorts of awkwardness and bugs due to the inevitable semantic mismatch. Then when the authors of F decide to change that language, you're screwed. If you want to be in control, you design your own language.
 > 
 > The proper way to use a framework is as Bob describes: compartmentalise it in a module at the outer edges of the system. That means, writing a compiler from your internal output language L_o to F, keeping that away from everything else. Framework code wiring is just a interpreter!
-> http://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html#fn2
+> [Language-oriented software engineering: (sort of) a book review of Clean Architecture](http://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html)
