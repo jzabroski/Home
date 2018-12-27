@@ -49,3 +49,12 @@
 >  
 > Analysts often mistakenly divide income by end-of-year assets or equity to determine ROA or ROE. They do this because the numbers are readily available on each year's Income Statement and Balance Sheet. In contrast, many textbooks, when dividing an Income Statement number by a Balance Sheet number, average the Balance Sheet number over the year. The average is usually computed as the average of the begin-of-year (which is the same as the end of the previous year) and end-of-year balances. This alternative may make sense if a firm is growing rapidly and additional investments are being made during the year. However, in general, the opening numbers provide a more realistic ratio.
 > ~ Determining a Firm's Financial Health (PIPES-A), Lessons in Corporate Finance: A Case Studies Approach to Financial Tools, Financial Policies, and Valuation by Paul Asquith
+
+> # What is a framework?
+> 
+> > A framework F is an interpreter from language Fi to language Fo (the API).
+> 
+> The trouble with frameworks is that to use it, you have to match your application to the language of the API. If you're not careful, you end up coupling your system to the framework. This means that you create a cycle between yourself and the framework by architecting your component as an interpreter from Fo to Fi. This gives rise to all sorts of awkwardness and bugs due to the inevitable semantic mismatch. Then when the authors of F decide to change that language, you're screwed. If you want to be in control, you design your own language.
+> 
+> The proper way to use a framework is as Bob describes: compartmentalise it in a module at the outer edges of the system. That means, writing a compiler from your internal output language L_o to F, keeping that away from everything else. Framework code wiring is just a interpreter!
+> http://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html#fn2
