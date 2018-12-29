@@ -67,3 +67,9 @@
 > 
 > The proper way to use a framework is as Bob describes: compartmentalise it in a module at the outer edges of the system. That means, writing a compiler from your internal output language L_o to F, keeping that away from everything else. Framework code wiring is just a interpreter!
 > [Language-oriented software engineering: (sort of) a book review of Clean Architecture](http://parametri.city/blog/2018-12-23-language-oriented-software-engineering/index.html)
+
+
+> But that's the point. Spreadsheets stay out of the way. They allow you to see the data and to touch (or at least click on) the data. There's freedom there. In order to learn these techniques, you need something vanilla, something everyone understands, but noiseless, something that will let you move fast and Light as you learn. That's a spreadsheet. 
+> Page xviii, Data Snart: Using DTa Science to Transform Information to Insight by John W. Foreman
+
+> 
