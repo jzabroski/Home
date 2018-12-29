@@ -37,3 +37,13 @@ The false at the end of the formula means you will not accept approximate matche
 ```
 =VLOOKUP(A2, MATRIX, 2,FALSE)
 ```
+
+# Filtering and Sorting
+Put cursor in a1, then press shift+control+down arrow, then right arrow 
+Then press Filter in the data ribbon
+
+# Using array formulas
+## SUMPRODUCT
+## TRANSPOSE
+
+# Solving stuff with Solver
