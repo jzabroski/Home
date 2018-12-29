@@ -7,3 +7,7 @@
 7. https://existentialtype.wordpress.com/
 8. http://lambda-the-ultimate.org
 9. https://usabilitygeek.com/start-here/
+
+# Data Scientists
+1. https://www.evanmiller.org
+2. https://www.john-foreman.com
