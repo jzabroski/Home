@@ -72,4 +72,11 @@
 > But that's the point. Spreadsheets stay out of the way. They allow you to see the data and to touch (or at least click on) the data. There's freedom there. In order to learn these techniques, you need something vanilla, something everyone understands, but noiseless, something that will let you move fast and Light as you learn. That's a spreadsheet. 
 > Page xviii, Data Snart: Using DTa Science to Transform Information to Insight by John W. Foreman
 
+> # What About Google Drive? 
+> Now, some of you might be wondering whether you can use Google Drive. It's an appealing option since Google Drive is in the cloud and can run on your mobile devices as well as your betide box. But it just won't work. 
+> Google Drive is great for simple spreadsheets, but for where you're going, Google just can't hang. Adding rows and columns in Drive is a constant annoyance, the implementation of Solver is dreadful, and the charts don't even have trendlines. I wish it were otherwise. 
+> Page xviii, Data Snart: Using DTa Science to Transform Information to Insight by John W. Foreman
+
+
+
 > 
