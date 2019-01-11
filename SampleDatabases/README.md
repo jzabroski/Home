@@ -22,3 +22,4 @@
 22. https://github.com/Rumperuu/Scraping-Alpha
 23. https://github.com/acomets/web-scraper
 24. https://jedgore.wordpress.com/2016/12/01/transcript-web-scraper-python/
+25. https://www.hhs.se/contentassets/574f17c1efcf48daa6c6974a4dad5740/dissertation-ef_proofed---kopia.pdf
