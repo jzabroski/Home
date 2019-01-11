@@ -19,3 +19,5 @@
 19. https://www.sec.gov/divisions/investment/13flists.htm
 20. http://www.sec.gov/info/edgar/specifications/form13fxmltechspec.htm
 21. [sa scraper](https://gist.github.com/johnmurch/db4315d97716f9490ddc)
+22. https://github.com/Rumperuu/Scraping-Alpha
+23. https://github.com/acomets/web-scraper
