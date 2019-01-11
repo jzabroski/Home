@@ -21,3 +21,4 @@
 21. [sa scraper](https://gist.github.com/johnmurch/db4315d97716f9490ddc)
 22. https://github.com/Rumperuu/Scraping-Alpha
 23. https://github.com/acomets/web-scraper
+24. https://jedgore.wordpress.com/2016/12/01/transcript-web-scraper-python/
