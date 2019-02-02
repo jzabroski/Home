@@ -8,6 +8,12 @@ given on the state of the art of bitmap indexing techniques. This chapter also b
 emerging data analysis systems that don’t yet make use of indexes. We present some evidence that these
 systems could also benefit from the use of indexes.
 
+> immediate distinguishing property of
+scientific datasets is that there is almost never any simultaneous read and write access to the same set of
+data records. Most scientific datasets are Read-Only or Append-Only. Therefore, there is a potential to sig-
+nificantly relax the ACID 1 properties observed by a typical DBMS system. This may give rise to different
+types of data access methods and different ways of organizing them as well.
+
 
 Parallel Augmented Maps
 
