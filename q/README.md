@@ -26,3 +26,5 @@ needs to have a key.
 
 More generally, when you are using on-disk table to produce intermediate results,
 how can you avoid having those intermediate results entirely in memory ?
+
+Kdb query scaling https://code.kx.com/q/wp/kdb_query_scaling.pdf
