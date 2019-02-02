@@ -4,6 +4,15 @@
 3. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
 4. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
 5. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
+> Geoff Patterson wrote: Great article, thanks (several years late, I know)! My whole team has learned a lot about the importance of constructing queries to benefit from the in-row bitmap filter optimization (pushing down to the storage engine) especially.
+
+> Here is a new Connect issue I filed that might also be of interest; it seems that using a partitioned view (or otherwise hitting two or more fact tables via UNION ALL) is a situation in which the query optimizer cannot apply the optimization.
+
+> https://connect.microsoft.com/SQLServer/feedbackdetail/view/974909/push-bitmap-filters-into-storage-engine-through-a-concatentation-operator
+
+> It's hard to be "frustrated" when a new release of SQL Server (new since our data model was constructed, at least) provides such a powerful new benefit, but it certainly would be useful to allow the optimization to be pushed through a concatenation as well!
+
+
 6. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
 7. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
    > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
