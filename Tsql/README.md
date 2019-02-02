@@ -14,6 +14,20 @@
 > 
 > * Cumulative Update 6 for SQL Server 2017
 > * Cumulative update 8 for SQL Server 2016 SP1  
+9. https://sqlkiwi.blogspot.com/2011/07/bitmap-magic.html?m=1
+> In many cases, the bitmap filter can be pushed all the way down to a scan or seek. 
+When this happens, the bitmap filter check appears as a residual predicate  [...] 
+
+> 
+> As a residual, it is applied to all rows that pass any seek predicates (for an index seek), or to all rows in the case of an index or table scan. 
+> 
+> If the bitmap filter is built on a single column or expression of the integer or bigint types, and if the bitmap is to be applied to a single column of integer or bigint type, it might be pushed down the plan even further than the seek or scan operator.
+
+> The predicate is still shown in the seek or scan as above, but it is annotated with the INROWattribute — meaning the filter is pushed into the Storage Engine, and applied to rows as they are being read.
+
+> When this optimization occurs, rows are eliminated before the Query Processor sees the row at all. Only rows that might match the hash match join are passed up from the Storage Engine.
+
+
 
 # Dynamic Range Queries
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
