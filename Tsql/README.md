@@ -37,6 +37,8 @@ When this happens, the bitmap filter check appears as a residual predicate  [...
 > When this optimization occurs, rows are eliminated before the Query Processor sees the row at all. Only rows that might match the hash match join are passed up from the Storage Engine.
 
 # Dynamic Range Queries
+C# approach: https://www.codeproject.com/Articles/168662/Time-Period-Library-for-NET
+
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
 2. Series by Laurent Martin (2013):
     1. https://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
