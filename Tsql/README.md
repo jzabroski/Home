@@ -1,39 +1,38 @@
-# Bitmap Filters
-1. https://www.researchgate.net/publication/4330987_Optimizing_Star_Join_Queries_for_Data_Warehousing_in_Microsoft_SQL_Server
-2. Bitmap Filter (Star Join Query Optimization)(https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/)
-3. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
-4. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
-5. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
-> Geoff Patterson wrote: Great article, thanks (several years late, I know)! My whole team has learned a lot about the importance of constructing queries to benefit from the in-row bitmap filter optimization (pushing down to the storage engine) especially.
-
-> Here is a new Connect issue I filed that might also be of interest; it seems that using a partitioned view (or otherwise hitting two or more fact tables via UNION ALL) is a situation in which the query optimizer cannot apply the optimization.
-
-> https://connect.microsoft.com/SQLServer/feedbackdetail/view/974909/push-bitmap-filters-into-storage-engine-through-a-concatentation-operator
-
-> It's hard to be "frustrated" when a new release of SQL Server (new since our data model was constructed, at least) provides such a powerful new benefit, but it certainly would be useful to allow the optimization to be pushed through a concatenation as well!
-
-
-6. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
-7. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
-   > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
+# Bitmap Filters and Hash Joins
+1. https://www.sqlshack.com/hash-join-execution-internals/
+2. https://www.researchgate.net/publication/4330987_Optimizing_Star_Join_Queries_for_Data_Warehousing_in_Microsoft_SQL_Server
+3. Bitmap Filter (Star Join Query Optimization)(https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/)
+4. [How Much Can One Row Change A Plan, Part 4](https://www.brentozar.com/archive/2018/01/much-can-one-row-change-plan-part-4/)
+5. [Columnstore Bitmap Filters](https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/)
+6. [Bitmap Magic (or… how SQL Server uses bitmap filters)](http://sqlblog.com/blogs/paul_white/archive/2011/07/07/bitmap-magic.aspx)
+    > Geoff Patterson wrote: Great article, thanks (several years late, I know)! My whole team has learned a lot about the importance of constructing queries to benefit from the in-row bitmap filter optimization (pushing down to the storage engine) especially.
+    >
+    > Here is a new Connect issue I filed that might also be of interest; it seems that using a partitioned view (or otherwise hitting two or more fact tables via UNION ALL) is a situation in which the query optimizer cannot apply the optimization.
+    >
+    > https://connect.microsoft.com/SQLServer/feedbackdetail/view/974909/push-bitmap-filters-into-storage-engine-through-a-concatentation-operator
+    >
+    > It's hard to be "frustrated" when a new release of SQL Server (new since our data model was constructed, at least) provides such a powerful new benefit, but it certainly would be useful to allow the optimization to be pushed through a concatenation as well!
+7. [StarJoinInfo in Execution Plans](https://sqlperformance.com/2014/01/sql-plan/starjoininfo-in-execution-plans)
+8. [Optimizing Data Warehouse Query Performance Through Bitmap Filtering](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb522541(v=sql.105))
+    > Bitmap filtering and optimized bitmap filtering are implemented in the query plan by using the bitmap showplan operator. Bitmap filtering is applied only in parallel query plans in which hash or merge joins are used. **Optimized bitmap filtering is applicable only to parallel query plans in which hash joins are used.**
 8. [Improves the query performance when an optimized bitmap filter is applied to a query plan in SQL Server 2016 and 2017](https://support.microsoft.com/en-us/help/4089276/improve-query-performance-when-optimized-bitmap-filter-used-in-query)
-> When a query plan uses a batch-mode hash join where one of the inputs is an optimized bitmap filter with an underlying bookmark lookup or key lookup in Microsoft SQL Server 2016 and SQL Server 2017, inaccurate estimations are produced. This update improves the query performance for the scenario.
-> 
-> Applies to:
-> 
-> * Cumulative Update 6 for SQL Server 2017
-> * Cumulative update 8 for SQL Server 2016 SP1  
+    > When a query plan uses a batch-mode hash join where one of the inputs is an optimized bitmap filter with an underlying bookmark lookup or key lookup in Microsoft SQL Server 2016 and SQL Server 2017, inaccurate estimations are produced. This update improves the query performance for the scenario.
+    > 
+    > Applies to:
+    > 
+    > * Cumulative Update 6 for SQL Server 2017
+    > * Cumulative update 8 for SQL Server 2016 SP1  
 9. https://sqlkiwi.blogspot.com/2011/07/bitmap-magic.html?m=1
-> In many cases, the bitmap filter can be pushed all the way down to a scan or seek. 
+    > In many cases, the bitmap filter can be pushed all the way down to a scan or seek. 
 When this happens, the bitmap filter check appears as a residual predicate  [...] 
-> 
-> As a residual, it is applied to all rows that pass any seek predicates (for an index seek), or to all rows in the case of an index or table scan. 
-> 
-> If the bitmap filter is built on a single column or expression of the integer or bigint types, and if the bitmap is to be applied to a single column of integer or bigint type, it might be pushed down the plan even further than the seek or scan operator.
-> 
-> The predicate is still shown in the seek or scan as above, but it is annotated with the INROWattribute — meaning the filter is pushed into the Storage Engine, and applied to rows as they are being read.
-> 
-> When this optimization occurs, rows are eliminated before the Query Processor sees the row at all. Only rows that might match the hash match join are passed up from the Storage Engine.
+    > 
+    > As a residual, it is applied to all rows that pass any seek predicates (for an index seek), or to all rows in the case of an index or table scan. 
+    > 
+    > If the bitmap filter is built on a single column or expression of the integer or bigint types, and if the bitmap is to be applied to a single column of integer or bigint type, it might be pushed down the plan even further than the seek or scan operator.
+    > 
+    > The predicate is still shown in the seek or scan as above, but it is annotated with the INROWattribute — meaning the filter is pushed into the Storage Engine, and applied to rows as they are being read.
+    > 
+    > When this optimization occurs, rows are eliminated before the Query Processor sees the row at all. Only rows that might match the hash match join are passed up from the Storage Engine.
 10. https://sqlperformance.com/2015/11/sql-plan/hash-joins-on-nullable-columns
 > This exchange, like the one on the probe side of the hash join, needs to ensure that rows with the same join key values end up at the same instance of the hash join. At DOP 4, there are four hash joins, each with its own hash table. For correct results, build-side rows and probe-side rows with the same join keys must arrive at the same hash join; otherwise we might check a probe-side row against the wrong hash table.
 > In a row-mode parallel plan, SQL Server achieves this by repartitioning both inputs using the same hash function on the join columns. In the present case, the join is on column c1, so the inputs are distributed across threads by applying a hash function (partitioning type: hash) to the join key column (c1). The issue here is that column c1 contains only a single value – null – in table T2, so all 32,000 rows are given the same hash value, as so all end up on the same thread.
