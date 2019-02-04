@@ -44,12 +44,16 @@ When this happens, the bitmap filter check appears as a residual predicate  [...
   1. https://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
   2. https://blogs.solidq.com/en/businessanalytics/advanced-interval-queries-static-relational-interval-tree/
   3. http://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
-2. Series by Dejan Sarka - suggests using geometry data type - this approach DOES NOT WORK:
-  1. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
-3. https://www.itprotoday.com/software-development/interval-queries-sql-server
-4. https://github.com/icomefromthenet/mysqlfastintervallookup
-5. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
-6. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
+2. Series by Dejan Sarka:
+  1. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-1/ - suggests using geometry data type - this approach DOES NOT WORK:
+  2. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
+3. Video lecture by Dejan Sarka:
+  1. https://www.pluralsight.com/courses/working-with-temporal-data-sql-server
+    > So to remind you, we have work done by Hans-Peter Kriegel, Marco Pötke, and Thomas Seidl from the Munich University, and these guys defined the Relational Interval Tree model for optimizing temporal queries. However, building this tree was too expensive based on their algorithm. So Laurent Martin found a nice mathematics for fast computation of Relational Interval Tree nodes. And, finally, Itzik Ben-Gan created the Transact-SQL solution for the Relational Interval Tree. So in this module, I'm going to introduce this Transact-SQL solution, and while introducing it, I will also explain the Relational Interval Tree. All of these performance solutions focus on the Overlaps operator. This is probably the most complex Allen's operator. And if you solve problems with this operator, you can solve problems and performance issues with other operators as well.
+4. https://www.itprotoday.com/software-development/interval-queries-sql-server
+5. https://github.com/icomefromthenet/mysqlfastintervallookup
+6. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
+7. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
 
 See also:
 1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
@@ -163,6 +167,10 @@ EXECUTE AS LOGIN = '<domain>\<username>';
 SELECT * FROM fn_my_permissions('Database.Schema.Table', 'OBJECT');
 REVERT;
 ```
+
+# Parameter Sniffing
+1. https://www.brentozar.com/archive/2018/09/sql-server-2019-faster-table-variables-and-new-parameter-sniffing-issues/
+2. https://channel9.msdn.com/Events/SQLDay/SQLDay-2017/Identifying-and-Fixing-Parameter-Sniffing
 
 # Samples
 [SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679)
