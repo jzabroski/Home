@@ -57,6 +57,7 @@ C# approach: https://www.codeproject.com/Articles/168662/Time-Period-Library-for
 4. Video lecture by Dejan Sarka:
     1. https://www.pluralsight.com/courses/working-with-temporal-data-sql-server
     > So to remind you, we have work done by Hans-Peter Kriegel, Marco Pötke, and Thomas Seidl from the Munich University, and these guys defined the Relational Interval Tree model for optimizing temporal queries. However, building this tree was too expensive based on their algorithm. So Laurent Martin found a nice mathematics for fast computation of Relational Interval Tree nodes. And, finally, Itzik Ben-Gan created the Transact-SQL solution for the Relational Interval Tree. So in this module, I'm going to introduce this Transact-SQL solution, and while introducing it, I will also explain the Relational Interval Tree. All of these performance solutions focus on the Overlaps operator. This is probably the most complex Allen's operator. And if you solve problems with this operator, you can solve problems and performance issues with other operators as well.
+    John's note: Overlaps is the second most complex operator.  Intersects operator includes points that touch the start and end, therefore it is slightly more complex.
 5. https://www.itprotoday.com/software-development/interval-queries-sql-server
 6. https://github.com/icomefromthenet/mysqlfastintervallookup
 7. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
