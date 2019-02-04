@@ -41,7 +41,7 @@ C# approach: https://www.codeproject.com/Articles/168662/Time-Period-Library-for
 
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
 2. Series by Laurent Martin (2013):
-    1. https://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
+    1. https://blogs.solidq.com/en/sqlserver/static-relational-interval-tree/
     2. https://blogs.solidq.com/en/businessanalytics/advanced-interval-queries-static-relational-interval-tree/
     3. http://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
 2. Series by Dejan Sarka (2013):
