@@ -28,3 +28,20 @@ More generally, when you are using on-disk table to produce intermediate results
 how can you avoid having those intermediate results entirely in memory ?
 
 Kdb query scaling https://code.kx.com/q/wp/kdb_query_scaling.pdf
+
+# make a time sequence of time intervals between two times
+```q
+15:00:00+00:00:30*til 10
+```
+Or more generically:
+```q
+q)f:{[st;en;i] st+i*til 1+`long$(en-st)%i}
+
+q)f[15t;16t;00:00:30.000]
+
+15:00:00.000 15:00:30.000 15:01:00.000 15:01:30.000 15:02:00.000 15:02:30.000..
+
+q)f[.z.d;.z.d+10;1]
+
+2016.02.04 2016.02.05 2016.02.06 2016.02.07 2016.02.08 2016.02.09 2016.02.10 ..
+```
