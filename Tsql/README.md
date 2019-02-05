@@ -77,7 +77,7 @@ See also: https://github.com/Breinify/brein-time-utilities
 1. [How to ensure your spatial index is being used - Bob Beauchemin](http://sqlskills.com/BLOGS/BOBB/post/How-to-ensure-your-spatial-index-is-being-used.aspx)
 2. [Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
 3. [Spatial Index Diagnostic Procs – Intro - Bob Beauchemin](https://www.sqlskills.com/blogs/bobb/spatial-index-diagnostic-procs-intro/)
-4. [MSR-TR-2005-122 - Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/tr-2005-122.doc)
+4. [MSR-TR-2005-122 - Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/tr-2005-122.doc) See also the [pdf](https://www.microsoft.com/en-us/research/publication/using-table-valued-functions-in-sql-server-2005-to-implement-a-spatial-data-library/) format
     > This article explains how to add spatial search functions (point-near-point and point in polygon) to Microsoft SQL Server™ 2005 using C# and table-valued functions. It is possible to use this library to add spatial search to your application without writing any special code. The library implements the public-domain C# Hierarchical Triangular Mesh (HTM) algorithms from Johns Hopkins University.  That C# library is connected to SQL Server 2005 via a set of scalar-valued and table-valued functions. These functions act as a spatial index.  
 
 # Working With Partitions
