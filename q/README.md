@@ -1,3 +1,32 @@
+# Learning Resources
+[Cookbook/GettingStarted - Kx Wiki](http://code.kx.com/wiki/Cookbook/GettingStarted)
+[Tutorials - Kx Wiki](http://code.kx.com/wiki/Tutorials)
+[On Disk Queries - Kx Wiki](http://code.kx.com/wiki/On_Disk_Queries)
+[Cookbook/Websocket - Kx Wiki](http://code.kx.com/wiki/Cookbook/Websocket)
+
+## Beginners
+[Thalesians Kdb](http://www.thalesians.com/finance/index.php/Knowledge_Base/Databases/Kdb)
+[Reference - Kx Wiki](https://code.kx.com/wiki/Reference)
+[Tutorials - Kx Wiki](http://code.kx.com/wiki/Tutorials)
+
+## Intermediate
+[QforMortals2/contents - Kx Wiki](http://code.kx.com/wiki/JB:QforMortals2/contents)
+
+## Advanced
+[First Derivatives plc  (Q for Gods lecture series)](http://www.firstderivatives.com/lecture_series.asp)
+[Learning Q KDB+](https://eternallearningq.wordpress.com/q-kdb-tutorials/)
+
+## YouTube
+[enlist[q]'s YouTube Channel](https://www.youtube.com/channel/UCshbx8qp3QEXRYTfyMlkV6g)
+
+## Lecture Series
+[Learn q in Y Minutes](https://learnxinyminutes.com/docs/kdb+/)
+
+## Garbage Collection tutorial
+https://www.aquaq.co.uk/q/garbage-collection-kdb/
+
+# Other
+
 1. [Introduction to K by Arthur Whitney](http://vector.org.uk/art10010830)
 
 **Problem:** Incorporate new data into my database of splayed tables without downtime.
