@@ -1,3 +1,5 @@
+
+
 # Bitmap Filters and Hash Joins
 1. https://www.sqlshack.com/hash-join-execution-internals/
 2. https://www.researchgate.net/publication/4330987_Optimizing_Star_Join_Queries_for_Data_Warehousing_in_Microsoft_SQL_Server
@@ -75,6 +77,8 @@ See also: https://github.com/Breinify/brein-time-utilities
 1. [How to ensure your spatial index is being used - Bob Beauchemin](http://sqlskills.com/BLOGS/BOBB/post/How-to-ensure-your-spatial-index-is-being-used.aspx)
 2. [Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
 3. [Spatial Index Diagnostic Procs – Intro - Bob Beauchemin](https://www.sqlskills.com/blogs/bobb/spatial-index-diagnostic-procs-intro/)
+4. [MSR-TR-2005-122 - Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/tr-2005-122.doc)
+    > This article explains how to add spatial search functions (point-near-point and point in polygon) to Microsoft SQL Server™ 2005 using C# and table-valued functions. It is possible to use this library to add spatial search to your application without writing any special code. The library implements the public-domain C# Hierarchical Triangular Mesh (HTM) algorithms from Johns Hopkins University.  That C# library is connected to SQL Server 2005 via a set of scalar-valued and table-valued functions. These functions act as a spatial index.  
 
 # Working With Partitions
 It can be a quick win for many customers to get them to use partitions.
