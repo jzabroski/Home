@@ -228,6 +228,8 @@ https://sonra.io/2017/08/22/window-function-rows-and-range-on-redshift-and-bigqu
 # PostgreSQL
 https://www.citusdata.com/blog/2016/10/12/count-performance/
 
+https://dba.stackexchange.com/questions/39589/optimizing-queries-on-a-range-of-timestamps-two-columns
+
 # RedShift
 http://www.47lining.com/index.php/2016/05/31/improving-redshift-query-performance-through-effective-use-of-zone-maps/
 > *The 3 Major Reasons for Slow Redshift Queries*
