@@ -1,4 +1,6 @@
-
+# SQL Server Samples and Sample Databases by Release
+[SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679) ([alternative link](http://www.microsoft.com/downloads/details.aspx?FamilyId=E719ECF7-9F46-4312-AF89-6AD8702E4E6E&displaylang=en))
+  - This includes various samples including the Hierarchical Triangular Mesh solution by Jim Gray for implementing spatial queries using table-valued functions
 
 # Bitmap Filters and Hash Joins
 1. https://www.sqlshack.com/hash-join-execution-internals/
