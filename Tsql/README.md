@@ -50,6 +50,7 @@ When this happens, the bitmap filter check appears as a residual predicate  [...
     > The good news is that none of this really matters for this query. The post-optimization rewrite Filter eliminates all rows before very much work is done. On my laptop, the query above executes (producing no results, as expected) in around 70ms.
 
 # Rowgroup Elimination
+https://blogs.msdn.microsoft.com/sql_server_team/columnstore-index-performance-rowgroup-elimination/
 https://orderbyselectnull.com/2017/08/07/rowgroup-elimination/
 https://www.brentozar.com/archive/2017/08/columnstore-indexes-rowgroup-elimination-parameter-sniffing-stored-procedures/
 https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/
