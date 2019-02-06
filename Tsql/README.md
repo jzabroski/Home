@@ -51,6 +51,7 @@ When this happens, the bitmap filter check appears as a residual predicate  [...
 
 # Rowgroup Elimination
 https://blogs.msdn.microsoft.com/sql_server_team/columnstore-index-performance-rowgroup-elimination/
+> You may wonder why it says ‘segment’ skipped and not ‘rowgroups’ skipped? Unfortunately, this is a carryover from SQL Server 2012 with some mix-up of terms. When running analytics queries on large tables, if you find no or only a small percentage of rowgroups were skipped, you should look into why and explore opportunities to address if possible.
 https://orderbyselectnull.com/2017/08/07/rowgroup-elimination/
 https://www.brentozar.com/archive/2017/08/columnstore-indexes-rowgroup-elimination-parameter-sniffing-stored-procedures/
 https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/
