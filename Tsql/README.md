@@ -2,6 +2,9 @@ https://www.red-gate.com/simple-talk/sql/t-sql-programming/how-to-get-sql-server
 
 https://blogs.msdn.microsoft.com/robinlester/2016/08/10/improving-query-performance-with-option-recompile-constant-folding-and-avoiding-parameter-sniffing-issues/
 
+https://www.itprotoday.com/sql-server/new-solution-packing-intervals-problem
+    > Packing intervals is a classic T-SQL problem that involves packing groups of intersecting intervals into their respective continuous intervals. I covered the problem and two solutions in the past in this article. The two older solutions are quite elegant and efficient but they do require you to create two supporting indexes and to perform two scans of the data. I set a challenge to myself to try and find an elegant solution that can achieve the task by using only one supporting index and a single scan of the data, and I found one. In this article I present the new solution and compare it to the two older ones.
+
 # SQL Server Samples and Sample Databases by Release
 [SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679) ([alternative link](http://www.microsoft.com/downloads/details.aspx?FamilyId=E719ECF7-9F46-4312-AF89-6AD8702E4E6E&displaylang=en))
   - This includes various samples including the Hierarchical Triangular Mesh solution by Jim Gray for implementing spatial queries using table-valued functions
