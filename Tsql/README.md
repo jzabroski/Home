@@ -49,6 +49,23 @@ When this happens, the bitmap filter check appears as a residual predicate  [...
     > In a row-mode parallel plan, SQL Server achieves this by repartitioning both inputs using the same hash function on the join columns. In the present case, the join is on column c1, so the inputs are distributed across threads by applying a hash function (partitioning type: hash) to the join key column (c1). The issue here is that column c1 contains only a single value – null – in table T2, so all 32,000 rows are given the same hash value, as so all end up on the same thread.
     > The good news is that none of this really matters for this query. The post-optimization rewrite Filter eliminates all rows before very much work is done. On my laptop, the query above executes (producing no results, as expected) in around 70ms.
 
+# Rowgroup Elimination
+https://orderbyselectnull.com/2017/08/07/rowgroup-elimination/
+https://www.brentozar.com/archive/2017/08/columnstore-indexes-rowgroup-elimination-parameter-sniffing-stored-procedures/
+https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/
+> A few interesting things happen. The first is that we get rowgroup elimination even though the dates in the dimension table are spread very far apart:
+> 
+> > Table ‘FactCCINoPart’. Segment reads 2, segment skipped 10.
+>
+> The following simple query doesn’t get rowgroup elimination:
+> 
+> ```
+> SELECT *
+> FROM dbo.FactCCINoPart f
+> WHERE f.factDate IN ('20170101', '20171231')
+> ```
+> You can read more about that limitation [here](https://orderbyselectnull.com/2017/08/07/rowgroup-elimination/). It’s fair to say that the bitmap filter does a better job than expected with rowgroup elimination. According to extended events this is known as an expression filter bitmap. The extended event has a few undocumented properties about the bitmap:
+
 # Dynamic Range Queries
 C# approach: https://www.codeproject.com/Articles/168662/Time-Period-Library-for-NET
 
