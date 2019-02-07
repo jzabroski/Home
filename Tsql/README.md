@@ -72,41 +72,43 @@ https://orderbyselectnull.com/2017/12/12/columnstore-bitmap-filters/
 C# approach: https://www.codeproject.com/Articles/168662/Time-Period-Library-for-NET
 
 1. https://gertjans.home.xs4all.nl/sql/date-range-scans.html
-2. Series by Laurent Martin (2013):
+2. Itzik Ben-Gan:
+    1. https://www.itprotoday.com/sql-server/interval-queries-sql-server
+3. Series by Laurent Martin (2013):
     1. https://blogs.solidq.com/en/sqlserver/static-relational-interval-tree/
     2. https://blogs.solidq.com/en/businessanalytics/advanced-interval-queries-static-relational-interval-tree/
     3. http://blogs.solidq.com/en/businessanalytics/using-static-relational-interval-tree-time-intervals/
-2. Series by Dejan Sarka (2013):
+4. Series by Dejan Sarka (2013):
     1. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-1/ - suggests using geometry data type - this approach DOES NOT WORK!
     2. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-2/
     3. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-3/
     4. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-4/
     5. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-wrap-up/
     6. https://blogs.solidq.com/en/businessanalytics/interval-queries-in-sql-server-part-5/ - suggests NOT using XML data type - this approach DOES NOT WORK! (Why would the author think it would ever work?)
-3. Series by Dejan Sarka (2017):
+5. Series by Dejan Sarka (2017):
     1. https://codingsight.com/optimizing-overlapping-queries-part-1-introduction-enhanced-t-sql-solution/
     2. ? there does not seem to be a follow-up article
-4. Video lecture by Dejan Sarka:
+6. Video lecture by Dejan Sarka:
     1. https://www.pluralsight.com/courses/working-with-temporal-data-sql-server
     > So to remind you, we have work done by Hans-Peter Kriegel, Marco Pötke, and Thomas Seidl from the Munich University, and these guys defined the Relational Interval Tree model for optimizing temporal queries. However, building this tree was too expensive based on their algorithm. So Laurent Martin found a nice mathematics for fast computation of Relational Interval Tree nodes. And, finally, Itzik Ben-Gan created the Transact-SQL solution for the Relational Interval Tree. So in this module, I'm going to introduce this Transact-SQL solution, and while introducing it, I will also explain the Relational Interval Tree. All of these performance solutions focus on the Overlaps operator. This is probably the most complex Allen's operator. And if you solve problems with this operator, you can solve problems and performance issues with other operators as well.
     John's note: Overlaps is the second most complex operator.  Intersects operator includes points that touch the start and end, therefore it is slightly more complex.
-5. https://www.itprotoday.com/software-development/interval-queries-sql-server
-6. https://github.com/icomefromthenet/mysqlfastintervallookup
-7. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
-8. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
+7. https://www.itprotoday.com/software-development/interval-queries-sql-server
+8. https://github.com/icomefromthenet/mysqlfastintervallookup
+9. https://pdfs.semanticscholar.org/b473/3096c909ec0f8059bb8ee0e8d4324f635615.pdf
+10. Unrelated but useful trick: https://dwbi1.wordpress.com/2010/03/15/bitmap-filter-star-join-query-optimisation/
 
 See also:
-1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
-> SQL Server 2012 has added support for the auto grid spatial index, available for both the geography and geometry data types. An auto grid uses eight levels instead of the usual four levels. The advantage of using an auto grid is that when creating an index we can get good index support without studying the queries that will run against the table. In addition, you do not need to add a GRIDS clause to your CREATE SPATIAL INDEX statement because the database engine determines the best strategy to use to maximize performance.
-
-See also: https://github.com/Breinify/brein-time-utilities
+1. https://github.com/Breinify/brein-time-utilities
 
 # Spatial Indexes
 1. [How to ensure your spatial index is being used - Bob Beauchemin](http://sqlskills.com/BLOGS/BOBB/post/How-to-ensure-your-spatial-index-is-being-used.aspx)
 2. [Is my spatial index being used? - Isaac Kunen](https://blogs.msdn.microsoft.com/isaac/2008/08/29/is-my-spatial-index-being-used/)
 3. [Spatial Index Diagnostic Procs – Intro - Bob Beauchemin](https://www.sqlskills.com/blogs/bobb/spatial-index-diagnostic-procs-intro/)
 4. [MSR-TR-2005-122 - Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/09/tr-2005-122.doc) See also the [pdf](https://www.microsoft.com/en-us/research/publication/using-table-valued-functions-in-sql-server-2005-to-implement-a-spatial-data-library/) format
-    > This article explains how to add spatial search functions (point-near-point and point in polygon) to Microsoft SQL Server™ 2005 using C# and table-valued functions. It is possible to use this library to add spatial search to your application without writing any special code. The library implements the public-domain C# Hierarchical Triangular Mesh (HTM) algorithms from Johns Hopkins University.  That C# library is connected to SQL Server 2005 via a set of scalar-valued and table-valued functions. These functions act as a spatial index.  
+    > This article explains how to add spatial search functions (point-near-point and point in polygon) to Microsoft SQL Server™ 2005 using C# and table-valued functions. It is possible to use this library to add spatial search to your application without writing any special code. The library implements the public-domain C# Hierarchical Triangular Mesh (HTM) algorithms from Johns Hopkins University.  That C# library is connected to SQL Server 2005 via a set of scalar-valued and table-valued functions. These functions act as a spatial index.
+See also:
+1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
+> SQL Server 2012 has added support for the auto grid spatial index, available for both the geography and geometry data types. An auto grid uses eight levels instead of the usual four levels. The advantage of using an auto grid is that when creating an index we can get good index support without studying the queries that will run against the table. In addition, you do not need to add a GRIDS clause to your CREATE SPATIAL INDEX statement because the database engine determines the best strategy to use to maximize performance.
 
 # Working With Partitions
 It can be a quick win for many customers to get them to use partitions.
