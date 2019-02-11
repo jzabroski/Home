@@ -102,10 +102,12 @@ Key features:<br />
 | ------ | ----- | ----------- | ----------------- |
 | [CsvHelper](https://github.com/JoshClose/CsvHelper) | [CsvHelper](https://www.nuget.org/packages/CsvHelper/) | Library to help reading and writing CSV files | Stable |
 
-### Office
+### Office (Excel)
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [NPOI](https://github.com/tonyqus/npoi) | [NPOI](https://www.nuget.org/packages/NPOI) | a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop. | Incoming |
+| [NPOI](https://github.com/tonyqus/npoi) | [NPOI](https://www.nuget.org/packages/NPOI) | a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop. | Assessing |
+| [EPPlus](https://github.com/JanKallman/EPPlus) | [EPPplus](https://www.nuget.org/packages/EPPlus/) | Create advanced Excel spreadsheets using .NET | Assessing |
+| [OpenSpreadsheet](https://github.com/FolkCoder/OpenSpreadsheet) | [OpenSpreadsheet](https://www.nuget.org/packages/OpenSpreadsheet/) | A fast and efficient wrapper around the OpenXml Excel library | Assessing |
 
 
 ### Data Cleansing
