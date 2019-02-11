@@ -40,7 +40,7 @@ https://github.com/natemcmaster/dotnet-tools
 ## Convention Tests
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [TestStack.ConventionTests)](https://github.com/TestStack/TestStack.ConventionTests) | [TestStack.ConventionTests](https://www.nuget.org/packages/TestStack.ConventionTests/) | ConventionTests help you go beyond the compiler with conventions! | Assessing |
+| [TestStack.ConventionTests](https://github.com/TestStack/TestStack.ConventionTests) | [TestStack.ConventionTests](https://www.nuget.org/packages/TestStack.ConventionTests/) | ConventionTests help you go beyond the compiler with conventions! | Assessing |
 
 # Documentation
 | GitHub | NuGet | Description | Radar Positioning |
