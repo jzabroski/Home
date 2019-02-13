@@ -1,6 +1,7 @@
 
 # On Me
-https://github.com/Microsoft/ReportingServicesTools/pull/186
+1. https://github.com/Microsoft/ReportingServicesTools/pull/186
+2. https://github.com/JeremySkinner/FluentValidation/issues/910
 
 # On Them
 1. https://github.com/postmanlabs/postman-app-support/issues/3216
