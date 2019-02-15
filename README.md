@@ -18,7 +18,23 @@ https://github.com/natemcmaster/dotnet-tools
 
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-[Verex](https://github.com/MohammadHamdyGhanem/Verex) | [Verex](https://www.nuget.org/packages/Verex/) | Verex: The Verbal Regex Builder | Assessing |
+| [Verex](https://github.com/MohammadHamdyGhanem/Verex) | [Verex](https://www.nuget.org/packages/Verex/) | Verex: The Verbal Regex Builder | Assessing |
+
+# Inversion of Control / Dependency Injection
+## Frameworks
+
+## Function Detouring / Function Hooking
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Detours.net](https://github.com/citronneur/detours.net) | n/a | Hook native API with C# | Assessing |
+| [Detourium](https://github.com/atillabyte/Detourium/) | [Detourium](https://www.nuget.org/packages/Detourium/) | A library to assist with detours using the .NET CLR in (un-)managed processes. | Assessing |
+| [Prig](https://github.com/urasandesu/Prig) | [Prig](https://www.nuget.org/packages/Prig/) | Prig is a lightweight framework for test indirections in .NET Framework. | Assessing |
+| [Juno](https://github.com/Akaion/Juno) | [Juno](https://www.nuget.org/packages/Juno/) | A Windows managed function detouring library written in C# that supports both x86 and x64 detours. | Assessing |
+| n/a | [DotNetDetour](https://www.nuget.org/packages/DotNetDetour/) | dotnet hook lib | Assessing | 
+| [Harmony](https://github.com/pardeike/Harmony) | [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony/) | A general non-destructive patch library for .NET and Mono modules | Assessing |
+
+## Benchmarks
+https://github.com/danielpalme/IocPerformance
 
 # Testing
 
@@ -96,7 +112,7 @@ Key features:<br />
 | [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMigrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
 | RoundHousE | | | Outgoing |
 
-## Data Import
+## Data Import / Export
 ### CSV
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
