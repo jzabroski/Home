@@ -32,3 +32,4 @@
 32. www.portfolio123.com
 33. www.fintel.io
 34. http://www.cboe.com/data/historical-options-data
+35. www.splithistory.com split history and split history adjusted CAGR
