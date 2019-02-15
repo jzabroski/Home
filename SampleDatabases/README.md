@@ -34,3 +34,4 @@
 34. http://www.cboe.com/data/historical-options-data
 35. www.splithistory.com split history and split history adjusted CAGR
 36. https://www.valuationlab.com/pharma-life-cycle/
+37. http://maximum-pain.com/options/max-pain/
