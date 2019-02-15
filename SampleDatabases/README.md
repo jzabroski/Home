@@ -24,9 +24,11 @@
 24. https://jedgore.wordpress.com/2016/12/01/transcript-web-scraper-python/
 25. https://www.hhs.se/contentassets/574f17c1efcf48daa6c6974a4dad5740/dissertation-ef_proofed---kopia.pdf
 26. https://johnmurch.github.io/2015/08/04/bountify.html
-27. Cefdata.com
-28. CefConnect.com
+27. www.cefdata.com
+28. www.cefconnect.com
 29. https://cefanalyzer.com
 30. https://mlpdata.com/mlps
 31. www.hmdb.ca/ - Human Metabolome Database (HMDB)
-32. portfolio123.com
+32. www.portfolio123.com
+33. www.fintel.io
+34. http://www.cboe.com/data/historical-options-data
