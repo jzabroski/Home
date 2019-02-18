@@ -5,3 +5,6 @@ and experienced dockers were prized for their ability to fit goods into ships by
 
 Hiring people to move stuff around wasn't cheap, but there was no alternative.
 
+# Examples
+https://github.com/rafaelfgx/DotNetCoreArchitecture
+
