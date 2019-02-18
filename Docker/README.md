@@ -8,12 +8,25 @@ Hiring people to move stuff around wasn't cheap, but there was no alternative.
 # Docker Use Cases
 
 ## Replacing Virtual Machines
+If you only care about the application, not the operating system.
+
 ## Prototyping Software
+Create a sandbox environment in milliseconds.
+
 ## Packaging Software
+True "write once, run anywhere".
+
 ## Enabling a Microservices Architecture
+Use Docker layers to compose independent parts of your application.  This verifies they are standalone microservices. You also benefit by avoiding longer services start-up times, since you've amortized the cost of start-up to just the services you need for development.
+
 ## Modeling Networks
+Docker supports thousands of containers on one machine, so testing scenarios like distributed pub-sub with thousands of writers and readers becomes possible without needing lots of hardware.
+
 ## Enabling Full-Stack Productivity When Offline
+Your SQL database, web layer, and client can all live on the same machine in separate containers. Take your laptop and go code.
+
 ## Reducing Debugging Overhead
+Docker allows you to clearly state (in script form) the steps for debugging a problem on a system with known properties, making bug and environment reproduction much simpler.  Previously, you might submit a bug report to GitHub with sample code and information about your OS, but the project maintainer might not be able to reproduce it, because the enviroment configuration is not identical between you and the maintainer.  Containers allow you to break down these communication walls.
 
 # Docker commands
 
