@@ -1,3 +1,14 @@
+https://www.itprotoday.com/performance-tip-find-your-most-expensive-queries
+> With that said, there’s still a way to ‘frame’ these costs – to provide an idea of what costs roughly mean in the ‘real’ world.
+> 
+> * .003. Costs of .003 are about as optimized as you’re going to get when interacting with the storage engine (executing some functions or operations can/will come in at cheaper costs, but I’m talking here about full-blown data-retrieval operations).
+> * .03. Obviously, costs of .03 are a full order of magnitude greater than something with a cost of .003 – but even these queries are typically going to be VERY efficient and quick – executing in less than a second in the vast majority of cases.
+> * 1. Queries with a cost of 1 aren’t exactly ugly or painfull (necessarily) and will typically take a second or less to execute. They’re not burning up lots of resources, but they’re also typically not as optimized as they could be (or they are optimized – but they’re pulling back huge amounts of data or filtering against very large tables).
+> * 5. Queries with a cost greater than 5, by default, will be executed with a parallel plan – meaning that SQL Server sees these queries as being large enough to throw multiple processors/cores/theads-of-execution at – in order to speed up execution. And, if you’ve got a web site that’s firing off a query with a cost of 5 or more per every page load, for example, you’ll probably notice that the page ‘feels’ a bit sluggish loading – maybe by a second or two – as compared to a page that would ‘spring up’ if it was running a query with a cost of, say, .2 or lower. So, in other words, queries up in this range start having a noticeable or appreciable ‘cost’.
+> * 20. Queries in this range are TYPICALLY going to be something you can notice taking a second or so. (Though, on decent hardware, they can still end up being instantaneous as well – so even at this point, things still depend on a lot of factors).
+> * 200. Queries with this kind of cost should really only be for larger reports and infrequently executed operations. Or, they might be serious candidates for the use of additional tuning and tweaking (in terms of code and/or indexes).
+> * 1000. Queries up in this range are what DBAs start to lovingly call ‘queries from hell’ – though it’s possible to bump into queries with costs in the 10s of thousands or even more – depending upon the operations being executed and the amount of data being poured over.
+
 https://www.red-gate.com/simple-talk/sql/t-sql-programming/how-to-get-sql-server-dates-and-times-horribly-wrong/
 
 https://blogs.msdn.microsoft.com/robinlester/2016/08/10/improving-query-performance-with-option-recompile-constant-folding-and-avoiding-parameter-sniffing-issues/
