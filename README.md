@@ -143,6 +143,7 @@ https://github.com/ngs-doo/json-benchmark
 | ------ | ----- | ----------- | ----------------- |
 | [MessagePack](https://github.com/neuecc/MessagePack-CSharp/) | [MessagePack](https://www.nuget.org/packages/MessagePack/) | Extremely Fast MessagePack(MsgPack) Serializer for C#(.NET, .NET Core, Unity, Xamarin). | Incoming |
 | [Microsoft/Bond](https://github.com/Microsoft/bond) | [Bond.CSharp](https://www.nuget.org/packages/Bond.CSharp/) | Bond is an open source, cross-platform framework for working with schematized data. It supports cross-language serialization/deserialization and powerful generic mechanisms for efficiently manipulating data. | Incoming |
+| [Ceras](https://github.com/rikimaru0345/Ceras) | Ceras | Universal binary serializer for a wide variety of scenarios https://discord.gg/FGaCX4c https://rikidev.com/ | Incoming |
 
 ## JSON Serialization
 | GitHub | NuGet | Description | Radar Positioning |
