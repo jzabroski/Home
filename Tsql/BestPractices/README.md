@@ -75,9 +75,10 @@ Three things kill database performance, in roughly this order:
     1. Number of records calculated from statistics
 
 # Death By Entity Framework / nHibernate
+http://www.sqlservice.se/sql-server-performance-death-by-entity-framework-nhibernate/
 1. Too big datatypes?
 2. Too denormalized?
-3. Unreadable and inefficient code
+3. Unreadable and inefficient code 
 
 # Death by optional statements
 1. OVER CLAUSE
