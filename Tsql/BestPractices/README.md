@@ -34,6 +34,9 @@ Three things kill database performance, in roughly this order:
 # Death by sa account
 * Changing the sa password or locking out sa user
 
+# Death by xp_cmdshell
+http://www.sqlservice.se/sql-server-performance-death-by-xp_cmdshell/
+
 # Death by bad indexes
 1. Too many
     1. Inserts will be slow
