@@ -1,4 +1,5 @@
 https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-when-using-a-sample-based-profiler-in-a-performance-investigation/
+https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
 
 https://docs.microsoft.com/en-us/sql/relational-databases/native-client-odbc-how-to/profiling-odbc-driver-performance-data?view=sql-server-2017
 
