@@ -1,6 +1,13 @@
 https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-when-using-a-sample-based-profiler-in-a-performance-investigation/
 https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
 
+https://blogs.msdn.microsoft.com/vancem/2006/10/01/drilling-into-net-runtime-microbenchmarks-typeof-optimizations/\
+> Sandro Magi
+> September 22, 2013 at 4:42 pm
+> Your conclusions apply only to x86. x64 results are dramatically different. The conclusions also differ dramatically when you apply these tests to generic type parameters, instead of hard-coded types. See my recent post where I modified your benchmark suite:
+> 
+> higherlogics.blogspot.ca/…/clr-cost-of-dynamic-type-tests.html
+
 https://docs.microsoft.com/en-us/sql/relational-databases/native-client-odbc-how-to/profiling-odbc-driver-performance-data?view=sql-server-2017
 
 ```powershell
