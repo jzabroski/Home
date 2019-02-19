@@ -1,3 +1,7 @@
+# Better Auto-Completion?
+
+[PROSE - Microsoft Program Synthesis using Examples SDK](https://microsoft.github.io/prose/)
+
 # PowerShell Profile
 ```powershell
 notepad++.exe $PROFILE
