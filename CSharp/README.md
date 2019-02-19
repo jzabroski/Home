@@ -16,3 +16,5 @@
 
 The Definitive Serialization Performance Guide
 https://aloiskraus.wordpress.com/2017/04/23/the-definitive-serialization-performance-guide/
+
+https://mattwarren.org/2018/06/15/Tools-for-Exploring-.NET-Internals/
