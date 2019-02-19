@@ -42,6 +42,9 @@ https://github.com/rafaelfgx/DotNetCoreArchitecture
 
 Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 
+# Tutorials
+[Deploying ASP.NET Core Applications including Octopus, Docker & RM | Danijel Malik](https://www.youtube.com/watch?v=ni2tWx8lw3M)
+
 # Helpers
 1. [dotnet-docker](https://github.com/dotnet/dotnet-docker) - The base Docker images for working with .NET Core and the .NET Core Tools.
 2. [Dockerize.NET](https://github.com/brthor/Dockerize.NET) - .NET Cli Tool to package your .NET Core Application into a docker image: '`dotnet dockerize`'
