@@ -1,6 +1,6 @@
 OpenRefine is a data cleaning project that is written in Java, and uses MIT's simile-butterly web framework as the front-end.
 
-I would like to write a parallel data cleaning project that is written in C#, and does not use MIT license.
+I would like to write a parallel data cleaning project that is written in C#, and does not use MIT license.  I will likely use Microsoft's [PROSE SDK](https://microsoft.github.io/prose/), which " includes a pre-defined suite of technologies for various kinds of data wrangling – cleaning and pre-processing raw semi-structure data into a form amenable to analysis \[...] Flash Fill \[...] Data extraction from text files by examples \[...] Data extraction and transformation of JSON by examples. \[...] Predictive file splitting technology".
 
 This page will serve as a design document for my decisions.
 
