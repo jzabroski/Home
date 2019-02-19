@@ -38,6 +38,11 @@ https://github.com/danielpalme/IocPerformance
 
 # Testing
 
+## Test Framework
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Xunit.SkippableFact](https://github.com/AArnott/Xunit.SkippableFact) | [Xunit.SkippableFact](https://www.nuget.org/packages/Xunit.SkippableFact/) | Make your Xunit test methods self-determine to report a "skipped" result. Useful for such cases as "not supported on this platform" results or other environmental inputs. | Stable |
+
 ## Test Data
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
