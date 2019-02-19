@@ -44,6 +44,8 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 
 # Tutorials
 [Deploying ASP.NET Core Applications including Octopus, Docker & RM | Danijel Malik](https://www.youtube.com/watch?v=ni2tWx8lw3M)
+[Get Started with .NET and Docker](https://www.youtube.com/watch?v=MzKDtf29bCA)
+> In this video, we briefly demo the Visual Studio features that make getting started with .NET Core and Docker easy. We also explore the benefits of being able to debug inside a container by using Visual Studio.
 
 # Helpers
 1. [dotnet-docker](https://github.com/dotnet/dotnet-docker) - The base Docker images for working with .NET Core and the .NET Core Tools.
