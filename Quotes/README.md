@@ -6,6 +6,8 @@
 
 > Discipline is not what you do to someone; it’s what you do for someone. - Lou Holtz
 
+> Ability is what you're capable of doing; Motivation determines what you do; Attitude determines how well you do it. - Lou Holtz
+
 > Getting on a player is not necessarily appreciated. But caring about players doesn’t mean making it easy for them. Caring is helping them to develop traits and talents. My job is to provide athletes with a chance to win. A coach can’t win, no coach has ever won a game. - Lou Holtz
 
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
