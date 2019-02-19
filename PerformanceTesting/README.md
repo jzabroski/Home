@@ -1,5 +1,8 @@
 https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-when-using-a-sample-based-profiler-in-a-performance-investigation/
+
+## Code Timing for Microbenchmarks:
 https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
+https://github.com/Whathecode/Framework-Class-Library-Extension/blob/master/Whathecode.System/Diagnostics/RunTime.cs
 
 https://blogs.msdn.microsoft.com/vancem/2006/10/01/drilling-into-net-runtime-microbenchmarks-typeof-optimizations/\
 > Sandro Magi
