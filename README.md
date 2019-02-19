@@ -76,9 +76,15 @@ Dropping Postman due to performance concerns. See https://github.com/postmanlabs
 See also: https://app.quicktype.io/ for automatic inference of JSON contracts from an API call
 
 # Application Package Management
+## Packaging and Deploying
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ---------- | ----------------- |
 | [Squirrel](https://github.com/Squirrel/) | [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)<br>[Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac)<br>[Squirrel.Server](https://github.com/Squirrel/Squirrel.Server) | An installation and update framework for Windows desktop apps<br>Cocoa framework for updating OS X apps<br>Implements the server side of the Squirrel client frameworks | Incoming |
+
+## Plugin Management
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ---------- | ----------------- |
+| [DotNetCorePlugins](https://github.com/natemcmaster/DotNetCorePlugins) | .NET Core library for loading assemblies as a plugin | Incoming |
 
 # Command Line
 
@@ -217,7 +223,7 @@ Quasar is a fast and light-weight remote administration tool coded in C#. The us
 ## Tips - Troubleshooting Slow Disk I/O in SQL Server 
 https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-in-sql-server/
 
-## Unit Testing
+## Unit Testing Performance
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [xunit-performance](https://github.com/Microsoft/xunit-performance) | | | Incoming |
