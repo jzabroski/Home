@@ -67,6 +67,7 @@ Three things kill database performance, in roughly this order:
     2. Too many records
 
 # Death by correlated subqueries
+http://www.sqlservice.se/sql-server-performance-death-by-correlated-subqueries/
 1. Inner query depends on outer query
     1. RBAR - Row By Agonizing Row
 
