@@ -61,8 +61,18 @@ Docker-compose -f .\docker.compose.ci.build.yml
 Copy the debugger in your dockercompose file
 Is this still needed?
 ```docker
-FROM microsoft
+FROM microsoft/aspnetcore:1.0.1
+ARG source
+WORKDIR /app
+EXPOSE 80
+COPY ${source:-bin/Release/PublishOutput} .
+ENTRYPOINT ["dotnet", "Web.dll"]
+```
 
+
+And
+
+```docker
 #  Copy the debugger 
 COPY CLRDBG
 
