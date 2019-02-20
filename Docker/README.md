@@ -57,7 +57,8 @@ Docker-compose -f .\docker.compose.ci.build.yml
 ## Docker tips
 1. Deploy based on a hash, not a label.
     1. People can change a label, but not a hash.
-    
+2. Switching between Windows and Linux containers with Docker for Windows  https://www.containerstack.io/docker-on-windows-switch-to-windows-linux-mode/
+
 Copy the debugger in your dockercompose file
 Is this still needed?
 ```docker
