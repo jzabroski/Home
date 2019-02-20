@@ -63,9 +63,12 @@ COPY CLRDBG
 
 ```
 
-# Docker Tools for Visual Studio
+# Docker for Windows and Docker Tools for Visual Studio
 1. https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker
-2. 
+2. Docker for Windows
+    1. https://docs.docker.com/v17.09/docker-for-windows/
+
+
 
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
