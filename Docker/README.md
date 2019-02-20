@@ -47,6 +47,30 @@ For Azure: Publish an App Service through dialog.
 
 PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
 
+## Visual Studio Tools for Docker script
+``` docker
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+WORKDIR /app
+EXPOSE 59518
+EXPOSE 44364
+
+FROM microsoft/dotnet:2.1-sdk AS build
+WORKDIR /src
+COPY HelloDockerTools/HelloDockerTools.csproj HelloDockerTools/
+RUN dotnet restore HelloDockerTools/HelloDockerTools.csproj
+COPY . .
+WORKDIR /src/HelloDockerTools
+RUN dotnet build HelloDockerTools.csproj -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish HelloDockerTools.csproj -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
+```
+
 ## Bitbucket Pipelines script
 ``` docker
 pipelines:
