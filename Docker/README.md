@@ -45,6 +45,22 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 For IIS: .NET Core Windows Server Hosting Bundle to proxy requests to Kestrel
 For Azure: Publish an App Service through dialog.
 
+## Docker tips
+Copy the debugger in your dockercompose file
+Is this still needed?
+```
+FROM microsoft
+
+#  Copy the debugger 
+COPY CLRDBG
+
+
+```
+
+# Docker Tools for Visual Studio
+1. https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker
+2. 
+
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 
