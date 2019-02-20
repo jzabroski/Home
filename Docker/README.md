@@ -43,6 +43,7 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 3. `dotnet you-app.dll`
 
 For IIS: .NET Core Windows Server Hosting Bundle to proxy requests to Kestrel
+
 For Azure: Publish an App Service through dialog.
 
 PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
