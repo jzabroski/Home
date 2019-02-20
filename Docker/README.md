@@ -37,6 +37,14 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 | docker commit | Commit a docker container as an image |
 | docker tag | Tag a docker image |
 
+# .NET Core Deployment Steps
+1. `dotnet restore`
+2. `dotnet publish`
+3. `dotnet you-app.dll`
+
+For IIS: .NET Core Windows Server Hosting Bundle to proxy requests to Kestrel
+For Azure: Publish an App Service through dialog.
+
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 
