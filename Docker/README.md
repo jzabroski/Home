@@ -65,6 +65,10 @@ COPY CLRDBG
 
 # Docker for Windows and Docker Tools for Visual Studio
 1. https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker
+    1. Visual Studio Project Templates will have a dialog checkbox called "Enable Docker Container Support"
+    2. How do you debug multiple docker instances running in the same Visual Studio debugging session?
+        1. Possible! And edit-and-continue works. So does setting breakpoints across containers
+        
 2. Docker for Windows
     1. https://docs.docker.com/v17.09/docker-for-windows/
 
