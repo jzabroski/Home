@@ -45,10 +45,16 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 For IIS: .NET Core Windows Server Hosting Bundle to proxy requests to Kestrel
 For Azure: Publish an App Service through dialog.
 
+PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
+
+```powershell
+
+```
+
 ## Docker tips
 Copy the debugger in your dockercompose file
 Is this still needed?
-```
+```docker
 FROM microsoft
 
 #  Copy the debugger 
