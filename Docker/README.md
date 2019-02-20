@@ -110,7 +110,7 @@ pipelines:
 ```
 
 ## Empower developers to own not only the target environment,  but the build system, via a build container
-This is a key point in YouTube talk "Build, Debug, Deploy ASP.NASP.NET Core Apps with Docker"
+This is a key point in YouTube talk "Build, Debug, Deploy ASP.NET Core Apps with Docker"
 
 ```powershell
 Docker-compose -f .\docker.compose.ci.build.yml
