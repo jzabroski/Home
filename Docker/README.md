@@ -47,6 +47,43 @@ For Azure: Publish an App Service through dialog.
 
 PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
 
+## Bitbucket Pipelines script
+``` docker
+pipelines:
+  default:
+    - step:
+      image: microsoft/dotnet:SDK
+      services;
+        - docker
+      script:
+        # BUILD AND COMPILE
+        # build and test the dotnet app
+        - dotnet restore
+        - dotnet build
+        
+        # BUILD IMAGE
+        # Define the image name so wr can store it in the Image Repository
+        - export IMAGE_NAME=<my.domy.dockerhub.username>/<my.app{:$BITBUCKET_COMMIT
+        # Build the Docker image (this will use the Dockerfile in the rest of the repo)
+        - docker build -t $IMAGE_NAME 
+        # Authenticate with the docker registry
+        - docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
+        # Push the new Docker image to the Docker registry
+        - docker push $IMAGE_NAME
+        
+        # Deploy to Kubernetes
+        - curl -L0 https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin^linux/amd64/kubectl
+        - chmod +x ./kubectl
+        - sudo mv ./kubectl /usr/local/bin/kubectl
+        # Configure the necessary tools to deploy to Kubernetes
+        - kubectl config set-cluster <my.cluster.name> --server=<my.kubernetes.host> --certificate-authority=/path/to/ca.pem
+        - kubectl config set-credentials todo
+        - kubectl config set-context todo
+        - kubectl config set-context 
+        # Update the deployment to the new docker image
+        
+```
+
 ## Empower developers to own not only the target environment,  but the build system, via a build container
 This is a key point in YouTube talk "Build, Debug, Deploy ASP.NASP.NET Core Apps with Docker"
 
