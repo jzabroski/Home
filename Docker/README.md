@@ -47,7 +47,7 @@ For Azure: Publish an App Service through dialog.
 
 PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
 
-## Empower developers to own not only the build, but the build server via a build container
+## Empower developers to own not only the target environment,  but the build system, via a build container
 This is a key point in YouTube talk "Build, Debug, Deploy ASP.NASP.NET Core Apps with Docker"
 
 ```powershell
@@ -58,6 +58,9 @@ Docker-compose -f .\docker.compose.ci.build.yml
 1. Deploy based on a hash, not a label.
     1. People can change a label, but not a hash.
 2. Switching between Windows and Linux containers with Docker for Windows  https://www.containerstack.io/docker-on-windows-switch-to-windows-linux-mode/
+    1. The easiest way is to right click on the Docker icon on the taskbar.
+And click on Switch to Windows/Linux containers… dd
+    2. 
 
 Copy the debugger in your dockercompose file
 Is this still needed?
