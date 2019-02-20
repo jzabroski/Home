@@ -9,7 +9,9 @@
    1. [Unusual Stock Option Volume Report](https://marketchameleon.com/Reports/UnusualOptionVolumeReport)
    2. [New Stock 52-Week Highs & Lows](https://marketchameleon.com/Reports/Equity52WeekHighsAndLows)
    3. [Large Market-On-Close Stock Order Imbalances](https://marketchameleon.com/Reports/StockOrderImbalanceReport)
-
+8. Oil & Gas
+   1. http://www.oilscams.org/pad-drilling
+   
 # Home Buying
 1. https://pfloans.provident.com/
 
