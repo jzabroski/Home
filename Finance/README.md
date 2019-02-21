@@ -11,6 +11,9 @@
    3. [Large Market-On-Close Stock Order Imbalances](https://marketchameleon.com/Reports/StockOrderImbalanceReport)
 8. Oil & Gas
    1. http://www.oilscams.org/pad-drilling
+
+# Corporate Finance
+http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
    
 # Home Buying
 1. https://pfloans.provident.com/
