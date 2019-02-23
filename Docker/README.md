@@ -163,6 +163,44 @@ Once the install is complete, open a command prompt window (or PowerShell, if th
 ```powershell
 docker run --rm hello-world
 ```
+Should output:
+```
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/ hello-world ca4f61b1923c: Pull complete
+Digest: sha256: 66ef312bbac49c39a89aa9bcc3cb4f3c9e7de3788c944158df3ee0176d32b751
+Status: Downloaded newer image for hello-world:latest
+Hello from Docker! This message shows that your installation appears
+```
+
+If we see the message "Installation appears to be working correctly", you should be good for now.
+
+## Docker on Ubuntu Linux
+
+1. Update the apt index:
+    `sudo apt-get update`
+2. Install the necessary packages repository over HTTPS:
+    ``
+    sudo apt-get install \
+    apt-transport-https ca-certificates \
+    curl \
+    software-properties-common
+    ```
+3. Install Docker’s official GPG key:
+    `curl -fsSL https:// download.docker.com/ | sudo apt-key add - `
+4. Add Docker’s stable repository:
+    ```
+    sudo add-apt-repository \
+      " deb [arch = amd64] https:// download.docker.com/ linux/ ubuntu \
+      $( lsb_release -cs) \
+      stable"   
+5. Update the apt package index:
+    ```
+    sudo apt-get update
+    ```
+6. Install Docker:
+    ```
+    sudo apt-get install docker-ce
+    ```
 
 # Docker for Windows and Docker Tools for Visual Studio
 1. Visual Studio Tools for Docker
