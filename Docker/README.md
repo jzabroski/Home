@@ -201,6 +201,17 @@ If we see the message "Installation appears to be working correctly", you should
     ```
     sudo apt-get install docker-ce
     ```
+    
+### Additional Steps
+Docker communicates via a UNIX socket that is owned by the root user. We can avoid having to type sudo by following these steps:
+
+1. Create the docker group:
+   `sudo groupadd docker`
+2. Add your user to the docker group:
+    `sudo usermod -aG docker $ USER. `
+3. Log out and log back in. Run the command below to confirm the Docker has been installed correctly.
+    `docker run --rm hello-world`
+
 
 # Docker for Windows and Docker Tools for Visual Studio
 1. Visual Studio Tools for Docker
