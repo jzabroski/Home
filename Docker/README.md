@@ -249,6 +249,17 @@ Docker Registry is a place where you can store Docker images so that they can be
 * Amazon Elastic Container Registry 
 * JFrog Artifactory
 
+## Dockerfile
+A Dockerfile is a set of instructions that tells Docker how to build an image. A typical Dockerfile is made up of the following:
+* A `FROM` instruction that tells Docker what the base image is
+* An `ENV` instruction to pass an environment variable
+* A `RUN` instruction to run some shell commands (for example, install-dependent programs not available in the base image)
+* A `CMD` or an `ENTRYPOINT` instruction that tells Docker which executable to run when a container is started
+
+## Docker Engine
+
+
+
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 
