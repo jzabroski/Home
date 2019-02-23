@@ -223,7 +223,12 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
 2. Docker for Windows
     1. https://docs.docker.com/v17.09/docker-for-windows/
 
+# Docker Vocabulary
 
+## Layers
+A layer is a modification applied to a Docker image as represented by an instruction in a Dockerfile.
+
+When Docker builds the image, each layer is stacked on the next and merged into a single layer using the union filesystem. Layers are uniquely identified using sha256 hashes. This makes it easy to reuse and cache them. When Docker scans a base image, it scans for the IDs of all the layers that constitute the image and begins to download the layers. If a layer exists in the local cache, it skips downloading the cached image.
 
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
