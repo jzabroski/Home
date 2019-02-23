@@ -236,6 +236,12 @@ When Docker builds the image, each layer is stacked on the next and merged into 
 
 Docker image is a read-only template that forms the foundation of your application. It is very much similar to, say, a shell script that prepares a system with the desired state.
 
+## Dockerfile
+Docker images are created using a series of commands, known as instructions, in the Dockerfile. The presence of a Dockerfile in the root of a project repository is a good indicator that the program is container-friendly.
+
+## Docker Volume
+An important aspect to grasp is that when a container is running, the changes are applied to the container layer and when the container is stopped/ killed, the container layer is not saved. Hence, all changes are lost. This aspect of containers is not understood very well and for this reason, stateful applications and those requiring persistent data were initially not recommended as containerized applications. However, with Docker Volumes, there are ways to get around this limitation.
+
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 
