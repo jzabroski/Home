@@ -48,6 +48,8 @@ For Azure: Publish an App Service through dialog.
 
 PowerShell Script: check if any existing docker image is running on the target port. If it is, stop it. Then we can run the image.
 
+# Dockerfile examples
+
 ## Visual Studio Tools for Docker script
 ``` docker
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
@@ -143,6 +145,23 @@ And
 COPY CLRDBG
 
 
+```
+
+# Installing Docker on Windows
+
+## Why does Docker for Windows require features required for virtualization?
+
+The short answer is that Docker relies on numerous features, such as namespaces and cgroups, and these are not available on Windows. To get around this limitation, Docker for Windows creates a lightweight Hyper-V container running a Linux kernel. At the time of writing, Docker includes experimental support for Native containers that allow for creation of containers without the need for Hyper-V.
+
+## Docker CE for Windows
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
+The install may ask you to enable Hyper-V and containers. Say yes.
+
+Once the install is complete, open a command prompt window (or PowerShell, if that is your preference) and type the command shown below to check that Docker is installed and is working correctly.
+
+```powershell
+docker run --rm hello-world
 ```
 
 # Docker for Windows and Docker Tools for Visual Studio
