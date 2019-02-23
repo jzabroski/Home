@@ -242,6 +242,13 @@ Docker images are created using a series of commands, known as instructions, in 
 ## Docker Volume
 An important aspect to grasp is that when a container is running, the changes are applied to the container layer and when the container is stopped/ killed, the container layer is not saved. Hence, all changes are lost. This aspect of containers is not understood very well and for this reason, stateful applications and those requiring persistent data were initially not recommended as containerized applications. However, with Docker Volumes, there are ways to get around this limitation.
 
+## Docker Registry
+Docker Registry is a place where you can store Docker images so that they can be used as the basis for an application stack. Some common examples of Docker registries include the following:
+* Docker Hub
+* Google Container Registry 
+* Amazon Elastic Container Registry 
+* JFrog Artifactory
+
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 
