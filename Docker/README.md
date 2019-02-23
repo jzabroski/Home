@@ -213,7 +213,9 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
     `docker run --rm hello-world`
 
 
-# Docker for Windows and Docker Tools for Visual Studio
+# Integrated Development Environment
+
+## Docker for Windows and Docker Tools for Visual Studio
 1. Visual Studio Tools for Docker
     1. https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker
         1. Visual Studio Project Templates will have a dialog checkbox called "Enable Docker Container Support"
@@ -229,6 +231,10 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
 A layer is a modification applied to a Docker image as represented by an instruction in a Dockerfile.
 
 When Docker builds the image, each layer is stacked on the next and merged into a single layer using the union filesystem. Layers are uniquely identified using sha256 hashes. This makes it easy to reuse and cache them. When Docker scans a base image, it scans for the IDs of all the layers that constitute the image and begins to download the layers. If a layer exists in the local cache, it skips downloading the cached image.
+
+## Docker Image
+
+Docker image is a read-only template that forms the foundation of your application. It is very much similar to, say, a shell script that prepares a system with the desired state.
 
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
