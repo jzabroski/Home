@@ -14,6 +14,11 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 # dotnet
 https://github.com/natemcmaster/dotnet-tools
 
+# SysInternals Alternatives
+
+[ProcessHacker](https://github.com/processhacker/processhacker)
+[Dependencies](https://github.com/lucasg/Dependencies)
+
 # Parsing
 
 | GitHub | NuGet | Description | Radar Positioning |
