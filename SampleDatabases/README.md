@@ -35,3 +35,4 @@
 35. www.splithistory.com split history and split history adjusted CAGR
 36. https://www.valuationlab.com/pharma-life-cycle/
 37. http://maximum-pain.com/options/max-pain/
+38. https://databases.lovd.nl/shared/genes - Global Variome shared LOVD - Leiden Open Variation Database - Human Variome Project
