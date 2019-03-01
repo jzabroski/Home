@@ -10,6 +10,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     chocolatey 0.10.11
     chocolatey-core.extension 1.3.3
     cpu-z.install 1.87
+    ConEmu https://chocolatey.org/packages/ConEmu
     crystaldiskmark 5.2.0
     diskmarkstream 1.1.2
     iometer 1.1.0
