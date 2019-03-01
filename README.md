@@ -19,6 +19,12 @@ https://github.com/natemcmaster/dotnet-tools
 [ProcessHacker](https://github.com/processhacker/processhacker)
 [Dependencies](https://github.com/lucasg/Dependencies)
 
+# Networking
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [RSocket.Net](https://github.com/rsocket/rsocket-net) | [RSocket.Net](https://www.nuget.org/packages/RSocket.Core/) | Reactive Streams socket programming | Assessing |
+
+
 # Parsing
 
 | GitHub | NuGet | Description | Radar Positioning |
