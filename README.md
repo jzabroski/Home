@@ -59,6 +59,7 @@ https://github.com/danielpalme/IocPerformance
 ## Mocking
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
+| [JustMockLite](https://github.com/telerik/JustMockLite) | [JustMock](https://www.nuget.org/packages/JustMock/) | The most powerful free mocking library available for .NET developers. | Assessing |
 | [Prig](https://github.com/urasandesu/Prig) | [Prig](https://www.nuget.org/packages/Prig/) | Prig(PRototyping jIG) is a framework that generates a Test Double like Microsoft Fakes/Typemock Isolator/Telerik JustMock based on Unmanaged Profiler APIs. This framework enables that any methods are replaced with mocks. For example, a static property, a private method, a non-virtual member and so on. | Assessing |
 | [Moq](https://github.com/moq/moq4) | [Moq](https://www.nuget.org/packages/Moq/) | Moq is the most popular and friendly mocking framework for .NET<br />Moq also is the first and only framework so far to provide Linq to Mocks | Stable |
 | [NSubstitute](https://github.com/nsubstitute/NSubstitute) | [NSubstitute](https://www.nuget.org/packages/NSubstitute) | A friendly substitute for .NET mocking libraries. http://nsubstitute.github.com | Stable |
