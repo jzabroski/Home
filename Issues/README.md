@@ -8,3 +8,5 @@
 2. https://feedback.azure.com/forums/908035-sql-server/suggestions/33212713-restore-multiple-instance-support-for-reporting-se
 3. https://github.com/MicrosoftDocs/windows-powershell-docs/issues/514
 4. https://github.com/dotnet/coreclr/issues/19821
+5. https://github.com/simonziegler/BlazorMessagePackTest/issues/1
+6. https://github.com/rsocket/rsocket-net/issues/2
