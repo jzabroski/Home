@@ -22,7 +22,7 @@ https://github.com/natemcmaster/dotnet-tools
 # Networking
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [RSocket.Net](https://github.com/rsocket/rsocket-net) | [RSocket.Net](https://www.nuget.org/packages/RSocket.Core/) | Reactive Streams socket programming | Assessing |
+| [RSocket.Net](https://github.com/rsocket/rsocket-net) | [RSocket.Net](https://www.nuget.org/packages/RSocket.Core/) | Reactive Streams socket programming, See [motivations](https://github.com/rsocket/rsocket/blob/master/Motivations.md) | Assessing |
 
 
 # Parsing
