@@ -11,3 +11,8 @@
 4. https://github.com/dotnet/coreclr/issues/19821
 5. https://github.com/simonziegler/BlazorMessagePackTest/issues/1
 6. https://github.com/rsocket/rsocket-net/issues/2
+7. https://resharper-support.jetbrains.com/hc/en-us/community/posts/360003226639--Access-to-displosed-closure-false-positive-with-local-function-yield-return-inside-using
+8. https://github.com/dadhi/DryIoc/issues/4
+9. https://github.com/dadhi/DryIoc/issues/8
+10. https://github.com/dadhi/DryIoc/issues/16
+11. https://github.com/dadhi/DryIoc/issues/17
