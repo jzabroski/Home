@@ -47,6 +47,11 @@ https://github.com/natemcmaster/dotnet-tools
 ## Benchmarks
 https://github.com/danielpalme/IocPerformance
 
+# Static Analysis
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Roslinq](https://github.com/benetkiewicz/Roslinq) | [Roslinq](https://www.nuget.org/packages/Roslinq/) | With Roslinq it's possible to use Linq to browse through source code and modify it. | Assessing |
+
 # Testing
 
 ## Test Framework
