@@ -3,6 +3,8 @@
 1. https://github.com/Microsoft/ReportingServicesTools/pull/186
 2. https://github.com/JeremySkinner/FluentValidation/issues/910
 3. https://github.com/natemcmaster/xunit-extensions/issues/1
+4. https://github.com/benetkiewicz/Roslinq/issues/11
+5. https://github.com/devedse/Roslinq/issues/1
 
 # On Them
 1. https://github.com/postmanlabs/postman-app-support/issues/3216
