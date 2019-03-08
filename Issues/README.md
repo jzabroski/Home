@@ -5,6 +5,7 @@
 3. https://github.com/natemcmaster/xunit-extensions/issues/1
 4. https://github.com/benetkiewicz/Roslinq/issues/11
 5. https://github.com/devedse/Roslinq/issues/1
+6. https://github.com/MicrosoftDocs/sql-docs/pull/1702 - refactor to different page based on Solomon Rutzky's feedback
 
 # On Them
 1. https://github.com/postmanlabs/postman-app-support/issues/3216
