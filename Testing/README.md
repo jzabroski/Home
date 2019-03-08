@@ -1,3 +1,8 @@
+[Secret unit testing tools no one ever told you about](https://www.slideshare.net/dhelper/secret-unit-testing-tools-no-one-ever-told-you-about)
+
+# Auto-Mocking Container design pattern
+The following is an example of an [Auto-Mocking Container](https://blog.ploeh.dk/2013/03/11/auto-mocking-container/)
+
     using AutoFixture;
     using FluentValidation.TestHelper;
     using Moq;
