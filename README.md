@@ -260,6 +260,10 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 `
 It does this by implementing a WYSIWYG-style editing interface for documents more constrained and structured than plain HTML. You can customize the shape and structure of the documents your editor creates, and tailor them to your application's needs. | Assessing |
 | [MetricsGraphicsJs](https://metricsgraphicsjs.org/examples.htm) | [metrics-graphics](https://www.npmjs.com/package/metrics-graphics) | MetricsGraphics.js is a library optimized for visualizing and laying out time-series data. At under 80KB (minified), it provides a simple way to produce common types of graphics in a principled and consistent way. The library currently supports line charts, scatterplots, histograms, bar charts and data tables, as well as features like rug plots and basic linear regression. | Assessing |
+| [highcharts](https://www.highcharts.com/) | [highcharts](https://www.npmjs.com/package/highcharts) | Highcharts is a JavaScript charting library based on SVG, with fallbacks to VML and canvas for old browsers. This package also contains Highstock, the financial charting package, and Highmaps for geo maps. | Stable |
+| [fusioncharts](https://www.fusioncharts.com/) | [fusioncharts](https://www.npmjs.com/package/fusioncharts) | FusionCharts is a JavaScript charting library providing 95+ charts and 1,400+ maps for your web and mobile applications. All the visualizations are interactive and animated, which are rendered in SVG and VML (for IE 6/7/8). | Stable |
+| [kendo UI](https://www.telerik.com/kendo-ui) | [kendo](https://www.npmjs.com/package/kendo) | **Package out of date/legacy** | Stable |
+ 
 
 See also: https://developers.google.com/web/updates/
 
