@@ -153,7 +153,6 @@ Key features:<br />
 | [EPPlus](https://github.com/JanKallman/EPPlus) | [EPPplus](https://www.nuget.org/packages/EPPlus/) | Create advanced Excel spreadsheets using .NET | Assessing |
 | [OpenSpreadsheet](https://github.com/FolkCoder/OpenSpreadsheet) | [OpenSpreadsheet](https://www.nuget.org/packages/OpenSpreadsheet/) | A fast and efficient wrapper around the OpenXml Excel library | Assessing |
 
-
 ### Data Cleansing
 [OpenRefine](http://openrefine.org/) (formerly Google Refine)
 
@@ -257,6 +256,7 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 | [ProseMirror](https://github.com/prosemirror) | [Monolithic ProseMirror](https://www.npmjs.com/package/prosemirror) | https://prosemirror.net/: An ideal content editor produces structured, semantically meaningful documents, but does so in a way that is easy for users to understand. ProseMirror tries to bridge the gap between Markdown text editing and classical WYSIWYG editors.`
 `
 It does this by implementing a WYSIWYG-style editing interface for documents more constrained and structured than plain HTML. You can customize the shape and structure of the documents your editor creates, and tailor them to your application's needs. | Assessing |
+| [MetricsGraphicsJs](https://metricsgraphicsjs.org/examples.htm) | [metrics-graphics](https://www.npmjs.com/package/metrics-graphics) | MetricsGraphics.js is a library optimized for visualizing and laying out time-series data. At under 80KB (minified), it provides a simple way to produce common types of graphics in a principled and consistent way. The library currently supports line charts, scatterplots, histograms, bar charts and data tables, as well as features like rug plots and basic linear regression. | Assessing |
 
 See also: https://developers.google.com/web/updates/
 
