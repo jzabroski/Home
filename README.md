@@ -156,6 +156,12 @@ Key features:<br />
 | [EPPlus](https://github.com/JanKallman/EPPlus) | [EPPplus](https://www.nuget.org/packages/EPPlus/) | Create advanced Excel spreadsheets using .NET | Assessing |
 | [OpenSpreadsheet](https://github.com/FolkCoder/OpenSpreadsheet) | [OpenSpreadsheet](https://www.nuget.org/packages/OpenSpreadsheet/) | A fast and efficient wrapper around the OpenXml Excel library | Assessing |
 
+### Office Plug-ins (Excel)
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [excel-requests](https://github.com/ZoomerAnalytics/excel-requests) | n/a | Excel Requests is the only HTTP Addin for Excel, safe for human consumption.<br />Excel Requests is heavily inspired by Kenneth Reitz' popular Python Requests. | Assessing |
+| [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) | [Excel-DNA](https://www.nuget.org/packages/ExcelDna.Addin) | Excel-DNA eases the development of Excel add-ins using .NET. | Assessing |
+
 ### Data Cleansing
 [OpenRefine](http://openrefine.org/) (formerly Google Refine)
 
