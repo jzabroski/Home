@@ -19,6 +19,10 @@ https://github.com/natemcmaster/dotnet-tools
 [ProcessHacker](https://github.com/processhacker/processhacker)
 [Dependencies](https://github.com/lucasg/Dependencies)
 
+# Screenshot manipulation
+[paint.net](https://forums.getpaint.net/)
+[Paint.Net plugin: CodeLab](https://boltbait.com/pdn/codelab/)
+
 # Networking
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
