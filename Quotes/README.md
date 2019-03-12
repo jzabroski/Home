@@ -12,7 +12,7 @@
 
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
 
-
+> Time is a flat circle. Everything we have done or will do we will do over and over and over again- forever. ~ True Detective TV show, but actually [Nietzsche's Doctrine of Eternal Recurrence](https://www.quora.com/What-does-the-expression-Time-is-a-flat-circle-mean)
 
 > He who has a why to live can bear almost any how.
 > ~ Friedrich Nietzsche
