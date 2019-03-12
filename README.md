@@ -12,7 +12,8 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 * Refactor
 
 # dotnet
-https://github.com/natemcmaster/dotnet-tools
+1. https://github.com/natemcmaster/dotnet-tools
+2. https://github.com/RSuter/DNT
 
 # SysInternals Alternatives
 
