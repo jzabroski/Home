@@ -13,6 +13,22 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 
 # dotnet
 1. https://github.com/natemcmaster/dotnet-tools
+  1. docker-watch : A command line utility to notify docker mounted volumes about changes on Windows.
+  2. dotnet-ignore : Sync global git ignore .gitignore file downloaded from GitHub
+  3. dotnet-lambda : Tools to deploy AWS Lambda functions. Global tool started at version 3.0.0.
+  4. dotnet-format : Enforce coding style solution-wide
+  5. dotnet-gitversion : Easy Semantic Versioning (http://semver.org) for projects using Git.
+  6. dotnet-hash : A simple dotnet tool to calculate hashes for the given file.
+  7. dotnet-migrate-2017 : Tool for converting a MSBuild project file (`csproj`) to VS2017 format and beyond.
+  8. dotnet-property : .NET Core command-line (CLI) tool to update project properties and version numbers on build.
+  9. dotnet-retire : A dotnet CLI extension to check your project for known vulnerabilities.  (It fetches the packages listed in the corresponding packages repo in this GitHub organization (link), and checks your projects obj\project.assets.json or project.lock.json file for any match (direct, or transient).)
+  10. dotnet-runas : Allows to run a dotnet process under a specified user account.
+  11. dotnet-warp : A .NET Core global tool to pack project into single executable using Warp.
+  12. efg : .NET Core command-line (CLI) tool to generate Entity Framework Core model from an existing database.
+  13. certes : CLI tool for acquire certificates via the Automated Certificate Management Environment (ACME) protocol. (example: LetsEncrypt.org)
+  14. docs : Search docs.microsoft.com using the command line.
+  15. dotnet-encrypto : A tool to encrypt/decrypt folder or files using AES 256 Encryption Algorithm
+  16. dmd5 : Just generate MD5 hash value in CLI.
 2. https://github.com/RSuter/DNT
 
 # SysInternals Alternatives
