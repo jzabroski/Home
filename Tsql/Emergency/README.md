@@ -1,3 +1,8 @@
+
+
+
+# Emergency Steps
+
 If your database is in RECOVERY_PENDING state:
 
 ```sql
@@ -84,3 +89,7 @@ ORDER BY dbname
 
 DROP TABLE ##loginfo
 ```
+
+# Extra Shrinking Help
+[Kendra Little: Shrinking SQL Server Data Files – Best Practices, and Why It Sucks](https://littlekendra.com/2016/11/08/shrinking-sql-server-data-files-best-practices-and-why-it-sucks/)
+
