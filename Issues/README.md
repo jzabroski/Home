@@ -21,3 +21,5 @@
 11. https://github.com/dadhi/DryIoc/issues/17
 12. https://github.com/nicodeslandes/TcpMux/issues/4
 13. https://github.com/fluentmigrator/fluentmigrator/issues/893
+14. https://github.com/Reloaded-Project/Reloaded.Hooks/issues/1
+15. https://github.com/chocolatey/choco/issues/1750
