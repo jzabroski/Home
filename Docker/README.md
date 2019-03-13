@@ -37,6 +37,9 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 | docker commit | Commit a docker container as an image |
 | docker tag | Tag a docker image |
 
+# .NET Core Development Tricks
+1. `dotnet docker-watch` See: https://medium.com/lucjuggery/docker-in-development-with-nodemon-d500366e74df
+
 # .NET Core Deployment Steps
 1. `dotnet restore`
 2. `dotnet publish`
