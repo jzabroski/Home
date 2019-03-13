@@ -64,6 +64,7 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 | [Juno](https://github.com/Akaion/Juno) | [Juno](https://www.nuget.org/packages/Juno/) | A Windows managed function detouring library written in C# that supports both x86 and x64 detours. | Assessing |
 | n/a | [DotNetDetour](https://www.nuget.org/packages/DotNetDetour/) | dotnet hook lib | Assessing | 
 | [Harmony](https://github.com/pardeike/Harmony) | [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony/) | A general non-destructive patch library for .NET and Mono modules | Assessing |
+| [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) | [Reloaded.Hooks](https://www.nuget.org/packages/Reloaded.Hooks/) | Advanced native function hooks for x86, x64. Welcome to the next level! (Tagline: WTF You can unit test function hooks!?) | Assessing |
 
 ## Benchmarks
 https://github.com/danielpalme/IocPerformance
