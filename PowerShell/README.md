@@ -2,6 +2,8 @@
 
 [PROSE - Microsoft Program Synthesis using Examples SDK](https://microsoft.github.io/prose/)
 
+dotnet-suggest
+
 # PowerShell Profile
 ```powershell
 notepad++.exe $PROFILE
@@ -29,6 +31,11 @@ Get-Process w3wp | select name,starttime
 ```powershell
 Enter-PSSession -ComputerName .
 Get-Process VisualCronService | select name,starttime
+```
+
+## Reboot Messages
+```powershell
+Get-EventLog -LogName System -After $(Get-Date).AddMonths(-1) | Where { 6009,6005,6006 -contains $_.EventID}
 ```
 
 # Get Monitor
