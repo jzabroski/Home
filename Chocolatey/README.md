@@ -29,6 +29,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     R.Studio 1.1.456
     rsat 2.0
     spawner 0.2.4
+    https://github.com/Terminals-Origin/Terminals
     thunderbird 52.5.0
     vcredist2010 10.0.40219.2
     vscode 1.24.0
