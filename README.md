@@ -11,6 +11,8 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 * Repurchase
 * Refactor
 
+# [12 Factor App](https://12factor.net) 
+
 # dotnet
 1. https://github.com/natemcmaster/dotnet-tools
   1. docker-watch : A command line utility to notify docker mounted volumes about changes on Windows.
