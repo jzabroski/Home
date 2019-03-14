@@ -100,3 +100,17 @@ http://www.sqlservice.se/sql-server-performance-death-by-entity-framework-nhiber
 
 # Death by table variables
 1. No statistics = bad execution plan
+
+# Death by bad client settings
+https://www.brentozar.com/archive/2017/03/checking-strange-client-settings-sys-dm_exec_sessions/
+```sql
+SELECT *
+FROM sys.dm_exec_sessions
+WHERE is_user_process = 1 AND
+(ansi_nulls = 0
+OR ansi_padding = 0 
+OR ansi_warnings = 0 
+OR arithabort = 0 
+OR concat_null_yields_null = 0 
+OR quoted_identifier = 0)
+```
