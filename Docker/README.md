@@ -228,10 +228,17 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
 2. Docker for Windows
     1. https://docs.docker.com/v17.09/docker-for-windows/
 
+## Visual Studio dcproj (docker container project)
+See: https://github.com/IvanZheng/IFramework/tree/master/Src for an excellent example
+
+See also: [MSDN dotnet standard: microservices architecture: Development workflow for Docker apps](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/docker-application-development-process/docker-app-development-workflow)
+
 ## Public API Documentation
 Want to review your API documentation in a container?
 
 [Doctainers](https://github.com/dend/doctainers) let's you do that.
+
+## Run your Acceptance Tests in a Docker Selenium container
 [Docker-Selenium](https://github.com/SeleniumHQ/docker-selenium)
 
 # Docker Vocabulary
