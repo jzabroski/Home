@@ -7,6 +7,7 @@
 5. https://github.com/devedse/Roslinq/issues/1
 6. https://github.com/MicrosoftDocs/sql-docs/pull/1702 - refactor to different page based on Solomon Rutzky's feedback
 7. https://github.com/select2/select2/issues/3315
+8. https://github.com/LokiMidgard/NDProperty/issues/4
 
 # On Them
 1. https://github.com/postmanlabs/postman-app-support/issues/3216
