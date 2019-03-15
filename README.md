@@ -156,6 +156,12 @@ Key features:<br />
 - Provides basic infrastructure for backend development (e.g. SQL generation) <br />
 - Provides a framework for user-defined query extensions and transformations | Assessing |
 
+### Entity Framework-specific helpers
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [EntityFramework.Guardian](https://github.com/arkoc/EntityFramework.Guardian) | [EntityFramework.Guardian](https://www.nuget.org/packages/EntityFramework.Guardian/) | EntityFramework plugin for implementing database security. | Incoming |
+
+
 ## Data <-> Entity Mapping
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
