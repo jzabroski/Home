@@ -20,6 +20,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     easy.install 0.6.11.4
     jdk8 8.0.162
     jdupes 1.10.3
+    linqpad (linqpad5.install) v5.36.03
     lockhunter 3.2
     notepadplusplus 7.5.1
     notepadplusplus.install 7.5.1
