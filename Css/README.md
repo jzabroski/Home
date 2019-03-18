@@ -1,8 +1,17 @@
 # Multi-line CSS ellipsis
 
 # Ellipsis in a table-cell (td element)
+> Text overflow can only happen on block or inline-block level elements, because the element needs to have a width in order to be overflow-ed. The overflow happens in the direction as determined by the direction property or related attributes.<br/>
+> Source: https://css-tricks.com/almanac/properties/t/text-overflow/
+
 1. https://stackoverflow.com/questions/9789723/css-text-overflow-in-a-table-cell
-> 
+> Apparently, adding:
+> ```css
+> td {
+>   display: block; /* or inline-block */
+> }
+> ```
+> solves the problem as well.
 
 2. https://stackoverflow.com/questions/9789723/css-text-overflow-in-a-table-cell/30362531
 > To clip text with an ellipsis when it overflows a table cell, you will need to set the max-width CSS property on each td class for the overflow to work. No extra layout div's are required
