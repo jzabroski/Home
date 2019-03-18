@@ -14,7 +14,7 @@
 >    text-overflow: ellipsis;
 >    white-space: nowrap;
 > }
-```
+> ```
 
 > For responsive layouts; use the max-width CSS property to specify the effective minimum width of the column, or just use max-width: 0; for unlimited flexibility. Also, the containing table will need a specific width, typically width: 100%;, and the columns will typically have their width set as percentage of the total width
 > 
