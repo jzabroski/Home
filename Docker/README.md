@@ -229,7 +229,7 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
     2. [Quickstart: Visual Studio Tools for Docker](https://docs.microsoft.com/en-us/visualstudio/containers/docker-tools?view=vs-2017)
 3. [Visual Studio Tools for Docker with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.2#docker-compose)
 
-
+See also: https://success.docker.com/article/modernizing-traditional-dot-net-applications
 
 ## Visual Studio dcproj (docker container project)
 See: https://github.com/IvanZheng/IFramework/tree/master/Src for an excellent example
