@@ -121,6 +121,9 @@ This is a key point in YouTube talk "Build, Debug, Deploy ASP.NET Core Apps with
 Docker-compose -f .\docker.compose.ci.build.yml
 ```
 
+## DockerFiles for Windows (Ready Made, Plug Into Docker Compose and Go!)
+https://github.com/StefanScherer/dockerfiles-windows
+
 ## Docker tips
 1. Deploy based on a hash, not a label.
     1. People can change a label, but not a hash.
