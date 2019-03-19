@@ -219,14 +219,17 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
 # Integrated Development Environment
 
 ## Docker for Windows and Docker Tools for Visual Studio
-1. Visual Studio Tools for Docker
+1. Docker for Windows
+    1. https://docs.docker.com/v17.09/docker-for-windows/
+2. Visual Studio Tools for Docker
     1. https://docs.microsoft.com/en-us/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker
         1. Visual Studio Project Templates will have a dialog checkbox called "Enable Docker Container Support"
         2. How do you debug multiple docker instances running in the same Visual Studio debugging session?
             1. Possible! And edit-and-continue works. So does setting breakpoints across containers
     2. [Quickstart: Visual Studio Tools for Docker](https://docs.microsoft.com/en-us/visualstudio/containers/docker-tools?view=vs-2017)
-2. Docker for Windows
-    1. https://docs.docker.com/v17.09/docker-for-windows/
+3. [Visual Studio Tools for Docker with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.2#docker-compose)
+
+
 
 ## Visual Studio dcproj (docker container project)
 See: https://github.com/IvanZheng/IFramework/tree/master/Src for an excellent example
