@@ -20,6 +20,11 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 1. https://pfloans.provident.com/
 2. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
 
+## Loan Terminology
+1. A *conforming loan* is any loan amount of $417,000 or less.
+2. A *jumbo loan* is any loan greater than $417,000. Generally speaking, jumbo loans will have slightly higher interest rates than a conforming loan.
+3. On January 1, 2009 the "*super conforming*" or "*agency jumbo*" loan was created for loan amounts up to $729,750.
+
 # Retirement
 https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
 [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
