@@ -26,3 +26,4 @@
 14. https://github.com/Reloaded-Project/Reloaded.Hooks/issues/1
 15. https://github.com/chocolatey/choco/issues/1750
 16. https://github.com/Microsoft/msbuild/issues/1309
+17. https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/1019
