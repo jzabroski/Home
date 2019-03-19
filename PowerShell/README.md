@@ -1,3 +1,8 @@
+# Better Command Line Experience?
+
+[PowerLine](https://github.com/Jaykul/PowerLine)
+which uses PANSIES, which has full RGB color support and renders faster.
+
 # Better Auto-Completion?
 
 [PROSE - Microsoft Program Synthesis using Examples SDK](https://microsoft.github.io/prose/)
