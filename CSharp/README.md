@@ -14,7 +14,28 @@
 </Project>
 ```
 
-The Definitive Serialization Performance Guide
+# The Definitive Serialization Performance Guide
 https://aloiskraus.wordpress.com/2017/04/23/the-definitive-serialization-performance-guide/
 
 https://mattwarren.org/2018/06/15/Tools-for-Exploring-.NET-Internals/
+
+# .NET Graceful Console Termination
+```csharp
+class Program
+{
+    static async Task Main(string[] args)
+    {
+        // Add this to your C# console app's Main method to give yourself
+        // a CancellationToken that is canceled when the user hits Ctrl+C.
+        var cts = new CancellationTokenSource();
+        Console.CancelKeyPress += (s, e) =>
+        {
+            Console.WriteLine("Canceling...");
+            cts.Cancel();
+            e.Cancel = true;
+        };
+        
+        await DoSomethingAsync(cts.Token);
+    }
+}
+```
