@@ -18,6 +18,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
    
 # Home Buying
 1. https://pfloans.provident.com/
+2. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
 
 # Retirement
 https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
