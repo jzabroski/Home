@@ -156,6 +156,15 @@ Key features:<br />
 - Provides basic infrastructure for backend development (e.g. SQL generation) <br />
 - Provides a framework for user-defined query extensions and transformations | Assessing |
 
+### Benchmarks
+[Frans Bouma's RawDataAccessBencher](https://github.com/FransBouma/RawDataAccessBencher) provides benchmarks for:
+- Dapper
+- RepoDB
+- Tortuga Chain
+- Entity Framework Core
+- LINQ to DB
+- Other frameworks
+
 ### Entity Framework-specific helpers
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
