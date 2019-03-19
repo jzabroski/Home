@@ -31,6 +31,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     rsat 2.0
     spawner 0.2.4
     https://github.com/Terminals-Origin/Terminals
+    sysinternals Sysinternals 2019.3.18  https://chocolatey.org/packages/sysinternals
     thunderbird 52.5.0
     vcredist2010 10.0.40219.2
     vscode 1.24.0
