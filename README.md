@@ -183,6 +183,7 @@ Key features:<br />
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMigrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
+| [EasyMigrator](https://bitbucket.org/quentin-starin/easymigrator/wiki/Home) | [EasyMigrator](https://www.nuget.org/packages/EasyMigrator/) | A migration and data generation tool for .NET core for working with MySql databases. | Assessing |
 | RoundHousE | | | Outgoing |
 
 ## Data Import / Export
