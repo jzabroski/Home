@@ -38,6 +38,9 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 [ProcessHacker](https://github.com/processhacker/processhacker)
 [Dependencies](https://github.com/lucasg/Dependencies)
 
+# Hashing functions
+https://github.com/Cyan4973/xxHash
+
 # Screenshot manipulation
 [paint.net](https://forums.getpaint.net/)
 [Paint.Net plugin: CodeLab](https://boltbait.com/pdn/codelab/)
