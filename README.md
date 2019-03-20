@@ -184,6 +184,7 @@ Key features:<br />
 | ------ | ----- | ----------- | ----------------- |
 | [FluentMigrator](https://github.com/fluentmigrator/fluentmigrator) | [FluentMigrator](https://www.nuget.org/packages/FluentMigrator/) | Developer-centric database migrations | Stable |
 | [EasyMigrator](https://bitbucket.org/quentin-starin/easymigrator/wiki/Home) | [EasyMigrator](https://www.nuget.org/packages/EasyMigrator/) | A migration and data generation tool for .NET core for working with MySql databases. | Assessing |
+| [Migrator.NET](https://github.com/migratordotnet/Migrator.NET) | [MigratorDotNet](https://www.nuget.org/packages/MigratorDotNet/) | Database migrations for .NET. Based on the idea of Rails ActiveRecord Migrations. | Assessing |
 | RoundHousE | | | Outgoing |
 
 ## Data Import / Export
