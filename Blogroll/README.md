@@ -13,3 +13,6 @@
 # Data Scientists
 1. https://www.evanmiller.org
 2. https://www.john-foreman.com
+
+# Weird Stuff
+https://www.baeldung.com/java-classloaders
