@@ -28,7 +28,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     pip 1.2.0
     PyCharm-community 2017.2.4
     R.Studio 1.1.456
-    rsat 2.0
+    rsat 2.0  (aduc) - active directory users and computers
     spawner 0.2.4
     https://github.com/Terminals-Origin/Terminals
     sysinternals Sysinternals 2019.3.18  https://chocolatey.org/packages/sysinternals
