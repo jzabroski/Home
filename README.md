@@ -72,7 +72,9 @@ https://github.com/Cyan4973/xxHash
 | [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) | [Reloaded.Hooks](https://www.nuget.org/packages/Reloaded.Hooks/) | Advanced native function hooks for x86, x64. Welcome to the next level! (Tagline: WTF You can unit test function hooks!?) | Assessing |
 
 ## Benchmarks
-https://github.com/danielpalme/IocPerformance
+1. https://github.com/danielpalme/IocPerformance
+2. https://github.com/drewnoakes/string-theory
+3. BenchmarkDotNet
 
 # Static Analysis
 | GitHub | NuGet | Description | Radar Positioning |
