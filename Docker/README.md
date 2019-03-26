@@ -16,6 +16,9 @@ Create a sandbox environment in milliseconds.
 ## Packaging Software
 True "write once, run anywhere".
 
+## "I need to install the latest version of .NET Core on the server, which requires a reboot.  Can everyone stop what they're doing so I can upgrade the alpha environment."
+Never again.
+
 ## Enabling a Microservices Architecture
 Use Docker layers to compose independent parts of your application.  This verifies they are standalone microservices. You also benefit by avoiding longer services start-up times, since you've amortized the cost of start-up to just the services you need for development.
 
