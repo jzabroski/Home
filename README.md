@@ -14,6 +14,10 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 # [12 Factor App](https://12factor.net) 
 
 # dotnet
+    - https://dotnet.microsoft.com/download/dotnet-core
+    - https://devblogs.microsoft.com/dotnet/net-core-tooling-update-for-visual-studio-2017-version-15-9/
+        - Options -> Projects and Solutions -> .NET Core -> Uncheck "Use Preview of the .NET Core SDK"
+    
 1. https://github.com/natemcmaster/dotnet-tools
   1. docker-watch : A command line utility to notify docker mounted volumes about changes on Windows.
   2. dotnet-ignore : Sync global git ignore .gitignore file downloaded from GitHub
