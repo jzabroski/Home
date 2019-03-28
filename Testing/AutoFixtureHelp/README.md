@@ -19,6 +19,14 @@
     - If an API has circular references, Fixture might enter an infinite recursion, but you can easily customize it to cut off one the references.
     - Some constructors may only accept arguments that don't fit with the default specimens created by Fixture. There are ways to deal with that as well.
 5. OmitAutoProperties - https://blog.ploeh.dk/2009/07/23/DisablingAutoPropertiesInAutoFixture/
-
-[Categorized list of AutoFixture questions](http://nikosbaxevanis.com/blog/2013/06/09/categorized-list-of-autofixture-questions/)
 6. `Build<T>` circumvents Customizations defined with `Customize`
+    - Q: When i use Fixture.Build to create my objects, AutoFixture ignores my customizations. Why is this?
+        ```csharp
+        Fixture.Customize<User>(x => x.Without(u => u.Id));
+        Fixture.CreateAnonymous<User>(); // Will have empty id
+        Fixture.Build<User>().CreateAnonymous(); // Will have set id
+        ```
+      A: This behavior is by design. The `Build<T>` method is essentially a one-off Customization, so it ignores any previous Customizations and does only exactly what you tell it.
+    
+[Categorized list of AutoFixture questions](http://nikosbaxevanis.com/blog/2013/06/09/categorized-list-of-autofixture-questions/)
+
