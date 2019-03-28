@@ -21,3 +21,4 @@
 5. OmitAutoProperties - https://blog.ploeh.dk/2009/07/23/DisablingAutoPropertiesInAutoFixture/
 
 [Categorized list of AutoFixture questions](http://nikosbaxevanis.com/blog/2013/06/09/categorized-list-of-autofixture-questions/)
+6. `Build<T>` circumvents Customizations defined with `Customize`
