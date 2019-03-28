@@ -18,5 +18,6 @@
     - If a class consumes interfaces a default Fixture will not be able to create it. However, this is easily fixed through one of the AutoMocking Customizations.
     - If an API has circular references, Fixture might enter an infinite recursion, but you can easily customize it to cut off one the references.
     - Some constructors may only accept arguments that don't fit with the default specimens created by Fixture. There are ways to deal with that as well.
+5. OmitAutoProperties - https://blog.ploeh.dk/2009/07/23/DisablingAutoPropertiesInAutoFixture/
 
 [Categorized list of AutoFixture questions](http://nikosbaxevanis.com/blog/2013/06/09/categorized-list-of-autofixture-questions/)
