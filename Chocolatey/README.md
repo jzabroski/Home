@@ -18,6 +18,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     cyberduck.install 6.2.9.26659
     DotNet4.5.2 4.5.2.20140902
     dotnetcore-sdk
+    docker-desktop 2.0.0.3
     easy.install 0.6.11.4
     github-desktop https://chocolatey.org/packages/github-desktop
     jdk8 8.0.162
