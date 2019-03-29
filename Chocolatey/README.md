@@ -36,6 +36,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     https://github.com/Terminals-Origin/Terminals
     sysinternals Sysinternals 2019.3.18  https://chocolatey.org/packages/sysinternals
     thunderbird 52.5.0
+    tortoisesvn
     vcredist2010 10.0.40219.2
     visualstudio2017buildtools 15.9.8.0 https://chocolatey.org/packages/visualstudio2017buildtools
     vscode 1.24.0
