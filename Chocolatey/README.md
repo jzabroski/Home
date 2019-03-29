@@ -15,9 +15,9 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     crystaldiskmark 5.2.0
     diskmarkstream 1.1.2
     iometer 1.1.0
-    cyberduck.install 6.2.9.26659
+    cyberduck.install 6.2.9.26659 # FTP / CloudStorage / WebDAV client
     DotNet4.5.2 4.5.2.20140902
-    dotnetcore-sdk
+    dotnetcore-sdk 2.2.105
     docker-desktop 2.0.0.3
     easy.install 0.6.11.4
     github-desktop https://chocolatey.org/packages/github-desktop
