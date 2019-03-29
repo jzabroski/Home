@@ -9,8 +9,9 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     adobereader 2015.007.20033.02
     chocolatey 0.10.11
     chocolatey-core.extension 1.3.3
+    clink # https://github.com/mridgers/clink cmd.exe replacement, supports logging cmd.exe commands system wide
     cpu-z.install 1.87
-    ConEmu https://chocolatey.org/packages/ConEmu
+    ConEmu # https://chocolatey.org/packages/ConEmu
     crystaldiskmark 5.2.0
     diskmarkstream 1.1.2
     iometer 1.1.0
@@ -27,6 +28,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     notepadplusplus.install 7.5.1
     OctopusTools 4.22.0
     pip 1.2.0
+    powershell-core 6.1.3 # https://chocolatey.org/packages/powershell-core/
     PyCharm-community 2017.2.4
     R.Studio 1.1.456
     rsat 2.0  (aduc) - active directory users and computers
