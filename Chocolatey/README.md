@@ -21,6 +21,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     easy.install 0.6.11.4
     github-desktop https://chocolatey.org/packages/github-desktop
     jdk8 8.0.162
+    javaruntime 8.0.191
     jdupes 1.10.3
     linqpad (linqpad5.install) v5.36.03
     lockhunter 3.2
