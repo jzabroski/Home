@@ -277,6 +277,8 @@ Quasar is a fast and light-weight remote administration tool coded in C#. The us
 | ------ | ----- | ----------- | ----------------- |
 | [NLog](https://github.com/NLog/NLog) | [NLog](https://www.nuget.org/packages/NLog/) | Logs and metrics are one! | Stable |
 
+NOTE: Some people use Serilog, but because it tries to serialize whole exception objects, this can cause nasty serialization bugs, like this one: https://github.com/aspnet/EntityFrameworkCore/issues/15214
+
 ## Just Metrics
 
 | GitHub | NuGet | Description | Radar Positioning |
