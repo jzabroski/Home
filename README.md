@@ -137,7 +137,8 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 ## Plugin Management
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ---------- | ----------------- |
-| [DotNetCorePlugins](https://github.com/natemcmaster/DotNetCorePlugins) | .NET Core library for loading assemblies as a plugin | Incoming |
+| [DotNetCorePlugins](https://github.com/natemcmaster/DotNetCorePlugins) | n/a  | .NET Core library for loading assemblies as a plugin | Incoming |
+| [Dapplo.Addons](https://github.com/dapplo/Dapplo.Addons) | [Dapplo.Addons](https://www.nuget.org/packages/Dapplo.Addons/)| Interfaces for addons loaded by Dapplo.Addons.Bootstrapper<br/> Dapplo.Addons is the plugin architecture for Greenshot screen capture utility. | Incoming |
 
 # Command Line
 
