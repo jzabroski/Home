@@ -10,6 +10,10 @@ Hiring people to move stuff around wasn't cheap, but there was no alternative.
 ## Replacing Virtual Machines
 If you only care about the application, not the operating system.
 
+Sample scenarios:
+1. Smtp Relay - containerize your test servers and production mail servers!
+2. Ftp / Sftp - containerize your test servers and production file transfer servers!
+
 ## Prototyping Software
 Create a sandbox environment in milliseconds.
 
