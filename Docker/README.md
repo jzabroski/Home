@@ -245,6 +245,18 @@ Enable-WindowsOptionalFeature -Online -FeatureName:Microsoft-Hyper-V -All
 .\Enable-NestedVm.ps1 "Win10_Docker"
 ```
 
+```powershell
+Install-Module -Name DockerProvider -Force
+# Alternative:
+# Install-Module -Name DockerMSFTProvider -Force
+
+Install-Package -Name Docker -ProviderName DockerProvider -Force
+# Alternative:
+# Install-Package -Name Docker -ProviderName DockerMSFTProvider -Force
+
+Restart-Computer -Force
+```
+
 # Integrated Development Environment
 
 ## Docker for Windows and Docker Tools for Visual Studio
