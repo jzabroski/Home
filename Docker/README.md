@@ -48,6 +48,22 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 | docker commit | Commit a docker container as an image |
 | docker tag | Tag a docker image |
 
+## Additional docker commands
+
+| Command | Purpose |
+| ------- | ------- |
+| docker version | Shows the docker version information |
+| docker pull image:tag | Pull an image or a repository from a registry |
+| docker images | List images |
+| docker ps -a | List containers |
+| docker search | Search the docker hub for images |
+| docker logs <containername> | Fetch the logs of a container |
+| docker stop <containername> | Stop one or more running containers |
+| docker start <containername> | Start one or more stopped containers |
+| docker inspect <containername> | Return low-level information on Docker objects |
+| docker rm <containername> | Removes one or more containers |
+| docker rmi <containername> | Removes one or more images |
+
 # .NET Core Development Tricks
 1. `dotnet docker-watch` See: https://medium.com/lucjuggery/docker-in-development-with-nodemon-d500366e74df
 
