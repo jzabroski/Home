@@ -80,6 +80,42 @@ PowerShell Script: check if any existing docker image is running on the target p
 
 # Dockerfile examples
 
+## BEWARE! What NOT To Do
+
+Be careful with creating too many (unnecessary) instructions
+* Each instruction creates a layer
+* Combine instructions into minimal layers / commits
+
+Example 1: Multiple Layer Image
+```dockerfile
+FROM microsoft/mssql-server-linux:latest
+
+WORKDIR /usr/src
+
+COPY ./shell /usr/src/sqlscript
+
+RUN chmod +x /usr/src/restoredb1.sh
+RUN chmod +x /usr/src/restoredb2.sh
+RUN chmod 755 /usr/src
+
+CMD /bin/bash ./entrypoint.sh
+```
+
+Example 2: Simplified image
+```dockerfile
+FROM microsoft/mssql-server-linux:latest
+
+WORKDIR /usr/src
+
+COPY ./shell /usr/src/sqlscript
+
+RUN chmod +x /usr/src/restoredb1.sh \
+    chmod +x /usr/src/restoredb2.sh \
+    chmod 755 /usr/src
+
+CMD /bin/bash ./entrypoint.sh
+```
+
 ## Visual Studio Tools for Docker script
 ``` docker
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
