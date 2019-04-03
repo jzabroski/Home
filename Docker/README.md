@@ -230,6 +230,14 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
     `docker run --rm hello-world`
 
 
+# Docker... Linux Containers on Windows!
+
+[Linux Containers on Windows](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
+> Right now there are two ways to run Linux containers with Docker for Windows and Hyper-V:
+> 
+> * Run Linux containers in a full Linux VM - this is what Docker typically does today.
+> * Run Linux containers with Hyper-V Isolation (LCOW) - this is a new option in Docker for Windows.
+
 # Integrated Development Environment
 
 ## Docker for Windows and Docker Tools for Visual Studio
