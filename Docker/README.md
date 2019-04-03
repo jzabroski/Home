@@ -238,6 +238,13 @@ Docker communicates via a UNIX socket that is owned by the root user. We can avo
 > * Run Linux containers in a full Linux VM - this is what Docker typically does today.
 > * Run Linux containers with Hyper-V Isolation (LCOW) - this is a new option in Docker for Windows.
 
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName:Microsoft-Hyper-V -All
+
+# Download Enable-NestedVm.ps1 and run it with the following command:
+.\Enable-NestedVm.ps1 "Win10_Docker"
+```
+
 # Integrated Development Environment
 
 ## Docker for Windows and Docker Tools for Visual Studio
