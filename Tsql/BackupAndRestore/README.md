@@ -1,5 +1,5 @@
-[Red Gate's SQL Server Backup and Restore Guide](https://assets.red-gate.com/community/books/sql-server-backup-and-restore.pdf)
-[What happens to transaction log backups during full backups?](https://www.brentozar.com/archive/2015/12/what-happens-to-transaction-log-backups-during-full-backups/)
+1. [Red Gate's SQL Server Backup and Restore Guide](https://assets.red-gate.com/community/books/sql-server-backup-and-restore.pdf)
+2. [What happens to transaction log backups during full backups?](https://www.brentozar.com/archive/2015/12/what-happens-to-transaction-log-backups-during-full-backups/)
 
 ```sql
 SELECT
