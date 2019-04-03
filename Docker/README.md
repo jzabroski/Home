@@ -13,6 +13,7 @@ If you only care about the application, not the operating system.
 Sample scenarios:
 1. Smtp Relay - containerize your test servers and production mail servers!
 2. Ftp / Sftp - containerize your test servers and production file transfer servers!
+3. SQL Server - containerize SQL Server with [SQL Server container images](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-bash)
 
 ## Prototyping Software
 Create a sandbox environment in milliseconds.
