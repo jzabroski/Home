@@ -2,12 +2,13 @@
 2. [What happens to transaction log backups during full backups?](https://www.brentozar.com/archive/2015/12/what-happens-to-transaction-log-backups-during-full-backups/)
 
 ```sql
+-- Find the duration for each backup in the backup media family
 SELECT
 	s.database_name,
 	m.physical_device_name,
-	CAST(CAST(s.backup_size / 1000000 AS INT) AS VARCHAR(14))
+	CAST(CAST(s.backup_size / 1000000 AS BIGINT) AS VARCHAR(14))
 		+ ' ' + 'MB' AS bkSize,
-	CAST(DATEDIFF(second, s.backup_start_date, s.backup_finish_date) AS VARCHAR(4))
+	CAST(DATEDIFF(second, s.backup_start_date, s.backup_finish_date) AS VARCHAR(30))
 		+ ' ' + 'Seconds' TimeTaken,
 	s.backup_start_date,
 	s.backup_finish_date,
