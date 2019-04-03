@@ -12,6 +12,7 @@
 8. Oil & Gas
    1. http://www.oilscams.org/pad-drilling
 9. https://www.iso20022.org
+10. https://spacinsider.com/
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
