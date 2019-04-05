@@ -235,6 +235,8 @@ SELECT * FROM fn_my_permissions('Database.Schema.Table', 'OBJECT');
 REVERT;
 ```
 
+See also my StackOverflow answer to: [Receiving “The SELECT permission was denied on the object” even though it's been granted](https://dba.stackexchange.com/a/234046/35450)
+
 # Parameter Sniffing
 1. https://www.brentozar.com/archive/2018/09/sql-server-2019-faster-table-variables-and-new-parameter-sniffing-issues/
 2. https://channel9.msdn.com/Events/SQLDay/SQLDay-2017/Identifying-and-Fixing-Parameter-Sniffing
