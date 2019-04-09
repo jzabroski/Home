@@ -63,6 +63,10 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 | docker inspect <containername> | Return low-level information on Docker objects |
 | docker rm <containername> | Removes one or more containers |
 | docker rmi <containername> | Removes one or more images |
+    
+# Buildkit
+
+Buildkit is not a replacement for docker, rather it's a tool for creating (amongst other things) docker compatible images. Docker is slated to use buildkit internally eventually. But if you want to do some niche things like creating multi platform images, it's much easier using buildkit directly (after you've managed to set it up, which can be painful). - Source: Aleksander Heintz https://github.com/YoloDev/YoloDev.Fake.Tool.Docker/issues/1#issuecomment-481301518
 
 # .NET Core Development Tricks
 1. `dotnet docker-watch` See: https://medium.com/lucjuggery/docker-in-development-with-nodemon-d500366e74df
