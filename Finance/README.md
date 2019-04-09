@@ -28,8 +28,8 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 3. On January 1, 2009 the "*super conforming*" or "*agency jumbo*" loan was created for loan amounts up to $729,750.
 
 # Retirement
-https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
-[irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
+1. https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
+2. [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
 
 # Car Auctions
 1. Auto Auction New England http://www.aane.com/
