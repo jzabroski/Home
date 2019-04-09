@@ -30,3 +30,11 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 # Retirement
 https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
 [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
+
+# Car Auctions
+1. Auto Auction New England http://www.aane.com/
+2. Manheim New England - https://publish.manheim.com/en/locations/us-locations/manheim-new-england.html
+3. Copart (Salvage Dealer) - https://www.copart.com/todaysAuction/
+4. Interstate Auto Auction - http://www.interstateautoauction.com/
+5. Lynnway Auto Auction - https://www.lynnwayautoauction.com/
+6. Quincy Auction - https://www.quincyauction.com/
