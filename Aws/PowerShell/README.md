@@ -24,3 +24,7 @@
 
 1. [`Get-CURReportDefinition`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-CURReportDefinition.html)
 2. [`Get-CECostAndUsage`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-CECostAndUsage.html)
+
+## Response Logging
+
+https://aws.amazon.com/blogs/developer/response-logging-in-aws-tools-for-windows-powershell/
