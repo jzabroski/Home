@@ -40,8 +40,9 @@
     1. Will return empty table if not configured.
 12. [`Get-S3BucketNotification -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketNotification.html)
      1. Will return empty table if not configured.
-13. [`Get-S3BucketPolicy -BucketName <bucket>` | ConvertFrom-Json](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketPolicy.html)
+13. [`Get-S3BucketPolicy -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketPolicy.html)
      1. Will return a JSON object
+     2. Use `Get-S3BucketPolicy -BucketName <bucket> | ConvertFrom-Json` instead
 
 ## Billing
 
