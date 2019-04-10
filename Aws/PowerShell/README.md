@@ -20,6 +20,28 @@
 
 1. [`Get-S3Bucket`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3Bucket.html)
 2. [`Get-S3ACL -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3ACL.html)
+3. [`Get-S3BucketAccelerateConfiguration -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketAccelerateConfiguration.html)
+    1. Returns null if not configured.
+4. [`Get-S3BucketAnalyticsConfiguration -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketAnalyticsConfiguration.html)
+    1. Will return an empty text table with three column headers (AnalyticsId, AnalyticsFilter, StorageClassAnalysis) if not configured: 
+5. [`Get-S3BucketAnalyticsConfigurationList -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketAnalyticsConfigurationList.html)
+    1. Will return a single row with sparse data if not configured.
+6. [`Get-S3BucketEncryption -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketEncryption.html)
+    1. Will return ServerSideEncryptionRules collection
+7. [`Get-S3BucketInventoryConfiguration -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketInventoryConfiguration.html)
+    1. TODO need to better understand what this manages
+8. [`Get-S3BucketLocation -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketLocation.html)
+    1. By default returns an object with an empty Value property.
+9. [`Get-S3BucketLogging -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketLogging.html)
+    1. Will return empty table if not configured.
+10. [`Get-S3BucketMetricsConfiguration -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketMetricsConfiguration.html)
+    1. Will return empty table if not configured.
+11. [`Get-S3BucketMetricsConfigurationList -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketMetricsConfigurationList.html)
+    1. Will return empty table if not configured.
+12. [`Get-S3BucketNotification -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketNotification.html)
+     1. Will return empty table if not configured.
+13. [`Get-S3BucketPolicy -BucketName <bucket>` | ConvertFrom-Json](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3BucketPolicy.html)
+     1. Will return a JSON object
 
 ## Billing
 
