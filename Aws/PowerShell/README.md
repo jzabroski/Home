@@ -18,7 +18,7 @@
 
 ## S3
 
-`Get-S3Bucket`
+[`Get-S3Bucket`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3Bucket.html)
 
 ## Billing
 
