@@ -366,6 +366,13 @@ EXECUTE dbautils.spFixIndexNaming
 | ------ | ------------- | ----------- | ----------------- |
 | [Portable.Licensing](https://github.com/dnauck/Portable.Licensing) | [Portable.Licensing](https://www.nuget.org/packages/Portable.Licensing/) | Portable.Licensing is a cross platform software licensing framework which allows you to implement licensing into your application or library. It provides you all tools to create and validate licenses for your software.<br/>Portable.Licensing is using the latest military strength, state-of-the-art cryptographic algorithm to ensure that your software and thus your intellectual property is protected. | Stable |
 
+# Color / ANSI Escape Codes
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [Colourful](https://github.com/tompazourek/Colourful) | | Open source .NET library for working with color spaces. | Incoming |
+| [Pastel](https://github.com/silkfire/Pastel) | | Snazz up your console output! | Incoming |
+| [crayon](https://github.com/riezebosch/crayon) | | An easy peasy tiny library for coloring console output in inline strings using ANSI escape codes. | Incoming |
+
 
 # Backup Software
 | GitHub | NuGet | Description | Radar Positioning |
