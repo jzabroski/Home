@@ -19,7 +19,7 @@
 ## S3
 
 1. [`Get-S3Bucket`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3Bucket.html)
-2. [`Get-S3ACL` -BucketName <bucket>](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3ACL.html)
+2. [`Get-S3ACL -BucketName <bucket>`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3ACL.html)
 
 ## Billing
 
