@@ -37,6 +37,12 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
   16. dmd5 : Just generate MD5 hash value in CLI.
 2. https://github.com/RSuter/DNT
 
+# API Development Tools
+1. https://rapidapi.com/developers
+2. https://konghq.com/cloud/ - whitepaper: [GigaOm: API Management Benchmark Report: Product Profile and Evaluation: Kong Enterprise and Apigee Edge](https://konghq.com/wp-content/uploads/2019/01/GigaOm-API-Platform-Benchmark-Kong-Apigee-1-25-19-1.pdf)
+3. https://docs.apigee.com/ - Apigee was acquired by [Alphabet's Google Cloud for $625M on September 8, 2016](https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet)
+4. https://apiary.io/ - Apiary was acquired by [Oracle for undisclosed amount on January 19, 2017](https://en.wikipedia.org/wiki/List_of_acquisitions_by_Oracle)
+
 # SysInternals Alternatives
 
 [ProcessHacker](https://github.com/processhacker/processhacker)
