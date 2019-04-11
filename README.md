@@ -87,6 +87,9 @@ https://github.com/Cyan4973/xxHash
 3. BenchmarkDotNet
 4. https://github.com/rickstrahl/WestwindWebSurge 
 
+## Debugging
+1. https://github.com/BlueMountainCapital/DotNetStackPrinter - An app that prints the stack traces of a target .NET process
+
 # Static Analysis
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
