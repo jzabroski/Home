@@ -16,6 +16,10 @@
 
 # Common commands
 
+## Windows EC2 Volumes
+
+https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-windows-volumes.html#windows-list-disks
+
 ## S3
 
 1. [`Get-S3Bucket`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-S3Bucket.html)
