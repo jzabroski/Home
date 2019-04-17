@@ -16,7 +16,14 @@
 
 # Common commands
 
-## Windows EC2 Volumes
+## EC2
+
+### Commands
+
+1. [`Get-EC2Instance`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-EC2Instance.html)
+    1. IAM Policy Permission: AmazonEC2ReadOnlyAccess
+
+### Windows EC2 Volumes
 
 https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-windows-volumes.html#windows-list-disks
 
