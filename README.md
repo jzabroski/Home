@@ -71,6 +71,7 @@ https://github.com/Cyan4973/xxHash
 
 # Inversion of Control / Dependency Injection
 ## Frameworks
+[Using Scrutor to automatically register your services with the ASP.NET Core DI container](https://andrewlock.net/using-scrutor-to-automatically-register-your-services-with-the-asp-net-core-di-container/)
 
 ## Function Detouring / Function Hooking
 | GitHub | NuGet | Description | Radar Positioning |
