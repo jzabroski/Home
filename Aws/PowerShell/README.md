@@ -33,9 +33,13 @@ function Get-EC2InstanceId {
   Get-EC2InstanceMetadata "meta-data/instance-id"
 }
 
-
 function Get-EC2BlockDeviceMapping {
   Get-EC2InstanceMetadata "meta-data/block-device-mapping"
+}
+
+function Get-EC2BlockDeviceName {
+  param([string]$VirtualDevice)
+  Get-EC2InstanceMetadata "meta-data/block-device-mapping/$VirtualDevice"
 }
 ```
 
