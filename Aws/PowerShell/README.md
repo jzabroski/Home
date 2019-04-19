@@ -18,7 +18,28 @@
 
 ## EC2
 
-### Commands
+### Unofficial Commands
+
+These don't have any error handling, but use a trick only seen in some of AWS documentation:
+
+```powershell
+function Get-EC2InstanceMetadata {
+  param([string]$Path)
+  (Invoke-WebRequest -Uri "http://169.254.169.254/latest/$Path").Content 
+}
+
+# You can pass this into `Get-EC2Instance` like so: `Get-EC2Instance -Instance $(Get-EC2InstanceId)`
+function Get-EC2InstanceId {
+  Get-EC2InstanceMetadata "meta-data/instance-id"
+}
+
+
+function Get-EC2BlockDeviceMapping {
+  Get-EC2InstanceMetadata "meta-data/block-device-mapping"
+}
+```
+
+### Official Commands
 
 1. [`Get-EC2Instance`](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-EC2Instance.html)
     1. IAM Policy Permission: AmazonEC2ReadOnlyAccess
