@@ -218,7 +218,7 @@ Key features:<br />
 | ------ | ----- | ----------- | ----------------- |
 | [NPOI](https://github.com/tonyqus/npoi) | [NPOI](https://www.nuget.org/packages/NPOI) | a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop. | Assessing |
 | [EPPlus](https://github.com/JanKallman/EPPlus) | [EPPplus](https://www.nuget.org/packages/EPPlus/) | Create advanced Excel spreadsheets using .NET | Assessing |
-| [OpenSpreadsheet](https://github.com/FolkCoder/OpenSpreadsheet) | [OpenSpreadsheet](https://www.nuget.org/packages/OpenSpreadsheet/) | A fast and efficient wrapper around the OpenXml Excel library | Assessing |
+| [OpenSpreadsheet](https://github.com/FolkCoder/OpenSpreadsheet) | [OpenSpreadsheet](https://www.nuget.org/packages/OpenSpreadsheet/) | A fast and efficient wrapper around the OpenXml Excel library - VERY similar to CsvHelper but for Excel | Assessing |
 
 ### Office Plug-ins (Excel)
 | GitHub | NuGet | Description | Radar Positioning |
