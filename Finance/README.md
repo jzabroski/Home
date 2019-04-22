@@ -41,6 +41,15 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 5. Lynnway Auto Auction - https://www.lynnwayautoauction.com/
 6. Quincy Auction - https://www.quincyauction.com/
 
+## Local Dealers
+
+- Prime Auto Group
+  - https://www.primetoyotart2.com/
+- Herb Chambers
+- McGovern
+- Ira
+- Lannan
+
 ## Car Buying
 
 - Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
