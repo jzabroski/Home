@@ -60,3 +60,15 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - Check tread depth. New tires can easily cost $800 or more.
 - Cars at 60,000 miles tend to require a lot of maintenance.  YourMechanic.com mobile site has good visual plot of maintenance over time.
 - Never buy a BMW v8.  Known issues going back to 2004 that they have never fixed.  People who buy BMW v8 have money to do so brand new, and then afte the 4 year, 50k mile warranty, they dump it on whoever comes next.  Don't be that person that gets dumped on.
+
+## Warranty
+
+- Powertrain
+    - Covers all internally lubricated parts which makes car move forward and in reverse
+       - Engine, transmission and other related pieces such as the differential
+       - Wheel bearings
+       - OFTEN just about anything involved in bringing power to the wheels, including a car's driveshaft and constant velocity joints.
+- Bumper-to-bumper
+    - Covers the powertrain, the electronics, the suspension, vehicle systems and more
+    - Does not cover the bumper itself, which is considered "body panel"
+
