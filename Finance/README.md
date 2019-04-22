@@ -31,10 +31,22 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 1. https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
 2. [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
 
-# Car Auctions
+# Cars
+
+## Car Auctions
 1. Auto Auction New England http://www.aane.com/
 2. Manheim New England - https://publish.manheim.com/en/locations/us-locations/manheim-new-england.html
 3. Copart (Salvage Dealer) - https://www.copart.com/todaysAuction/
 4. Interstate Auto Auction - http://www.interstateautoauction.com/
 5. Lynnway Auto Auction - https://www.lynnwayautoauction.com/
 6. Quincy Auction - https://www.quincyauction.com/
+
+## Car Buying
+
+- Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
+    - Do not buy a car with a salvage title.
+    - Do not buy a rebuilt/reconstructed car for more than 80% of it's bottom tier KBB value.
+    - If the car has been in an accident, look for any frame rail damage, since frame damage can cause tires to wear unevenly, among other things.
+- Check tread depth. New tires can easily cost $800 or more.
+- Cars at 60,000 miles tend to require a lot of maintenance.  YourMechanic.com mobile site has good visual plot of maintenance over time.
+- Never buy a BMW v8.  Known issues going back to 2004 that they have never fixed.  People who buy BMW v8 have money to do so brand new, and then afte the 4 year, 50k mile warranty, they dump it on whoever comes next.  Don't be that person that gets dumped on.
