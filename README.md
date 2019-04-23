@@ -165,6 +165,9 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 | ------ | ----- | ----------- | ----------------- |
 | [CursesSharp](https://github.com/sushihangover/CursesSharp) | | | |
 
+# Event Sourcing
+1. https://www.nuget.org/packages/Equinox/ by jet.com, written by Erik Tsarpalis
+
 # Data
 ## Data Access Layer
 | GitHub | NuGet | Description | Radar Positioning |
