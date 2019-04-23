@@ -50,3 +50,7 @@ class Program
 <runtime>
 <ThrowUnobservedTaskExceptions>
 ```
+
+# Tuples
+
+https://www.danielcrabtree.com/blog/365/accessing-tuples-at-runtime-using-reflection
