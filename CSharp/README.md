@@ -1,4 +1,4 @@
-.NET Core Razor SDK
+# .NET Core Razor SDK
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
