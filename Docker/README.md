@@ -385,6 +385,7 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 * [Deploying ASP.NET Core Applications including Octopus, Docker & RM | Danijel Malik](https://www.youtube.com/watch?v=ni2tWx8lw3M)
 * [Get Started with .NET and Docker](https://www.youtube.com/watch?v=MzKDtf29bCA)
     > In this video, we briefly demo the Visual Studio features that make getting started with .NET Core and Docker easy. We also explore the benefits of being able to debug inside a container by using Visual Studio.
+* https://netfxharmonics.com/2018/02/advintrodocker
 
 # Helpers
 1. [dotnet-docker](https://github.com/dotnet/dotnet-docker) - The base Docker images for working with .NET Core and the .NET Core Tools.
@@ -395,3 +396,5 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 [sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
 * [RAM/memory allocation with LCOW/windows containers?](https://github.com/docker/for-win/issues/1357)
 * [docker doesn't use memory or CPU options](https://github.com/Microsoft/opengcs/issues/145)
+
+
