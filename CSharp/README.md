@@ -42,6 +42,11 @@ class Program
 
 # The Uncatchable Exception
 
-Use Environment.FailFast(string) inside an Exception constructor to fail fast and know exactly which exception caused the issue.
-
-https://netfxharmonics.com/2006/10/uncatchable-exception
+1. Use Environment.FailFast(string) inside an Exception constructor to fail fast and know exactly which exception caused the issue.
+    - See: https://netfxharmonics.com/2006/10/uncatchable-exception
+2. https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/throwunobservedtaskexceptions-element
+    ```xml
+<configuration>
+<runtime>
+<ThrowUnobservedTaskExceptions>
+    ```
