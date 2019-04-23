@@ -39,3 +39,9 @@ class Program
     }
 }
 ```
+
+# The Uncatchable Exception
+
+Use Environment.FailFast(string) inside an Exception constructor to fail fast and know exactly which exception caused the issue.
+
+https://netfxharmonics.com/2006/10/uncatchable-exception
