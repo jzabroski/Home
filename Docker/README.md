@@ -391,6 +391,7 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 1. [dotnet-docker](https://github.com/dotnet/dotnet-docker) - The base Docker images for working with .NET Core and the .NET Core Tools.
 2. [Dockerize.NET](https://github.com/brthor/Dockerize.NET) - .NET Cli Tool to package your .NET Core Application into a docker image: '`dotnet dockerize`'
 3. [image2docker](https://github.com/docker/communitytools-image2docker-win) - Image2Docker is a PowerShell module which ports existing Windows application workloads to Docker. It supports multiple application types, but the initial focus is on IIS and ASP.NET apps. You can use Image2Docker to extract ASP.NET websites from a VM - or from the local machine or a remote machine. Then so you can run your existing apps in Docker containers on Windows, with no application changes.
+4. https://github.com/travelrepublic/docker-debug-tools - Docker file that installs basic apt-get tools for debugging a container process
 
 # Issues
 [sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
