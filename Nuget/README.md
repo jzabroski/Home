@@ -1,3 +1,9 @@
+# Links
+
+1. https://www.red-gate.com/simple-talk/opinion/opinion-pieces/building-a-better-nuget/
+2. https://www.waitingimpatiently.com/package-reference-nuget/
+3. https://www.codemag.com/article/0207071/End-DLL-Hell-with-.NET-Version-Control-and-Code-Sharing
+
 # Rant
 
 > On Wed, Nov 2, 2011 at 1:20 PM, John Zabroski <johnzabroski@yahoo.com> wrote:
