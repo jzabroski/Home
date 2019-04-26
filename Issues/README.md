@@ -63,3 +63,6 @@ Related issues:
 2. https://github.com/dotnet/standard/issues/604
 3. https://github.com/dotnet/standard/issues/859
 4. https://github.com/Microsoft/msbuild/issues/1309
+
+# Problems in MSBuild - why can't we AutoGenerateBindingRedirects in a DotNetCorePlugin
+https://github.com/Microsoft/msbuild/blob/1e574340ca00a71678d7eb67f3f3e68d981fd994/src/Tasks/AssemblyDependency/ResolveAssemblyReference.cs#L527
