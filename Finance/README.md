@@ -72,3 +72,10 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
     - Covers the powertrain, the electronics, the suspension, vehicle systems and more
     - Does not cover the bumper itself, which is considered "body panel"
 
+- BUYER BEWARE
+  - Don't get a warranty with a $500 deductible.  This is what the typical sleazy car financing person will try to sell you.
+
+## Car Loan
+
+- Even if you want to pay with cash, they may require you to get a loan in order to knock money off the car.
+    - Watch out for them offering very high APRs, even if you have GREAT credit.  The first thing they will try to say is some excuse, such as "Oh, it's a used car, so the bank has more risk on the loan in case the car goes under."
