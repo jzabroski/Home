@@ -460,6 +460,12 @@ Note: See issue I logged for problems with .NET Core tracing https://github.com/
 setx CORE_HOSTTRACE 1
 ```
 
+## ASP.NET Core Host Environment
+https://andrewlock.net/how-to-set-the-hosting-environment-in-asp-net-core/
+```powershell
+setx ASPNETCORE_ENVIRONMENT "Development"
+```
+
 
 # Build Server Plug-ins
 | GitHub | Description | Radar Positioning |
