@@ -88,3 +88,7 @@ class Program
 1. https://www.danielcrabtree.com/blog/365/accessing-tuples-at-runtime-using-reflection
 2. https://www.danielcrabtree.com/blog/99/c-sharp-7-dynamic-types-and-reflection-cannot-access-tuple-fields-by-name
 3. http://mustoverride.com/tuples_names/
+
+# Async reading
+
+https://stackoverflow.com/a/42419159/1040437
