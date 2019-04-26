@@ -28,6 +28,7 @@
 15. https://github.com/chocolatey/choco/issues/1750
 16. https://github.com/Microsoft/msbuild/issues/1309
 17. https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/1019
+18. https://github.com/DotNetAnalyzers/ReflectionAnalyzers/issues/212
 
 # Solved
 1. https://www.sqlservercentral.com/forums/topic/mysterious-permissions-issue-select-denied-on-update#post-2867350
