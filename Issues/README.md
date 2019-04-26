@@ -68,3 +68,5 @@ Related issues:
 https://github.com/Microsoft/msbuild/blob/1e574340ca00a71678d7eb67f3f3e68d981fd994/src/Tasks/AssemblyDependency/ResolveAssemblyReference.cs#L527
 
 See also general code search for AutoGenerateBindingRedirects in MSbuild: https://github.com/Microsoft/msbuild/search?q=AutoGenerateBindingRedirects&type=Code
+
+You can read about it here: http://james.newtonking.com/archive/2012/04/04/json-net-strong-naming-and-assembly-version-numbers and JamesNK/Newtonsoft.Json#1001 where you can see that the Azure SDK team was bit by strong naming policy: Azure/azure-sdk-for-net#4380
