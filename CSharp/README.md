@@ -14,6 +14,38 @@
 </Project>
 ```
 
+# CoreRT - Multiple OS targets
+
+```xml
+<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-27619-01" Condition="'$(CoreRT)' == 'True'" />
+```
+and
+
+```xml
+  <PropertyGroup>
+    <CoreRT>False</CoreRT>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'win-x64'">
+    <CoreRT>True</CoreRT>
+    <DefineConstants>$(DefineConstants);_CORERT;_CORERT_WIN_X64</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'linux-x64'">
+    <CoreRT>True</CoreRT>
+    <DefineConstants>$(DefineConstants);_CORERT;_CORERT_LINUX_X64</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' == 'osx-x64'">
+    <CoreRT>True</CoreRT>
+    <DefineConstants>$(DefineConstants);_CORERT;_CORERT_OSX_X64</DefineConstants>
+  </PropertyGroup>
+```
+or this:
+```xml
+  <ItemGroup Condition="'$(RuntimeIdentifier)' == 'win-x64' or '$(RuntimeIdentifier)' == 'linux-x64' or '$(RuntimeIdentifier)' == 'osx-x64'">
+    <RdXmlFile Include="Draw2D.rd.xml" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-*" />
+  </ItemGroup>
+```
+
 # The Definitive Serialization Performance Guide
 https://aloiskraus.wordpress.com/2017/04/23/the-definitive-serialization-performance-guide/
 
