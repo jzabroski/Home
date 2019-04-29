@@ -124,6 +124,11 @@ https://github.com/axodox/AxoCover
 | [Moq](https://github.com/moq/moq4) | [Moq](https://www.nuget.org/packages/Moq/) | Moq is the most popular and friendly mocking framework for .NET<br />Moq also is the first and only framework so far to provide Linq to Mocks | Stable |
 | [NSubstitute](https://github.com/nsubstitute/NSubstitute) | [NSubstitute](https://www.nuget.org/packages/NSubstitute) | A friendly substitute for .NET mocking libraries. http://nsubstitute.github.com | Stable |
 
+## Fuzz Testing
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [SharpFuzz](https://github.com/Metalnem/sharpfuzz) | [SharpFuzz](https://www.nuget.org/packages/SharpFuzz/) <br/> [SharpFuzz.CommandLine](https://www.nuget.org/packages/SharpFuzz.CommandLine/) | SharpFuzz is a tool that brings the power of [afl-fuzz](http://lcamtuf.coredump.cx/afl/) to .NET platform. If you want to learn more about fuzzing, my motivation for writing SharpFuzz, the types of bugs it can find, or the technical details about how the integration with afl-fuzz works, read my blog post [SharpFuzz: Bringing the power of afl-fuzz to .NET platform](https://mijailovic.net/2019/01/03/sharpfuzz/). | Incoming |
+
 ## Convention Tests
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
