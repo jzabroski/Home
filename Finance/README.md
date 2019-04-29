@@ -55,6 +55,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 
 ### Sites
 - www.cargurus.com
+  - Advertises on SeekingAlpha, and many sports news sites and vBulletin sports discussion boards.
 - www.autotrader.com
 
 ### Principles
