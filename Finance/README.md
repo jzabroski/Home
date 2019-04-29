@@ -53,6 +53,11 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 
 ## Car Buying
 
+### Sites
+- www.cargurus.com
+- www.autotrader.com
+
+### Principles
 - Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
     - Do not buy a car with a salvage title.
     - Do not buy a rebuilt/reconstructed car for more than 80% of it's bottom tier KBB value.
