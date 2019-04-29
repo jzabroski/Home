@@ -3,3 +3,7 @@
 
 2. https://github.com/aspnet/EntityFrameworkCore/issues/5377
     > System.InvalidOperationException: You are configuring a relationship between 'Offer' and 'Item' but have specified a foreign key on 'Offer'. The foreign key must be defined on a type that is part of the relationship.
+3. Client-side eval https://itnext.io/entity-framework-core-client-side-evaluation-473077eee5d
+    > Running this query with no change to the application will actually give you the following warning in the Debug Window.
+    > 
+    > > Microsoft.EntityFrameworkCore.Query:Warning: The LINQ expression ‘where (Compare([c].FirstName, “D”, Ordinal) > 0)’ could not be translated and will be evaluated locally.
