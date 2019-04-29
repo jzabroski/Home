@@ -57,6 +57,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - www.cargurus.com
   - Advertises on SeekingAlpha, and many sports news sites and vBulletin sports discussion boards.
 - www.autotrader.com
+  - Excellent for Carvana cars
 
 ### Principles
 - Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
