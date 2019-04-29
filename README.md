@@ -434,7 +434,14 @@ http://techgenix.com/Key-Performance-Monitor-Counters/
 Group MSA Accounts are a great way to avoid using passwords for service accounts. However, they can be:
   a) Painful to set-up.
   b) Painful to change or undo.
-  c) Even more pain when changing SQL Server to run as a gMSA.
+  c) Even more pain when changing SQL Server to run as a gMSA. - Use SQL Server Configuration Manager rather than directly changing Windows Local Services!
+
+## Identity Management
+
+| GitHub | NA | Description | Radar Positioning |
+| ------ | -- | ----------- | ----------------- |
+| [ritterim/stuntman](https://github.com/ritterim/stuntman) | NA | Mock ASP.NET Identity Management live in the browser. Like Glimpse for identity. | Incoming |
+
 
 # kdb
 
