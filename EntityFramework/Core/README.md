@@ -7,3 +7,10 @@
     > Running this query with no change to the application will actually give you the following warning in the Debug Window.
     > 
     > > Microsoft.EntityFrameworkCore.Query:Warning: The LINQ expression ‘where (Compare([c].FirstName, “D”, Ordinal) > 0)’ could not be translated and will be evaluated locally.
+
+# EF Fluent Mapping
+
+If you only map from one side, it might work, but it could be the wrong side.
+
+HasDiscriminator is finicky.  `HasDiscriminator<TEntity>(x => x.EnumId)` will blow up.  `HasDiscriminator(x => x.EnumId)` won't.
+   
