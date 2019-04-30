@@ -18,6 +18,8 @@ From: https://9-volt.github.io/bug-life/?repo=aspnet/EntityFrameworkCore
 | Andriy Svyryd | [AndriySvyryd](https://github.com/AndriySvyryd) | [@andriysvyryd](https://twitter.com/andriysvyryd) | https://www.linkedin.com/in/andriy-svyryd-51364719/ | Entity Framework team member since November 2010. Has done work on model building and ensuring infinite recursion does not happen, and other sanity checks like [conflicting ForeignKeyAttributes](https://github.com/aspnet/EntityFrameworkCore/commit/3191ff3d1e4f1e14b2fd1a283af85ed6f60b3f4f). |
 | Smit Patel | [smitpatel](https://github.com/smitpatel) | 
 
+Arthur has written to me on [how to write good exception messages](https://github.com/aspnet/EntityFrameworkCore/pull/15538).
+
 # EF Stuff To Figure out / keep in mind
 
 1. You can't map many-to-many without an intermediary class, and that class cannot be abstract.
