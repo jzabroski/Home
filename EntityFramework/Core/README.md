@@ -2,6 +2,11 @@
 
 https://ayende.com/blog/3983/nhibernate-unit-testing
 
+# EFCore Over Time
+
+From: https://9-volt.github.io/bug-life/?repo=aspnet/EntityFrameworkCore
+
+
 # EFCore Team Members
 
 | Name | GitHub | Twitter | Blog | Notes |
