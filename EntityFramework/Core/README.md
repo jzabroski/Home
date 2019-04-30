@@ -2,6 +2,15 @@
 
 https://ayende.com/blog/3983/nhibernate-unit-testing
 
+# EFCore Team Members
+
+| Name | GitHub | Twitter | Blog | Notes |
+| ---- | ------ | ------- | ---- | ----- |
+| Diego Vega | [divega](https://github.com/divega) | [@divega](https://twitter.com/divega) | https://blogs.msdn.microsoft.com/diego/ | N/A |
+| Arthur Vickers | [ajcvickers](https://github.com/ajcvickers) | [@ajcvickers](https://twitter.com/ajcvickers) | https://blog.oneunicorn.com/ | Program Manager |
+| Brice Lambson | [bricelam](https://github.com/bricelam) | [@bricelambs](https://twitter.com/bricelambs) | https://www.bricelam.net/ | N/A |
+| Rowan Miller | [rowanmiller](https://github.com/rowanmiller) | N/A | http://romiller.com/ | Former Program Manager of Entity Framework<br/> [Left team in 2017; still works on .NET](https://romiller.com/2017/03/06/im-leaving-the-ef-team/) <br />Appears to be [mind behind EF Code First Migrations](https://channel9.msdn.com/Blogs/EF/Migrations-Under-the-Hood) |
+
 # EF Stuff To Figure out / keep in mind
 
 1. You can't map many-to-many without an intermediary class, and that class cannot be abstract.
