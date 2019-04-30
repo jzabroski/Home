@@ -75,6 +75,9 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 # Title 
 - Never buy a car with history in Mississippi. After 1 year as a rebuilt title the car is eligible for a clean title. All those cars from flooding of the Mississippi River with flood damage? Yup. Bought at auction, held for a year, and sold with a clean title 
 
+# Tinting Laws
+- https://www.tinting-laws.com/massachusetts/
+
 ## Warranty
 
 - Powertrain
