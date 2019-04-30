@@ -92,3 +92,7 @@ class Program
 # Async reading
 
 https://stackoverflow.com/a/42419159/1040437
+
+# Garbage Collection, SO MUCH GARBAGE COLLECTION
+
+1. https://redstone325.wordpress.com/2008/05/13/notes-on-the-clr-garbage-collector-%E8%BD%AC%E8%BD%BD/
