@@ -34,7 +34,7 @@ HasDiscriminator is finicky.  `HasDiscriminator<TEntity>(x => x.EnumId)` will bl
 # EF Mapping Scenarios
 
 1. Reference a TPH twice in the same entity: https://github.com/aspnet/EntityFrameworkCore/issues/5001
-2. ?
+2. Using an Enum as a Discriminator https://github.com/aspnet/EntityFrameworkCore/issues/11454 - fixed, but test coverage lacking
 
 
 # Question (work in progress)
