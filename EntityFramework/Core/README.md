@@ -10,6 +10,7 @@ https://ayende.com/blog/3983/nhibernate-unit-testing
 | Arthur Vickers | [ajcvickers](https://github.com/ajcvickers) | [@ajcvickers](https://twitter.com/ajcvickers) | https://blog.oneunicorn.com/ | Program Manager |
 | Brice Lambson | [bricelam](https://github.com/bricelam) | [@bricelambs](https://twitter.com/bricelambs) | https://www.bricelam.net/ | N/A |
 | Rowan Miller | [rowanmiller](https://github.com/rowanmiller) | N/A | http://romiller.com/ | Former Program Manager of Entity Framework<br/> [Left team in 2017; still works on .NET](https://romiller.com/2017/03/06/im-leaving-the-ef-team/) <br />Appears to be [mind behind EF Code First Migrations](https://channel9.msdn.com/Blogs/EF/Migrations-Under-the-Hood) |
+| Andriy Svyryd | [AndriySvyryd](https://github.com/AndriySvyryd) | [@andriysvyryd](https://twitter.com/andriysvyryd) | https://www.linkedin.com/in/andriy-svyryd-51364719/ | Entity Framework team member since November 2010. Has done work on model building and ensuring infinite recursion does not happen, and other sanity checks like [conflicting ForeignKeyAttributes](https://github.com/aspnet/EntityFrameworkCore/commit/3191ff3d1e4f1e14b2fd1a283af85ed6f60b3f4f). |
 
 # EF Stuff To Figure out / keep in mind
 
