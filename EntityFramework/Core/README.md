@@ -1,4 +1,4 @@
-# Ayend on NHibernate (for comparison)
+# Ayende on NHibernate (for comparison)
 
 https://ayende.com/blog/3983/nhibernate-unit-testing
 
