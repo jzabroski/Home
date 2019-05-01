@@ -106,3 +106,4 @@ https://stackoverflow.com/a/42419159/1040437
     > However, an application (the actual .NET Framework or .NET Core application) need to resolve the files to be used. On .NET Core, this is done by generating a deps.json file based on the build input and a .NET Framework application uses binding redirects.
     >
     > If a binding redirect is necessary, they have to be added to the .NET Framework application (or library) that used the .NET Standard library.
+2. https://github.com/dotnet/sdk/issues/3044
