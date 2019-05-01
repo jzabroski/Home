@@ -41,10 +41,12 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 5. Lynnway Auto Auction - https://www.lynnwayautoauction.com/
 6. Quincy Auction - https://www.quincyauction.com/
 
-## CarFax vs. AutoCheck
+## CarFax vs. AutoCheck vs VinAudit
 
 1. https://blog.drivetime.com/carfax-vs-autocheck-3-differences-must-know/ (Dec 15, 2013)
     > The most significant difference between AutoCheck and CarFax is that AutoCheck is far better at tracking auction cars, while CarFax is known for not being able to effectively track cars at auctions. This obstacle makes CarFax much less useful since many used cars have been auctioned off at some point in their history. 
+2. VinAudit has a bulk audit api
+    - https://www.vinaudit.com/bulk-access
 
 ## Local Dealers
 
