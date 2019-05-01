@@ -96,3 +96,13 @@ https://stackoverflow.com/a/42419159/1040437
 # Garbage Collection, SO MUCH GARBAGE COLLECTION
 
 1. https://redstone325.wordpress.com/2008/05/13/notes-on-the-clr-garbage-collector-%E8%BD%AC%E8%BD%BD/
+
+
+# assemblyBindingRedirect
+
+1. https://stackoverflow.com/a/46120907/1040437
+    > Binding redirects are a .NET framework concept, there are no binding redirects on .NET Standard and .NET Core.
+    >
+    > However, an application (the actual .NET Framework or .NET Core application) need to resolve the files to be used. On .NET Core, this is done by generating a deps.json file based on the build input and a .NET Framework application uses binding redirects.
+    >
+    > If a binding redirect is necessary, they have to be added to the .NET Framework application (or library) that used the .NET Standard library.
