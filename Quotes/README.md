@@ -4,6 +4,8 @@
 
 > Fulton's Folly
 
+> He builds a mental castle before having to dig a moat. ~ Nelson
+
 > Discipline is not what you do to someone; it’s what you do for someone. - Lou Holtz
 
 > Ability is what you're capable of doing; Motivation determines what you do; Attitude determines how well you do it. - Lou Holtz
