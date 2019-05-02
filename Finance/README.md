@@ -66,6 +66,9 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - www.autotrader.com
   - Excellent for Carvana cars
 
+### Data
+- https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=33288
+
 ### Principles
 - Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
     - Do not buy a car with a salvage title.
