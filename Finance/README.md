@@ -72,6 +72,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
     - Do not buy a rebuilt/reconstructed car for more than 80% of it's bottom tier KBB value.
     - If the car has been in an accident, look for any frame rail damage, since frame damage can cause tires to wear unevenly, among other things.
 - Check tread depth. New tires can easily cost $800 or more.
+- Don't buy a 4 cylinder Turbo charged engine. All it will do is put extra pressure on the engine, and extra pressure means increased maintenance costs due to wear and tear. 
 - Cars at 60,000 miles tend to require a lot of maintenance.  YourMechanic.com mobile site has good visual plot of maintenance over time.
 - Never buy a BMW v8.  Known issues going back to 2004 that they have never fixed.  People who buy BMW v8 have money to do so brand new, and then afte the 4 year, 50k mile warranty, they dump it on whoever comes next.  Don't be that person that gets dumped on.
 
