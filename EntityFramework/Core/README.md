@@ -2,6 +2,10 @@
 
 https://ayende.com/blog/3983/nhibernate-unit-testing
 
+# EFCore Naming Conventions
+
+https://www.meziantou.net/2017/06/26/entity-framework-core-naming-convention
+
 # EFCore Over Time
 
 From: https://9-volt.github.io/bug-life/?repo=aspnet/EntityFrameworkCore
