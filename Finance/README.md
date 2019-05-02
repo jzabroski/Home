@@ -79,11 +79,11 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - Cars at 60,000 miles tend to require a lot of maintenance.  YourMechanic.com mobile site has good visual plot of maintenance over time.
 - Never buy a BMW v8.  Known issues going back to 2004 that they have never fixed.  People who buy BMW v8 have money to do so brand new, and then afte the 4 year, 50k mile warranty, they dump it on whoever comes next.  Don't be that person that gets dumped on.
 
-# Inspection
+### Inspection
 - Must be done within 7 days of purchase, not 7 days of registration. Watch out for dealers that play tricks with the date you purchase VS. Date you take possession. 
 - SEMASAN has detailed emissions laws by state https://www.semasan.com/resources/vehicle-emissions-inspection-requirements-and-exemptions-state
 
-# Title 
+### Title 
 - Never buy a car with history in Mississippi. After 1 year as a rebuilt title the car is eligible for a clean title. All those cars from flooding of the Mississippi River with flood damage? Yup. Bought at auction, held for a year, and sold with a clean title 
 
 # Tinting Laws
@@ -107,3 +107,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 
 - Even if you want to pay with cash, they may require you to get a loan in order to knock money off the car.
     - Watch out for them offering very high APRs, even if you have GREAT credit.  The first thing they will try to say is some excuse, such as "Oh, it's a used car, so the bank has more risk on the loan in case the car goes under."
+
+## Scheduled Maintenance Log
+- Check your owner's manual for the scheduled maintenance log
+    - https://drivers.lexus.com/lexusdrivers/service/maintenance-schedules
