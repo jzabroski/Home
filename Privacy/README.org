@@ -1,0 +1,5 @@
+- By Region
+  - EU
+      - [GDPR](https://eugdpr.org/)
+  - Canada
+      - [PIPEDA](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)
