@@ -111,3 +111,9 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 ## Scheduled Maintenance Log
 - Check your owner's manual for the scheduled maintenance log
     - https://drivers.lexus.com/lexusdrivers/service/maintenance-schedules
+
+## Reliability 
+- Consistency across models and across years. Fewer changes mean less can go wrong, things can be slowly perfected, and the car engineers aren't chasing fashion trends at the expense of good design 
+- 100 hp / liter metric
+    - Most cars are designed to be in the 60-80 range. Most Lexus vehicles are in the 70 to 80 range. 
+    - Sports cars often are highly tuned and efficient, but that efficiency creates stress on the engine. A Ferrari is over 100 hp / liter, and nobody buys a Ferrari to drive it 500k miles 
