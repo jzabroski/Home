@@ -6,6 +6,10 @@ https://ayende.com/blog/3983/nhibernate-unit-testing
 
 https://www.meziantou.net/2017/06/26/entity-framework-core-naming-convention
 
+# Things to Think about
+
+[EntityFrameworkCore#15583 Make CLR members lookup for Metadata consistent](https://github.com/aspnet/EntityFrameworkCore/issues/15583): EFCore Metadata internally uses GetRuntimeProperties reflection extension method, which internally in turn calls GetProperties, which as Doug Bunting of the ASP.NET team points out, [guarantees no particular ordering](https://github.com/aspnet/Mvc/issues/1888).
+
 # EFCore Over Time
 
 From: https://9-volt.github.io/bug-life/?repo=aspnet/EntityFrameworkCore
