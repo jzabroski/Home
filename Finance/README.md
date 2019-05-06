@@ -65,6 +65,9 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
   - Advertises on SeekingAlpha, and many sports news sites and vBulletin sports discussion boards.
 - www.autotrader.com
   - Excellent for Carvana cars
+- www.dealerrater.com
+- fakereviews.com
+  - Check if a review is fake or not
 
 ### Data
 - https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=33288
