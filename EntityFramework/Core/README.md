@@ -26,6 +26,14 @@ https://ayende.com/blog/3983/nhibernate-unit-testing
     builder.HasOne(x => x.PrimaryEntity)
         .WithOne(x => x.DependentEntity); // you have to use the navigation syntax on the DependentEntity if you are mapping both sides
     ```
+3. Corollary to previous item: If you completely forgot to configure the dependent entity on the PrimaryEntity's EntityTypeBuilder, you will get an identity insert exception in T-SQL.
+    ```
+    Microsoft.EntityFrameworkCore.DbUpdateException : An error occurred while updating the entries. See the inner exception for details.
+    ---- System.Data.SqlClient.SqlException : Cannot insert the value NULL into column 'PrimatyEntityId', table 'UnitTest.dbo.DependentEntity'; column does not allow nulls. INSERT fails.
+    The statement has been terminated.
+       at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+       at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+    ```
 
 # EFCore Naming Conventions
 
