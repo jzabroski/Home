@@ -1,6 +1,15 @@
-# Ayende on NHibernate (for comparison)
+# Opinions / Perspectives
 
-https://ayende.com/blog/3983/nhibernate-unit-testing
+1. Tim Corey on why he doesn't use Entity Framework
+    - https://iamtimcorey.com/ask-tim-dont-use-entity-framework/
+        1. > [Skill Acquistion] If you look at this simple getting started with EF example, you will see that you need to learn about DBSet, Data Context, Initializers, Seeds, Pluralization, and more. That’s before you take on the more complex example. That doesn’t seem simple to me. It seems like in order to avoid learning SQL, you ended up learning a whole new set of language tools. This isn’t reusing your skills, it is adding a new skill in C# for express purpose of avoiding learning a skill in SQL. Since you still need to know SQL, it doesn’t seem like a good trade-off.
+        2. > Speed [...] Dapper wins hands down. [cf https://github.com/StackExchange/Dapper#performance]
+        3. > Simplicity [...]  In four lines of [Dapper] code, I can get data out of a database and into a `List<T>`. Try doing that in EF.
+
+## Perspectives
+
+1. Ayende on NHibernate (for comparison)
+    - https://ayende.com/blog/3983/nhibernate-unit-testing
 
 # EFCore Gotchas
 
