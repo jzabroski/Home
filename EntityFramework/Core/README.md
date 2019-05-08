@@ -2,6 +2,31 @@
 
 https://ayende.com/blog/3983/nhibernate-unit-testing
 
+# EFCore Gotchas
+
+1. Forgetting to specify the storage type on an enum mapped to a column.
+    ```
+    System.InvalidCastException : Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+       at System.Data.SqlClient.SqlBuffer.get_Int32()
+       at lambda_method(Closure , DbDataReader )
+       at Microsoft.EntityFrameworkCore.Storage.Internal.TypedRelationalValueBufferFactory.Create(DbDataReader dataReader)
+       at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+    ```
+2. Mapping both ends of a one-to-one relationship is tricky, especially if you are mapping both sides.
+    1. In the primary entity's EntityTypeBuilder, specify:
+    ```csharp
+    var builder = new EntityTypeBuilder<PrimaryEntity>();
+    builder.HasOne(x => x.DependentEntity)
+        .WithOne(x => x.PrimaryEntity)
+        .IsRequired()
+        .HasForeignKey<FollowOnWamInteraction>("PrimaryEntityId");
+    ```
+    2. In the dependent entity's EntityTypeBuilder, specify:
+    ```csharp
+    builder.HasOne(x => x.PrimaryEntity)
+        .WithOne(x => x.DependentEntity); // you have to use the navigation syntax on the DependentEntity if you are mapping both sides
+    ```
+
 # EFCore Naming Conventions
 
 https://www.meziantou.net/2017/06/26/entity-framework-core-naming-convention
