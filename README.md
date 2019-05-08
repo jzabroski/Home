@@ -292,6 +292,10 @@ Quasar is a fast and light-weight remote administration tool coded in C#. The us
 
 # Logging
 
+## Better Stack Traces
+- https://github.com/benaadams/Ben.Demystifier
+    - Transforms a .NET Core stack trace into a C# 7.0 friendly syntax
+
 ## Just Logging
 
 | GitHub | NuGet | Description | Radar Positioning |
