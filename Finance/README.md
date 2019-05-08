@@ -83,6 +83,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - Don't buy a 4 cylinder Turbo charged engine. All it will do is put extra pressure on the engine, and extra pressure means increased maintenance costs due to wear and tear. 
 - Cars at 60,000 miles tend to require a lot of maintenance.  YourMechanic.com mobile site has good visual plot of maintenance over time.
 - Never buy a BMW v8.  Known issues going back to 2004 that they have never fixed.  People who buy BMW v8 have money to do so brand new, and then afte the 4 year, 50k mile warranty, they dump it on whoever comes next.  Don't be that person that gets dumped on.
+- If you're not good at keeping up on scheduled maintenance, don't buy an [interference engine](https://jalopnik.com/heres-what-interference-engines-are-and-why-they-exist-1823935549)
 
 ### Inspection
 - Must be done within 7 days of purchase, not 7 days of registration. Watch out for dealers that play tricks with the date you purchase VS. Date you take possession. 
