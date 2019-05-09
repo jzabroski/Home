@@ -45,6 +45,10 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 5. AWS API Gateway
 6. Azure API Management
 
+# Chat
+1. https://rocket.chat/
+2. https://gitlab.com/gitlab-org/gitter
+
 # SysInternals Alternatives
 
 [ProcessHacker](https://github.com/processhacker/processhacker)
