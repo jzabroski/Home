@@ -21,6 +21,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     docker-desktop 2.0.0.3
     easy.install 0.6.11.4
     github-desktop https://chocolatey.org/packages/github-desktop
+    gitkraken 5.0.4
     jdk8 8.0.162
     javaruntime 8.0.191
     jdupes 1.10.3
