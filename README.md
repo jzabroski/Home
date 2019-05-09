@@ -151,6 +151,11 @@ Dropping Postman due to performance concerns. See https://github.com/postmanlabs
 See also: https://app.quicktype.io/ for automatic inference of JSON contracts from an API call
 
 # Application Package Management
+## Versioning
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ---------- | ----------------- |
+| [GitVersion](https://github.com/GitTools/GitVersion) | [GitVersion](https://nuget.org/GitVersion) | Easy Semantic Versioning (http://semver.org) for projects using Git | Incoming |
+
 ## Packaging and Deploying
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ---------- | ----------------- |
