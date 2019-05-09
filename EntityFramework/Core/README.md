@@ -5,6 +5,7 @@
         1. > [Skill Acquistion] If you look at this simple getting started with EF example, you will see that you need to learn about DBSet, Data Context, Initializers, Seeds, Pluralization, and more. That’s before you take on the more complex example. That doesn’t seem simple to me. It seems like in order to avoid learning SQL, you ended up learning a whole new set of language tools. This isn’t reusing your skills, it is adding a new skill in C# for express purpose of avoiding learning a skill in SQL. Since you still need to know SQL, it doesn’t seem like a good trade-off.
         2. > Speed [...] Dapper wins hands down. [cf https://github.com/StackExchange/Dapper#performance]
         3. > Simplicity [...]  In four lines of [Dapper] code, I can get data out of a database and into a `List<T>`. Try doing that in EF.
+            a. Note: this matches up with David Browne (Microsoft) and his description of how difficult it is to do basic logging with EFCore: https://blogs.msdn.microsoft.com/dbrowne/2017/09/22/simple-logging-for-ef-core/
         4. > [Maintainability ...] If I have a database developer on my team, they can work just in SQL. If I use EF, I would need to get a database developer who also knows C#. Either that or I don’t have a database developer on my team but then who optimizes the database? The C# developers?
 
 ## Perspectives
