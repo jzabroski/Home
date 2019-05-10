@@ -45,6 +45,8 @@
        at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
        at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
     ```
+4. `IDENTITY_INSERT is set to OFF` warnings may occur if you accidentally assigned a non-default (non-zero) value to an `Id` column.  For example, if you are configuring a SQL Server unit test's SUT with AutoFixture, make sure you specify `Without(y => y.Id);`
+    a. This can happen with many-to-many mappings or one-to-one mappings or one-to-many mappings.  Anything, really.
 
 # EFCore Naming Conventions
 
