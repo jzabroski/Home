@@ -46,7 +46,9 @@
        at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
     ```
 4. `IDENTITY_INSERT is set to OFF` warnings may occur if you accidentally assigned a non-default (non-zero) value to an `Id` column.  For example, if you are configuring a SQL Server unit test's SUT with AutoFixture, make sure you specify `Without(y => y.Id);`
-    a. This can happen with many-to-many mappings or one-to-one mappings or one-to-many mappings.  Anything, really.
+    a. This can happen with many-to-many mappings or one-to-one mappings or one-to-many mappings.  Anything, really.  For example, if you defined a one-to-one where you should have defined a one-to-many, then you might get this error.
+    b. When defining a `HasOne(x => x.BadEntity).WithOne(x => x.OtherEntity).HasForeignKey("");` - if this is supposed to be a one-to-many, this will cause EFCore to generate a column for the `BadEntityId` insert statement.
+    c. Check the order in which you register things in AutoFixture.
 
 # EFCore Naming Conventions
 
