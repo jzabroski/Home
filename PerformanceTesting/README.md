@@ -2,6 +2,7 @@ https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-w
 
 1. https://github.com/Microsoft/xunit-performance/issues/230#
 2. And here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367117762
+    > At some point I'd really like to see us get away from using mean and standard deviation and consistently use median and intra-quartile (or 5-95 quantile) ranges to summarize results -- these metrics are more relevant for non-normal distributions. For instance response time distribution is quite likely to be very left leaning and have a long right tail of stragglers. So average and standard deviation are misleading and noise prone as they pay too much attention to bad outliers. But we can sort that out later.
 3. Here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367192130
     > Generally I have two pet peeves when it comes to summarizing data: assuming normality and using L2 (squared) distance metrics.
     >
@@ -12,6 +13,18 @@ https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-w
     > Fundamentally, I think L2 metrics are the wrong way to measure this stuff. IQR or quantiles use an L1 (absolute value) metric and so don't get as distracted by infrequent and unpredictable slow response times that are also likely to be uninteresting (eg GC kicked in or the machine decided it was time to do random thing X). Since we are going to use the results of these measurements to draw inferences it seems important that they reflect what we care about. There's no formula for L1 metrics like there is for L2, so you have to compute it by brute force, but it's not hard. Here you might still want to use bootstrap resampling to get some idea how stable the quantiles are, but generally quantiles are pretty stable things, provided you have a reasonable number of samples and don't have a pathologically bad distribution.
     >
     > All that being said, I'd much rather see us get a broader set of tests in place first, and only then refine and improve how we measure. So all this can wait.
+4. 
+    > > Just curious, although the true value of a sample may not be normally distributed, assuming ideally that all samples give a true value (minus all error), it seems like mean or median would not make a difference. However, the error that exists, isn't it likely that the error is normally distributed? Since the magnitude of error would (usually) dominate natural changes in the true value, wouldn't the mean/stderr be a representative summary of the true value (assuming the true value doesn't change much)?
+    > >
+    > > I have previously dealt with outliers by discarding samples outside a set confidence interval and that seemed to work quite well for a variety of similar applications (better than median/ranges). Perhaps there is something better that I'm not understanding, any pointers?
+    >
+    > If you know the thing you are measuring is normally distributed in your population then mean and standard deviation are fine. But much of the time the things we measure in the performance space are not distributed this way.
+    > 
+    > Run almost any benchmark and plot the resulting execution times and you'll see that there is a left-leaning distribution with a long tail to the right. And for those kinds of distributions the mean and standard deviation are not great summary metrics.
+    > 
+    > I think you would find using median and IQR or quartiles does more or less what you have been doing by manual inspection. They are naturally resistant to outliers in a way that mean/standard deviation are not and are well suited for skewed distributions.
+    > 
+    > I can't find a great writeup on this but will keep looking and update if I find one.
 
 ## Code Timing for Microbenchmarks:
 https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
