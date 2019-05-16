@@ -1,6 +1,8 @@
 https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-when-using-a-sample-based-profiler-in-a-performance-investigation/
 
-https://github.com/Microsoft/xunit-performance/issues/230#
+1. https://github.com/Microsoft/xunit-performance/issues/230#
+2. Here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367192130
+3. And here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367117762
 
 ## Code Timing for Microbenchmarks:
 https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
