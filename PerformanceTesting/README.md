@@ -1,8 +1,17 @@
 https://blogs.msdn.microsoft.com/vancem/2012/12/20/how-many-samples-are-enough-when-using-a-sample-based-profiler-in-a-performance-investigation/
 
 1. https://github.com/Microsoft/xunit-performance/issues/230#
-2. Here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367192130
-3. And here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367117762
+2. And here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367117762
+3. Here: https://github.com/dotnet/coreclr/pull/16353#issuecomment-367192130
+    > Generally I have two pet peeves when it comes to summarizing data: assuming normality and using L2 (squared) distance metrics.
+    >
+    > The computation of confidence interval in MarginOfError95 does both: it assumes a normal distribution and uses squared errors. You have ample data here so you might want see how well it is described by a normal distribution. Maybe it is well described this way.
+    > 
+    > If you think L2 error bands are interesting you can use bootstrap resampling or some other non-parametric approach to compute them and not make any assumption at all about the distribution of the data. For response time this would give you asymmetric bands -- much larger on the right side than the left. Or you could try to parametrically fit some long tailed left leaning distribution. But that seems unnecessary as we don't have any particular theory as to what the exact shape should be.
+    >
+    > Fundamentally, I think L2 metrics are the wrong way to measure this stuff. IQR or quantiles use an L1 (absolute value) metric and so don't get as distracted by infrequent and unpredictable slow response times that are also likely to be uninteresting (eg GC kicked in or the machine decided it was time to do random thing X). Since we are going to use the results of these measurements to draw inferences it seems important that they reflect what we care about. There's no formula for L1 metrics like there is for L2, so you have to compute it by brute force, but it's not hard. Here you might still want to use bootstrap resampling to get some idea how stable the quantiles are, but generally quantiles are pretty stable things, provided you have a reasonable number of samples and don't have a pathologically bad distribution.
+    >
+    > All that being said, I'd much rather see us get a broader set of tests in place first, and only then refine and improve how we measure. So all this can wait.
 
 ## Code Timing for Microbenchmarks:
 https://blogs.msdn.microsoft.com/vancem/2006/09/21/measuring-managed-code-quickly-and-easiliy-codetimers/
