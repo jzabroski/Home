@@ -49,6 +49,8 @@
     a. This can happen with many-to-many mappings or one-to-one mappings or one-to-many mappings.  Anything, really.  For example, if you defined a one-to-one where you should have defined a one-to-many, then you might get this error.
     b. When defining a `HasOne(x => x.BadEntity).WithOne(x => x.OtherEntity).HasForeignKey("");` - if this is supposed to be a one-to-many, this will cause EFCore to generate a column for the `BadEntityId` insert statement.
     c. Check the order in which you register things in AutoFixture.
+5. Cascade Delete doesn't work without help from the database ([Yes, REALLY!](https://docs.microsoft.com/en-us/ef/core/saving/cascade-delete))
+    > The delete behavior configured in the EF Core model is only applied when the principal entity is deleted using EF Core and the dependent entities are loaded in memory (that is, for tracked dependents). A corresponding cascade behavior needs to be setup in the database to ensure data that is not being tracked by the context has the necessary action applied. If you use EF Core to create the database, this cascade behavior will be setup for you.
 
 # EFCore Naming Conventions
 
