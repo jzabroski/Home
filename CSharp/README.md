@@ -109,3 +109,4 @@ https://stackoverflow.com/a/42419159/1040437
 2. https://github.com/dotnet/sdk/issues/3044
 3. https://docs.microsoft.com/en-us/dotnet/core/packages#package-based-frameworks
 4. https://github.com/StephenCleary/AsyncEx/issues/129#issuecomment-490903771
+5. https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/
