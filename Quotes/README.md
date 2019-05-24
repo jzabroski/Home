@@ -6,6 +6,8 @@
 
 > He builds a mental castle before having to dig a moat. ~ Nelson
 
+> Passwords are like underwear. You shouldn't leave them out where people can see them. You should change them regularly. And you shouldn't loan them out to strangers. ~ Source Unknown
+
 > Discipline is not what you do to someone; it’s what you do for someone. - Lou Holtz
 
 > Ability is what you're capable of doing; Motivation determines what you do; Attitude determines how well you do it. - Lou Holtz
