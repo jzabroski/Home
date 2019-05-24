@@ -494,6 +494,7 @@ setx ASPNETCORE_ENVIRONMENT "Development"
 
 # Build Server Plug-ins
 | GitHub | Description | Radar Positioning |
+| ------ | ----------- | ----------------- |
 | [teamcity-runas-plugin](https://github.com/JetBrains/teamcity-runas-plugin) | The teamcity-runas plugin to run TeamCity build steps under a specified user account on Windows or Linux. | Stable |
 | [FluentTc](https://github.com/QualiSystems/FluentTc) | Integrate with TeamCity fluently | Assessing |
 
