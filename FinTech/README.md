@@ -31,4 +31,4 @@
                 - What are the established verticals for using your cash? Traveling frequently, through work or through family, looking for a taste Moving beyond travel to trading. 
             - Release independent. Product cycle is 2-3 months. 2 weeks does not give us enough time to validate the next block of work. 
             - Subscription offer: Consistent price for value proposition of adding new features every 1 to 3 months
-        - Homescreen V - N26
+       - Homescreen V - N26
