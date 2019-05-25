@@ -20,3 +20,11 @@
             - ID Checks
                 1. Taking picture of front and back of photo ID
                 2. Backend technology: SDK approach (Onfido, Jumio, Mitek). 
+        - Homescreen VII: Revolut - Making a killer premium proposition
+            - Jim Safford, 11:FS analyst, interviews George Robson, Product Owner at Revolut Premium, to find out why this business model works so well. 
+            - Products: Revolut Premium (2017) and Revolut Metal (August 2018)
+            - Premise: First to launch a retail-side Subscription feature. Initial core of users who travel frequently, live very financially sophisticated lives. Platform on which we can launch broader suite of features.
+            - Reduce friction in how they move their money. Unlimited transfers, unlimited fx, higher ATMs (?), travel insurance.
+            - Product is about access as opposed to ownership. Priority access always core product plan. 
+            - What are the established verticals for using your cash? Traveling frequently, through work or through family, looking for a taste Moving beyond travel to trading
+
