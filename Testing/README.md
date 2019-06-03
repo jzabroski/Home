@@ -22,7 +22,7 @@ The following is an example of an [Auto-Mocking Container](https://blog.ploeh.dk
 
     public class CustomerValidator : AbstractValidator<Customer>
     {
-        CustomerValidator(IRepository<T> repository)
+        CustomerValidator(IRepository<Customer> repository)
         {
             RuleFor(c => c.Id)
                 .NotEmpty();
