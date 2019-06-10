@@ -1,5 +1,17 @@
-Agile Data Warehouse Design: Collaborative Dimensional Modeling, from Whiteboard to Star Schema
-By Lawrence Carr and Jim Stagnitto
+### How to Build a Billion Dollar App
+by George Berkowski
+
+Chapter 9: Metrics to Live and Die By
+
+AARRR:
+- Acquisition
+- Activation
+- Retention
+- Referral
+- Revenue
+
+### Agile Data Warehouse Design: Collaborative Dimensional Modeling, from Whiteboard to Star Schema
+by Lawrence Carr and Jim Stagnitto
 
 
 > The history of data infrastructure is littered with designs 
