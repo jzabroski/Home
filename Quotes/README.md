@@ -14,6 +14,8 @@
 
 > Getting on a player is not necessarily appreciated. But caring about players doesn’t mean making it easy for them. Caring is helping them to develop traits and talents. My job is to provide athletes with a chance to win. A coach can’t win, no coach has ever won a game. - Lou Holtz
 
+> "My secrets get out," [NFL Defensive Coordinator Greg] Williams said. "The reason I keep getting hired is culture -- and culture beats strategy any day of the week." 
+
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
 
 > Time is a flat circle. Everything we have done or will do we will do over and over and over again- forever. ~ True Detective TV show, but actually [Nietzsche's Doctrine of Eternal Recurrence](https://www.quora.com/What-does-the-expression-Time-is-a-flat-circle-mean)
