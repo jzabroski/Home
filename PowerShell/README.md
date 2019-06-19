@@ -20,6 +20,11 @@ function cdHomeInner {set-location C:\source\Home}
 set-alias cdHome cdHomeInner
 ```
 
+# Get Process with net stats
+```powershell
+get-nettcpconnection | select local*,remote*,state,@{Name="Process";Expression={(Get-Process -Id $_.OwningProcess).ProcessName}}
+```
+
 # Get Start Time for Windows Process
 Source: https://blogs.technet.microsoft.com/heyscriptingguy/2012/11/18/powertip-use-powershell-to-easily-see-process-start-time/
 ## All
