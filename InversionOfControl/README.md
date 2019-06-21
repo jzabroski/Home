@@ -26,3 +26,5 @@ static void Main(string[] args)
 									null, bar);
 }
 ```
+
+https://montemagno.com/add-asp-net-cores-dependency-injection-into-xamarin-apps-with-hostbuilder/ - is this useful?
