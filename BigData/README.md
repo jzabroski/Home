@@ -7,3 +7,22 @@
   - SQL Editor (e.g. RedGate, JetBrains DataGrip, Azure DataStudio)
   - ML tools (e.g. Azure ML, RapidMiner, Data Robot, Dataiku, H20.ai)
   - Data Ingestion Tools (Azure Data Factory, StreamSets, Talend, Oozie etc.)
+* `7. Which frameworks, libraries and cloud services have you used for Big Data?`
+  - Apache Hive
+  - Azure EventHub (Kafka)
+  - Apache Kafka
+  - Microsoft Prose SDK
+  - Presto
+  - Apache Spark
+  - Cloudera / Hortonworks
+  - Azure Stream Analytics
+  - Azure Time Series Insights
+  - DataBricks
+  - Azure Data Lake
+  - Google Dataproc, BigQuery etc.
+  - AI Batch
+  - Apache Hadoop
+  - Azure HDInsight
+  - Amazon EMR etc.
+  - MongoDB
+  - None -- I have not used Big Data
