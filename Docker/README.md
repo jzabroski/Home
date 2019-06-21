@@ -68,6 +68,9 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 
 Buildkit is not a replacement for docker, rather it's a tool for creating (amongst other things) docker compatible images. Docker is slated to use buildkit internally eventually. But if you want to do some niche things like creating multi platform images, it's much easier using buildkit directly (after you've managed to set it up, which can be painful). - Source: Aleksander Heintz https://github.com/YoloDev/YoloDev.Fake.Tool.Docker/issues/1#issuecomment-481301518
 
+# Docker Security 
+[Running a container as a non-root user] (https://medium.com/better-programming/running-a-container-with-a-non-root-user-e35830d1f42a) 
+
 # .NET Core Development Tricks
 1. `dotnet docker-watch` See: https://medium.com/lucjuggery/docker-in-development-with-nodemon-d500366e74df
 
