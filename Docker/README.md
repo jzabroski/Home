@@ -48,6 +48,8 @@ Docker allows you to clearly state (in script form) the steps for debugging a pr
 | docker commit | Commit a docker container as an image |
 | docker tag | Tag a docker image |
 
+See also: Docker App, as discussed in [The TICK Stack as a Docker Application Package](https://medium.com/better-programming/the-tick-stack-as-a-docker-application-package-1d0d6b869211)
+
 ## Additional docker commands
 
 | Command | Purpose |
