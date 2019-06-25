@@ -38,11 +38,11 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     spawner 0.2.4
     https://github.com/Terminals-Origin/Terminals
     sysinternals Sysinternals 2019.3.18  https://chocolatey.org/packages/sysinternals
-    thunderbird 52.5.0
-    tortoisesvn
+    thunderbird 60.7.2
+    tortoisesvn 1.12.0.28568
     vcredist2010 10.0.40219.2
-    visualstudio2017buildtools 15.9.8.0 https://chocolatey.org/packages/visualstudio2017buildtools
-    vscode 1.24.0
+    visualstudio2017buildtools 15.9.11.0 https://chocolatey.org/packages/visualstudio2017buildtools
+    vscode 1.35.1
     windowclippings 3.1.131 https://chocolatey.org/packages/windowclippings
 ```powershell
 cinst -y chocolatey --version 0.10.11
