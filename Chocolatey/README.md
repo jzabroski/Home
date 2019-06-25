@@ -43,6 +43,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     vcredist2010 10.0.40219.2
     visualstudio2017buildtools 15.9.8.0 https://chocolatey.org/packages/visualstudio2017buildtools
     vscode 1.24.0
+    windowclippings 3.1.131 https://chocolatey.org/packages/windowclippings
 ```powershell
 cinst -y chocolatey --version 0.10.11
 ```
