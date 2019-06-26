@@ -11,8 +11,7 @@ https://stackoverflow.com/questions/54495023/what-library-for-powershell-6-conta
 
 | Cmdlet | PowerShell v5.1 | PowerShell v6 |
 | ------ | --------------- | ------------- |
-| Get-WmiObject | [Microsoft.PowerShell.Management](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) | 
-| superseded by `Get-CimInstance` |
+| Get-WmiObject | [Microsoft.PowerShell.Management](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) | superseded by `Get-CimInstance` |
 
 ## CMI
 
