@@ -48,7 +48,8 @@ There are 5 ways let VBA call C# code:
     > In the properties window for the primary output make sure that Register is set to vsdrpCOM.
 
 See also: [Add or remove add-ins in Excel](https://support.office.com/en-us/article/add-or-remove-add-ins-in-excel-0af570c4-5cf3-4fa9-9b88-403625a0b460)
-    * Covers 3 approaches:
-        1. Excel add-in (see: http://www.cpearson.com/excel/CreateAddIn.aspx)
-        2. COM add-in
-        3. Automation add-in (see: http://www.cpearson.com/excel/automationaddins.aspx for more information; it was introduced in Excel XP (2002))
+
+* Covers 3 approaches:
+    1. Excel add-in (see: http://www.cpearson.com/excel/CreateAddIn.aspx)
+    2. COM add-in
+    3. Automation add-in (see: http://www.cpearson.com/excel/automationaddins.aspx for more information; it was introduced in Excel XP (2002))
