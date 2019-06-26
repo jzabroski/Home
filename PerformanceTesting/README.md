@@ -261,3 +261,6 @@ Write-Host "TEST RESULTS (also logged in .\output.txt)" -ForegroundColor Yellow
   }
 }
 ```
+
+
+https://www.baeldung.com/java-microbenchmark-harness - jmh. Java microbenchmark harness 
