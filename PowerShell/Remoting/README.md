@@ -13,7 +13,7 @@ https://stackoverflow.com/questions/54495023/what-library-for-powershell-6-conta
 | ------ | --------------- | ------------- |
 | Get-WmiObject | [Microsoft.PowerShell.Management](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) | superseded by `Get-CimInstance` |
 
-## CMI
+## CIM
 
 A possible starting point: PowerShell's conceptual help topic about CIM, about_CIMSession: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_cimsession?view=powershell-6
 
@@ -41,3 +41,13 @@ From _Windows PowerShell Desired State Configuration Revealed_ by Ravikanth Chag
 > Cmdlet          Remove-CimSession                                  6.1.0.0    CimCmdlets
 > Cmdlet          Set-CimInstance                                    6.1.0.0    CimCmdlets
 > ```
+
+
+_[Introduction to the CIMCmdlets PowerShell Module](https://devblogs.microsoft.com/scripting/introduction-to-the-cimcmdlets-powershell-module/)_ by Dr Scripto wrote (with my editorial pen):
+
+> # Limitations
+> The CIMCmdlets PowerShell module has several limitations compared the WMI cmdlets.
+> 1. Most of the `CIMCmdlets` do not have a `-Credential` parameter. The only way to specify alternate credentials is to manually build a new CIM session object, and pass that into the `-CimSession` parameter on the other cmdlets.
+> 2. Absence of a number of useful WMI system properties. When you use Get-WmiObject to retrieve a WMI class definition, or an instance of a class, there are several properties that are automatically added. The names of these system properties all start with two underscores (for example:  `__Derivation`). Depending on your Windows PowerShell development goals, you may find this metadata to be useful.
+> 3. Lack of WMI methods on .NET objects. When `Get-WmiObject` was the new kid on the block, static or instance-level WMI methods would be dynamically bound to the .NET object. In `CIMCmdlets`, the objects retrieved from WMI are not “live,” so you cannot call methods on the .NET object directly. Instead, you must retrieve the CIM instance, and then pass it into the `Invoke-CimMethod` cmdlet.
+
