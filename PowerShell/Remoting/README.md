@@ -1,8 +1,8 @@
 # Two Approaches
 1. WMI (Windows Management Infrastructure)
-2. CIM (Common Information Management)
+2. CIM (Common Information Management) via `CimCmdlets` module
 
-As of PowerShell v3, CIM approach is preferred. The PowerShell CIM cmdlets do NOT require PowerShell to be present on the remote machines (only on the calling machine).
+As of PowerShell v3, CIM approach is preferred. The PowerShell CIM cmdlets do NOT require PowerShell to be present on the remote machines (only on the calling machine).  `CimCmdlets` uses WinRM, and talks to `Winmgmt` (Windows Management Instrumentation) service on Windows.
 
 
 https://stackoverflow.com/questions/54495023/what-library-for-powershell-6-contains-the-get-wmiobject-command/54508009#54508009
@@ -41,6 +41,16 @@ From _Windows PowerShell Desired State Configuration Revealed_ by Ravikanth Chag
 > Cmdlet          Remove-CimSession                                  6.1.0.0    CimCmdlets
 > Cmdlet          Set-CimInstance                                    6.1.0.0    CimCmdlets
 > ```
+>
+> [...]
+> ## Exploring CIM Classes and Instances
+> [...] two important parts: the CIM schema and the CIM infrastructure specification.
+
+### CIM infrastructure specification
+Defines the conceptual view of the managed environment and defines the standards for integrating multiple management models, using object-oriented constructs and design.  **It is not an API**.
+
+### CIM Schema
+Provides actual model descriptions.  It is a collection of classes with properties and methods.
 
 
 _[Introduction to the CIMCmdlets PowerShell Module](https://devblogs.microsoft.com/scripting/introduction-to-the-cimcmdlets-powershell-module/)_ by Dr Scripto wrote (with my editorial pen):
