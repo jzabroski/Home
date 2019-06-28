@@ -7,7 +7,9 @@ Object-Relational Mappers vary in quality, and all I have seen have very poor st
 As far as I can tell, the Re-Motion project is one of the first efforts to actually challenge my controversial statements above bout ORMs. But, as I understand it, they are doing it by adding another layer of abstraction, rather than modifying and refactoring the internal subsystem of their favorite ORM. Not that there is anything obviously wrong with that approach, but it does seem subverted on close inspection. For example, as I understand it, most ORMs do not do a good job exposing the query generator as a compiler architecture like LLVM, and so Re-Motion is fundamentally targeting a moving target. A quick dig into Hibernate reveals what a mighty hack grouping is there, and how it instantly breaks down when vendors support more advanced ways to group sets of data and provide roll-ups on those groups. Without access to query generation primitives, Re-Motion is simply rewriting the AST*, when really it should be re-writing and re-ordering query generation passes on a per query, per vendor basis. ORM Query Generators themselves face the same problem, not having detailed access to the black boxes that are Cost-Based Optimizers and Estimated/Actual Execution Plans. This is a combinatorically explosive problem.
 
 * Apologies if I misrepresented Re-Motion. As Stefan Wenig posted above, there is a lot of code in that project and digging through the internals completely is time-consuming, so I made only a cursory review and handwaved the rest.
+
 Cheers!
-[1] www.kbs.uni-hannover.de/~steimann/
-[2] F Steimann "Why most domain models are aspect free" in: 5th Aspect-Oriented Modeling Workshop AOM@UML (2004).
-[3] F Steimann "Aspects are technical, and they are few" European Interactive Workshop on Aspects in Software EIWAS'04 (2004).
+
+1. www.kbs.uni-hannover.de/~steimann/
+2. F Steimann "Why most domain models are aspect free" in: 5th Aspect-Oriented Modeling Workshop AOM@UML (2004).
+3. F Steimann "Aspects are technical, and they are few" European Interactive Workshop on Aspects in Software EIWAS'04 (2004).
