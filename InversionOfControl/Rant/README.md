@@ -35,3 +35,14 @@ It's a paid download, but many free ressources are available online. Just ask Go
 It's a good read for anybody, not too academical for anybody interested in such concepts. A more elaborate version is amzn.to/lUVmaJ
 
 HyperJ was abandoned in favor of AspectJ. But AOP got out of fashion for anything other than cross-cutting concerns (logging, security etc.) for many reasons. Mixins (with the right set of features) could be just the right technology to get MDSOC into the mainstream. The biggest problem right now seems to be that nobody pursues the concept of MDSOC any more. (There is DCI by Trygve Reenskaug, who was one of the major influencers of MDSOC with his concept of role models. They were all about SoC too. DCI also uses roles and talks a lot about mixins, but it's rather vague on these things and I'm still searching for the connection.)
+
+# Stefan Wenig's THoughts 2.0
+
+- re-mix is just this: mixins. it caters to the larger vision, which has MDSOC at its core, but has been designed to provide just this basic language extension, no frills, no distraction, use it for anything you like and any architectural approach. some compile-time tooling (validation, pre-compilation, reports)
+- re-linq is just infrastructure for any LINQ-provider, and an almost complete SQL backend. it has no connections to re-linq. it's lean and mean, designed to be included in 3rd party libs.
+- re-motion is a large opinionated framework. it extends the concept of mixins to hyperslices, including ORM and fadcading capabilities. we use it as a foundation for our own product development. besides the design advantages of MDSOC (no tangling/scattering), there are two main advantages if you build a product with MDSOC:
+    - you can easily assemble different editions in a product lines (for different types of customers, basically)
+    - the product can easily be customized using the very same mechanisms that we use for product development.
+essentially, using MDSOC, you build not just a product, but a plattform. say goodbye to brittle events, explicit user exits and database triggers. we believe that this is a whole new ballgame for LoB products like CRM or ERP.
+
+All three are OSS, but only re-linq and re-mix are in a state where we can recommend general usage already. with re-motion, we have some documentation work to do (well, it does have reference documentation and a few hands-on labs, but we need to convey the vision too or it won't make sense.)
