@@ -30,6 +30,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     notepadplusplus 7.5.1
     notepadplusplus.install 7.5.1
     OctopusTools 4.22.0
+    PeaZip 6.8.1 # https://chocolatey.org/packages/peazip
     pip 1.2.0
     powershell-core 6.1.3 # https://chocolatey.org/packages/powershell-core/
     PyCharm-community 2017.2.4
@@ -60,3 +61,4 @@ cinst -y chocolatey --version 0.10.11
 | treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
 | notepadplusplus | Text editor with nice syntax highlighting and search. | - |
 | SysExporter | SysExporter utility allows you to grab the data stored in standard list-views, tree-views, list boxes, combo boxes, text-boxes, and WebBrowser/HTML controls from almost any application running on your system, and export it to text, HTML or XML file. | Incoming |
+| PeaZip | PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, FreeArc, PAQ, and PEA projects.<br/>Cross-platform, full-featured but user-friendly alternative to WinRar, WinZip and similar general purpose archive manager applications, open and extract 180+ archive formats: 001, 7Z, ACE(\*), ARC, ARJ, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP ZIPX - view full list of supported archive file formats for archiving and for extraction. | Incoming |
