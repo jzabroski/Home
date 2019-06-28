@@ -1,4 +1,4 @@
-`AppDomain` has no strong isolation properties, as of .NET 2. An unhandled exception will bring down the entire application. Any library flaw can bring down an entire application. This demonstrates two major flaws with the way AppDomain objects work:
+`AppDomain` has no strong isolation properties, as of .NET 2. An unhandled exception will bring down the entire application. Any library flaw can bring down an entire application. This demonstrates two major flaws with the way `AppDomain` objects work:
 
 1. Failure in one `AppDomain` can cascade to another `AppDomain`
 2. Lack of exception handling at `AppDomain` boundaries, which includes inability to handle exceptions raised from asynchronous calls (`OutOfMemoryException`, `StackOverflowException`)
