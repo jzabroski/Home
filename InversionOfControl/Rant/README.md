@@ -39,10 +39,19 @@ HyperJ was abandoned in favor of AspectJ. But AOP got out of fashion for anythin
 # Stefan Wenig's THoughts 2.0
 
 - re-mix is just this: mixins. it caters to the larger vision, which has MDSOC at its core, but has been designed to provide just this basic language extension, no frills, no distraction, use it for anything you like and any architectural approach. some compile-time tooling (validation, pre-compilation, reports)
-- re-linq is just infrastructure for any LINQ-provider, and an almost complete SQL backend. it has no connections to re-linq. it's lean and mean, designed to be included in 3rd party libs.
+- re-linq is just infrastructure for any LINQ-provider, and an almost complete SQL backend. it has no connections to re-mix. it's lean and mean, designed to be included in 3rd party libs.
 - re-motion is a large opinionated framework. it extends the concept of mixins to hyperslices, including ORM and fadcading capabilities. we use it as a foundation for our own product development. besides the design advantages of MDSOC (no tangling/scattering), there are two main advantages if you build a product with MDSOC:
     - you can easily assemble different editions in a product lines (for different types of customers, basically)
     - the product can easily be customized using the very same mechanisms that we use for product development.
 essentially, using MDSOC, you build not just a product, but a plattform. say goodbye to brittle events, explicit user exits and database triggers. we believe that this is a whole new ballgame for LoB products like CRM or ERP.
 
 All three are OSS, but only re-linq and re-mix are in a state where we can recommend general usage already. with re-motion, we have some documentation work to do (well, it does have reference documentation and a few hands-on labs, but we need to convey the vision too or it won't make sense.)
+
+# Stefan Wenig's Thoughts 3.0
+
+After a brief look on Steimann's papers, I think this just underlines my belief that the MDSOC community just gave in to the then-popular AOP movement, and eventually was torn down with it. Steimann seems to focus on cross-cutting concerns and eventually comes to the conclusion that there's very few of them, not enough to justify all the AOP hype. I agree, and I think MSFT did the right thing calling this policy injection and avoiding the AOP name tag.
+
+But AOP was popular, and technically, it could also be used to implement MDSOC. I think it sucks at that. But more important was that by association, MDSOC eventually was dismissed toghether with cross-cutting concerns, although it set out to solve a very different problem.
+Steimann himself recommends mixins and interfaces as a more viable alternative. He doesn't directly address MDSOC, and where his perception of AOP apporoaches it, he becomes vague.
+
+I still think it's time to take MDSOC out of AOP's grave and realize that it could still be a great solution to problems that plague many of us. More so than code-generation based MDA which Steimann seems to like (how dead is that? models cannot express novel ideas, only what the modeling language foresees.)
