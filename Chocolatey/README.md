@@ -37,7 +37,8 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     rsat 2.0  (aduc) - active directory users and computers
     spawner 0.2.4
     https://github.com/Terminals-Origin/Terminals
-    sysinternals Sysinternals 2019.3.18  https://chocolatey.org/packages/sysinternals
+    sysinternals 2019.3.18 #  https://chocolatey.org/packages/sysinternals
+    SysExporter 1.75  # https://chocolatey.org/packages/sysexp 
     thunderbird 60.7.2
     tortoisesvn 1.12.0.28568
     vcredist2010 10.0.40219.2
@@ -58,3 +59,4 @@ cinst -y chocolatey --version 0.10.11
 | ----------- | ----------- | ----------------- |
 | treesizefree | TreeSize Free tells you where precious disk space has gone. | - |
 | notepadplusplus | Text editor with nice syntax highlighting and search. | - |
+| SysExporter | SysExporter utility allows you to grab the data stored in standard list-views, tree-views, list boxes, combo boxes, text-boxes, and WebBrowser/HTML controls from almost any application running on your system, and export it to text, HTML or XML file. | Incoming |
