@@ -1,3 +1,5 @@
+# My Thoughts
+
 Dependency Injection is simply the native execution model of .NET, and simply amounts to cutting out ambient authority from programs. This is a VERY good idea.
 
 Aspect-Oriented Programming, in the style of AspectJ, is a bad idea IMHO. Friedrich Steimann [1] is a very good researcher who has a detailed rant about AOP [2] [3], so there is no need to call it a "useless rant" or to blog about it.
@@ -13,3 +15,23 @@ Cheers!
 1. www.kbs.uni-hannover.de/~steimann/
 2. F Steimann "Why most domain models are aspect free" in: 5th Aspect-Oriented Modeling Workshop AOM@UML (2004).
 3. F Steimann "Aspects are technical, and they are few" European Interactive Workshop on Aspects in Software EIWAS'04 (2004).
+
+# Stefan Wenig's thoughts
+
+Two ways to look at the mixin story:
+1. The multiple-inheritance way
+    I'd just like to have another base type for implementation inheritance. Mixins are arguably a more elegant solution that avoid some of the problems of MI. But you basically use them to achieve the same design goal. You nailed that point well.
+2. Multi-dimensional separation of concerns
+    This is a much longer story. MDSOC was an academic movement of the 90s, that later faded for reasons I don't fully understand (my best guess is that they eventually went all-in on AOP, and then they died with it).
+We're more interested in option 2. The basic idea here is that you have classes with just their intrinsic properties and functionality. Much like an anemic domain model, if you will. You then add functionality to classes via sets of mixins. (Such a set would be a hyperslice in MDSOC/HyperJ.)
+
+These sets are then combined to form actual applications. What you win is separation of concerns: you no longer have the single dimension of single inheritance along which to structure your applications modules and source code, but any number you choose (units of change, features, different versions)
+
+I highly recommend the paper "N Degrees of Separation: Multi-Dimensional Separation of Concerns" by Tarr et.al.
+www.computer.org/portal/web/csdl/doi/10.1109/IC...
+
+It's a paid download, but many free ressources are available online. Just ask Google.
+
+It's a good read for anybody, not too academical for anybody interested in such concepts. A more elaborate version is amzn.to/lUVmaJ
+
+HyperJ was abandoned in favor of AspectJ. But AOP got out of fashion for anything other than cross-cutting concerns (logging, security etc.) for many reasons. Mixins (with the right set of features) could be just the right technology to get MDSOC into the mainstream. The biggest problem right now seems to be that nobody pursues the concept of MDSOC any more. (There is DCI by Trygve Reenskaug, who was one of the major influencers of MDSOC with his concept of role models. They were all about SoC too. DCI also uses roles and talks a lot about mixins, but it's rather vague on these things and I'm still searching for the connection.)
