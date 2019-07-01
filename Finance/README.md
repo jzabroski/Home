@@ -27,6 +27,8 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 2. A *jumbo loan* is any loan greater than $417,000. Generally speaking, jumbo loans will have slightly higher interest rates than a conforming loan.
 3. On January 1, 2009 the "*super conforming*" or "*agency jumbo*" loan was created for loan amounts up to $729,750.
 
+The broker charges a broker origination fee that is paid to the broker per loan transaction from the lender (assuming lender paid compensation).  The broker origination fee is paid to the broker.  The broker then pays the MLO (whatever compensation plan that is set with). Unless he/she is a producing broker, most broker's make their money on the volume of their MLO's, for obviously taking on the compliance of being the broker, and hopefully helping when needed, etc.
+
 # Retirement
 1. https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
 2. [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
