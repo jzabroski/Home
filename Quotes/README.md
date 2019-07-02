@@ -4,6 +4,8 @@
 
 > Fulton's Folly
 
+> Simplicity is a force multiplier. - Jonathan Edwards 
+
 > He builds a mental castle before having to dig a moat. ~ Nelson
 
 > Passwords are like underwear. You shouldn't leave them out where people can see them. You should change them regularly. And you shouldn't loan them out to strangers. ~ Source Unknown
