@@ -20,8 +20,9 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
    
 # Home Buying
 1. https://pfloans.provident.com/
-2. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
-3. https://www.calyxsoftware.com loan software 
+2. https://www.allanachmortgage.com/daily-rates.php
+3. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
+4. https://www.calyxsoftware.com loan software 
 
 ## Loan Terminology
 1. A *conforming loan* is any loan amount of $417,000 or less.
