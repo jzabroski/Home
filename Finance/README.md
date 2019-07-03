@@ -32,6 +32,8 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 
 The broker charges a broker origination fee that is paid to the broker per loan transaction from the lender (assuming lender paid compensation).  The broker origination fee is paid to the broker.  The broker then pays the MLO (whatever compensation plan that is set with). Unless he/she is a producing broker, most broker's make their money on the volume of their MLO's, for obviously taking on the compliance of being the broker, and hopefully helping when needed, etc.
 
+4. *CRA area* refers to Community Reinvestment Act area covered by a local bank.  The Community Reinvestment Act (CRA) is a law intended to encourage depository institutions to help meet the credit needs of the communities in which they operate, including low- and moderate-income (LMI) neighborhoods, consistent with safe and sound banking operations.
+
 # Retirement
 1. https://www.investopedia.com/ask/answers/112415/are-catchup-contributions-included-415-limit.asp
 2. [irs.gov - Chapter 9 Verifying 404 Deductions for Defined Contribution Plans](https://www.irs.gov/pub/irs-tege/epche903.pdf)
