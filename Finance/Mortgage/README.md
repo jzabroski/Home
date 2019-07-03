@@ -1,3 +1,6 @@
+# Portfolio Mortgage 
+https://themortgagereports.com/29518/what-is-a-portfolio-mortgage
+
 # Mortgage Loan Officer Perspective
 - Temp employees income is effectively 0 in eyes of mortgage officer
 - New business owners must have two year track record to obtain mortgage financing.  Does not matter if Schedule C, LLC, S-Corp, whatever.  What matters is date of incorporation and 2 year proof of income.
