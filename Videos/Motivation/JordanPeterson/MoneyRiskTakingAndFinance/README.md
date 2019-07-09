@@ -6,4 +6,6 @@ If you're accustomed to keeping things in the fog, in general, you're going to k
 
 # Risk Taking
 
-8 minutes. In the grips of the devil. Range in which something works, and then too much becomes negatively disruptive. 
+8 minutes. In the grips of the devil. Range in which something works, and then too much becomes negatively disruptive.
+
+End of video. One way to mitigate risk as a society. Don't be crooked. You can't eliminate risk, but by not being crooked, you can at least prevent systemic risk due to people cheating the system. 
