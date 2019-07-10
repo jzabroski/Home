@@ -23,10 +23,11 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 2. https://www.provident.com/MortgageBenefitProgram
     > 0.25% off loans
     > Any company that possesses a valid U.S. business license and a roster of at least 25 active employees is eligible to join Provident Funding’s Mortgage Benefit Program.
-2. https://www.allanachmortgage.com/daily-rates.php
-3. https://www.tsbawake24.com/rates/mortgage-rates/
-4. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
-5. https://www.calyxsoftware.com loan software 
+3. https://www.allanachmortgage.com/daily-rates.php
+4. https://www.tsbawake24.com/rates/mortgage-rates/
+5. http://www.mortgagenewsdaily.com/data/30-year-mortgage-rates.aspx
+6. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
+7. https://www.calyxsoftware.com loan software 
 
 ## Loan Terminology
 1. A *conforming loan* is any loan amount of $417,000 or less.
