@@ -33,6 +33,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 1. A *conforming loan* is any loan amount of $417,000 or less.
 2. A *jumbo loan* is any loan greater than $417,000. Generally speaking, jumbo loans will have slightly higher interest rates than a conforming loan.
 3. On January 1, 2009 the "*super conforming*" or "*agency jumbo*" loan was created for loan amounts up to $729,750.
+4. *YSP* means [yield spread premium](https://www.thetruthaboutmortgage.com/mortgage-dictionary/yield-spread-premium/).
 
 The broker charges a broker origination fee that is paid to the broker per loan transaction from the lender (assuming lender paid compensation).  The broker origination fee is paid to the broker.  The broker then pays the MLO (whatever compensation plan that is set with). Unless he/she is a producing broker, most broker's make their money on the volume of their MLO's, for obviously taking on the compliance of being the broker, and hopefully helping when needed, etc.
 
