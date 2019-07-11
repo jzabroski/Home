@@ -1,3 +1,7 @@
+# Command Line Tricks
+
+Type `> [console]::`, then <kbd>control</kbd>+<kbd>space</kbd> to see all public properties, fields and methods on a type.
+
 # Better Command Line Experience?
 
 [PowerLine](https://github.com/Jaykul/PowerLine)
