@@ -6,6 +6,8 @@
 
 > Simplicity is a force multiplier. - Jonathan Edwards 
 
+> If you want many things in your life, live a long time. Simple. ~ (James) Kurt Dew
+
 > He builds a mental castle before having to dig a moat. ~ Nelson
 
 > Passwords are like underwear. You shouldn't leave them out where people can see them. You should change them regularly. And you shouldn't loan them out to strangers. ~ Source Unknown
