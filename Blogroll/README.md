@@ -9,6 +9,7 @@
 8. http://lambda-the-ultimate.org
 9. https://usabilitygeek.com/start-here/
 10. https://calendar.perfplanet.com/2018/
+11. https://www.yegor256.com/best.html
 
 # Data Scientists
 1. https://www.evanmiller.org
