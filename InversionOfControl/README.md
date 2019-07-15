@@ -6,6 +6,8 @@ https://softwareengineering.stackexchange.com/questions/385954/do-language-featu
 
 https://stackoverflow.com/questions/22560043/autofac-how-to-inject-a-open-generic-delegate-in-constructor
 
+https://stackoverflow.com/questions/39029344/factory-pattern-with-open-generics/42650112#42650112
+
 .NET does not support open instance delegate to generic interface method:
 ```csharp
 interface IFoo
