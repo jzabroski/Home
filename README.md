@@ -44,6 +44,7 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 4. https://apiary.io/ - Apiary was acquired by [Oracle for undisclosed amount on January 19, 2017](https://en.wikipedia.org/wiki/List_of_acquisitions_by_Oracle)
 5. AWS API Gateway
 6. Azure API Management
+7. Moesif -  https://www.moesif.com/solutions/api-product-management
 
 # Chat
 1. https://rocket.chat/
