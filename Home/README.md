@@ -1,4 +1,4 @@
-# Indoor Air Quality (AIQ)
+# Indoor Air Quality (IAQ)
 
 https://www.reddit.com/r/IAmA/comments/g3a0v/iaman_indoor_air_quality_professional/
 
