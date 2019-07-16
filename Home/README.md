@@ -14,3 +14,10 @@ on poorly insulated flooring...) this moisture can easily promote mold growth an
 
 https://molekule.com/blog/air-purifier-performance-standards-cadr-merv-hepa/
 
+https://www.reddit.com/r/molekule/comments/c96o45/vacuum_wars_tests_molekule_vs_environklenz/
+
+> 1. Use a PID meter instead of a consumer grade sensor. These low cost sensors do not have the stability, resolution or consistency to really know how well any air purifier really reduces VOCs.
+> 2. Do not test in a small enclosed chamber. This will greatly increase the Air Exchange Rate and and over estimate any positive reading.
+> 3. Do not use high concentration of a single VOC in a small enclosure. Use the mix of multiple VOCs we find in homes.
+> 4. Test in real living spaces where the TVOC levels are > 500ng/liter. See if levels can be lowered below 500ng/liter.
+> 5. Better yet do before and and after Gas Chromatography readings in real rooms with ambient VOC concentrations. That's the gold standard.
