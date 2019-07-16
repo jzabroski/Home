@@ -11,3 +11,6 @@ on poorly insulated flooring...) this moisture can easily promote mold growth an
 > These "other pollutants" are costly to test for, but are almost always alleviated by improving ventilation.
 >
 > This is the number one cause of general sinus/allergy/headache issues which my client's complain of when they are at home.
+
+https://molekule.com/blog/air-purifier-performance-standards-cadr-merv-hepa/
+
