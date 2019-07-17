@@ -19,7 +19,7 @@
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
    
 # Home Buying
-1. https://pfloans.provident.com/ - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
+1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
 2. https://www.provident.com/MortgageBenefitProgram
     > 0.25% off loans
     > Any company that possesses a valid U.S. business license and a roster of at least 25 active employees is eligible to join Provident Funding’s Mortgage Benefit Program.
