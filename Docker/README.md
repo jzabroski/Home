@@ -39,6 +39,9 @@ Your SQL database, web layer, and client can all live on the same machine in sep
 ## Reducing Debugging Overhead
 Docker allows you to clearly state (in script form) the steps for debugging a problem on a system with known properties, making bug and environment reproduction much simpler.  Previously, you might submit a bug report to GitHub with sample code and information about your OS, but the project maintainer might not be able to reproduce it, because the enviroment configuration is not identical between you and the maintainer.  Containers allow you to break down these communication walls.
 
+# Dockly - Immersive Terminal Interface for Docker Commands & Services
+https://github.com/lirantal/dockly
+
 # Docker commands
 
 | Command | Purpose |
