@@ -10,6 +10,7 @@
 9. https://usabilitygeek.com/start-here/
 10. https://calendar.perfplanet.com/2018/
 11. https://www.yegor256.com/best.html
+12. https://hashnode.com/post/i-am-robert-c-martin-uncle-bob-ask-me-anything-cjr7pnh8g000k2cs18o5nhulp
 
 # Data Scientists
 1. https://www.evanmiller.org
