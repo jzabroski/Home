@@ -1,6 +1,6 @@
 # cursoring
-<kbd>control</kbd> + <kbd>down arrow</kbd> - Moves to the last populated cell in a column
-<kbd>alt</kbd> + <kbd>h</kbd>, <kbd>o</kbd>, <kbd>i</kbd> - Auto-corrects column width
+1. <kbd>control</kbd> + <kbd>down arrow</kbd> - Moves to the last populated cell in a column
+2. <kbd>alt</kbd> + <kbd>h</kbd>, <kbd>o</kbd>, <kbd>i</kbd> - Auto-corrects column width
 
 # pasting 
 Paste Special
