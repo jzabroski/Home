@@ -1,4 +1,10 @@
 # Trading
+
+## Moving Positions across Brokers
+https://www.investopedia.com/terms/a/acat.asp
+
+## Data
+
 1. http://openinsider.com/
 2. http://whalewisdom.com/
 3. https://www.sec.gov/edgar/searchedgar/webusers.htm
