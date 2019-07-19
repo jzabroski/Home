@@ -24,6 +24,9 @@ Mind wandering VS. Focus. Really concentrate, then let go and day dream. Ability
       1. Exploration.
       2. Exploitation. 
 
+“A failure to focus inward leaves you **rudderless**, a failure to focus on others renders you **clueless**, and a failure to focus outward may leave you **blindsided**.”
+-- Source: https://www.facebook.com/HBR/photos/a.10150186714242787/10152230801877787/?type=3&theater
+
 If you lack all 3, you will be Rudderless, clueless, blindsided. 
 
 Repetition to strengthen attention. One example how. Breathing focused meditation. 
