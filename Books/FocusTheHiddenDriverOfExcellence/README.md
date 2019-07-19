@@ -16,9 +16,9 @@ Mind wandering VS. Focus. Really concentrate, then let go and day dream. Ability
 1. Inner focus. Beyond rational pros and cons, ability to decide best one. No connection to ability to think in words. Part of brain connected to gastrointestinal tract. Literally "gut feeling". Answer first in feelings then in words. Is what I'm about to do keeping with my sense meaning, values, purpose and ethics. 
 2. Other focus. Reading people. Empathy.
     - 3 types. Great leaders have all 3.
-      1. Cognitive empathy. Models. Know how to mobilize people.
-      2. Emotional empathy. Immediate felt sense of what is going on with that person.
-      3. Empathic concern. If there is something you need and I can help you with, I'm predisposed to help.
+      1. **Cognitive empathy**. Models. Know how to mobilize people.
+      2. **Emotional empathy**. Immediate felt sense of what is going on with that person.
+      3. **Empathic concern**. If there is something you need and I can help you with, I'm predisposed to help.
 3. Outer focus. Formulating strategy. Understanding ecosystem in which organization your operates. System view. 
     - Two kinds of
       1. Exploration.
