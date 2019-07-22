@@ -3,8 +3,8 @@
 ## Service start failure query
 ```powershell
 Get-EventLog -LogName Application -Source MSSQLSERVER -After $(Get-Date '7/20/2019') -Before $(Get-Date '7/22/2019') |
->> Where-Object { $_.EventID -eq 1 } |
->> Format-Custom -Property Source,InstanceID,EventID,EntryType,Message,ReplacementStrings
+  Where-Object { $_.EventID -eq 1 } |
+  Format-Custom -Property Source,InstanceID,EventID,EntryType,Message,ReplacementStrings
 ```
 
 ```
