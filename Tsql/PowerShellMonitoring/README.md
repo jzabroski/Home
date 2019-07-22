@@ -1,5 +1,6 @@
 # Failure to start
 
+## Service start failure query
 ```powershell
 Get-EventLog -LogName Application -Source MSSQLSERVER -After $(Get-Date '7/20/2019') -Before $(Get-Date '7/22/2019') |
 >> Where-Object { $_.EventID -eq 1 } |
@@ -34,6 +35,11 @@ class EventLogEntry#Application/MSSQLSERVER/1
     ]
 
 }
+```
+
+## Login failure
+```powershell
+Get-EventLog -LogName Security  -After $(Get-Date '7/20/2019 09:15:00') -EntryType FailureAudit  | Format-Custom -Property Source,InstanceID,Time,EntryType,Message
 ```
 
 # SPN Configuration
