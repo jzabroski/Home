@@ -1,3 +1,41 @@
+# Failure to start
+
+```powershell
+Get-EventLog -LogName Application -Source MSSQLSERVER -After $(Get-Date '7/20/2019') -Before $(Get-Date '7/22/2019') |
+>> Where-Object { $_.EventID -eq 1 } |
+>> Format-Custom -Property Source,InstanceID,EventID,EntryType,Message,ReplacementStrings
+```
+
+```
+class EventLogEntry#Application/MSSQLSERVER/1
+{
+  Source = MSSQLSERVER
+  InstanceId = 1
+  EventID = 1
+  EntryType = Information
+  Message = None
+  ReplacementStrings =
+    [
+      SqlCeip started  pid: 3300 instance:  CPEFlag: True
+    ]
+
+}
+
+class EventLogEntry#Application/MSSQLSERVER/1
+{
+  Source = MSSQLSERVER
+  InstanceId = 1
+  EventID = 1
+  EntryType = Information
+  Message = None
+  ReplacementStrings =
+    [
+      Open failed with error number 2
+    ]
+
+}
+```
+
 # SPN Configuration
 
 ```powershell
