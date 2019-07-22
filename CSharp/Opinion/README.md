@@ -1,8 +1,9 @@
-# Attributes are not a good idea
+# Attributes are not a maintainable idea
 
+## 
 Case in point, 1: https://www.reddit.com/r/csharp/comments/cegdrc/looking_for_a_library_if_one_exists_for_this/eu3wv6j/?context=3
 
-# If you have to use Attributes, test their presence
+## If you have to use Attributes, test their presence
 
 Case in point, 2: https://davidpine.net/blog/asp-net-core-security-unit-testing/
 
