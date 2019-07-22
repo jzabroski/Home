@@ -1,6 +1,6 @@
 # Attributes are not a maintainable idea
 
-## 
+## For Serialization, Implies Tightly Coupled Data Representation 
 Case in point, 1: https://www.reddit.com/r/csharp/comments/cegdrc/looking_for_a_library_if_one_exists_for_this/eu3wv6j/?context=3
 
 ## If you have to use Attributes, test their presence
