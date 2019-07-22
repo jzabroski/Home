@@ -15,7 +15,7 @@ should return something like the following:
 >   EventID = 26067
 >   EntryType = Information
 >   Message = The SQL Server Network Interface library could not register the Service Principal Name (SPN) [
->   MSSQLSvc/PRODSQL3.weissasset.local ] for the SQL Server service. Windows return code: 0x200b, state: 15. Failure to
+>   MSSQLSvc/sqlserver.examle.com ] for the SQL Server service. Windows return code: 0x200b, state: 15. Failure to
 >   register a SPN might cause integrated authentication to use NTLM instead of Kerberos. This is an informational
 >   message. Further action is only required if Kerberos authentication is required by authentication policies and if
 >   the SPN has not been manually registered.
