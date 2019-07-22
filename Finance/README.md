@@ -38,6 +38,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 ## Mortgage Ratesheet
 [How to Read A Mortgage Rate Sheet - Part 1](https://www.youtube.com/watch?v=fFZWehE763w)
 [How to Read A Mortgage Rate Sheet - Part 2](https://www.youtube.com/watch?v=zq1k0JRMudo)
+[Comparing Lender Rate Sheets, and Rate Buydown](https://www.youtube.com/watch?v=U3uxXQ5l7YY)
 
 ## Loan Terminology
 1. A *conforming loan* is any loan amount of $417,000 or less.
