@@ -35,6 +35,10 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 6. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
 7. https://www.calyxsoftware.com loan software 
 
+## Mortgage Ratesheet
+[How to Read A Mortgage Rate Sheet - Part 1](https://www.youtube.com/watch?v=fFZWehE763w)
+[How to Read A Mortgage Rate Sheet - Part 2](https://www.youtube.com/watch?v=zq1k0JRMudo)
+
 ## Loan Terminology
 1. A *conforming loan* is any loan amount of $417,000 or less.
 2. A *jumbo loan* is any loan greater than $417,000. Generally speaking, jumbo loans will have slightly higher interest rates than a conforming loan.
