@@ -43,4 +43,17 @@ Key drivers
 Rewritten to take advantage of Snowflake warehouse computation units
 - some jobs were cpu intense, others light, need ran hourly VS weekly
 
-Problem in Redshift : Reports would steal CPU from Etl pipeline write 
+- give warehouses based on data volume 
+
+Problem in Redshift : can't handle concurrent readers with writers
+
+Reports would steal CPU from Etl pipeline write
+
+Had to write pieces to orchestrate data processing around Snowflake
+- DAGs as Pipelines
+- Wrote a lot of unit tests
+- Moved from using AWS Data Pipelines to AirFlow. He said a lot of people are using AirFlow for data pipeline 
+- Integration with AirFlow is simple. Kick off a batch run. 
+- Added custom monitors, metrics and alerts around pipelines 
+
+
