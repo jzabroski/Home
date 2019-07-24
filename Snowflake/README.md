@@ -56,4 +56,8 @@ Had to write pieces to orchestrate data processing around Snowflake
 - Integration with AirFlow is simple. Kick off a batch run. 
 - Added custom monitors, metrics and alerts around pipelines 
 
+Used sql alchemy with data warehouse model. Not a perfect fit but got it working. Benefit was to interact with schemas directly in python. 
+
+Also, in previous talk, there was an entire data lake piece built with S3 using Hive, which they got rid of. 
+
 
