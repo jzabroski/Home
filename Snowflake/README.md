@@ -59,4 +59,8 @@ Had to write pieces to orchestrate data processing around Snowflake
 
 In conclusion,
 1. solved fixed size model
-2. Solved concurrent readers and writers 
+2. Solved concurrent readers and writers
+
+17:30
+
+Q&A 
