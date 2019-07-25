@@ -11,6 +11,19 @@
 7. [Excel-DNA/Samples/../RtdClocks](https://github.com/Excel-DNA/Samples/tree/master/RtdClocks)
 8. [Excel-DNA/Samples/../RtdArrayTest](https://github.com/Excel-DNA/Samples/tree/master/RtdArrayTest)
 
+# Excel RTD FAQ
+[Real-Time Data: Frequently Asked Questions - How do I create a function wrapper?](https://docs.microsoft.com/en-us/previous-versions/office/developer/office-xp/aa140060(v=office.10)#how-do-i-create-a-function-wrapper)
+
+Note: You can also just declare a Public Function like so:
+
+```vba
+Public Function Test(ByVal A as Integer) As Integer
+    Dim realTimeDataServer As YourAddIn.ClassName
+    realTimeDataServer = New YourAddIn.ClassName
+    Test = realTimeDataServer.test(a)
+End Function
+```
+
 # Excel Add-ins (In General)
 https://bettersolutions.com/csharp/excel-interop/vba-calling-csharp-com-interop.htm
 
