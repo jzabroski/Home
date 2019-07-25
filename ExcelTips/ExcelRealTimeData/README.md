@@ -12,6 +12,8 @@
 8. [Excel-DNA/Samples/../RtdArrayTest](https://github.com/Excel-DNA/Samples/tree/master/RtdArrayTest)
 
 # Excel Add-ins (In General)
+https://bettersolutions.com/csharp/excel-interop/vba-calling-csharp-com-interop.htm
+
 There are 5 ways let VBA call C# code:
 1. with COM Interop
     > Introduced in Excel 2000.
