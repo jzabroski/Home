@@ -1,3 +1,31 @@
+# How to Register a .NET assembly for COM Interop
+## Via Visual Studio
+Note: this approach will only work on the machine where Visual Studio is installed.  It is fine for development, but see the approach for below for deployment to production machines.
+
+1. Right-click a library (dll) project in **Solution Explorer**, click **Properties**
+2. Go to the Build tab, click **Register for COM Interop**.
+
+## Via Command Line (Better Way)
+Note: If your csproj targets .NET Framework 2.0, you need to use the .NET Framework 2.0 regasm.exe tool.  Below is a table of the different regasm tools and their paths:
+| .NET Framework Version | Processor Architecture | RegAsm.exe Location |
+| ---------------------- | ---------------------- | ------------------- |
+| 2.0                    | x86                    | C:\Windows\Microsoft.NET\Framework\v2.0.50727\RegAsm.exe |
+| 2.0                    | x64                    | C:\Windows\Microsoft.NET\Framework64\v2.0.50727\RegAsm.exe |
+| 4.0                    | C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe |
+
+# How to Use a COM Registered .NET Assembly in Excel
+## Via VBA
+
+
+# How to use Python in Excel
+https://www.pyxll.com/_forum/index.php?topic=27.0
+
+> ** For an up to date copy of this code go to the pyxll-examples github repo **
+> https://github.com/pyxll/pyxll-examples/tree/master/rtd
+> 
+> ** For Excel 2010 and later versions you will need the exceltypes package **
+> https://github.com/pyxll/exceltypes
+
 # Excel RTD Servers
 1. [Kerry Kerr: Excel RTD Servers: Minimal C# Implementation](https://weblogs.asp.net/kennykerr/Rtd3)
 2. [Kerry Kerr: Excel RTD Servers: Multiple Topics in C#](https://weblogs.asp.net/kennykerr/Rtd6)
@@ -29,6 +57,8 @@ End Function
 
 # Excel Add-ins (In General)
 https://bettersolutions.com/csharp/excel-interop/vba-calling-csharp-com-interop.htm
+
+
 
 There are 5 ways let VBA call C# code:
 1. with COM Interop
