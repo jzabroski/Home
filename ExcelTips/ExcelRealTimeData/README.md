@@ -30,6 +30,8 @@ Note: If your csproj targets .NET Framework 2.0, you need to use the .NET Framew
 6. In the **References - VBA Project** window, click **Browse...**.
 7. Select the tlb (Type Library) file located side-by-side with your .NET Assembly
 
+The dependency will now show up via the dll name (e.g. _YourAddin_).
+
 # How to use Python in Excel
 https://www.pyxll.com/_forum/index.php?topic=27.0
 
