@@ -56,6 +56,9 @@ https://www.pyxll.com/_forum/index.php?topic=27.0
 
 # Excel User-Defined Functions
 1. [Eric Carter: Writing user defined functions for Excel in .NET](https://blogs.msdn.microsoft.com/eric_carter/2004/12/01/writing-user-defined-functions-for-excel-in-net/)
+2. [Eric Carter: Updated Instructions for Writing User Defined Functions for Excel in .NET](https://blogs.msdn.microsoft.com/eric_carter/2008/04/04/updated-instructions-for-writing-user-defined-functions-for-excel-in-net/)
+> 1) [...] Use the Guid attribute and generate a GUID using Generate GUID from Visual Studio Tools menu.  This makes debugging and troubleshooting any issues that come up easier as omitting this causes Visual Studio to generate new guids as you work with your project.  This makes it easier to search the registry for your automation add-in since it will always be listed under the GUID you specify.
+> 2) [Register the full dll path!]
 
 # Excel RTD FAQ
 [Real-Time Data: Frequently Asked Questions - How do I create a function wrapper?](https://docs.microsoft.com/en-us/previous-versions/office/developer/office-xp/aa140060(v=office.10)#how-do-i-create-a-function-wrapper)
