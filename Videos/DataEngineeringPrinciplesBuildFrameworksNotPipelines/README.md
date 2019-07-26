@@ -57,3 +57,5 @@ Easier to scale quality for profit than scale horizontally
 12. Join your data at the database level
 13. Monitor your data
 
+# Q&A
+Seeing Like a State by James C. Scott
