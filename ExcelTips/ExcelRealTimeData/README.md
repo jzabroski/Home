@@ -7,15 +7,28 @@ Note: this approach will only work on the machine where Visual Studio is install
 
 ## Via Command Line (Better Way)
 Note: If your csproj targets .NET Framework 2.0, you need to use the .NET Framework 2.0 regasm.exe tool.  Below is a table of the different regasm tools and their paths:
+
 | .NET Framework Version | Processor Architecture | RegAsm.exe Location |
 | ---------------------- | ---------------------- | ------------------- |
 | 2.0                    | x86                    | C:\Windows\Microsoft.NET\Framework\v2.0.50727\RegAsm.exe |
 | 2.0                    | x64                    | C:\Windows\Microsoft.NET\Framework64\v2.0.50727\RegAsm.exe |
-| 4.0                    | C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe |
+| 4.0                    | x86                    | C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe |
+| 4.0                    | x64                    | C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe |
+
+1. Run the following command
+    ```powershell
+    RegAsm.exe /codebase "C:\Program Files\Default Company Name\YourAddin.dll"
+    ```
 
 # How to Use a COM Registered .NET Assembly in Excel
 ## Via VBA
-
+1. Open the Excel spreadsheet
+2. Go to the **View** menu in the Ribbon.
+3. Click the **Macros** button under the View Ribbon.
+4. Click **View Macros** in the context menu.
+5. In the Microsoft Visual Basic for Applications window, click **Tools** menu, click **References...*
+6. In the **References - VBA Project** window, click **Browse...**.
+7. Select the tlb (Type Library) file located side-by-side with your .NET Assembly
 
 # How to use Python in Excel
 https://www.pyxll.com/_forum/index.php?topic=27.0
