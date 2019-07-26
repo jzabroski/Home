@@ -2,8 +2,11 @@
 ## Via Visual Studio
 Note: this approach will only work on the machine where Visual Studio is installed.  It is fine for development, but see the approach for below for deployment to production machines.
 
-1. Right-click a library (dll) project in **Solution Explorer**, click **Properties**
-2. Go to the Build tab, click **Register for COM Interop**.
+1. Open Visual Studio using **Run as Administrator**.
+2. Right-click a library (dll) project in **Solution Explorer**, click **Properties**
+3. Go to the Build tab, click **Register for COM Interop**.
+
+Note: If you click **Rebuild**, then there is a chance you will get a warning about being unable to delete the dll.  Simply do a Clean Solution, followed by a Build.  Don't use Rebuild.
 
 ## Via Command Line (Better Way)
 Note: If your csproj targets .NET Framework 2.0, you need to use the .NET Framework 2.0 regasm.exe tool.  Below is a table of the different regasm tools and their paths:
