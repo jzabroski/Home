@@ -11,6 +11,9 @@
 7. [Excel-DNA/Samples/../RtdClocks](https://github.com/Excel-DNA/Samples/tree/master/RtdClocks)
 8. [Excel-DNA/Samples/../RtdArrayTest](https://github.com/Excel-DNA/Samples/tree/master/RtdArrayTest)
 
+# Excel User-Defined Functions
+1. [Eric Carter: Writing user defined functions for Excel in .NET](https://blogs.msdn.microsoft.com/eric_carter/2004/12/01/writing-user-defined-functions-for-excel-in-net/)
+
 # Excel RTD FAQ
 [Real-Time Data: Frequently Asked Questions - How do I create a function wrapper?](https://docs.microsoft.com/en-us/previous-versions/office/developer/office-xp/aa140060(v=office.10)#how-do-i-create-a-function-wrapper)
 
