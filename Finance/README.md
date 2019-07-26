@@ -1,3 +1,6 @@
+# Business
+1. https://bradfordtaxinstitute.com/Content/Do-Not-Defeat-Your-S-Corporation-by-Paying-Yourself-on-a-1099.aspx
+
 # Trading
 
 ## Moving Positions across Brokers
