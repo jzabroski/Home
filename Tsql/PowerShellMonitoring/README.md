@@ -7,6 +7,12 @@ Get-EventLog -LogName System -Source "Service Control Manager" | where eventid -
 
 If you get this error, and you are using Logon Type 5 (Log On as a Service), and the username has Log On As a Service rights in Local security policy, then the next thing to check is whether or not the service Log On value is correct.  The safest way to test this is to revert the logon to NT AUTHORITY\SYSTEM, click apply, then change it back to what you want using the Search dialog.
 
+You can use `sc.exe` to check fix things: https://stackoverflow.com/questions/4436558/start-stop-a-windows-service-from-a-non-administrator-user-account
+
+```powershell
+sc.exe sdshow mssqlserver
+```
+
 ## Service start failure query
 ```powershell
 Get-EventLog -LogName Application -Source MSSQLSERVER -After $(Get-Date '7/20/2019') -Before $(Get-Date '7/22/2019') |
