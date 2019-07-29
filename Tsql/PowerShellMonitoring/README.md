@@ -7,6 +7,8 @@ Get-EventLog -LogName System -Source "Service Control Manager" | where eventid -
 
 If you get this error, and you are using Logon Type 5 (Log On as a Service), and the username has Log On As a Service rights in Local security policy, then the next thing to check is whether or not the service Log On value is correct.  The safest way to test this is to revert the logon to NT AUTHORITY\SYSTEM, click apply, then change it back to what you want using the Search dialog.
 
+Effectively, this happens if you set the Log On user prior to registering a group Managed Service Account as a service principal.  It's effectively a pre-condition in the service configuration.  There's probably a way to workaround this such that you can do things in any order, but it's safer to just first register the service account in the msa_principals list and then add it as the Log On user for the service.
+
 You can use `sc.exe` to check fix things: https://stackoverflow.com/questions/4436558/start-stop-a-windows-service-from-a-non-administrator-user-account
 
 ```powershell
