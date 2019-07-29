@@ -1,5 +1,10 @@
 # Failure to start
 
+## Service failure to start
+```powershell
+Get-EventLog -LogName System -Source "Service Control Manager" | where eventid -cin @(7000, 7038)
+```
+
 ## Service start failure query
 ```powershell
 Get-EventLog -LogName Application -Source MSSQLSERVER -After $(Get-Date '7/20/2019') -Before $(Get-Date '7/22/2019') |
