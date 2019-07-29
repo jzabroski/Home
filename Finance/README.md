@@ -23,6 +23,7 @@ https://www.investopedia.com/terms/a/acat.asp
 9. https://www.iso20022.org
 10. https://spacinsider.com/
 11. https://lippincottlibrary.wordpress.com/
+12. http://shortsqueeze.com/
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
