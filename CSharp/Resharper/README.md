@@ -12,3 +12,12 @@
 ```powershell
 cleanupcode.exe --profile="Built-in: Reformat Code"
 ```
+
+# dotPeek
+
+Online Help starting point: https://www.jetbrains.com/help/decompiler/2019.1/dotPeek_Introduction.html
+
+## Register dotPeek with Windows Explorer
+```powershell
+~\AppData\Local\JetBrains\Installations\dotPeek191\dotPeek64.exe /register
+```
