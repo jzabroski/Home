@@ -1,0 +1,3 @@
+- Use git depth: false
+- Build timeout default is 50 minutes
+- Builds timeout after 10 minutes of no output
