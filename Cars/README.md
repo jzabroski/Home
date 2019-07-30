@@ -3,7 +3,7 @@
 
 ### Do
 
-Use micro fiber towel only for â€œdryâ€� dusting; for wet wiping, mist spray direct and use heavy duty lint-free terry towel instead; for extraction.
+Use micro fiber towel only for "dry" dusting; for wet wiping, mist spray direct and use heavy duty lint-free terry towel instead; for extraction.
 
 ### Don't
 
