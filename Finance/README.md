@@ -6,6 +6,9 @@
 ## Moving Positions across Brokers
 https://www.investopedia.com/terms/a/acat.asp
 
+## CFD
+https://www.contracts-for-difference.com/Calculating-profits-losses.html
+
 ## Data
 
 1. http://openinsider.com/
