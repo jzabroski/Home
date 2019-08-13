@@ -27,6 +27,9 @@
 > He who has a why to live can bear almost any how.
 > ~ Friedrich Nietzsche
 
+> The most fulfilling thing for me as a manager is to watch someone the system has labeled as just average or mediocre really come into his own, all because someone has listened to his problems and helped him solve them.
+> ~ Lee Iococca
+
 > One may know how to conquer without being able to do.
 > ~ Sun Tzu
 
