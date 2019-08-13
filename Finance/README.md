@@ -3,6 +3,9 @@
 
 # Trading
 
+## Efficiency 
+https://www.investopedia.com/terms/r/rollscritique.asp
+
 ## Moving Positions across Brokers
 https://www.investopedia.com/terms/a/acat.asp
 
