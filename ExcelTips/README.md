@@ -47,3 +47,6 @@ Then press Filter in the data ribbon
 ## TRANSPOSE
 
 # Solving stuff with Solver
+
+# Refresh
+<kbd>CONTROL</kbd>+<kbd>ALT</kbd>+<kbd>SHIFT</kbd>+<kbd>F9</kbd>:  to recheck all formula dependencies and then recalculate all formulas.
