@@ -2,7 +2,7 @@
 
 Tags: output formatting, number formatting, numeric
 
-Two approaches:
+Three approaches:
 1. Via the PowerShell ETS (Extended Type System)
 2. By overriding `Out-Default`
 
@@ -118,4 +118,74 @@ Put the above in your `$PROFILE` file, start a new session and run:
 PS> 1000; 1000.123
 1,000
 1,000.123
+```
+
+
+### [Preferred] Option C: Defining formatting data for numeric types.
+
+This is the **proper solution**, albeit quite cumbersome, due to the need for hand-crafting the XML-based formatting instructions.
+
+1. Create a *.ps1xml file with formatting instructions on the fly, for the standard numeric data types.
+```powershell
+@'
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>Number</Name>
+      <OutOfBand />
+      <ViewSelectedBy>
+        <TypeName>System.Int16</TypeName>
+        <TypeName>System.Int32</TypeName>
+        <TypeName>System.Int64</TypeName>
+        <TypeName>System.Double</TypeName>
+        <TypeName>System.Decimal</TypeName>
+        <TypeName>System.Numerics.BigInteger</TypeName>
+        <TypeName>System.UInt16</TypeName>
+        <TypeName>System.UInt32</TypeName>
+        <TypeName>System.UInt64</TypeName>
+      </ViewSelectedBy>
+      <CustomControl>
+        <CustomEntries>
+          <CustomEntry>
+            <CustomItem>
+              <ExpressionBinding>
+                <ScriptBlock>
+                <![CDATA[                  
+
+                  # Determine how many decimal places there are in the original representation.
+                  # Note: PowerShell's string interpolation uses the *invariant* culture, so '.'
+                  #       can reliably be assumed to be the decimal mark.
+                  $numDecimalPlaces = ("$_" -replace '^[^.]+(?:.(.+))?', '$1').Length
+
+                  # Format with thousands grouping and the same number of decimal places.
+                  # Note: This will create a culture-sensitive representation
+                  #       just like with the default output formatting.
+                  # CAVEAT:
+                  #  To avoid a crash (from infinite recursion?), both .psobject.BaseObject 
+                  #  and the -f operator must be used.
+                  #  ($_.psobject.BaseObject.ToString("...") also crashes).
+                  "{0:N$numDecimalPlaces}" -f $_.psobject.BaseObject
+
+                ]]>
+                </ScriptBlock>
+              </ExpressionBinding>
+            </CustomItem>
+          </CustomEntry>
+        </CustomEntries>
+      </CustomControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
+'@ > ($tmpFile = [IO.Path]::GetTempPath() + "$PID.ps1xml")
+
+# Load the format data via -PrependPath, which *preempts* automatically loaded definitions
+# (though in this case there are none).
+Update-FormatData -PrependPath $tmpFile -vb
+
+# Clean up.
+# CAVEAT: PowerShell remembers $tmpFile as a formatting source in the current session,
+#         so if you call Update-FormatData again - even with an unrelated file -
+#         you'll see an error about not being able to find $tmpFile.
+Remove-Item $tmpFile
 ```
