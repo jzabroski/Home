@@ -9,3 +9,7 @@
 # ID Generation
 1. https://rob.conery.io/2014/05/28/a-better-id-generator-for-postgresql/
 2. https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake.html
+
+# Hardware Purchasing
+1. https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/
+
