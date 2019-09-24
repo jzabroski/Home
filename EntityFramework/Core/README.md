@@ -60,6 +60,11 @@ https://www.meziantou.net/2017/06/26/entity-framework-core-naming-convention
 
 [EntityFrameworkCore#15583 Make CLR members lookup for Metadata consistent](https://github.com/aspnet/EntityFrameworkCore/issues/15583): EFCore Metadata internally uses GetRuntimeProperties reflection extension method, which internally in turn calls GetProperties, which as Doug Bunting of the ASP.NET team points out, [guarantees no particular ordering](https://github.com/aspnet/Mvc/issues/1888).
 
+# EFCore Query Generation Heuristics
+
+1. https://github.com/aspnet/EntityFrameworkCore/issues/12098#issuecomment-440487200
+    > A useful way to think about how EF Core decides whether to translate to one or multiple SQL queries is that it is **a heuristic that we apply to avoid the explosion of the cardinality of the root of the query that you are consuming**.
+
 # EFCore Over Time
 
 From: https://9-volt.github.io/bug-life/?repo=aspnet/EntityFrameworkCore
