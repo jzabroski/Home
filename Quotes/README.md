@@ -4,6 +4,10 @@
 
 > Fulton's Folly
 
+> The broader the base, the higher the peak.
+
+> We are living in an era of woke Capitalism in which companies pretend to care about social justice to sell products to people who pretend to hate capitalism. - Clay Routledge
+
 > Simplicity is a force multiplier. - Jonathan Edwards 
 
 > If you want many things in your life, live a long time. Simple. ~ (James) Kurt Dew
