@@ -92,6 +92,7 @@ https://github.com/Cyan4973/xxHash
 ## Benchmarks
 1. https://github.com/danielpalme/IocPerformance
 2. https://github.com/drewnoakes/string-theory
+3. Frans Bouma's https://github.com/FransBouma/RawDataAccessBencher - contains EFCore vs. EF Classic vs. NHibernate vs Dapper
 3. BenchmarkDotNet
 4. https://github.com/rickstrahl/WestwindWebSurge 
 
