@@ -20,11 +20,17 @@
 
 > Ability is what you're capable of doing; Motivation determines what you do; Attitude determines how well you do it. - Lou Holtz
 
-> Getting on a player is not necessarily appreciated. But caring about players doesn’t mean making it easy for them. Caring is helping them to develop traits and talents. My job is to provide athletes with a chance to win. A coach can’t win, no coach has ever won a game. - Lou Holtz
+> Getting on a player is not necessarily appreciated. But caring about players doesn’t mean making it easy for them. Caring is helping them to develop traits and talents. My job is to provide athletes with a chance to win. A coach can’t win, no coach has ever won a game.
+> ~ Lou Holtz
 
 > "My secrets get out," [NFL Defensive Coordinator Greg] Williams said. "The reason I keep getting hired is culture -- and culture beats strategy any day of the week." 
 
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
+
+> "Value added" is a meaningless concept for a retail business , for a bank, for a life insurance company, and for any other business which is not primarily engaged in manufacturing. p. 647
+> Absolute size by itself is no indicator of success and achievement, let alone of managerial competence. Being the right size is.
+p. 672
+> ~ Peter Drucker, MANAGEMENT: Tasks, Responsibilities, Practices (1973)
 
 > Time is a flat circle. Everything we have done or will do we will do over and over and over again- forever. ~ True Detective TV show, but actually [Nietzsche's Doctrine of Eternal Recurrence](https://www.quora.com/What-does-the-expression-Time-is-a-flat-circle-mean)
 
