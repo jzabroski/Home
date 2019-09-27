@@ -104,6 +104,9 @@ https://github.com/Cyan4973/xxHash
 | ------ | ----- | ----------- | ----------------- |
 | [Roslinq](https://github.com/benetkiewicz/Roslinq) | [Roslinq](https://www.nuget.org/packages/Roslinq/) | With Roslinq it's possible to use Linq to browse through source code and modify it. | Assessing |
 
+# Network Port Mapping
+NirSoft CurrPorts utility
+
 # Testing
 
 ## Code Coverage
