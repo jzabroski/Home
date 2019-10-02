@@ -11,7 +11,9 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 * Repurchase
 * Refactor
 
-# [12 Factor App](https://12factor.net) 
+# [12 Factor App](https://12factor.net)
+
+# [Reactive Manifesto](https://www.reactivemanifesto.org/)
 
 # dotnet
     - https://dotnet.microsoft.com/download/dotnet-core
