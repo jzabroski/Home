@@ -1,3 +1,4 @@
+# NOTE: This won't work on legacy drive types that are no longer supported by the Windows Storage Management APIs.
 Import-Module Storage;
 
 $disks = Get-Disk | Where FriendlyName -ne "Msft Virtual Disk";
