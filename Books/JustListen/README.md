@@ -28,3 +28,5 @@
 When bad things happen, if you resist the temptation to do anything worse.
 
 Get yourself under control first. Simpler than you think. Speed is everything. Attack mode to Emotional mode to Smart mode. Unfortunately, you don't know how to do it fast.
+
+Research by Matthew Lieberman at UCLA 
