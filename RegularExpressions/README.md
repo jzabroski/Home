@@ -2,9 +2,9 @@ Here is a GitHub markdown translation of Jeffrey Freidl's Mastering Regular Expr
 
 # Table 3-11 Line Anchors for Some Scripting Languages
 
-| Concern | Java | Perl | PHP | Python | Ruby | Tcl | .NET |
-| --------- | ----- | ---- | ---- | -------- | ------ | --- | ----- |
-| Normally...| ✓ | ✓ | ✓ |  ✓ | ✓ | ✓ | ✓ |
+| Concern    | Java  | Perl | PHP  | Python   | Ruby   | Tcl | .NET  |
+| ---------- | ----- | ---- | ---- | -------- | ------ | --- | ----- |
+| Normally...|       |      |      |          |        |     |       |
 | ^ matches at start of string | ✗ | ✗ | ✗ | ✗ | ✓<sub>2</sub> | ✗ | ✗ |
 | ^ matches after any new line | ✓ | ✓ | ✓ | ✓ |  ✓ | ✓ | ✓ |
 | $ matches at end of string |  ✓<sub>1</sub> | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
