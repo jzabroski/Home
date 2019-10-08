@@ -5,8 +5,8 @@ Here is a GitHub markdown translation of Jeffrey Freidl's Mastering Regular Expr
 | Concern    | Java  | Perl | PHP  | Python   | Ruby   | Tcl | .NET  |
 | ---------- | ----- | ---- | ---- | -------- | ------ | --- | ----- |
 | Normally...|       |      |      |          |        |     |       |
-| ^ matches at start of string | ✗ | ✗ | ✗ | ✗ | ✓<sub>2</sub> | ✗ | ✗ |
-| ^ matches after any new line | ✓ | ✓ | ✓ | ✓ |  ✓ | ✓ | ✓ |
+| ^ matches at start of string | ✓ | ✓ | ✓ | ✓ |  ✓ | ✓ | ✓ |
+| ^ matches after any new line | ✗ | ✗ | ✗ | ✗ | ✓<sub>2</sub> | ✗ | ✗ |
 | $ matches at end of string |  ✓<sub>1</sub> | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
 | $ matches before string-ending newline | ✓ | ✓ | ✓ | ✓ | ✓<sub>2</sub> | ✗ | ✓ |
 | $ matches before any newline | ✗ | ✗| ✗ | ✗ | ✓<sub>2</sub> | ✗ | ✗ |
