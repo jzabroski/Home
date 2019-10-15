@@ -1,3 +1,7 @@
+# EFCore 3 Interceptors
+
+https://github.com/juunas11/managedidentity-filesharing/blob/master/Joonasw.ManagedIdentityFileSharingDemo/Data/ManagedIdentityConnectionInterceptor.cs
+
 # Opinions / Perspectives
 
 1. Tim Corey on why he doesn't use Entity Framework
