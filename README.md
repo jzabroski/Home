@@ -181,7 +181,13 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 ## Command Line Parsing
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [FluentCommandLineParser](https://github.com/fclp/fluent-command-line-parser) | | | |
+| [FluentCommandLineParser](https://github.com/fclp/fluent-command-line-parser) | [FluentCommandLineParser](https://www.nuget.org/packages/FluentCommandLineParser/1.5.0.20-commands) | A simple, strongly typed .NET C# command line parser library using a fluent easy to use interface | Last updated 12/3/2017 :( |
+| [Mono.Options]() | [Mono.Options](https://www.nuget.org/packages/Mono.Options/) | A Getopt::Long-inspired option parsing library for C#. | last updated 6/2/2017  |
+
+## General Parsing
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Sprache](https://github.com/sprache/Sprache) | [Sprache](https://www.nuget.org/packages/Sprache/) | Sprache is a simple, lightweight library for constructing parsers directly in C# code. | Incoming |
 
 ## Command Line Curses
 | GitHub | NuGet | Description | Radar Positioning |
