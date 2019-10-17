@@ -6,8 +6,9 @@
     >
     > However, the Token method can not be used in a grammar where the new line characters are used as a terminator between other language constructs. The reason for this is that the Token method will swallow the new line characters as they are regarded as whitespace.
 5. Using JACE.NET instead of Sprache or Sprache.Calc https://github.com/yallie/Sprache.Calc/issues/2#issuecomment-543187108
-
-# 
+6. Problems with Sprache https://nblumhardt.com/2016/09/superpower/
+    1. Only looks at one character at a time, so parsing errors are not as friendly as they should be.
+    2. Nicholas Blumhardt created Superpower to replace it: https://github.com/datalust/superpower
 
 # MyParser
 
