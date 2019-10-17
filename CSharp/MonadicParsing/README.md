@@ -16,7 +16,8 @@
 
 public class MyParser
 {
-	/* This section covers grammars where the new line character is used as a terminator between other language constructs. */
+	/* This section covers grammars where the new line character
+	   is used as a terminator between other language constructs. */
 	public static Parser<T> WithWhiteSpace<T>(Parser<T> parser)
 	{
 		if (parser == null) throw new ArgumentNullException("parser");
@@ -31,7 +32,8 @@ public class MyParser
 			.Text()
 			.Named("new line");
 
-	/* This section covers grammars where an opening and closing " (quote) symbol is used for string literals */
+	/* This section covers grammars where an opening and closing " (quote) symbol
+	   is used for string literals */
 	public static readonly Parser<string> QuotedText =
 		(from openQuote in Parse.Char('"')
 		 from textContent in Parse.CharExcept('"').Many().Text()
@@ -50,7 +52,8 @@ public class MyParser
 				select SetAssignment(lhv, rhv);
 	
 	/* This section covers expressions that are return values */
-	static Parser<string> ReturnValue = Parse.Decimal.Or(Parse.Number); // TODO this can be improved because Parse.Decimal uses the current culture's separator character
+	// TODO this can be improved because Parse.Decimal uses the current culture's separator character
+	static Parser<string> ReturnValue = Parse.Decimal.Or(Parse.Number);
 	
 	public static void Main()
 	{
