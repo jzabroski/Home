@@ -5,6 +5,7 @@
     > In Sprache you can use the Token method to get a parser for a token that disregards any whitespace that might surround the token. This is a really helpful method for any language that allows for whitespace throughout the grammar.
     >
     > However, the Token method can not be used in a grammar where the new line characters are used as a terminator between other language constructs. The reason for this is that the Token method will swallow the new line characters as they are regarded as whitespace.
+5. Using JACE.NET instead of Sprache or Sprache.Calc https://github.com/yallie/Sprache.Calc/issues/2#issuecomment-543187108
 
 # 
 
