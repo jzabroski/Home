@@ -10,6 +10,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     chocolatey 0.10.11
     chocolatey-core.extension 1.3.3
     clink # https://github.com/mridgers/clink cmd.exe replacement, supports logging cmd.exe commands system wide
+    cports # https://www.nirsoft.net/utils/cports.html CurrPorts utility for tracing network ports.  Powerful incremental filter.
     cpu-z.install 1.87
     ConEmu # https://chocolatey.org/packages/ConEmu
     crystaldiskmark 5.2.0
