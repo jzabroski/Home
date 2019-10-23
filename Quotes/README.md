@@ -23,6 +23,9 @@
 > Getting on a player is not necessarily appreciated. But caring about players doesn’t mean making it easy for them. Caring is helping them to develop traits and talents. My job is to provide athletes with a chance to win. A coach can’t win, no coach has ever won a game.
 > ~ Lou Holtz
 
+> "Why say 'no' or 'yes, but' when it feels so good to say 'yes, and!'"
+> ~ Tommy Boy
+
 > "My secrets get out," [NFL Defensive Coordinator Greg] Williams said. "The reason I keep getting hired is culture -- and culture beats strategy any day of the week." 
 
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
