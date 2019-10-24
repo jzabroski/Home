@@ -1,7 +1,30 @@
 # Long Running Requests
 1. :x: http://www.beansoftware.com/ASP.NET-Tutorials/Multithreading-Thread-Pool.aspx
-    - This article recommends using `ThreadPool.QueueUserWorkItem`, but the problem with this approach is that 
-  2. :heavy_check_mark: [What not to do in ASP.NET, and what to do instead](https://web.archive.org/web/20131031203906/http:%2F%2Fwww.asp.net/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet%82-and-what-to-do-instead)<br/>
+    - This article recommends using `ThreadPool.QueueUserWorkItem`, but the problem with this approach is that the ASP.NET Runtime's `HostingEnvironment` has no idea these long-running tasks exist.
+2. :heavy_check_mark: [How to Run Background Tasks in ASP.NET](https://www.hanselman.com/blog/HowToRunBackgroundTasksInASPNET.aspx)
+    - Quote:<br/>
+    > Somewhat in response to the need for WebBackgrounder, .NET 4.5.2 added `QueueBackgroundWorkItem` as a new API.
+    > It's not just a "`Task.Run`," it tries to be more:
+    > 
+    > > QBWI schedules a task which can run in the background, independent of any request. This differs from a normal `ThreadPool` work item in that ASP.NET automatically keeps track of how many work items registered through this API are currently running, and the ASP.NET runtime will **_try_** to delay `AppDomain` shutdown until these work items have finished executing.
+    > 
+    > It can try to delay an `AppDomain` for as long as 90 seconds in order to allow your task to complete. If you can't finish in 90 seconds, then you'll need a different (and more robust, meaning, out of process) technique.
+    > 
+    > The API is pretty straightforward, taking  `Func<CancellationToken, Task>`.
+    > Here's an example that kicks of a background work item from an MVC action:
+    > 
+    > ```csharp
+    > public ActionResult SendEmail([Bind(Include = "Name,Email")] User user)
+    > {
+    >   if (ModelState.IsValid)
+    >   {
+    >     HostingEnvironment.QueueBackgroundWorkItem(ct => SendMailAsync(user.Email));
+    >     return RedirectToAction("Index", "Home");
+    >   }
+    > 
+    >   return View(user);
+    > }
+2. :heavy_check_mark: [What not to do in ASP.NET, and what to do instead](https://web.archive.org/web/20131031203906/http:%2F%2Fwww.asp.net/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet%82-and-what-to-do-instead)<br/>
     - Based on Damian Edwards' NDC talk on ASP.NET Best Practices, circa 2012
     - Quote:<br/>
       > ### [Asynchronous Page Events with Web Forms](https://web.archive.org/web/20131031203906/http:%2F%2Fwww.asp.net/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet%82-and-what-to-do-instead#asyncevents)
