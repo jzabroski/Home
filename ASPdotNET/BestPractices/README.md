@@ -19,6 +19,17 @@
       > [...]
       > If you must perform this work within ASP.NET, you can add the Nuget package called
       > [WebBackgrounder](https://web.archive.org/web/20131031203906/http:%2F%2Fwww.nuget.org/packages/webbackgrounder) to run the code.
+      >
+      > ### [Long-running Requests (>110 seconds)](https://web.archive.org/web/20131031203906/http:%2F%2Fwww.asp.net/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet,-and-what-to-do-instead#long)
+      > 
+      > Recommendation: Use WebSockets or SignalR for connected clients, and use asynchronous I/O operations.
+      >
+      > Long-running requests can cause unpredictable results and poor performance in your web application.
+      > The default timeout setting for a request is 110 seconds. If you are using session state with a long-running
+      > request, ASP.NET will release the lock on the Session object after 110 seconds. However, your application might be
+      > in the middle of an operation on the Session object when the lock is released, and the operation might not complete
+      > successfully. If a second request from the user was blocked while the first request was running, the second request
+      > might access the Session object in an inconsistent state.
 3. https://codewala.net/2014/03/28/writing-asynchronous-web-pages-with-asp-net-part-3/
     - Discusses using `Page.RegisterAsyncTask`
     - Quote<br/>
