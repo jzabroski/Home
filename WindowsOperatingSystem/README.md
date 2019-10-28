@@ -1,0 +1,12 @@
+# Gotchas
+
+## Batch Scripting Gotchas
+
+1. `title <Your Window Title>` does not work if you "Run In Hidden Window".
+2. `taskkill.exe` is not _guaranteed_ to kill a process.  Some considerations:
+    - If the process you are trying to kill is in a different desktop session from your own.
+    - If the process you are trying to kill is in the foreground, but the process killing it is in the background using "Run In Hidden Window".
+3. `tasklist.exe` can accept multiple filters by specifying `/fi "YourFilter eq YourValue"` multiple times:
+    - `tasklist.exe /fi "WindowTitle eq Administrator*" /fi "ImageName eq powershell.exe"`
+        - will return all PowerShell Classic instances with a WindowTitle that implies (but not guarantees) its running as administrator.
+4. `tasklist.exe` has a `/v` which will tell you the WindowTitle
