@@ -2,7 +2,7 @@
 
 ## Batch Scripting Gotchas
 
-1. `title <Your Window Title>` does not work if you "Run In Hidden Window".
+1. `title <Your Window Title>` does not work if you "Run In Hidden Window" ([CREATE_NO_WINDOW flag as part of the CreateProcess call](https://stackoverflow.com/a/780647/1040437)).
 2. `taskkill.exe` is not _guaranteed_ to kill a process.  Some considerations:
     - If the process you are trying to kill is in a different desktop session from your own.
     - If the process you are trying to kill is in the foreground, but the process killing it is in the background using "Run In Hidden Window".
