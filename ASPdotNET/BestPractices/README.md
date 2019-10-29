@@ -1,4 +1,7 @@
 # Long Running Requests
+
+A "long running request" is a request that may come close to exceeding the [HttpRuntimeSection.ExecutionTimeout](https://docs.microsoft.com/en-us/dotnet/api/system.web.configuration.httpruntimesection.executiontimeout?view=netframework-4.8), which defaults to 90 or 110 seconds depending on the version of ASP.NET
+
 1. :x: http://www.beansoftware.com/ASP.NET-Tutorials/Multithreading-Thread-Pool.aspx
     - This article recommends using `ThreadPool.QueueUserWorkItem`, but the problem with this approach is that the ASP.NET Runtime's `HostingEnvironment` has no idea these long-running tasks exist.
 2. :heavy_check_mark: [How to Run Background Tasks in ASP.NET](https://www.hanselman.com/blog/HowToRunBackgroundTasksInASPNET.aspx)
