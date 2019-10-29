@@ -1,3 +1,9 @@
+# RTD Server Architecture
+
+1. [
+Building a Real Time Data for Excel: Architecture, part 4](https://www.add-in-express.com/creating-addins-blog/2011/01/17/excel-real-time-data-architecture/)
+    - This contains a really useful data and control flow diagram that explains how AddInExpress triggers Excel UI thread to call RefreshData.
+
 # How to Register a .NET assembly for COM Interop
 ## Via Visual Studio
 Note: this approach will only work on the machine where Visual Studio is installed.  It is fine for development, but see the approach for below for deployment to production machines.
