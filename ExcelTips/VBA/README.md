@@ -1,4 +1,6 @@
 # VBA Error Handling
+- The behavior of "On Error GoTo 0" is augmented by the Workbook option "Show Add-in User Interface Errors" (which is disabled by default)
+  - https://www.spreadsheet1.com/show-add-in-user-interface-errors.html
 - https://excelmacromastery.com/vba-error-handling/#On_Error_GoTo_0
   > ### On Error GoTo 0
   > This is the default behavior of VBA. In other words, if you don’t use On Error then this is the behavior you will see.
