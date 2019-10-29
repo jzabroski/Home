@@ -1,4 +1,5 @@
 # VBA Error Handling
+- Consider disabling "Enable multi-threaded processing" if you can't figure out how a Workbook is getting its result
 - The behavior of "On Error GoTo 0" is augmented by the Workbook option "Show Add-in User Interface Errors" (which is disabled by default)
   - https://www.spreadsheet1.com/show-add-in-user-interface-errors.html
 - https://excelmacromastery.com/vba-error-handling/#On_Error_GoTo_0
