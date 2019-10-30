@@ -3,6 +3,16 @@
 1. [
 Building a Real Time Data for Excel: Architecture, part 4](https://www.add-in-express.com/creating-addins-blog/2011/01/17/excel-real-time-data-architecture/)
     - This contains a really useful data and control flow diagram that explains how AddInExpress triggers Excel UI thread to call RefreshData.
+    
+# Debugging an RTD Server
+1. [Creating Excel RTD servers](https://www.add-in-express.com/docs/net-excel-rtd-servers.php)
+    - See "Step 6. Debugging the RTD server"
+        1. Open the Visual Studio solution
+        2. Open the RtdServer project properties
+        3. Go to the Debug tab
+        4. Set the Start Action to:
+            - Start external program
+            - C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
 
 # How to Register a .NET assembly for COM Interop
 ## Via Visual Studio
