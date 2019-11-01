@@ -1,3 +1,7 @@
+# ActiveX Component can't create object
+
+https://stackoverflow.com/questions/33926756/managed-reg-free-com-server-wont-activate
+
 # RTD Server Architecture
 
 1. [
