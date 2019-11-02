@@ -99,6 +99,7 @@
 > <sup>7</sup> See https://github.com/wsky/RemotingProtocolParser.
 > 
 > TODO https://livebook.manning.com/book/testing-microservices-with-mountebank/chapter-8/118
+> The code appears in listing 8.10. Don’t try too hard to understand it all. The point isn’t to teach you the wire format for .NET Remoting. Instead, it’s to show that, with a little bit of work, you can usually create a generalized mechanism for serializing a stub response into the wire format for real-world RPC protocols. Once you have done the hard work, you can reuse it throughout your test suite to make writing tests as easy as creating the object graph you want the virtual service to respond with and letting your serialization function do the work of converting it to an RPC-specific format.
 > 
 > ```c#
 > public string Serialize(Object obj)
@@ -154,4 +155,54 @@
 >     var length = SignatureFor(methodName).Length;
 >     return Enumerable.Repeat(new Object(), length).ToArray();
 > }
+> ```
+> 
+> The `SignatureFor` and `ArgsFor` methods are simple helper methods that use .NET reflection (which lets you inspect types at runtime) to make the `Serialize` method general purpose. The request metadata expects some information about the remote function signature, and those two methods allow you to dynamically define enough information to satisfy the format. The rest of the Serialize method uses Xu Huang’s library to wrap your stub response object with the appropriate metadata, so when mountebank returns it over the wire, your .NET Remoting client will see it as a legitimate RPC response.
+> 
+> Remember the key goal of mountebank: to make easy things easy and hard things possible. The fact that, with a little bit of underlying serialization code, you can elegantly stub out binary .NET Remoting (and some of its cousins) over the wire is a killer feature.
+> 
+> In case you have forgotten how cool that is, I suggest you look back at listing 8.9 and see how simple the test is.
+> 
+> ### 8.5.3. How to tell mountebank where the message ends
+> There’s one other bit of complexity you have to deal with to fully virtualize an application protocol using mountebank’s TCP protocol. We hinted at it back in chapter 3, when we looked at how an HTTP server knows when an HTTP request is complete. You may recall a figure that looked like figure 8.5.
+> 
+> --insert image here--
+>
+> As a transport protocol, TCP opens and closes a new connection using a _handshake_. That handshake is transparent to application protocols. TCP then takes the application request and chunks it into a series of packets, sending each packet over the wire. A packet will range between 1,500 and around 64,000 bytes, though smaller sizes are possible. You’ll get the larger packet size when you test on your local machine (using what’s called the _loopback_ network interface), whereas lower level protocols like Ethernet use smaller packet sizes when passing data over the network.
+> 
+> Because a logical application request may span multiple packets, the application protocol needs to know when the logical request ends. HTTP often uses the Content-Length header to provide that information. Because this header occurs early in the HTTP request, the server can wait until it receives enough bytes to satisfy the given length, regardless of how many packets it takes to deliver the full request.
+> 
+> Every application protocol must have a strategy for determining when the logical request ends. Mountebank uses two strategies:
+> 
+> * The default strategy, which assumes a one-to-one relationship between a packet and a request
+> * Receiving enough information to know when the request ends
+> 
+> The examples have worked so far because you’ve only tested with short requests. You will change that with a simple proxy, saved as remoteCrierProxy.json, as shown in the following listing.
+> 
+> ```
+> {
+>   "protocol": "tcp",
+>   "port": 3000,
+>   "mode": "binary",
+>   "stubs": [{
+>     "responses": [{
+>       "proxy": { "to": "tcp://localhost:3333" }
+>     }]
+>  }]
+> }
+> ```
+> 
+> The source code for this book includes the executable for the .NET Remoting server. You give it the port to listen to when you start it up:
+> ```
+> Server.exe 3333
+> ```
+>
+> You start the mountebank server in the usual way:
+> ```
+> mb --configfile remoteCrierProxy.json
+> ```
+
+> https://livebook.manning.com/book/testing-microservices-with-mountebank/chapter-8/1
+> ```
+> Client.exe 3000
 > ```
