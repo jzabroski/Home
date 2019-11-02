@@ -202,7 +202,7 @@
 > mb --configfile remoteCrierProxy.json
 > ```
 
-> https://livebook.manning.com/book/testing-microservices-with-mountebank/chapter-8/1
+> https://livebook.manning.com/book/testing-microservices-with-mountebank/chapter-8/144
 > ```
 > Client.exe 3000
 > ```
