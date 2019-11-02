@@ -1,0 +1,1 @@
+https://www.cafe-encounter.net/p2380/migrating-net-framework-to-netcore
