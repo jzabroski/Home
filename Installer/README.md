@@ -60,3 +60,10 @@ This answer is cool because it demonstrates the fact that MSI is basically a COM
 
 Stein mentions several different approaches. My favorite is 
 
+### What is the purpose of administrative installation initiated using msiexec /a? https://stackoverflow.com/questions/5564619/what-is-the-purpose-of-administrative-installation-initiated-using-msiexec-a
+
+#### Answer
+
+> In the real world, it doesn't have all that much value at all. MSI was designed back in a day when a computer typically had a 2-20gb hard drive. They came up with all these "run from source" advertisement scenarios which seemed really cool back then but never really caught on in the real world (except for large-scale corporate deployments).
+> 
+> Today, what /a does for me, a setup developer, is give me an easy way to "extract" an MSI and verify its contents. That's about it.
