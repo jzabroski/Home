@@ -1,6 +1,30 @@
 - Stein Asmul of [installdude.com](http://installdude.com) is probably the foremost guru on the Internet for helping people install software.
 - Some of his StackOverflow answers are featured here
 
+### In Wix, where is the ProductCode located? https://stackoverflow.com/questions/10330534/in-wix-where-is-the-productcode-specified
+
+Note: ProductCode is required to uninstall an MSI silently.
+
+#### Bryan P. Johnston's answer: https://stackoverflow.com/users/1202501/bryanj
+
+> The product code is the Id of the Product element.
+> 
+> Specifying a guid
+> 
+> ```xml
+> <Product Id="INSERT_GUID_HERE" 
+> ```
+> 
+> Specifying a '*' makes the GUID auto generate every time
+> 
+> ```xml
+> <Product Id="*"
+> ```
+
+Bryan's twitter: https://twitter.com/bryanpjohnston
+
+Bryan's website: http://bryanpjohnston.com/ 
+
 ### Uninstalling an MSI from the Command Line (silently)
 
 #### Stein Asmul's answer: https://stackoverflow.com/a/1055933/1040437
