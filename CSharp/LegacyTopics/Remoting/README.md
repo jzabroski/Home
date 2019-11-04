@@ -1,3 +1,7 @@
+# Security Vulnerabilities in Remoting
+- [Are You My Type?: Breaking .NET ](https://media.blackhat.com/bh-us-12/Briefings/Forshaw/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf)
+   - Seminal paper from James Forshaw explaining how to use .NET Remoting to break into a .NET application.
+
 # Using an empty Ping RPC call
 [StackOverflow: How to test a remoting connection (check state)](https://stackoverflow.com/a/287567/1040437)
 
