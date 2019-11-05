@@ -28,11 +28,19 @@
 
 # Potential SAN / NAS Research
 
-## QNAP TBS-453DX-4G-US-Quad-Core-NasBook-10GbE
+## QNAP TBS-453DX-8G-US 4 Bay, 8GB, Quad-Core M.2 SATA SSD Nasbook with 10GbE w/ 4x Samsung 970 EVO Plus 2TB - NVMe PCIe M.2 2280 SSD
 * 10GbE
 * 8 GB RAM
 * 4x M.2 Slots
 https://www.amazon.com/QNAP-TBS-453DX-4G-US-Quad-Core-Nasbook-10GbE/dp/B07NDD5CFX?th=1
+https://www.amazon.com/Samsung-970-EVO-Plus-MZ-V7S2T0B/dp/B07MFZXR1B/
+
+| Part  | Quantity | Price | Extended Price |
+| ----- | -------- | ----- | -------------- |
+| QNAP TBS-453DX-8G-US 4 Bay, 8GB, Quad-Core M.2 SATA SSD Nasbook with 10GbE | 1 | $637.56 | $637.56 |
+| Samsung 970 EVO Plus 2TB - NVMe PCIe M.2 2280 SSD | 4 | $449.99 | $1,799.96 |
+| <hr /> | <hr /> | <hr /> | <hr /> |
+| Total |          |                | $2,437.52 | 
 
 ## Reddit Thread:
 
