@@ -10,3 +10,7 @@ https://blog.danskingdom.com/dont-write-wpf-converters-write-c-inline-in-your-xa
 # Data Flow in WPF Binding Expressions
 
 http://pelebyte.net/blog/2009/08/03/data-flow-in-a-wpf-bindingexpression/
+
+# LinkFest
+
+https://dlaa.me/blog/post/9976028
