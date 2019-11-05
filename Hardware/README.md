@@ -30,7 +30,17 @@
 
 ## Reddit Thread:
 
-### Best Answer:
+### Best Answer
+"You're going to need a special backplane, [like] Super Micro's [nvme products](http://www.supermicro.com/en/products/nvme)" by [agrajag9](https://www.reddit.com/user/agrajag9/)
+
+> Unfortunately to get more than a few of these in, you're going to need special backplanes. I know Super Micro makes some equipment for this (http://www.supermicro.com/en/products/nvme), but I don't think any of them use M.2 and I'm guessing these are all way outside your budget anyways.
+> 
+> The problem is that NMVe drives eat up 4x PCIe lanes. Systems with lots of lanes - like EPYC - and expanders/backplanes are all expensive.
+> 
+> I think you could probably make this work on a lower-end system with only a pair of M.2 sticks in a mirror or stripe, but really I would recommend reevaluating the whole idea. NVMe drives just are too expensive to waste on something like an archival NAS.
+
+
+### Best Out-Side-The-Box Answer:
 
 > From the Amazon link, a great comment found in a review about his adapter. Things to consider with the motherboard & CPU:
 > 
