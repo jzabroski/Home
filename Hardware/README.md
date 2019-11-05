@@ -28,6 +28,12 @@
 
 # Potential SAN / NAS Research
 
+## QNAP TBS-453DX-4G-US-Quad-Core-NasBook-10GbE
+* 10GbE
+* 8 GB RAM
+* 4x M.2 Slots
+https://www.amazon.com/QNAP-TBS-453DX-4G-US-Quad-Core-Nasbook-10GbE/dp/B07NDD5CFX?th=1
+
 ## Reddit Thread:
 
 ### Best Answer
