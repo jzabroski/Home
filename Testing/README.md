@@ -1,5 +1,6 @@
 1. [Secret unit testing tools no one ever told you about](https://www.slideshare.net/dhelper/secret-unit-testing-tools-no-one-ever-told-you-about)
 2. http://dontcodetired.com/blog/?tag=/bddfy
+3. SpecsFor - https://medium.com/@ericjwhuang/consumer-driven-contract-testing-pact-d791a3eac72a
 
 # Auto-Mocking Container design pattern
 The following is an example of an [Auto-Mocking Container](https://blog.ploeh.dk/2013/03/11/auto-mocking-container/)
