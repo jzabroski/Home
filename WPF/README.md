@@ -11,6 +11,10 @@ https://blog.danskingdom.com/dont-write-wpf-converters-write-c-inline-in-your-xa
 
 http://pelebyte.net/blog/2009/08/03/data-flow-in-a-wpf-bindingexpression/
 
+# Debugging Bindings
+
+https://web.archive.org/web/20090602111317/http://bea.stollnitz.com/blog/?p=52
+
 # LinkFest
 
 https://dlaa.me/blog/post/9976028
