@@ -2,6 +2,14 @@
 
 https://stackoverflow.com/questions/33926756/managed-reg-free-com-server-wont-activate
 
+# Self-Extending UDFs
+
+https://colinlegg.wordpress.com/2014/08/25/self-extending-udfs-part-1/
+- Includes a download link to RADExcelFormulaExtensions.xlam, which provides thee key features:
+  1. Short Circuit Calc Loops: Short circuits calculation loops due to volatile functions or circular references
+  2. Reset UsedRange: Resets the worksheet's used range during a calculation. This may improve performance if the worksheet has a small amount of data. This may reduce performance is the worksheet has a large amount of data.
+  3. Show Recent Errors: Show recent errors on a modeless userform
+  
 # RTD Server Architecture
 
 1. [
