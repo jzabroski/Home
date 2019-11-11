@@ -1,3 +1,10 @@
+# Git Build Info
+
+1. https://github.com/AArnott/Nerdbank.GitVersioning
+2. https://www.nuget.org/packages/GitInfo/
+3. https://www.nuget.org/packages/BuildInfo/
+4. https://www.nuget.org/packages/GitVersion/
+
 # Relinq
 
 ## Relinq examples
