@@ -1,3 +1,8 @@
+# Performance
+
+1. https://gist.github.com/sharwell/a794952cba68edde9083c4e2b66502fa
+  - Use Server GC
+
 # Plug-ins
 
 1. [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer) | [GitHub](https://github.com/nbalakin/VSOutputEnhancer)
