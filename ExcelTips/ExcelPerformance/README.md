@@ -10,8 +10,19 @@
          - If removing conditional formatting resolves the issue, you can open the original workbook, remove conditional formatting, and then reapply it.
    2. Calculation considerations
       1. Opening an Excel Workbook for the first time in a new version of Excel may take a long time if the workbook contains lots of calculations. To open the workbook for the first time, Excel has to recalculate the workbook and verify the values in the workbook.
-      - [Workbook loads slowly the first time that it is opened in Excel](https://support.microsoft.com/help/210162)
-      - [External links may be updated when you open a workbook that was last saved in an earlier version of Excel](https://support.microsoft.com/help/925893)
+         - [Workbook loads slowly the first time that it is opened in Excel](https://support.microsoft.com/help/210162)
+         - [External links may be updated when you open a workbook that was last saved in an earlier version of Excel](https://support.microsoft.com/help/925893)
+      2. Formulas
+        - xlsx files have much larger grid size.
+            - The grid size grew from 65,536 rows to 1,048,576 rows and from 256 (IV) columns to 16,384 (XFD) columns.  
+            - Therefore, formulas that reference unbound ranges in the grid will become exponentially more expensive.  
+         - Array Formulas, such as:
+            * LOOKUP
+            * INDIRECT 
+            * OFFSETS
+            * INDEX
+            * MATCH
+         
 2. https://superuser.com/questions/447264/diagnosing-slow-excel-spreadsheets
 3. https://fastexcel.wordpress.com/2017/03/13/excel-javascript-api-part-2-benchmark-of-readwrite-range-performance/
    1. See also: https://docs.microsoft.com/en-us/javascript/api/excel/excel.application?view=excel-js-preview
