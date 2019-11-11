@@ -4,6 +4,7 @@
          - To eliminate excess formatting, use the format cleaner add-in that is available in [Clean excess cell formatting on a worksheet](https://support.office.com/article/clean-excess-cell-formatting-on-a-worksheet-e744c248-6925-4e77-9d49-4874f7474738).
       2. Remove unused styles
          - Many utilities are available that remove unused styles. As long as you are using an XML-based Excel workbook (that is, an .xlsx file or an. xlsm file), you can use the style cleaner tool. You can find this [tool](https://sergeig888.wordpress.com/2011/03/21/net4-0-version-of-the-xlstylestool-is-now-available/) here.
+         - Some open source libraries, like ClosedXML, accidentally created duplicate styles: https://github.com/ClosedXML/ClosedXML/commit/d20bd7b4d435494b91b42749f2a22aea13df5a35
       3. Remove shapes
       4. If you continue to experience issues after you remove shapes, you should examine considerations that are not related to formatting.
       5. Remove conditional formatting
