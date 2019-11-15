@@ -1,3 +1,5 @@
+Community Tips: https://answers.microsoft.com/en-us/msoffice/forum/all/common-excel-performance-issues-and-solutions/0205f4b4-a10c-43c5-ae8f-140b77bdee91
+
 1. [Office Products Troubleshooting/Excel/How to clean up an Excel workbook so that it uses less memory](https://docs.microsoft.com/en-us/office/troubleshoot/excel/clean-workbook-less-memory)
    1. Formatting considerations
       1. Eliminate excessive formatting
