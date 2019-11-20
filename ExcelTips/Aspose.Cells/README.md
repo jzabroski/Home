@@ -1,3 +1,9 @@
+# Setting the License
+```csharp
+new Aspose.Cells.License().SetLicense("Aspose.Total.lic");
+```
+# Using Aspose.Cells
+
 1. [Modifying VBA or Macro Code using Aspose.Cells](https://docs.aspose.com/display/cellsnet/Modifying+VBA+or+Macro+Code+using+Aspose.Cells)
     ```csharp
     // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
