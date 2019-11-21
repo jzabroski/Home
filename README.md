@@ -61,7 +61,7 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
-| [BouncyCastle](http://www.bouncycastle.org/csharp/) | [System.Data.HashFunction.Core](https://www.nuget.org/packages/BouncyCastle/) | The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at [http://www.bouncycastle.org/](http://www.bouncycastle.org/). In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP. | Assessing |
+| [BouncyCastle](http://www.bouncycastle.org/csharp/) | [BouncyCastle](https://www.nuget.org/packages/BouncyCastle/) | The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at [http://www.bouncycastle.org/](http://www.bouncycastle.org/). In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP. | Stable |
 
 # Non-Cryptographic Hashing functions
 https://github.com/Cyan4973/xxHash
