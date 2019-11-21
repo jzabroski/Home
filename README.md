@@ -60,6 +60,14 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 # Hashing functions
 https://github.com/Cyan4973/xxHash
 
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.Core](https://www.nuget.org/packages/System.Data.HashFunction.Core/) | C# library to create a common interface to non-cryptographic hash functions (http://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions) and provide implementations of public hash functions.  Includes wrapper for HashAlgorithm-based hash functions. | Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.Interfaces](https://www.nuget.org/packages/System.Data.HashFunction.Interfaces/) | C# library to create a common interface to non-cryptographic hash functions (http://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions). | Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.xxHash](https://www.nuget.org/packages/System.Data.HashFunction.xxHash/) | Data.HashFunction implementation of xxHash (https://code.google.com/p/xxhash/).| Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.MurmurHash](https://www.nuget.org/packages/System.Data.HashFunction.MurmurHash/) | Data.HashFunction implementation of MurMurHash (https://code.google.com/p/smhasher/wiki/MurmurHash). | Assessing |
+
+
 # Screenshot manipulation
 [paint.net](https://forums.getpaint.net/)
 [Paint.Net plugin: CodeLab](https://boltbait.com/pdn/codelab/)
@@ -90,6 +98,7 @@ https://github.com/Cyan4973/xxHash
 | n/a | [DotNetDetour](https://www.nuget.org/packages/DotNetDetour/) | dotnet hook lib | Assessing | 
 | [Harmony](https://github.com/pardeike/Harmony) | [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony/) | A general non-destructive patch library for .NET and Mono modules | Assessing |
 | [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) | [Reloaded.Hooks](https://www.nuget.org/packages/Reloaded.Hooks/) | Advanced native function hooks for x86, x64. Welcome to the next level! (Tagline: WTF You can unit test function hooks!?) | Assessing |
+| [EasyHook](https://easyhook.github.io/) | [EasyHook](https://www.nuget.org/packages/EasyHook/) | The reinvention of Windows API Hooking. <br />EasyHook makes it possible to extend (via hooking) unmanaged code APIs with pure managed functions, from within a fully managed environment on 32- or 64-bit Windows XP SP2, Windows Vista x64, Windows Server 2008 x64, Windows 7, Windows 8.1, and Windows 10. | Assessing |
 
 ## Benchmarks
 1. https://github.com/danielpalme/IocPerformance
