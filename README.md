@@ -217,12 +217,7 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/) | Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology. | Incoming |
 | [EntityFrameworkCore](https://github.com/aspnet/EntityFrameworkCore) | [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) | Microsoft SQL Server database provider for Entity Framework Core. | Incoming |
 | [NHibernate-Core](https://github.com/nhibernate/nhibernate-core) | [NHibernate](https://www.nuget.org/packages/NHibernate/) | NHibernate is a mature, open source object-relational mapper for the .NET framework. It is actively developed, fully featured and used in thousands of successful projects. | Stable |
-| [Relinq](https://github.com/re-motion/Relinq) | [Remotion.Linq](https://www.nuget.org/packages/Remotion.Linq/) | re-linq Frontend: A foundation for parsing LINQ expression trees and generating queries in SQL or other languages.<br />
-Key features:<br />
-- Transforms expression trees into abstract syntax trees resemblying LINQ query expressions (from ... select syntax)<br />
-- Simplifies many aspects of this tree (sub queries, transparent identifieres, pre-evaluation ...)<br />
-- Provides basic infrastructure for backend development (e.g. SQL generation) <br />
-- Provides a framework for user-defined query extensions and transformations | Assessing |
+| [Relinq](https://github.com/re-motion/Relinq) | [Remotion.Linq](https://www.nuget.org/packages/Remotion.Linq/) | re-linq Frontend: A foundation for parsing LINQ expression trees and generating queries in SQL or other languages.<br />Key features:<br />- Transforms expression trees into abstract syntax trees resemblying LINQ query expressions (from ... select syntax)<br />- Simplifies many aspects of this tree (sub queries, transparent identifieres, pre-evaluation ...)<br />- Provides basic infrastructure for backend development (e.g. SQL generation) <br />- Provides a framework for user-defined query extensions and transformations | Assessing |
 
 ### Benchmarks
 [Frans Bouma's RawDataAccessBencher](https://github.com/FransBouma/RawDataAccessBencher) provides benchmarks for:
