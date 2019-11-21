@@ -425,7 +425,7 @@ EXECUTE dbautils.spFixIndexNaming
 | ------ | ------------- | ----------- | ----------------- |
 | [Colourful](https://github.com/tompazourek/Colourful) | | Open source .NET library for working with color spaces. | Incoming |
 | [Pastel](https://github.com/silkfire/Pastel) | | Snazz up your console output! | Incoming |
-| [crayon](https://github.com/riezebosch/crayon) | | An easy peasy tiny library for coloring console output in inline strings using ANSI escape codes. | Incoming |
+| [crayon](https://github.com/riezebosch/crayon) | | An easy peasy tiny library for coloring console output in inline strings using ANSI escape codes. | Stable |
 
 
 # Backup Software
