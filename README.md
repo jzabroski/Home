@@ -316,8 +316,7 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 # Remote Administration
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ---- | ----------- | ----------------- |
-| [QuasarRAT](https://github.com/quasar/QuasarRAT) | | **Free, Open-Source Remote Administration Tool for Windows**<br />
-Quasar is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.| |
+| [QuasarRAT](https://github.com/quasar/QuasarRAT) | | **Free, Open-Source Remote Administration Tool for Windows**<br />Quasar is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.| |
 
 # eMail
 | GitHub | NuGet | Description | Radar Positioning |
