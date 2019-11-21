@@ -70,6 +70,7 @@ https://github.com/Cyan4973/xxHash
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.CRC](https://www.nuget.org/packages/System.Data.HashFunction.CRC/) | Data.HashFunction implementation of the cyclic redundancy check (CRC) error-detecting code (http://en.wikipedia.org/wiki/Cyclic_redundancy_check). Implementation is generalized to encompass all possible CRC parameters from 1 to 64 bits. | Assessing |
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.FNV](https://www.nuget.org/packages/System.Data.HashFunction.FNV/) | Data.HashFunction implementation of Fowler–Noll–Vo hash function (http://www.isthe.com/chongo/tech/comp/fnv/index.html) https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function | Assessing |
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.FarmHash](https://www.nuget.org/packages/System.Data.HashFunction.FarmHash/) | Data.HashFunction implementation of FarmHash (https://github.com/google/farmhash). | Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.Blake2](https://www.nuget.org/packages/System.Data.HashFunction.Blake2/) | Data.HashFunction implementation of BLAKE2 hash (http://blake2.net/). | Assessing |
 
 # Screenshot manipulation
 [paint.net](https://forums.getpaint.net/)
