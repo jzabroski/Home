@@ -66,7 +66,9 @@ https://github.com/Cyan4973/xxHash
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.Interfaces](https://www.nuget.org/packages/System.Data.HashFunction.Interfaces/) | C# library to create a common interface to non-cryptographic hash functions (http://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions). | Assessing |
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.xxHash](https://www.nuget.org/packages/System.Data.HashFunction.xxHash/) | Data.HashFunction implementation of xxHash (https://code.google.com/p/xxhash/).| Assessing |
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.MurmurHash](https://www.nuget.org/packages/System.Data.HashFunction.MurmurHash/) | Data.HashFunction implementation of MurMurHash (https://code.google.com/p/smhasher/wiki/MurmurHash). | Assessing |
-
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.CityHash](https://www.nuget.org/packages/System.Data.HashFunction.CityHash/) | Data.HashFunction implementation of CityHash (https://code.google.com/p/cityhash/). | Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.CRC](https://www.nuget.org/packages/System.Data.HashFunction.CRC/) | Data.HashFunction implementation of the cyclic redundancy check (CRC) error-detecting code (http://en.wikipedia.org/wiki/Cyclic_redundancy_check). Implementation is generalized to encompass all possible CRC parameters from 1 to 64 bits. | Assessing |
+| [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.FNV](https://www.nuget.org/packages/System.Data.HashFunction.FNV/) | Data.HashFunction implementation of Fowler–Noll–Vo hash function (http://www.isthe.com/chongo/tech/comp/fnv/index.html) https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function | Assessing |
 
 # Screenshot manipulation
 [paint.net](https://forums.getpaint.net/)
