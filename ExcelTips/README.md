@@ -40,7 +40,7 @@ The false at the end of the formula means you will not accept approximate matche
 ```
 
 # Filtering and Sorting
-Put cursor in a1, then press shift+control+down arrow, then right arrow 
+Put cursor in a1, then press <kbd>shift</kbd>+<kbd>control</kbd>+<kbd>down</kbd> arrow, then <kbd>&gt;</kbd> (right arrow).
 Then press Filter in the data ribbon
 
 # Using array formulas
