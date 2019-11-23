@@ -2,6 +2,10 @@
 
 https://www.fixtrading.org/implementation-guide/
 
+# Exchanges
+
+https://www.cmegroup.com/confluence/display/EPICSANDBOX/Order+Status+Request
+
 # Using PerfView to View FIX Log Files
 
 1. Open `PerfView64.exe`
