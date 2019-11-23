@@ -8,6 +8,14 @@ https://www.cmegroup.com/confluence/display/EPICSANDBOX/Order+Status+Request
 
 http://cdn.cboe.com/resources/membership/US_Options_FIX_Specification.pdf
 
+https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_CCG_FIX_Specification.pdf
+
+https://www.nyse.com/publicdocs/NYSE_Pillar_Gateway_FIX_Protocol_Specification.pdf
+
+https://www.otcmarkets.com/files/OTC%20Link%20ECN%20FIX%20Specification.pdf
+
+http://www.interactivebrokers.com/download/IB_FIX_Manual.pdf
+
 # Using PerfView to View FIX Log Files
 
 1. Open `PerfView64.exe`
