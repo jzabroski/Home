@@ -6,6 +6,8 @@ https://www.fixtrading.org/implementation-guide/
 
 https://www.cmegroup.com/confluence/display/EPICSANDBOX/Order+Status+Request
 
+http://cdn.cboe.com/resources/membership/US_Options_FIX_Specification.pdf
+
 # Using PerfView to View FIX Log Files
 
 1. Open `PerfView64.exe`
