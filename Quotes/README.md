@@ -1,3 +1,8 @@
+> Performance removes frictions.
+> Scale removes frictions.
+> Scale plus performance obliterates frictions.
+> ~ John Zabroski (me)
+
 > Recognizes right answer when told. ~ Tom Breuer
 
 > Someone who majors in the minors and minors in the majors. ~ Tom Breuer
