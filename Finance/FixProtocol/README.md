@@ -1,6 +1,8 @@
 # Testing
 
-https://www.fixtrading.org/implementation-guide/
+1. https://www.fixtrading.org/implementation-guide/
+2. https://www.fixtrading.org/standards/user-defined-fields/
+    1. Useful to see all user-defined fields
 
 # Exchanges
 
