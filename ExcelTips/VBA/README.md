@@ -1,6 +1,9 @@
 # Check References
 https://excelribbon.tips.net/T008664_Tracking_Down_Invalid_References.html
 
+# Scripting.Dictionary
+https://excelmacromastery.com/vba-dictionary/#A_Quick_Guide_to_the_VBA_Dictionary
+
 # VBA Error Handling
 - Consider disabling "Enable multi-threaded processing" if you can't figure out how a Workbook is getting its result
 - The behavior of "On Error GoTo 0" is augmented by the Workbook option "Show Add-in User Interface Errors" (which is disabled by default)
