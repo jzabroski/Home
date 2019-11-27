@@ -31,6 +31,7 @@ https://www.contracts-for-difference.com/Calculating-profits-losses.html
 11. https://lippincottlibrary.wordpress.com/
 12. http://shortsqueeze.com/
 13. https://www.portfoliovisualizer.com/
+14. https://www.datainharmony.com/reference-data.html
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
