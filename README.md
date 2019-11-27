@@ -45,7 +45,8 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
     - https://devblogs.microsoft.com/dotnet/net-core-tooling-update-for-visual-studio-2017-version-15-9/
         - Options -> Projects and Solutions -> .NET Core -> Uncheck "Use Preview of the .NET Core SDK"
     
-1. https://github.com/natemcmaster/dotnet-tools
+1. https://github.com/Microsoft/dotnet-apiport/releases - .NET API Portability Analyzer
+2. https://github.com/natemcmaster/dotnet-tools
   1. docker-watch : A command line utility to notify docker mounted volumes about changes on Windows.
   2. dotnet-ignore : Sync global git ignore .gitignore file downloaded from GitHub
   3. dotnet-lambda : Tools to deploy AWS Lambda functions. Global tool started at version 3.0.0.
@@ -62,7 +63,7 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
   14. docs : Search docs.microsoft.com using the command line.
   15. dotnet-encrypto : A tool to encrypt/decrypt folder or files using AES 256 Encryption Algorithm
   16. dmd5 : Just generate MD5 hash value in CLI.
-2. https://github.com/RSuter/DNT
+3. https://github.com/RSuter/DNT
 
 # API Development Tools
 1. https://rapidapi.com/developers
