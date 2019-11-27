@@ -4,6 +4,10 @@
 2. https://www.fixtrading.org/standards/user-defined-fields/
     1. Useful to see all user-defined fields
 
+# Market Level Allocation
+
+https://www.londonstockexchange.com/products-and-services/reference-data/sedol-master-file/sedolmarketlevelpaper12022008.pdf
+
 # Exchanges
 
 https://www.cmegroup.com/confluence/display/EPICSANDBOX/Order+Status+Request
