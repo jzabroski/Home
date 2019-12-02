@@ -415,6 +415,14 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 # Create the GUI User ############################################################################### ENV USERNAME guiuser RUN useradd -m $USERNAME && \ echo "$USERNAME:$USERNAME" | chpasswd && \ usermod --shell /bin/bash $USERNAME && \ usermod -aG sudo $USERNAME && \ echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/$USERNAME && \ chmod 0440 /etc/sudoers.d/$USERNAME && \ # Replace 1000 with your user/group id usermod --uid 1000 $USERNAME && \ groupmod --gid 1000 $USERNAME # To run a GUI application, you need to do it from this user! From root type `su guiuser`.
 ```
 
+Enabling GUIs inside of Windows Containers will eventually allow to run Windows 10 images. This will eventually allow us to run VDI containers instead of full VDI images. I see a great potential here and take the containers from exclusive use in the data center to every user.
+
+https://withinrafael.com/2018/03/09/using-remote-desktop-services-in-containers/ (Last updated January 2019)
+
+https://containerjournal.com/features/time-dockerize-gui-applications/ (2016)
+
+
+
 # Issues
 [sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
 * [RAM/memory allocation with LCOW/windows containers?](https://github.com/docker/for-win/issues/1357)
