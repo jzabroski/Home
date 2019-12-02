@@ -409,6 +409,12 @@ Ideally, with SourceLink enabled: https://github.com/dotnet/sourcelink
 3. [image2docker](https://github.com/docker/communitytools-image2docker-win) - Image2Docker is a PowerShell module which ports existing Windows application workloads to Docker. It supports multiple application types, but the initial focus is on IIS and ASP.NET apps. You can use Image2Docker to extract ASP.NET websites from a VM - or from the local machine or a remote machine. Then so you can run your existing apps in Docker containers on Windows, with no application changes.
 4. https://github.com/travelrepublic/docker-debug-tools - Docker file that installs basic apt-get tools for debugging a container process
 
+# Docker for UI Applications (Linux)
+
+```docker
+# Create the GUI User ############################################################################### ENV USERNAME guiuser RUN useradd -m $USERNAME && \ echo "$USERNAME:$USERNAME" | chpasswd && \ usermod --shell /bin/bash $USERNAME && \ usermod -aG sudo $USERNAME && \ echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/$USERNAME && \ chmod 0440 /etc/sudoers.d/$USERNAME && \ # Replace 1000 with your user/group id usermod --uid 1000 $USERNAME && \ groupmod --gid 1000 $USERNAME # To run a GUI application, you need to do it from this user! From root type `su guiuser`.
+```
+
 # Issues
 [sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
 * [RAM/memory allocation with LCOW/windows containers?](https://github.com/docker/for-win/issues/1357)
