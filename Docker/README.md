@@ -421,6 +421,10 @@ https://withinrafael.com/2018/03/09/using-remote-desktop-services-in-containers/
 
 https://containerjournal.com/features/time-dockerize-gui-applications/ (2016)
 
+Docker for Windows Server 2016 does not support GUI-based applications. This is because Windows containers are based on either Nano or Core Server, which do not allow users to start up a GUI-based interface nor RDP into the container. However, the most recent Windows 10 docker base images contain the basics needed for Gui enabled containers, but there may be issues with the fact containers run in session 0. See:
+
+https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/1009
+
 
 
 # Issues
