@@ -214,6 +214,7 @@ See also: https://app.quicktype.io/ for automatic inference of JSON contracts fr
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ---------- | ----------------- |
 | [Squirrel](https://github.com/Squirrel/) | [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)<br>[Squirrel.Mac](https://github.com/Squirrel/Squirrel.Mac)<br>[Squirrel.Server](https://github.com/Squirrel/Squirrel.Server) | An installation and update framework for Windows desktop apps<br>Cocoa framework for updating OS X apps<br>Implements the server side of the Squirrel client frameworks | Incoming |
+| [WinGup](https://github.com/gup4win/wingup) | n/a | WinGup - Generic Updater for Windows http://wingup.org/<br/>Used by NotePad++. | Assessing |
 
 ## Plugin Management
 | GitHub | NuGet | Description | Radar Positioning |
