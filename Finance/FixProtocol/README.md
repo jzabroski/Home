@@ -7,8 +7,7 @@ With ULLink Appia, there are some general rules to play by:
 
 In addition, there are some unspoken rules:
 
-If you're doing a parallel cutover with ability to rollback, you will need each broker to expect an additional [Tag 115 OnBeHalfOfCompID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_115.html) values be sent from you.  This is not strictly required by FIX, but is simply how most line providers choose to run their network, as it simplifies debugging/troubleshooting requests and identifying which FIX line is having problems.
-
+If you're doing a parallel cutover with ability to rollback, you will need each broker to expect an additional [Tag 115 OnBeHalfOfCompID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_115.html) values be sent from you.  This is not strictly required by FIX, but is simply how most line providers choose to run their network, as it simplifies debugging/troubleshooting requests and identifying which FIX line is having problems.  Likewise, the second FIX connection will likely also use an additional [Tag 128 DeliverToCompID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_128.html) values be sent from you.
 
 # Testing
 
