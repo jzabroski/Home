@@ -9,6 +9,10 @@ In addition, there are some unspoken rules:
 
 If you're doing a parallel cutover with ability to rollback, you will need each broker to expect an additional [Tag 115 OnBeHalfOfCompID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_115.html) values be sent from you.  This is not strictly required by FIX, but is simply how most line providers choose to run their network, as it simplifies debugging/troubleshooting requests and identifying which FIX line is having problems.  Likewise, the second FIX connection will likely also use an additional [Tag 128 DeliverToCompID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_128.html) values be sent from you.
 
+## Symbology Conventions
+
+- Don't use [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) for symbology, because it's not guaranteed to be on every message.  For example, it's not proper FIX to send [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) on Cancel Order messages.  Most middleware will reject this message by default.  Instead, use [Tag 22 IDSource](https://www.onixs.biz/fix-dictionary/4.2/tagnum_22.html), [Tag 48 SecurityID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_48.html), and [Tag 207](https://www.onixs.biz/fix-dictionary/4.2/tagnum_207.html).  Tag 207 is needed if using ISIN on buy-side, and your executing broker likely uses Sedol, as an ISIN can be thought of as the "stock entity" whereas the SEDOL is the "line of stock".   As of FIX 4.3, Tag 207 should be the ISO 10383 standard Market Identifier Code (see: [Appendix 6-C: Exchange Codes - ISO 10383 Market Identifier Code (MIC)](https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html)).
+
 # Testing
 
 1. https://www.fixtrading.org/implementation-guide/
