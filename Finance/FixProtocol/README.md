@@ -13,6 +13,10 @@ If you're doing a parallel cutover with ability to rollback, you will need each 
 
 - Don't use [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) for symbology, because it's not guaranteed to be on every message.  For example, it's not proper FIX to send [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) on Cancel Order messages.  Most middleware will reject this message by default.  Instead, use [Tag 22 IDSource](https://www.onixs.biz/fix-dictionary/4.2/tagnum_22.html), [Tag 48 SecurityID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_48.html), and [Tag 207](https://www.onixs.biz/fix-dictionary/4.2/tagnum_207.html).  Tag 207 is needed if using ISIN on buy-side, and your executing broker likely uses Sedol, as an ISIN can be thought of as the "stock entity" whereas the SEDOL is the "line of stock".   As of FIX 4.3, Tag 207 should be the ISO 10383 standard Market Identifier Code (see: [Appendix 6-C: Exchange Codes - ISO 10383 Market Identifier Code (MIC)](https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html)).
 
+## Routing to specific venues
+
+If your broker lets you route to a specific venue, you can test this by checking [Tag 30 LastMkt](https://www.onixs.biz/fix-dictionary/4.2/tagnum_30.html).  In the US, common values here would be EDGA, EDGX, IEXG, BATS, XNAS, ARCX
+
 # Testing
 
 1. https://www.fixtrading.org/implementation-guide/
