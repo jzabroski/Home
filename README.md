@@ -353,6 +353,7 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | [Papercut](https://github.com/ChangemakerStudios/Papercut) | n/a | Papercut - built on .NET. Ever need to test emails from an application, but don't necessarily want it sending them out? Don't want to hassle with pointing it to a physical SMTP server? All you want to is verify it can send email, and take a look at the message. Papercut is your answer.  | Stable |
 | [MimeKit](https://github.com/jstedfast/MimeKit) | [Mimekit](https://www.nuget.org/packages/MimeKit/) | **World Class**. Not only is MimeKit's parser more robust than other .NET MIME parsers, but it's also orders of magnitude faster. Parse gigabytes of mail in seconds. | Stable |
 | [MailKit](https://github.com/jstedfast/MailKit) | [MailKit](https://www.nuget.org/packages/MailKit/) | MailKit is an Open Source cross-platform .NET mail-client library that is based on MimeKit and optimized for mobile devices.<br />Microsoft recommended: https://github.com/dotnet/platform-compat/blob/master/docs/DE0005.md | Stable |
+| [MailDemon](https://github.com/DigitalRuby/MailDemon) | n/a - it's an smtp server | Mail Demon is a simple and lightweight C# smtp server and mail list system for sending unlimited emails and text messages. With a focus on simplicity, async and performance, you'll be able to easily send thousands of messages per second even on a cheap Linux VPS. Memory usage and CPU usage are optimized to the max. Security and spam prevention is also built in using SPF validation. | Incoming |
 
 # Logging
 
