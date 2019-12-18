@@ -24,6 +24,14 @@ function cdHomeInner {set-location C:\source\Home}
 set-alias cdHome cdHomeInner
 ```
 
+# Get-Process with Main Windows Title 
+
+```powershell
+Get-Process | 
+where-Object {$_.mainWindowTitle} | 
+format-table id,name,mainwindowtitle –AutoSize
+```
+
 # Get Process with net stats
 ```powershell
 get-nettcpconnection | select local*,remote*,state,@{Name="Process";Expression={(Get-Process -Id $_.OwningProcess).ProcessName}}
