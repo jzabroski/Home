@@ -472,6 +472,7 @@ EXECUTE dbautils.spFixIndexNaming
 | [Colourful](https://github.com/tompazourek/Colourful) | | Open source .NET library for working with color spaces. | Incoming |
 | [Pastel](https://github.com/silkfire/Pastel) | | Snazz up your console output! | Incoming |
 | [crayon](https://github.com/riezebosch/crayon) | | An easy peasy tiny library for coloring console output in inline strings using ANSI escape codes. | Stable |
+| [david-tamar/ansi-term](https://github.com/david-tamar/ansi-term) | [Tamar.ANSITerm](https://www.nuget.org/packages/Tamar.ANSITerm/) | `ANSITerm.Console` re-implements the `System.Console` class so properties like `Console.ForegroundColor` would rather take values from the `Color` struct with 24-bit RGB colors than the basic 16 `ConsoleColor`s, and adapt these colors to the limitations of the given terminal emulator using ANSI escape codes. | Stable |
 
 
 # Backup Software
