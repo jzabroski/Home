@@ -142,8 +142,10 @@ https://github.com/Cyan4973/xxHash
 1. https://github.com/danielpalme/IocPerformance
 2. https://github.com/drewnoakes/string-theory
 3. Frans Bouma's https://github.com/FransBouma/RawDataAccessBencher - contains EFCore vs. EF Classic vs. NHibernate vs Dapper
-3. BenchmarkDotNet
-4. https://github.com/rickstrahl/WestwindWebSurge 
+4. BenchmarkDotNet
+5. https://speedscope.app + [`dotnet-trace`](https://www.nuget.org/packages/dotnet-trace/)
+6. https://github.com/rickstrahl/WestwindWebSurge 
+
 
 ## Debugging
 1. https://github.com/BlueMountainCapital/DotNetStackPrinter - An app that prints the stack traces of a target .NET process
