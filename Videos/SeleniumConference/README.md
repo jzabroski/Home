@@ -15,6 +15,15 @@
 - Automating Restaurant Point of Sale with Selenium: A Case Study
 - Adventures in Testing a Test Automation Service 
 - Stop Inspecting- Start Glancing | Dan Gilkerson
+
+# 2018
 - Rethinking Appium's Code Base
 - The What, Why, and How of Web Analytics Testing 
 - Ex Machina: the Framework that Knows Its Bugs
+-  Sub-second acceptance tests
+- Spot the difference: automating Visual regression 
+- Sleeping is not your best friend in automation
+- Designing the new Selenium IDE
+- How AI is Transforming software testing - Raj
+- AI for element selection- Jason Arbon
+- The well-architected automation framework- Adam
