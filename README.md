@@ -151,6 +151,13 @@ https://github.com/Cyan4973/xxHash
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [Roslinq](https://github.com/benetkiewicz/Roslinq) | [Roslinq](https://www.nuget.org/packages/Roslinq/) | With Roslinq it's possible to use Linq to browse through source code and modify it. | Assessing |
+| [Roslyn SDK](https://github.com/dotnet/roslyn-sdk) | [src](https://github.com/dotnet/roslyn-sdk/tree/master/tests/Microsoft.CodeAnalysis.Testing) [Myget: Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.XUnit](
+https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.XUnit) | Tools for simpler testing of Roslyn analyzers | Stabe but Beta Channel only! |
+| [Roslynator](https://github.com/JosefPihrt/Roslynator) | [Roslynator.Analyzers](https://www.nuget.org/packages/Roslynator.Analyzers) | common analyzers (RCS1xxx) | Stable |
+| [Roslynator](https://github.com/JosefPihrt/Roslynator) | [Roslynator.CodeAnalysis.Analyzers](https://www.nuget.org/packages/Roslynator.CodeAnalysis.Analyzers) | analyzers for Roslyn API (RCS9xxx) | Stable |
+| [Roslynator](https://github.com/JosefPihrt/Roslynator) | [Roslynator.Formatting.Analyzers](https://www.nuget.org/packages/Roslynator.Formatting.Analyzers) | formatting analyzers (RCS0xxx) | Stable |
+
+...and more from Roslynator.
 
 # Network Port Mapping
 NirSoft CurrPorts utility
