@@ -1,0 +1,1 @@
+https://blogs.msdn.microsoft.com/davbr/2009/09/30/type-forwarding/
