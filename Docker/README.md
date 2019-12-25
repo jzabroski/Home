@@ -1,7 +1,9 @@
 # Linkfest
 1. https://blog.inedo.com/50-kubernetes-devops-tools-github
 
-2. [Running GUI Applications Insider Docker](https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110)
+2. https://runnable.com/blog/9-common-dockerfile-mistakes
+
+3. [Running GUI Applications Insider Docker](https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110)
     > While the IT world is embracing Containers Technology primarily for Enterprise Server Applications, There is also a huge scope of Docker Containers impacting the Desktop and Development Environment. We leverage this heavily at Admatic, where we containerise every application and service we use — further including the GUI applications and tools that we use for Day to day Development — what took us days is now just a second away. :)
     
 3. https://devblogs.microsoft.com/dotnet/we-made-windows-server-core-container-images-40-smaller/
