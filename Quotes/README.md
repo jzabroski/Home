@@ -1,3 +1,6 @@
+> A boy comes to me with a spark of interest, I feed the spark and it becomes a flame. I feed the flame and it becomes a fire. I feed the fire and it becomes a roaring blaze.
+> ~ Cus D’Amato
+
 > Performance removes frictions.
 > Scale removes frictions.
 > Scale plus performance obliterates frictions.
