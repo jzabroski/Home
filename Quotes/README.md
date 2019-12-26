@@ -34,6 +34,16 @@
 > "Why say 'no' or 'yes, but' when it feels so good to say 'yes, and!'"
 > ~ Tommy Boy
 
+> When viewing decisions others make, keep in mind you don't know if they're:
+> 
+> - Keeping the ship running great
+> - Keeping the ship running at all
+> - Keeping the ship afloat
+> - Just trying to save the crew
+> 
+> Time and resources dictate our options; you don't know everyone's constraints.
+> ~ Nick Craver, StackOverflow Architect
+
 > "My secrets get out," [NFL Defensive Coordinator Greg] Williams said. "The reason I keep getting hired is culture -- and culture beats strategy any day of the week." 
 
 > Sometimes the questions are complicated and the answers are simple. ~ Dr. Seuss (Theodor Seuss Geisel), American writer and cartoonist 
