@@ -239,6 +239,18 @@ See also my StackOverflow answer to: [Receiving “The SELECT permission was den
 
 See also: https://sqlity.net/en/1783/changing-security-context-execute-revert/
 
+## Using EXECUTE AS LOGIN = 'sa' for DATABASE RESTORE
+
+This idea comes from: https://am2.co/2019/12/testing-as-another-user-without-their-password/
+
+```sql
+EXECUTE AS LOGIN = 'sa'; 
+ 
+RESTORE DATABASE [ReallyImportantDatabase] FROM DISK = '\\Backups\FileShare\ReallyImportantDatabase\ReallyImportantDatabase.bak' WITH NORECOVERY;
+ 
+REVERT;
+```
+
 # Parameter Sniffing
 1. https://www.brentozar.com/archive/2018/09/sql-server-2019-faster-table-variables-and-new-parameter-sniffing-issues/
 2. https://channel9.msdn.com/Events/SQLDay/SQLDay-2017/Identifying-and-Fixing-Parameter-Sniffing
