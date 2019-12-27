@@ -395,6 +395,12 @@ A Dockerfile is a set of instructions that tells Docker how to build an image. A
 ## Docker Engine
 
 
+## Docker Testing Tools
+1. InSpec - Ruby/Chef
+2. Goss - https://github.com/aelsabbahy/goss
+3. TestContainers - https://www.testcontainers.org/
+4. https://github.com/GoogleContainerTools/container-structure-test - supported in AzureDevOps pipeline
+5. BATS - Bash Automated Testing System - not really docker-specific
 
 # Examples
 https://github.com/rafaelfgx/DotNetCoreArchitecture
