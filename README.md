@@ -11,6 +11,10 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 * Repurchase
 * Refactor
 
+# MAYA Principle - Raymond Loewy
+
+Most Advanced, Yet Acceptable. 
+
 # [12 Factor App](https://12factor.net)
 
 1. Codebase
