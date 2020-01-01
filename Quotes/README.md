@@ -14,6 +14,8 @@
 
 > The broader the base, the higher the peak.
 
+> It's now how many people know you, it's how you're known.
+
 > We are living in an era of woke Capitalism in which companies pretend to care about social justice to sell products to people who pretend to hate capitalism. - Clay Routledge
 
 > Simplicity is a force multiplier. - Jonathan Edwards 
