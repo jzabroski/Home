@@ -12,6 +12,10 @@ https://www.investopedia.com/terms/a/acat.asp
 ## CFD
 https://www.contracts-for-difference.com/Calculating-profits-losses.html
 
+## CB
+
+http://www.yieldcurve.com/Mktsoftware/excelCB.htm
+
 ## Data
 
 1. http://openinsider.com/
