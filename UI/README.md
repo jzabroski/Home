@@ -6,3 +6,6 @@ http://paletton.com/
 
 https://adazzle.github.io/react-data-grid/docs/examples/simple-grid
 
+# SVG
+
+https://tink.uk/accessible-svg-tables/
