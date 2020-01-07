@@ -1,4 +1,69 @@
+# FIX Basics
+
+## Security Identification
+FIX field 55 (Symbol) in FIX is still a very common method for security identification but this may not always be the best choice. A preferred alternative is to use a combination of fields 22 (SecurityIDSource) and 48 (SecurityID) which allow using any of a number of global security identification databases. ISIN, CUSIP, SEDOL, Bloomberg, RIC, all of them are supported.
+
+Field 107 (SecurityDesc) can also be used to describe the security for manual trades, and field 207 (SecurityExchange) allows for indicating the market from where security indentification was taken. FIeld 167 (SecurityType) in FIX can carry the type of stock (i.e. preferred stock) or CFICode for a futures product.
+
+## Order and venue identification
+
+Buy-side firms identify their orders using Client Order ID field 11 (`ClOrdID`) but brokers use field 37 (OrderID). When requesting amendments or cancellations of an order, Original Client Order ID field 41 (OrigClOrdID) comes into play and chains ClOrdID of new trading instruction with the existing one being amended or cancelled.
+
+In multi-market environments, buy-side institutions can indicate the market where order should be executed by providing its Market Identifier COde (MIC) in Execution Destination field 100 (ExDestination). In execution reports provided by sell-side firms, field 30 (LastMkt) is used to indicate the market where the order, or part of it, was filled.
+
+Sell-side firms may also use field 851 (LastLiquidityIndicator) to indicate whether current fill was result of a liquidity provider providing or liquidity taker taking the liquidity.
+
+Field 39 (OrdStatus) exists in all execution report messages so that sell-side firms can indicate the latest status of the order in their system.
+
+## Quantities
+
+Buy-side institutions use Order Quantity field 38 (OrdQty) to specify the number of units of a security they wish to buy or sell. Quantity can also be provided as cash value - e.g. for FX trades - in field 152 (CashOrdQty). For CIVs, quantity is provided in field 516 (OrderPercent).
+
+FIX protocol also contains fields for brokers to provide changing quantity information to the buy-side during order execution.Field 32 (LastQty) carries quantity executed in current fill, 151 (LeavesQty) contains quantity open for execution, and 14 (CumQty) has the quantity executed in current order so far.
+
+## Prices
+
+In FIX, price for a limit order is provided in field 44 (Price) and associated currency can be indicated in 15 (Currency) field.  There is also tag 99 (StopPx) which is used to provide stop price of appropriate order types.  In execution reports, sell-side firms use field 31 (LastPx) to indicate the price at which quantity in current fill executed, and field 6 (AvgPx) to provide average price of total executed quantity in current order. Then there is field 140 (PrevClosePx) which can be used to indicate the instrument's previous day's closing price. This field is sometimes used as an aid in security identification when symbology in use does not guarantee a unique instrument.
+
+For multi-day orders, the sell-side may use field 426 (DayAvgPx) to indicate average price of quantity filled during current day. And if they have made any price improvement, they can send its value in field 639 (PriceImprovement).
+
+For trades which are executed in one currency and settled in another, field 120 (SettlCurrency) indicates the currency in which those should be settled.
+
+## Execution Management
+
+FIX protocol supports various order types, and buy-side institutions can use field 40 (OrdType) to indicate the appropraite one for their orders.   Order side is provided in field 54 (Side).
+
+Buy-side institutions can also instruct their brokers how they should work on the order by using fields 21 (HandInst) and 18 (ExecInst). Field 21 carries general handling instruction of the order (automatic vs. manual) while field 18 allows for provision of one or more specific execution instructions - for example "All or none", "Stay on bid-side", "Go along" or "Cancel on trading halt" etc.
+
+FIX also allows the buy-side to control how their order should be displayed in the order books of the trading floor.  Field 111 (MaxFloor) is used to indicate the quantity which will be visible on the trading floor at any given time, and 210 (MaxShow) indicates the maximum quantity which a broker can show to their other customers. The latter is useful in IOI flows as it restricts brokers to not fully disclose an order's quantity in the IOIs they may send to their other customers.
+
+Other useful tags for execution management are 110 (MinQty) - minimum quantity in the order which must be executed, 114 (LocateReqd) - if a broker is required to locate the stock for short sell orders, 847 (TargetStrategy) - name of strategy if order is for one e.g. VWAP, 848 (TargetStrategyParameters), 839 (ParticipationRate) - if target strategy is "Participate", and 636 (WorkingIndicator) - a flag sent by a broker to indicate they are currently working on the order.
+
+## Date and time
+
+FIX protocl has the following fields for carrying different date/time information in orders and execution reports. Note that most date/time fields in FIX use UTC/GMT times.
+
+* 60 (TransactTime): Time when a trading instruction, e.g. an order was created in the trading system.
+* 52 (SendingTime): Time when a FIX message was sent out by the FIX engine.
+* 59 (TimeInForce): Effective time of an order. This can be Day, Good TIll Date (GTD), Good Till Cancel (GTC), Immediate or Cancel (IOC), or Fill Or Kill (FOK) etc.
+* 168 (EffectiveTime): Time when instruction provided in the FIX message takes effect. For example start time for an order instruction to become active.
+* 432 (ExpireTime): Time when an order expires. This is always local time, instead of UTC.
+* 75 (TradeDate): Date when a trade happened. Useful when a broker is reporting trades of non-current day.
+
+## Parties in trade
+FIX also provide means to identify various parties involved in the trade, both from buy-side and a broker's perspective.  For example the buy-side institutions may use field 528 (OrderCapacity) to indicate their agency, properitary, individual or principal capacity and 529 (OrderRestrictions) to specify restrictions of an order (e.g., foreign entity, market maker).
+
+Brokers use 29 (LastCapacity) to indicate the capacity in which they executed the order - e.g., as an agent, principal or crossing as either. If they executed the order via a third-party, they may identify it in field 76 (ExecBroker).
+
+*FIX 4.4 and later versions also support repeating groups which carry information about all parties involved in the trade. The information which can be xchanged may comprise of party ID, source of this identification, party's role and party information like address, phone number and email address.*
+
+
+
 # Deployment
+
+With [Raptor FIX Engine](https://www.raptortrading.com/products-services/trading-services/), there are some general rules to play by:
+
+* Prefer not re-using the same `ClOrdId` (FIX 4.0 Tag 11)
 
 With ULLink Appia, there are some general rules to play by:
 
