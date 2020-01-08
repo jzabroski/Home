@@ -1,3 +1,7 @@
+# State Based Testing 
+
+https://blog.ploeh.dk/2019/04/01/an-example-of-state-based-testing-in-c/
+
 # Forward, Functionally
 
 See: https://github.com/Dixin/CodeSnippets/blob/ad88bfa84f19156cfb9b0e5b8219514c6c9664c1/Blog/Dixin/Management/Win32Process.cs
