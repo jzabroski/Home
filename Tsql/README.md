@@ -1,3 +1,6 @@
+Tabular Data Stream specification: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-tds/b46a581a-39de-4745-b076-ec4dbb7d13ec?redirectedfrom=MSDN
+
+
 https://www.itprotoday.com/performance-tip-find-your-most-expensive-queries
 > With that said, there’s still a way to ‘frame’ these costs – to provide an idea of what costs roughly mean in the ‘real’ world.
 > 
