@@ -108,6 +108,12 @@ https://github.com/Cyan4973/xxHash
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.FarmHash](https://www.nuget.org/packages/System.Data.HashFunction.FarmHash/) | Data.HashFunction implementation of FarmHash (https://github.com/google/farmhash). | Assessing |
 | [Data.HashFunction](https://github.com/brandondahler/Data.HashFunction/) | [System.Data.HashFunction.Blake2](https://www.nuget.org/packages/System.Data.HashFunction.Blake2/) | Data.HashFunction implementation of BLAKE2 hash (http://blake2.net/). | Assessing |
 
+# Embedded / IoT
+
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [System.Device.Gpio](https://github.com/dotnet/iot) | [System.Device.Gpio](https://www.nuget.org/packages/System.Device.Gpio) | The System.Device.Gpio preview package supports general-purpose I/O (GPIO) pins, PWM, I2C, SPI and related interfaces for interacting with low level hardware pins to control hardware sensors, displays and input devices on single-board-computers; Raspberry Pi, BeagleBoard, HummingBoard, ODROID, and other single-board-computers that are supported by Linux and Windows 10 IoT Core OS can be used with .NET Core and System.Device.Gpio.  On Windows 10 IoT Core OS, the library wraps the Windows.Devices.Gpio.dll assembly.  On Linux, the library supports three driver modes: libgpiod for fast full-featured GPIO access on all Linux distros since version 4.8 of the Linux kernel; slower and limited-functionality GPIO access via the deprecated Sysfs interface (/sys/class/gpio) when running on older Linux distro versions with a Linux kernel older than version 4.8; and lastly board-specific Linux drivers that access GPIO addresses in /dev/mem for fasted performance at the trade-off of being able to run on very specific versions of single-board-computers.  In the future, the board-specific Linux drivers may be removed in favor of only supporting libgpiod and sysfs Linux interfaces.  In addition to System.Device.Gpio, the optional IoT.Device.Bindings NuGet package contains device bindings for many sensors, displays, and input devices that can be used with System.Device.Gpio. | Stable |
+
 # Screenshot manipulation
 [paint.net](https://forums.getpaint.net/)
 [Paint.Net plugin: CodeLab](https://boltbait.com/pdn/codelab/)
