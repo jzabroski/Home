@@ -1,6 +1,12 @@
+# Papers
+
+http://www.dfrws.org/sites/default/files/session-files/paper-unicode_search_of_dirty_data_or_how_i_learned_to_stop_worrying_and_love_unicode_technical_standard_18.pdf
+
+# Any New Line
+
 Here is a GitHub markdown translation of Jeffrey Freidl's Mastering Regular Expressions (2002) coverage of "any new line":
 
-# Table 3-11 Line Anchors for Some Scripting Languages
+## Table 3-11 Line Anchors for Some Scripting Languages
 
 | Concern    | Java  | Perl | PHP  | Python   | Ruby   | Tcl | .NET  |
 | ---------- | ----- | ---- | ---- | -------- | ------ | --- | ----- |
