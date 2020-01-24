@@ -28,3 +28,5 @@
     >   public CreateBase [] Create { get; set; }
     > }
     > ```
+2. [Using Microsoft XML Serializer Generator on .NET Core](https://docs.microsoft.com/en-us/dotnet/core/additional-tools/xml-serializer-generator)
+   > Like the [Xml Serializer Generator (sgen.exe)](https://docs.microsoft.com/en-us/dotnet/standard/serialization/xml-serializer-generator-tool-sgen-exe) for the .NET Framework, the [Microsoft.XmlSerializer.Generator NuGet package](https://www.nuget.org/packages/Microsoft.XmlSerializer.Generator) is the equivalent for .NET Core and .NET Standard projects. It creates an XML serialization assembly for types contained in an assembly to improve the startup performance of XML serialization when serializing or de-serializing objects of those types using XmlSerializer.
