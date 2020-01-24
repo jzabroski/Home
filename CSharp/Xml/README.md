@@ -1,4 +1,4 @@
-1. [Serializing an array of multiple types](https://stackoverflow.com/questions/28462449/serializing-an-array-of-multiple-types-using-xmlserializer)
+1. [Serializing an array of multiple types](https://stackoverflow.com/questions/28462449/serializing-an-array-of-multiple-types-using-xmlserializer) - see also [Controlling XML Serialization Using Attributes](https://docs.microsoft.com/en-us/dotnet/standard/serialization/controlling-xml-serialization-using-attributes)
     > ```xml
     > <create>
     >    <vendor> 
