@@ -177,6 +177,10 @@ NirSoft CurrPorts utility
 
 # Testing
 
+## Equality Testing
+https://github.com/jamesfoster/DeepEqual 
+Found via: https://adrianhesketh.com/2014/10/08/unit-testing-mapping-and-serialization/
+
 ## Code Coverage
 https://github.com/axodox/AxoCover
 
