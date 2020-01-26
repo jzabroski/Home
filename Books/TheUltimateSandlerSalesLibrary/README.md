@@ -19,3 +19,15 @@ Nightingale Conant sales pitch.
 Online Mission Statement Builder.
 
 
+Nightingale.com/missionstatement
+
+Take massive, determined action.
+
+# Session 2
+
+Old Days: Handle Stalls and Objections.
+
+We call that The Caveman Approach.
+
+In the 1970s, Tommy Hopkins, Zig Ziglar, Dale Carnegie,  etc. Added a twist: Ask questions. 
+
