@@ -29,5 +29,22 @@ Old Days: Handle Stalls and Objections.
 
 We call that The Caveman Approach.
 
-In the 1970s, Tommy Hopkins, Zig Ziglar, Dale Carnegie,  etc. Added a twist: Ask questions. 
+In the 1970s, Tommy Hopkins, Zig Ziglar, Xerox, Dale Carnegie,  etc. Added a twist: Ask questions. 
+
+In the 1950s, Sell the Sizzle was great stuff, but the problem became that the person you are selling to already knows all those lines.
+
+In the 60s, went from "rapport" to "dog and pony show".
+
+They found out through research that you had to close five times:
+1. This is a red letter day in your life
+2. Do you want a goose that lays the golden eggs or the golden eggs
+3. The God close
+
+1967, someone made 116,000 in first year. Someone asked how did you do it. He spent 2 minutes. Work hard, 7 days a week, nose to the grindstone.
+
+Then David Sandler spends 2 hours explaining 30 minutes. 
+
+# Session 3
+
+The Self-Awareness Wheel
 
