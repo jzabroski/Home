@@ -5,6 +5,24 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 - Discount Rates
 - Risk Premia
 
+# Repo
+
+https://twitter.com/Barton_options/status/1173722493800144897
+
+> PSA: Why GC (general collateral) repo rates matter to you?
+> 
+> large GC-IOER spread (like today) = money market tightness --> margin calls  --> amplified moves in risk assets
+> 
+> now, why?
+> 
+> 1. leveraged long (or short) and writing derivatives involves hidden steps of repo financing (see charts from Pozsar) 
+> 
+> 2. tightness in o/n repo market clogs this mechanism, and forces positions to be unwound when a large price move occurs (e.g. CL today) 
+> 
+> Things should quiet down a little on Tues & Wed. although underlying funding is still tight. 
+> 
+> GC Repo spread will be bad at EOM, unless the Fed or Treasury acts before that.
+
 https://www.putnam.com/individual/content/perspectives/7393-fed-repos
 
 > Shortly after the spike in repo rates, our initial view was that the events may be a catalyst for one of the following:
