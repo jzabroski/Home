@@ -18,3 +18,8 @@ https://www.putnam.com/individual/content/perspectives/7393-fed-repos
 > We are also mindful that other seasonal and structural factors can create imbalances in the short-term markets. For example, the weeks leading up to bank regulatory reporting dates, particularly at year-end, typically coincide with decreased liquidity and funding pressures. While we expect the Fed to remain proactive in its efforts to promote stability, we believe it’s prudent to actively position portfolios ahead of these pressure points.
 
 https://clsbluesky.law.columbia.edu/2016/08/17/fixing-the-repo-market-the-piece-regulators-missed-when-reforming-the-financial-markets/
+
+
+https://www.stlouisfed.org/publications/regional-economist/april-2016/interest-rate-control-is-more-complicated-than-you-thought
+
+> But could this system work? On Dec. 16, 2015, the FOMC decided to increase the target range for the federal funds rate from 0-0.25 percent to 0.25-0.50 percent,3 with the discount rate at 1.0 percent, the IOER at 0.50 percent and the ON-RRP rate set at 0.25 percent.
