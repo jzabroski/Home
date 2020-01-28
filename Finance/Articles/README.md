@@ -7,6 +7,26 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 
 # Repo
 
+https://seekingalpha.com/article/4209837-this-key-ignored-interest-rate-is-threatening-to-inundate-banking-system
+
+> Total reserves consist of both required reserves and excess reserves. Required reserves are active in the economy and serve as the fractional reserve base for banks to make loans, which keeps the economy moving. Excess reserves just sit back at the Fed itself and do not circulate, so for all intents and purposes they have no effect on economic activity.
+
+https://www.cato.org/blog/reflections-repo-market-imbroglio
+
+> ### Shadow Liquidity Regulation
+> But none of this explains why the big banks didn't fund the private repo market as repo rates rose sharply above the Fed's IOER rate. After all, since the repos we're talking about are temporary swaps of reserves for Treasury securities, banks that engage in them don't reduce their HQLAs. Yet they stand to profit when repo rates spike. But the LCR requirements were far from the only liquidity requirements big banks had to meet. "Banks," JPMorgan CEO Jamie Dimon said at the peak of the turmoil, "have a tremendous amount of liquidity, but also have a tremendous amount of restraints on how they use that liquidity.” As Francisco Covas and Bill Nelson explain in a recent BPI post, besides Basel's LCR requirements the very largest U.S. banks are also "subject to non-public liquidity stress tests, non-public liquidity requirements associated with their resolution plans, and non-public ad hoc examiner mandates."
+
+https://www.brookings.edu/blog/up-front/2019/05/17/the-feds-bigger-balance-sheet-in-an-era-of-ample-reserves/
+
+| Framework                   | System           |
+| --------------------------- | ---------------- |
+| "Ample Reserves" framework  | "Floor" system   |
+| "Scarce Reserves" framework | "Channel" system |
+
+> Under this approach, banks are willing to hold large amounts of deposits at the Fed because they are remunerated at market rates. This approach has been described as an “ample reserves” framework in contrast to the previous approach, which has been dubbed a “scarce reserves” framework. The new approach is also known as a “floor” system because the Fed’s IOER, set by fiat, establishes a floor on the federal funds rate. Under this approach, the Fed’s balance sheet will remain much larger than it was prior to the financial crisis.
+
+
+
 https://www.zerohedge.com/news/2019-04-27/jpmorgan-we-are-approaching-point-again-where-us-banks-run-out-liquidity
 
 > To explain this bizarre phenomenon in which the EFF has been trading well above IOER in defiance of all of the Fed's monetary orthodoxy, we laid out several possible explanations, including that i) money market outflows around the April 15 tax deadline date and elevated GC repo rates; ii) the continued decline in excess reserves, and most ominously iii) another acute dollar shortage  developing across the US banking system.
