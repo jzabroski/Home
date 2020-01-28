@@ -10,6 +10,22 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 https://www.forbes.com/sites/caitlinlong/2019/09/25/the-real-story-of-the-repo-market-meltdown-and-what-it-means-for-bitcoin/#600d5b937caa
 
 > For every US Treasury security outstanding, roughly three parties believe they own it. That’s right. Multiple parties report that they own the very same asset, when only one of them truly does. To wit, the IMF has estimated that the same collateral was reused 2.2 times in 2018, which means both the original owner plus 2.2 subsequent re-users believe they own the same collateral (often a US Treasury security).
+> 
+> This is why US Treasuries aren’t risk-free—they’re the most rehypothecated asset in financial markets, and the big banks know this. Auditors can’t catch this because GAAP accounting standards obfuscate it [...]
+> 
+> Financial regulators can’t publicly admit to this, but big banks know it’s true—and that’s why they hunker down (and stop lending) when they sense one of their kin is in trouble. They recognize that what appears to be an 8% risk-free arbitrage is anything but risk-free.
+> 
+> [...]
+> 
+> Auditors can’t help here, and the accounting profession bears some of the blame for this problem. In June 2014, FASB updated the US GAAP accounting rules for repos. Here’s what the books of three parties show when a transferee (Party A) sells pledged collateral to a third party (Party C):
+> 
+> * Party A owns a particular US Treasury Bond, showing an asset of $100.
+> * Party B borrows it, showing a liability of $100 ($100 of securities sold, not yet purchased).
+> * Party C shows an asset of $100.
+> 
+> If you add up the positions of all parties, economically there’s no problem because the net of the two longs and one short position add up to $100. The problem arises when you aggregate the three US GAAP financial statements. Both Party A and Party C report that they own the same asset (!) The balance sheets balance because Party B records a liability, so auditors don’t catch the problem. When that same bond is reused again and again and again in similar transactions, the magnitude of double counting within the financial system builds in a manner that no one can accurately measure.
+> 
+> For years, IMF economist Dr. Manmohan Singh has done terrific work estimating it (see examples here, here, here, here, here, here and here).
 
 https://twitter.com/Barton_options/status/1173722493800144897
 
