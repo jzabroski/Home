@@ -7,6 +7,10 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 
 # Repo
 
+https://www.forbes.com/sites/caitlinlong/2019/09/25/the-real-story-of-the-repo-market-meltdown-and-what-it-means-for-bitcoin/#600d5b937caa
+
+> For every US Treasury security outstanding, roughly three parties believe they own it. That’s right. Multiple parties report that they own the very same asset, when only one of them truly does. To wit, the IMF has estimated that the same collateral was reused 2.2 times in 2018, which means both the original owner plus 2.2 subsequent re-users believe they own the same collateral (often a US Treasury security).
+
 https://twitter.com/Barton_options/status/1173722493800144897
 
 > PSA: Why GC (general collateral) repo rates matter to you?
@@ -22,6 +26,12 @@ https://twitter.com/Barton_options/status/1173722493800144897
 > Things should quiet down a little on Tues & Wed. although underlying funding is still tight. 
 > 
 > GC Repo spread will be bad at EOM, unless the Fed or Treasury acts before that.
+
+https://twitter.com/ljzaz/status/692314804703199232
+
+> IMF:Repo Markets Are Becoming Uneconomical, Unprofitable
+> 
+> 'drop in GC rates @ yr-end is “not a development we would like to see” in future'
 
 https://www.putnam.com/individual/content/perspectives/7393-fed-repos
 
