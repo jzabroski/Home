@@ -41,6 +41,7 @@ http://www.yieldcurve.com/Mktsoftware/excelCB.htm
 14. https://www.datainharmony.com/reference-data.html
 15. https://fintel.io/industry/list/beverages - includes CIK and CUSIP!
 16. https://www.beatthemarketanalyzer.com/
+17. https://figshare.com/projects/Financial-News-Full-Details-JSON-Dataset/23893
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
