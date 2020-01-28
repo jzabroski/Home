@@ -7,6 +7,10 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 
 # Repo
 
+https://www.zerohedge.com/news/2019-04-27/jpmorgan-we-are-approaching-point-again-where-us-banks-run-out-liquidity
+
+> To explain this bizarre phenomenon in which the EFF has been trading well above IOER in defiance of all of the Fed's monetary orthodoxy, we laid out several possible explanations, including that i) money market outflows around the April 15 tax deadline date and elevated GC repo rates; ii) the continued decline in excess reserves, and most ominously iii) another acute dollar shortage  developing across the US banking system.
+
 https://www.forbes.com/sites/caitlinlong/2019/09/25/the-real-story-of-the-repo-market-meltdown-and-what-it-means-for-bitcoin/#600d5b937caa
 
 > For every US Treasury security outstanding, roughly three parties believe they own it. That’s right. Multiple parties report that they own the very same asset, when only one of them truly does. To wit, the IMF has estimated that the same collateral was reused 2.2 times in 2018, which means both the original owner plus 2.2 subsequent re-users believe they own the same collateral (often a US Treasury security).
