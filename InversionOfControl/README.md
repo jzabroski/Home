@@ -33,6 +33,9 @@ static void Main(string[] args)
 }
 ```
 
+[StackOverflow Q: AutoFixture: Configuring an Open Generics Specimen Builder](https://stackoverflow.com/q/10092446/1040437)
+[StackOverflow Q: How can I register a generic object factory?](https://stackoverflow.com/questions/20209469/how-can-i-register-a-generic-object-factory)
+
 https://montemagno.com/add-asp-net-cores-dependency-injection-into-xamarin-apps-with-hostbuilder/ - is this useful?
 
 https://gist.github.com/maxfridbe/3997274
