@@ -5,13 +5,17 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 - Discount Rates
 - Risk Premia
 
-# FAsAB 56
+# FASAB 56
 
 Crazy conspiracy theory 
 https://hudmissingmoney.solari.com/caveat-emptor-why-investors-need-to-do-due-diligence-on-u-s-treasury-and-related-securities/
 
 
 # Repo
+
+https://www.ft.com/content/f36ff88e-e058-11e9-9743-db5a370481bc
+
+> "Just because the Fed is willing to do a massive amount of repos doesn’t mean end borrowers will be able to obtain financing at attractive rates on September 30," said Michael Cloherty, an interest rate strategist at RBC Capital Markets. "An intermediary is needed to get cash from the Fed to end borrowers, and new regulations make it expensive to be an intermediary on quarter-ends."
 
 https://seekingalpha.com/article/4209837-this-key-ignored-interest-rate-is-threatening-to-inundate-banking-system
 
