@@ -48,14 +48,15 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
    
 # Home Buying
 1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
-2. https://www.provident.com/MortgageBenefitProgram
+2. https://www.provident.com/TodaysRates
+3. https://www.provident.com/MortgageBenefitProgram
     > 0.25% off loans
     > Any company that possesses a valid U.S. business license and a roster of at least 25 active employees is eligible to join Provident Funding’s Mortgage Benefit Program.
-3. https://www.allanachmortgage.com/daily-rates.php
-4. https://www.tsbawake24.com/rates/mortgage-rates/
-5. http://www.mortgagenewsdaily.com/data/30-year-mortgage-rates.aspx
-6. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
-7. https://www.calyxsoftware.com loan software 
+4. https://www.allanachmortgage.com/daily-rates.php
+5. https://www.tsbawake24.com/rates/mortgage-rates/
+6. http://www.mortgagenewsdaily.com/data/30-year-mortgage-rates.aspx
+7. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
+8. https://www.calyxsoftware.com loan software 
 
 ## Mortgage Ratesheet
 [How to Read A Mortgage Rate Sheet - Part 1](https://www.youtube.com/watch?v=fFZWehE763w)
