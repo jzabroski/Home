@@ -5,6 +5,12 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 - Discount Rates
 - Risk Premia
 
+# FAsAB 56
+
+Crazy conspiracy theory 
+https://hudmissingmoney.solari.com/caveat-emptor-why-investors-need-to-do-due-diligence-on-u-s-treasury-and-related-securities/
+
+
 # Repo
 
 https://seekingalpha.com/article/4209837-this-key-ignored-interest-rate-is-threatening-to-inundate-banking-system
