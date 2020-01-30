@@ -17,6 +17,15 @@ https://www.ft.com/content/f36ff88e-e058-11e9-9743-db5a370481bc
 
 > "Just because the Fed is willing to do a massive amount of repos doesn’t mean end borrowers will be able to obtain financing at attractive rates on September 30," said Michael Cloherty, an interest rate strategist at RBC Capital Markets. "An intermediary is needed to get cash from the Fed to end borrowers, and new regulations make it expensive to be an intermediary on quarter-ends."
 
+https://www.reddit.com/r/investing/comments/ckaoxj/a_deep_dive_into_ffr_ioer_and_the_issues_with/
+
+> * Anomalous behavior of EFF relative to IOER in 2018/19
+> * Why the Fed describes IOER as a floor or double-floor BELOW EFFW
+> Why it doesn’t work that way in the real world
+> ontrasting Jeff’s views with Luke Gromen’s “balance sheet capacity” argument
+>hWhy treasuries and other sovereign credits are really balance sheet instruments
+> 
+
 https://seekingalpha.com/article/4209837-this-key-ignored-interest-rate-is-threatening-to-inundate-banking-system
 
 > Total reserves consist of both required reserves and excess reserves. Required reserves are active in the economy and serve as the fractional reserve base for banks to make loans, which keeps the economy moving. Excess reserves just sit back at the Fed itself and do not circulate, so for all intents and purposes they have no effect on economic activity.
