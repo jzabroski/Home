@@ -12,6 +12,8 @@ https://hudmissingmoney.solari.com/caveat-emptor-why-investors-need-to-do-due-di
 
 
 # Repo
+https://www.thebalance.com/yen-carry-trade-explained-pros-cons-how-it-is-today-3305971
+> The yen carry trade is when investors borrow yen at a low-interest rate then purchase either U.S. dollars or currency in a country that pays a high interest rate on its bonds.
 
 https://www.ft.com/content/f36ff88e-e058-11e9-9743-db5a370481bc
 
