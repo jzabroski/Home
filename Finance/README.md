@@ -19,6 +19,11 @@ http://www.yieldcurve.com/Mktsoftware/excelCB.htm
 ## Repo
 [What types of asset are used as collateral in the repo market?](https://www.icmagroup.org/Regulatory-Policy-and-Market-Practice/repo-and-collateral-markets/icma-ercc-publications/frequently-asked-questions-on-repo/6-what-types-of-asset-are-used-as-collateral-in-the-repo-market/)
 
+## Legal Research on Lawsuits against Publicly Traded Companies 
+
+https://www.pacer.gov
+Http://www.docketbird.com
+
 ## Data
 
 1. http://openinsider.com/
