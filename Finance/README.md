@@ -47,6 +47,11 @@ Http://www.docketbird.com
 15. https://fintel.io/industry/list/beverages - includes CIK and CUSIP!
 16. https://www.beatthemarketanalyzer.com/
 17. https://figshare.com/projects/Financial-News-Full-Details-JSON-Dataset/23893
+18. https://bamwx.com
+19. https://www.dtnpf.com/agriculture/web/ag/weather/interactive-map
+20. https://www.eia.gov/petroleum/drilling/
+21. https://bluegoldresearch.com/dpr-natgas
+22. http://www.depreportingservices.state.pa.us/ReportServer/Pages/ReportViewer.aspx?/Oil_Gas/Permits_Issued_Detail
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
