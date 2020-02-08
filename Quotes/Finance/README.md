@@ -1,3 +1,28 @@
+> In the LNG 
+Only one third of the price 
+Long term commitment 
+> 3:56 https://youtu.be/_SYcFAvc7HQ
+> I want to start by telling you something very simple. Something that
+I'm sure either you know or you think you know. That is, what is the difference between oil and gas? Because people often extrapolate from one to the other. And oil and gas are not brother and sister. They are second cousins. Far away from each other. The fact they have carbon and hydrogen each, does not mean there is an affinity in the family. And especially in the global market. In the global market, oil and gas, or oil and LNG, are far away from each other, much more than oil and gas in the United States would be.
+> 
+> Now, three things I want to start about the big differences.
+> 4:40
+> 1. Oil is like dating. Gas is like getting married.
+> The reason is that in oil you can date and change your mind. In gas, you cannot change your mind, especially if you're in LNG business. You have to have long term contracts. You need to have a house, a car, mortgage, tv, kids. All these things are infrastructure. Infrastructure is what gets you. And that biggest component of the costs is infrastructure. If you think for example today, any LNG from US, let's say tomorrow, LNG from US was reaching Asia market, only one third of the price would be the price of gas. Two thirds are infrastructure. So we need to keep in mind the role of infrastructure is very important and It requires long term commitment.
+> 
+> Long term commitment also means if you make a mistake, you're stuck with it. In the oil market, you make a mistake, you correct it. But in the LNG business, you better be sure because you're stuck with it for many years.
+> 
+> A lot of people mistakenly think that the volumes which are exported from the US is going to be like, spy, buy and sell on the spot, no. All of the volumes from the US are sold on the 20 year, take or pay contracts, exactly the same way as indexed prices. This means the level of commitment on the part of the buyer is very dramatic.
+> 
+> 
+> 2. *You produce the oil first, then you sell it. In the LNG side, you have to sell it first, then produce it.*
+> 
+
+
+
+
+People often extrapolate from one to another. 
+
 > The Monetary System has never been healed, and one reason why, one big reason why, is the repo market.  The Repo Market has existed under a, what’s essentially a, collateral shortage.  There isn’t enough of the best quality collateral for people to – when I say “people”, I really mean, you know, mostly banks and financial institutions, not just in the US, you know, that’s what I was talking about with off-shore – this is a global system where everybody trades and funds in US dollars and US dollar positions – so there is really a shortage of the best quality collateral to work in the repo markets.  And because of that, that’s one constraint upon why haven’t we moved past 2008, why haven’t we moved past the financial crisis?  And a big reason is, because there’s a collateral problem. And it’s a collateral problem the Fed doesn’t really have any real ability to fix. The repo market was filled with not just treasuries treated as best collateral, but also mortgage bonds.  The mortgage bond market, and – and agency bonds too, which are, you know, the GSE’s to get involved in the mortgage market too – so, you have to think of, a lot of the collateral, what was treated as the best quality collateral in the system, up until the housing bubble, was the assets of the housing bubble itself.  And so all of those sub-prime and prime mortgage tranches that were, you know, rejected during the crisis, up until then had been treated in the repo market as the same as treasuries.  So, as the crisis evolved, what happened was, the repo market started to reject all those mortgage bonds, all those MBS securities. – We’re just not going to take them.  Or, we’re not going to take them on the same terms as we’re taking repo.  So, effectively, the collateral list, of the stuff that is highly prized, pristine collateral, that list got pared almost in half at the on-set of the crisis.
 > 
 > […]
