@@ -110,6 +110,10 @@ https://www.otcmarkets.com/files/OTC%20Link%20ECN%20FIX%20Specification.pdf
 
 http://www.interactivebrokers.com/download/IB_FIX_Manual.pdf
 
+# CFD Trading
+
+https://github.com/fxcm/FIXAPI
+
 # Using PerfView to View FIX Log Files
 
 1. Open `PerfView64.exe`
