@@ -438,8 +438,10 @@ https://github.com/MicrosoftDocs/Virtualization-Documentation/issues/1009
 
 
 # Issues
-[sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
+* [sqlservr: This program requires a machine with at least 3250 megabytes of memory. #](https://github.com/Microsoft/mssql-docker/issues/114)
 * [RAM/memory allocation with LCOW/windows containers?](https://github.com/docker/for-win/issues/1357)
 * [docker doesn't use memory or CPU options](https://github.com/Microsoft/opengcs/issues/145)
 
+# Tips
+* [Using Docker to Generate CA Server and Client Certificates for Testing](https://danielwertheim.se/using-docker-to-generate-ca-server-and-client-certificates-for-testing/)
 
