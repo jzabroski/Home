@@ -52,6 +52,7 @@ Http://www.docketbird.com
 20. https://www.eia.gov/petroleum/drilling/
 21. https://bluegoldresearch.com/dpr-natgas
 22. http://www.depreportingservices.state.pa.us/ReportServer/Pages/ReportViewer.aspx?/Oil_Gas/Permits_Issued_Detail
+23. HSR Filing Requirements https://www.businessjustice.com/what-are-the-requirements-of-an-hsr-antitrust-filing-for-a-merge.html
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
