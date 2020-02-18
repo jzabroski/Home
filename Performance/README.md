@@ -4,6 +4,7 @@
 4. https://indexoutofrange.com/Want-unlimited-scale-and-performanceThis-is-where-to-start/
 5. https://github.com/tylertreat/BoomFilters
 6. https://www.asumu.xyz/blog/2016/12/01/pflua-to-assembly-via-dynasm/
+7. https://blog.holbertonschool.com/category/hack-the-virtual-memory/
 
 
 # ID Generation
