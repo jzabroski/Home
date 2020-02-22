@@ -1,13 +1,13 @@
 # Terminology for Simple Regression
-| y                    | x                    |
-| -------------------- | -------------------- |
-| Dependent variable   | Independent variable |
-| Explained variable   | Explanatory variable |
-| Response variable    | Control variable     |
-| Predicted variable   | Predictor variable   |
-| Regressand           | Regressor            |
-| Variable of interest | Covariate            |
-| Variable of interest | Control variable     |
+| y                    | x                    | where used   |
+| -------------------- | -------------------- | ------------ |
+| Dependent variable   | Independent variable | Econometrics |
+| Explained variable   | Explanatory variable | Probably the most descriptive |
+| Response variable    | Control variable     | Experimental sciences |
+| Predicted variable   | Predictor variable   | Applications that are purely about prediction and not causality. |
+| Regressand           | Regressor            | |
+| Variable of interest | Covariate            | |
+| Variable of interest | Control variable     | |
 
-The terms "dependent variable" and "independent variable" afre frequently used in econometrics.  But be aware that the label "independent" here does not refer to the statistical notion of independence between random variables.
+The terms "dependent variable" and "independent variable" are frequently used in econometrics.  But be aware that the label "independent" here does not refer to the statistical notion of independence between random variables.
 
