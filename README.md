@@ -1,6 +1,17 @@
 # Home
 https://developers.google.com/speed/pagespeed/insights/
 
+# Core Values
+* Read everyday.
+* Ask questions.
+* Never stop learning.
+* Don't pay attention to what others think of you.
+* Do what interests you the most.
+* Study hard.
+* Teach others what you know.
+* It's Okay to make mistakes.
+* Make mistakes and learn!
+
 My technology radar
 # 6 R's of a Cloud Migration
 The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
