@@ -19,6 +19,9 @@ http://www.yieldcurve.com/Mktresearch/files/Repo_slides.pdf
 > * Introduced November 1992; updated 1995 and 2000
 > * Market standard agreement used as legal basis for repo in non-USD markets
 
+https://www.theinstitutionalriskanalyst.com/post/2019/09/28/eisenbeis-repos-and-reverse-repos
+> Some of the most insightful thinking about developments in the repo market over the past few months has been provided by Credit Suisse’s Zoltan Pozsar. He has been dissecting the evolution of the repo market for more than a year and was prescient in anticipating the kinds of problems that led to the Fed’s recent injection of funds. His analysis is detailed and nuanced, so that it is not possible to cover all that he details here.[10] What follows is a distillation of some of his key points and insights. 
+
 https://www.thebalance.com/yen-carry-trade-explained-pros-cons-how-it-is-today-3305971
 > The yen carry trade is when investors borrow yen at a low-interest rate then purchase either U.S. dollars or currency in a country that pays a high interest rate on its bonds.
 
