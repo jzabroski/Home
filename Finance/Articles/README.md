@@ -19,6 +19,11 @@ http://www.yieldcurve.com/Mktresearch/files/Repo_slides.pdf
 > * Introduced November 1992; updated 1995 and 2000
 > * Market standard agreement used as legal basis for repo in non-USD markets
 
+https://ritholtz.com/2016/06/feds-balance-sheet-small/
+> “The idea that there are no excess reserves stems from the fact that new regulatory rules underwrite the demand for a big Fed balance sheet for a long time to come (possibly forever).”
+> 
+> – Zoltan Pozsar (Credit Suisse), in “Global Money Notes #5,” April 13, 2016
+
 https://www.theinstitutionalriskanalyst.com/post/2019/09/28/eisenbeis-repos-and-reverse-repos
 > Some of the most insightful thinking about developments in the repo market over the past few months has been provided by Credit Suisse’s Zoltan Pozsar. He has been dissecting the evolution of the repo market for more than a year and was prescient in anticipating the kinds of problems that led to the Fed’s recent injection of funds. His analysis is detailed and nuanced, so that it is not possible to cover all that he details here.[10] What follows is a distillation of some of his key points and insights. 
 
