@@ -14,6 +14,8 @@ https://hudmissingmoney.solari.com/caveat-emptor-why-investors-need-to-do-due-di
 # Repo
 Supplementary Financing Program 
 
+https://www.scribd.com/document/439189624/Zoltan-Pozsar-Global-Money-Notes-1-26-2015-2019
+
 http://www.yieldcurve.com/Mktresearch/files/Repo_slides.pdf
 > PSA / ISMA Agreement
 > * Introduced November 1992; updated 1995 and 2000
