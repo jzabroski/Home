@@ -19,14 +19,20 @@ Use CreateItem task and output the value you need:
 
 ```xml
   <ItemGroup>
-    <Item1 Include="Name1">
-      
-    </Item1>
+    <EnvironmentSpecific Include="EnvironmentName1">
+      <HomePage>http://www.google.com</HomePage>
+    </EnvironmentSpecific>
+    <EnvironmentSpecific Include="EnvironmentName2">
+      <HomePage>http://www.bing.com</HomePage>
+    </EnvironmentSpecific>
+  </ItemGroup>
+  <ItemGroup>
+    
   </ItemGroup>
   <Target Name="Example">
     <CreateItem Include="@(Item1)" 
                 AdditionalMetadata="PropertyName=PropertyValue" 
-                Condition="%(Item1.Identity) == 'Name1'">
+                Condition="%(EnvironmentSpecific.Identity) == 'EnvironmentName1'">
       <Output ItemName="Arguments" TaskParameter="Include" />
     </CreateItem>
   </Target>
