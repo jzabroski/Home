@@ -43,9 +43,6 @@ Use CreateItem task and output the value you need:
       <HomePage>http://www.bing.com</HomePage>
     </EnvironmentSpecific>
   </ItemGroup>
-  <ItemGroup>
-    
-  </ItemGroup>
   <Target Name="Example">
     <CreateItem Include="@(Item1)" 
                 AdditionalMetadata="PropertyName=PropertyValue" 
