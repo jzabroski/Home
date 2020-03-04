@@ -3,6 +3,9 @@
 
 There are no scholarships in business. 
 
+> You should always adapt your consumption to your income. You shouldn't try to adapt your income to your consumption.
+> ~ Warren Buffett 
+
 > Performance removes frictions.
 > Scale removes frictions.
 > Scale plus performance obliterates frictions.
