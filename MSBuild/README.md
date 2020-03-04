@@ -10,8 +10,9 @@ This is useful for flattening a deeply nested collection of XML elements:
     </Level2>
   </Level1>
 ```
-https://theflightlessgeek.co.nz/thoughts/2015/3/8/getting-the-combination-of-two-itemgroups-in-msbuild
-https://web.archive.org/web/20160113173520/http://blogs.msdn.com/b/giuliov/archive/2010/04/30/gotcha-msbuild-nested-loops-double-batching.aspx
+
+1. https://theflightlessgeek.co.nz/thoughts/2015/3/8/getting-the-combination-of-two-itemgroups-in-msbuild
+2. https://web.archive.org/web/20160113173520/http://blogs.msdn.com/b/giuliov/archive/2010/04/30/gotcha-msbuild-nested-loops-double-batching.aspx
 
 # Intersection of Two ItemGroup sub-groups (filter each ItemGroup on identity)
 Use CreateItem task and output the value you need:
