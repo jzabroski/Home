@@ -31,6 +31,14 @@ This is useful for flattening a deeply nested collection of XML elements:
 1. https://theflightlessgeek.co.nz/thoughts/2015/3/8/getting-the-combination-of-two-itemgroups-in-msbuild
 2. https://web.archive.org/web/20160113173520/http://blogs.msdn.com/b/giuliov/archive/2010/04/30/gotcha-msbuild-nested-loops-double-batching.aspx
 
+# Understanding MSBuild Batching Behavior
+
+1. https://github.com/microsoft/msbuild/issues/4429#issuecomment-500609578
+
+> This is partially a result of the intensely confusing behavior that the MSPress MSBuild book calls "multi-batching". This is somewhat documented under no particularly clear name at https://docs.microsoft.com/en-us/visualstudio/msbuild/item-metadata-in-task-batching?view=vs-2019#divide-several-item-lists-into-batches.
+> 
+> Basically, if you have a single batch-eligible thing (here let's just say task invocation; pretty sure this works for target batching too) with multiple item lists, a bare metadata reference like %(Filename) applies to _all lists simultaneously_.
+
 # Intersection of Two ItemGroup sub-groups (filter each ItemGroup on identity)
 Use CreateItem task and output the value you need:
 
