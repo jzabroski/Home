@@ -1,3 +1,7 @@
+# Daniel Cazzulino's Building like a Pro: A Primer
+
+http://www.cazzulino.com/building-like-a-pro-primer.html
+
 # Web.config Transformation Syntax for Web Project Deployment Using Visual Studio
 https://docs.microsoft.com/en-us/previous-versions/aspnet/dd465326(v=vs.110)?redirectedfrom=MSDN
 
