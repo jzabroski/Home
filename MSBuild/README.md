@@ -2,6 +2,10 @@
 
 http://www.cazzulino.com/building-like-a-pro-primer.html
 
+# Stephen Cleary: Filtering an ItemGroup Based on a Property
+
+https://blog.stephencleary.com/2009/05/msbuild-filtering-itemgroup-based-on.html
+
 # Web.config Transformation Syntax for Web Project Deployment Using Visual Studio
 https://docs.microsoft.com/en-us/previous-versions/aspnet/dd465326(v=vs.110)?redirectedfrom=MSDN
 
