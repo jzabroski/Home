@@ -39,6 +39,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     PyCharm-community 2019.3.3
     python2 2.7.17 # Python 2.x
     R.Studio 1.2.5033
+    resharper-ultimate-all 2019.3.4  # Not the official version by JetBrains, but slightly more actively maintained.
     rsat 2.1809.0.20190205 # Remote Server Administration Tools (aka aduc) - active directory users and computers
     spawner 0.2.4  # Spawner is a tool for generating test data suitable for populating databases.
     https://github.com/Terminals-Origin/Terminals
