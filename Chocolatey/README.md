@@ -25,6 +25,8 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     netfx-4.8 4.8.0.20190930 # .NET Framwork 4.8 Runtime
     dotnetcore-sdk 3.1.200
     docker-desktop 2.2.0.4
+    firefox  74.0 #  Mozilla Firefox 74.0
+    filezilla 3.47.2.1 # FileZilla
     github-desktop 2.3.1 https://chocolatey.org/packages/github-desktop
     gitkraken 6.5.1
     jdk8 8.0.211
@@ -37,9 +39,15 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     OctopusTools 7.3.0
     PeaZip 7.1.1 # https://chocolatey.org/packages/peazip
     pip 1.2.0
+    postman 7.20.1 # Postman for Windows 7.20.1
     powershell-core 7.0.0 # https://chocolatey.org/packages/powershell-core/
-    PyCharm-community 2019.3.3
-    python2 2.7.17 # Python 2.x
+    
+    # Python Stuff
+    PyCharm-community 2019.3.3  # JetBrains PyCharm (Install) 2019.3.3
+    python2 2.7.17              # Python 2.x
+    python3 3.8.2               # Python 3.x 3.8.2
+    miniconda3 4.7.12.1         # Miniconda (Python 3) 4.7.12.1
+    
     R.Studio 1.2.5033
     resharper-ultimate-all 2019.3.4  # Not the official version by JetBrains, but slightly more actively maintained.
     rsat 2.1809.0.20190205 # Remote Server Administration Tools (aka aduc) - active directory users and computers
@@ -55,6 +63,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     visualstudio2017buildtools 15.9.11.0 https://chocolatey.org/packages/visualstudio2017buildtools
     visualstudio2019professional 16.5.0.0
     visualstudio2019buildtools 16.5.0.0
+    windows-sdk-10.1  10.1.18362.1    # Microsoft Windows SDK for Windows 10 and .NET Framework 4.7 10.1.18362.1
     vscode 1.43.1
     windowclippings 3.1.131 # NOT MODERATOR APPROVED https://chocolatey.org/packages/windowclippings
     microsoft-windows-terminal 0.10.761.0 # Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users. 
@@ -71,6 +80,8 @@ cinst -y chocolatey --version 0.10.11
 1. Packages
    1. Does Not Exist - TODO Create - https://www.userbenchmark.com/resources/download/UserBenchMark.exe
    2. Does Not Exist - TODO Create - https://totusoft.com/lanspeed
+   3. Does Not Exist - TODO Create - DevArt CodeCompare
+   4. Does Not Exist - TODO Create - Duo Authentication
    
 # Chocolatey Packages
 | PackageName | Description | Radar Positioning |
