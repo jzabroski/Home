@@ -15,7 +15,7 @@ choco upgrade chocolatey -y
 ```
 
 # List of Tools I Use
-
+    # Messaging
     telegram.install 1.9.21 # NEVER USED. Cloud-based synchronized messaging app with a focus on speed and security
     
     # Bootstrap Chocolatey
@@ -41,8 +41,9 @@ choco upgrade chocolatey -y
     lockhunter 3.3.4 # LockHunter is a foolproof file unlocker
     rsat 2.1809.0.20190205 # Remote Server Administration Tools (aka aduc) - active directory users and computers
     sysinternals 2019.12.19 #  https://chocolatey.org/packages/sysinternals
-    sysexp 1.75  # https://chocolatey.org/packages/sysexp - SysExporter - Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box.       
-        # See https://github.com/Terminals-Origin/Terminals
+    sysexp 1.75  # https://chocolatey.org/packages/sysexp - SysExporter - Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box. 
+    lessmsi 1.6.91  # LessMSI - Easily extract the contents of an MSI
+    terminals 4.0.1   # Terminals multitab remote control client. See https://github.com/Terminals-Origin/Terminals 
         
         
     # Document Reader
@@ -97,7 +98,7 @@ choco upgrade chocolatey -y
     # RedGate SQL Tools
     dotnetdeveloperbundle  2020.03.16  # .NET Developer Bundle 2020.03.16
     sqltoolbelt            2020.03.18  # SQL Toolbelt 2020.03.18
-    
+    sqlsearch              2019.12.19  # SQL Search 2019.12.19
     
     # Git / Subversion
     github-desktop 2.3.1 https://chocolatey.org/packages/github-desktop
@@ -117,7 +118,7 @@ choco upgrade chocolatey -y
  
     # Continuous Deployment / Deliver
     OctopusTools 7.3.0
-
+    
     
     # PowerShell
     powershell-core 7.0.0 # https://chocolatey.org/packages/powershell-core/
