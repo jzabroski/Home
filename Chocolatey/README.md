@@ -86,8 +86,7 @@ choco.exe list --local-only --all-versions --include-programs
     papercut 5.1.44  # Papercut SMTP Proxy (for testing)
     
     # SQL 
-    ssms                   15.0.18206.0  # 
-SQL Server Management Studio 18.4 15.0.18206.0
+    ssms                   15.0.18206.0  # SQL Server Management Studio 18.4 15.0.18206.0
 
 
     # RedGate SQL Tools
