@@ -15,6 +15,8 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     cpu-z.install 1.91
     ConEmu 19.10.12.0 # https://chocolatey.org/packages/ConEmu Console Emulator with panes, tabs, tasks, jump lists, quake style, handy text and block selection, handy paste of paths in either Unix or Windows notation, and much more.
     crystaldiskmark 6.0.2
+    dashlane 6.2007.0.32704 # Slightly behind official latest version
+    dashlane-chrome 1.0.0 # Version number is not correct
     diskmarkstream 1.1.2
     iometer 1.1.0.20161009
     cyberduck.install 6.4.6.27773 # FTP / CloudStorage / WebDAV client
