@@ -47,6 +47,7 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     https://github.com/Terminals-Origin/Terminals
     sysinternals 2019.12.19 #  https://chocolatey.org/packages/sysinternals
     sysexp 1.75  # https://chocolatey.org/packages/sysexp - SysExporter - Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box.
+    staruml3 3.2.0
     thunderbird 68.6.0
     tortoisesvn 1.13.1.28686
     vcredist2010 10.0.40219.2 # Microsoft Visual C++ 2010 Redistributable Package 10.0.40219.2
@@ -58,6 +59,10 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     windowclippings 3.1.131 # NOT MODERATOR APPROVED https://chocolatey.org/packages/windowclippings
     microsoft-windows-terminal 0.10.761.0 # Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users. 
     whysoslow 1.00 # Analyzes existing crash dumps and tries to determine and state the root cause in easy to understand language.
+    
+    # RedGate SQL Tools
+    dotnetdeveloperbundle  2020.03.16  # .NET Developer Bundle 2020.03.16
+    sqltoolbelt            2020.03.18  # SQL Toolbelt 2020.03.18
 ```powershell
 cinst -y chocolatey --version 0.10.11
 ```
