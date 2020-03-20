@@ -1,7 +1,15 @@
-```powershell
-choco.exe list --localy-only --all-versions --include-programs
-```
+# Benchmarking Fast - Via Installing tools via Chocolatey
+
 TIP: When benchmarking, it is a good idea to use several different benchmark programs, as some may have bugs. For example, CrystalDiskMark was great for mechanical hard drives, but NVMe SSDs have exposed potential bugs in its timing data. See also https://github.com/aerospike/act/blob/master/README.md
+
+# Get List of All Packages Installed on a System
+
+```powershell
+choco.exe list --local-only --all-versions --include-programs
+```
+
+
+# List of Tools I Use
 
     telegram.install 1.9.21 # NEVER USED. Cloud-based synchronized messaging app with a focus on speed and security
     
@@ -23,15 +31,13 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
     
     
     # System Administration Utilities
-
     cports 2.60 # https://www.nirsoft.net/utils/cports.html CurrPorts utility for tracing network ports.  Powerful incremental filter.
-
     jdupes 1.13.2  # A powerful duplicate file finder and an enhanced fork of 'fdupes'.
     lockhunter 3.3.4 # LockHunter is a foolproof file unlocker
-    # See https://github.com/Terminals-Origin/Terminals
     rsat 2.1809.0.20190205 # Remote Server Administration Tools (aka aduc) - active directory users and computers
     sysinternals 2019.12.19 #  https://chocolatey.org/packages/sysinternals
     sysexp 1.75  # https://chocolatey.org/packages/sysexp - SysExporter - Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box.       
+        # See https://github.com/Terminals-Origin/Terminals
         
         
     # Document Reader
