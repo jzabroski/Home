@@ -8,6 +8,11 @@ TIP: When benchmarking, it is a good idea to use several different benchmark pro
 choco.exe list --local-only --all-versions --include-programs
 ```
 
+# Upgrading Chocolatey - RUN AS ADMINISTRATOR
+
+```powershell
+choco upgrade chocolatey -y
+```
 
 # List of Tools I Use
 
@@ -141,10 +146,8 @@ choco.exe list --local-only --all-versions --include-programs
     # Other
     windowclippings 3.1.131 # NOT MODERATOR APPROVED https://chocolatey.org/packages/windowclippings
 
-```powershell
-cinst -y chocolatey --version 0.10.11
-```
 
+# TODO
 
 1. Packages
    1. Does Not Exist - TODO Create - https://www.userbenchmark.com/resources/download/UserBenchMark.exe
