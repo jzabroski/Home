@@ -24,6 +24,10 @@ http://www.yieldcurve.com/Mktsoftware/excelCB.htm
 https://www.pacer.gov
 Http://www.docketbird.com
 
+## Blogs / Research
+
+1. Wharton's Lippincott Library blog - https://lippincottlibrary.wordpress.com/
+
 ## Data
 
 1. http://openinsider.com/
