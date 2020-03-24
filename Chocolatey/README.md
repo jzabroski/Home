@@ -18,6 +18,13 @@ choco upgrade chocolatey -y
 
 In the Chocolatey Package Search, if you start your search with `id:` it will match the package ID. If you want to search for all extension packages, use [`id:.extension`](https://chocolatey.org/packages?q=id%3A.extension)
 
+# bcurran3's Chocolatey GitHub projects
+
+1. https://github.com/bcurran3/ChocolateyPackagingUtils - Utils/Scripts for updating misc Chocolatey package files
+2. https://github.com/bcurran3/ChocolateyTemplates - My Chocolatey package templates
+3. https://github.com/bcurran3/ChocolateyPackages - bcurran3's published Chocolatey packages
+
+
 # List of Tools I Use
     # Messaging
     telegram.install 1.9.21 # NEVER USED. Cloud-based synchronized messaging app with a focus on speed and security
