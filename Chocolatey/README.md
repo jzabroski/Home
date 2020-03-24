@@ -14,6 +14,12 @@ choco.exe list --local-only --all-versions --include-programs
 choco upgrade chocolatey -y
 ```
 
+# Chocolatey Update-SessionEnvironment
+https://chocolatey.org/docs/helpers-update-session-environment
+```powershell
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force;
+```
+
 # Chocolatey Package Authoring Extensions
 
 In the Chocolatey Package Search, if you start your search with `id:` it will match the package ID. If you want to search for all extension packages, use [`id:.extension`](https://chocolatey.org/packages?q=id%3A.extension)
