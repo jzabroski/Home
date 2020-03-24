@@ -49,6 +49,14 @@ Get-Process | select name,starttime
 Enter-PSSession -ComputerName .
 Get-Process w3wp | select name,starttime
 ```
+## Software Center
+```powershell
+Get-Process | where MainWindowTitle -eq "Software Center" | select name,starttime
+```
+or
+```powershell
+Get-Process scclient | select name,starttime
+```
 ## VisualCron
 ```powershell
 Enter-PSSession -ComputerName .
