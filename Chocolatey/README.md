@@ -44,7 +44,10 @@ choco upgrade chocolatey -y
     sysexp 1.75  # https://chocolatey.org/packages/sysexp - SysExporter - Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box. 
     lessmsi 1.6.91  # LessMSI - Easily extract the contents of an MSI
     terminals 4.0.1   # Terminals multitab remote control client. See https://github.com/Terminals-Origin/Terminals 
-        
+    putty.install 0.73  # PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms, along with an xterm terminal emulator.
+    winscp 5.17.2.20200316 # WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer. Beyond this, WinSCP offers scripting and basic file manager functionality.
+
+
         
     # Document Reader
     adobereader 2020.006.20042 # Adobe Acrobat Reader DC 2020.006.20042 - 290 million downloads
@@ -62,7 +65,8 @@ choco upgrade chocolatey -y
     crystaldiskmark 6.0.2      # Disk I/O
     k6 0.26.1                  # Web Load Testing Tool
     whysoslow 1.00             # Analyzes existing crash dumps and tries to determine and state the root cause in easy to understand language.
- 
+
+
     # Web Browers
     firefox  74.0                 #  Mozilla Firefox 74.0
     googlechrome 80.0.3987.149    # Google Chrome 80.0.3987.149
@@ -90,7 +94,8 @@ choco upgrade chocolatey -y
     vscode 1.43.1   
     postman 7.20.1 # Postman for Windows 7.20.1
     papercut 5.1.44  # Papercut SMTP Proxy (for testing)
-    
+
+
     # SQL 
     ssms                   15.0.18206.0  # SQL Server Management Studio 18.4 15.0.18206.0
 
@@ -99,7 +104,8 @@ choco upgrade chocolatey -y
     dotnetdeveloperbundle  2020.03.16  # .NET Developer Bundle 2020.03.16
     sqltoolbelt            2020.03.18  # SQL Toolbelt 2020.03.18
     sqlsearch              2019.12.19  # SQL Search 2019.12.19
-    
+
+
     # Git / Subversion
     github-desktop 2.3.1 https://chocolatey.org/packages/github-desktop
     gitkraken 6.5.1
@@ -116,9 +122,13 @@ choco upgrade chocolatey -y
     notepadplusplus.install 7.8.5
  
  
+    # Screenshot / Picture Editing
+    paint.net 4.2.10
+ 
+ 
     # Continuous Deployment / Deliver
     OctopusTools 7.3.0
-    
+    nsis 3.5.0.20200106   # Nullsoft Scriptable Install System
     
     # PowerShell
     powershell-core 7.0.0 # https://chocolatey.org/packages/powershell-core/
