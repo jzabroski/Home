@@ -35,6 +35,12 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     chocolatey-dotnetfx.extension 1.0.1 # Helper functions useful for developing packages for Microsoft .NET Framework runtime and Developer Pack.
     chocolatey-windowsupdate.extension 1.0.4 # Helper functions useful for developing packages for Windows updates (KBs).
     chocolatey-misc-helpers.extension 0.0.3.1 # Chocolatey Misc Helpers Extension is a collection of helper functions for package creators/maintainers.
+    chocolatey-preinstaller-checks.extension 0.0.2.1 # Chocolatey Preinstaller Checks Extension is a Chocolatey extension that intercepts
+                                                     # and runs checks before installing or uninstalling a program. This extension will
+                                                     # start working automatically once installed and does NOT need to be implemented by
+                                                     # package creators/maintainers. Chocolatey Preinstaller Checks Extension is meant to
+                                                     # be installed and used directly by Chocolatey end users.
+
     
     # Archive / Compression Utilities
     7zip 19.0
