@@ -33,6 +33,8 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     chocolatey 0.10.15
     chocolatey-core.extension 1.3.5.1 # These functions may be used in Chocolatey install/uninstall scripts by declaring this package a dependency in your package's nuspec.
     chocolatey-dotnetfx.extension 1.0.1 # Helper functions useful for developing packages for Microsoft .NET Framework runtime and Developer Pack.
+    chocolatey-windowsupdate.extension 1.0.4 # Helper functions useful for developing packages for Windows updates (KBs).
+    chocolatey-misc-helpers.extension 0.0.3.1 # Chocolatey Misc Helpers Extension is a collection of helper functions for package creators/maintainers.
     
     # Archive / Compression Utilities
     7zip 19.0
