@@ -74,7 +74,7 @@ choco upgrade chocolatey -y
     
     # Password Managers
     dashlane 6.2007.0.32704 # Slightly behind official latest version
-    dashlane-chrome 1.0.0 # Version number is not correct
+    dashlane-chrome 1.0.0 # Version number is not correct + install doesnt work.
 
 
     # .NET Development Stack
