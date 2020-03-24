@@ -21,7 +21,7 @@ choco upgrade chocolatey -y
     # Bootstrap Chocolatey
     chocolatey 0.10.15
     chocolatey-core.extension 1.3.5.1 # These functions may be used in Chocolatey install/uninstall scripts by declaring this package a dependency in your package's nuspec.
-    
+    chocolatey-dotnetfx.extension 1.0.1 # Helper functions useful for developing packages for Microsoft .NET Framework runtime and Developer Pack.
     
     # Archive / Compression Utilities
     7zip 19.0
