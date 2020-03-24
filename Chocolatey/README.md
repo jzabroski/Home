@@ -16,8 +16,24 @@ choco upgrade chocolatey -y
 
 # Chocolatey Update-SessionEnvironment
 https://chocolatey.org/docs/helpers-update-session-environment
+
 ```powershell
-Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force;
+# Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force;
+Update-SessionEnvironment
+```
+
+If Update-SessionEnvironment doesn't work, try ensuring your PowerShell Profile loads the "Chocolatey Profile".  Another symptom of this problem is "[I can't get the PowerShell Tab Completion working](https://chocolatey.org/docs/troubleshooting#i-cant-get-the-powershell-tab-completion-working)".
+
+```powershell
+if (-not Test-Path $profile) { New-Item $profile -Force }
+
+@'
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
+'@ >> $profile
 ```
 
 # Chocolatey Package Authoring Extensions
