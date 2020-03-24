@@ -14,6 +14,10 @@ choco.exe list --local-only --all-versions --include-programs
 choco upgrade chocolatey -y
 ```
 
+# Chocolatey Package Authoring Extensions
+
+In the Chocolatey Package Search, if you start your search with `id:` it will match the package ID. If you want to search for all extension packages, use [`id:.extension`](https://chocolatey.org/packages?q=id%3A.extension)
+
 # List of Tools I Use
     # Messaging
     telegram.install 1.9.21 # NEVER USED. Cloud-based synchronized messaging app with a focus on speed and security
