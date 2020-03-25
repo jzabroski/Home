@@ -129,9 +129,10 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     vcredist2010 10.0.40219.2 # Microsoft Visual C++ 2010 Redistributable Package 10.0.40219.2
     vcredist2015 14.0.24215.20170201 # Microsoft Visual C++ Redistributable for Visual Studio 2015 Update 3 (with hotfix 2016-09-14) 14.0.24215.20170201
     visualstudio2017buildtools 15.9.11.0 https://chocolatey.org/packages/visualstudio2017buildtools
-    visualstudio2019professional 16.5.0.0
-    visualstudio2019buildtools 16.5.0.0
-    windows-sdk-10.1  10.1.18362.1    # Microsoft Windows SDK for Windows 10 and .NET Framework 4.7 10.1.18362.1
+    choco install visualstudio2019community 16.5.0.0 # Visual Studio 2019 Community Edition
+    visualstudio2019professional            16.5.0.0 # Visual Studio 2019 Professional Edition
+    visualstudio2019buildtools              16.5.0.0 # Visual Studio 2019 Build Tools
+    windows-sdk-10.1                    10.1.18362.1 # Microsoft Windows SDK for Windows 10 and .NET Framework 4.7 10.1.18362.1
     vscode 1.43.1   
     postman 7.20.1 # Postman for Windows 7.20.1
     papercut 5.1.44  # Papercut SMTP Proxy (for testing)
