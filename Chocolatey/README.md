@@ -139,7 +139,9 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
 
     # SQL 
     ssms                   15.0.18206.0  # SQL Server Management Studio 18.4 15.0.18206.0
-
+    azure-data-studio      1.16.0        # Azure Data Studio
+    azure-data-studio-sql-server-admin-pack 0.0.1 # Admin Pack for SQL Server for Azure Data Studio
+    vscode-mssql           1.6.0         # Develop Microsoft SQL Server, Azure SQL Database and SQL Data Warehouse everywhere
 
     # RedGate SQL Tools
     dotnetdeveloperbundle  2020.03.16  # .NET Developer Bundle 2020.03.16
