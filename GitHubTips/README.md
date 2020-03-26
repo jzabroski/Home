@@ -28,3 +28,35 @@ unstage = reset HEAD
 wdiff = diff --word-diff
 who = shortlog -s -e --
 ```
+
+# Git Extensions
+
+https://chocolatey.org/packages/EthanBrown.GitExtensionsConfiguration
+
+Very simple set of standard GitExtensions configuration options
+
+- SourceCodePro for diff font
+- Max 50 characters for first line of commit
+- Max 72 characters on subsequent lines
+- 2nd line of commit must be empty
+- Show repository status in browse dialog (number of changes in toolbar)
+- Show current working dir changes in revision graph
+- Use FileSystemWatcher to check if index is changed
+- Show stash count on status bar in browse window
+
+# Git Configuration
+
+https://chocolatey.org/packages?q=ethanbrown.gitconfiguration
+
+Very simple set of standard Git config on Windows
+
+core.autocrlf true
+core.safecrlf false
+rebase.autosquash true
+help.format html
+push.default simple
+core.editor Notepad++
+
+diff.tool DiffMerge
+diff.guitool DiffMerge
+merge.tool DiffMerge
