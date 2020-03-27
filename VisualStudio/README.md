@@ -3,6 +3,29 @@
 1. https://gist.github.com/sharwell/a794952cba68edde9083c4e2b66502fa
   - Use Server GC
 
+# Export Config
+
+Using Visual Studio Installer, you can Export your Visual Studio Configuration, which contains the full list of all Visual Studio Components you've installed.  This allows consistency, organization wide Visual Studio configurations.
+
+From: https://docs.microsoft.com/en-us/visualstudio/install/command-line-parameter-examples?view=vs-2019#using-export
+
+```
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
+```
+
+# Import Config
+
+Using --config to install the workloads and components from a previously saved installation configuration file:
+
+```
+vs_professional.exe --config "C:\.vsconfig" --installPath "C:\VS"
+```
+Using --config to add workloads and components to an existing installation:
+
+```
+vs_professional.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
+```
+
 # Plug-ins
 
 1. [BuildVision](https://marketplace.visualstudio.com/items?itemName=stefankert.BuildVision) | [GitHub](https://github.com/StefanKert/BuildVision)
