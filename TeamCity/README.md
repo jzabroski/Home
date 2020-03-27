@@ -1,3 +1,10 @@
+# Kotlin DSL
+
+https://www.jetbrains.com/help/teamcity/kotlin-dsl.html#KotlinDSL-settings.kts
+
+- Project.kt
+- settings.kts
+
 # Notepad++ Language Extension
 
 Via https://www.kotlinresources.com/library/nppextension/
