@@ -1,4 +1,14 @@
-https://help.github.com/en/articles/syncing-a-fork
+# GitHub Help Knowledge Base
+1. [GitHub Help Articles: Sync a Fork](https://help.github.com/en/articles/syncing-a-fork)
+2. [GitHub Help: Collaborating with Issues and Pull Requests / Create a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+## How do you prefix @<!-- -->SomeText without GitHub converting it to a username link and notifying them?
+
+Two different ways:
+```
+@<!-- -->Some Text
+```
+Or, you can use a [zero width space character](https://en.wikipedia.org/wiki/Zero-width_space) between the `@` sign and `SomeText`.
 
 # Git Aliases
 
