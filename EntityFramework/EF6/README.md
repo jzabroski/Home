@@ -7,4 +7,23 @@ Entities in 'YourDbContext.ChildEntity' participate in the 'ParentEntity_ChildEn
     - See: https://stackoverflow.com/questions/24733689/entities-in-y-participate-in-the-fk-y-x-relationship-0-related-x-were-fou
     - This can happen when you're using AutoFixture to create an object graph and don't want to initialize a circular reference.
     - The solution is to create the test instances of the parent entity.
-    - Alternatively, you can use LazyEntityGraph.
+    - Alternatively, you can use LazyEntityGraph to allow circular references.
+
+3. System.Data.Entity.Infrastructure.DbUpdateException
+Entities in 'YourDbContext.ChildEntity' participate in the 'ChildEntity_ChildEntityNavigationPropertyName' relationship. 0 related 'ChildEntity_ChildEntityNavigationPropertyName_Target' were found. 1 'ChildEntity_ChildEntityNavigationPropertyName_Target' is expected.
+    - This can happen when you'reusing AutoFixture to create an object graph and don't want to initialize a circular reference.
+    - The solution is to create the test instances of the parent entity on the child.
+    - However, if didn't `.Map(p => p.MapKey("YourTableForeignKeyName")` then you will get a different error message:
+        ```
+        System.Data.Entity.Infrastructure.DbUpdateException
+        An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details.
+            at System.Data.Entity.Internal.InternalContext.SaveChanges()
+        ```
+        and the innermost exception will be:
+        ```
+        System.Data.SqlClient.SqlException
+        Invalid column name 'ChildEntityNavigationPropertyName_Id'.
+        Invalid column name 'NavigationPropertyTypeName_Id'.
+            at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+        ```
+    - Alternatively, you can use LazyEntityGraph to allow circular references.
