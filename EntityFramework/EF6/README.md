@@ -26,4 +26,15 @@ Entities in 'YourDbContext.ChildEntity' participate in the 'ChildEntity_ChildEnt
         Invalid column name 'NavigationPropertyTypeName_Id'.
             at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
         ```
-    - Alternatively, you can use LazyEntityGraph to allow circular references.
+        The solution here is to go from code that looks like the following:
+        ```c#
+        HasRequired(x => x.NavigationPropertyName)
+          .WithMany();
+        ```
+        to this:
+        ```c#
+          .Map(m => m.MapKey("YourNavigationPropertysKeyColumnNameInTheDatabase")
+        ```
+        HOWEVER, you might then get a DIFFERENT error IF you only mapped one side of the entity relationship AND you mapped the other side's primary key to something other than the CLR Property Name (case-sensitive)!  The following error is what you'll approximately see:
+        
+        The ONLY workaround in this situation is to map both ends of the relationship, unfortunately.
