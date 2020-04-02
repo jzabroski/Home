@@ -11,6 +11,7 @@ Entities in 'YourDbContext.ChildEntity' participate in the 'ParentEntity_ChildEn
 
 3. System.Data.Entity.Infrastructure.DbUpdateException
 Entities in 'YourDbContext.ChildEntity' participate in the 'ChildEntity_ChildEntityNavigationPropertyName' relationship. 0 related 'ChildEntity_ChildEntityNavigationPropertyName_Target' were found. 1 'ChildEntity_ChildEntityNavigationPropertyName_Target' is expected.
+    - This can happen when the table name of one of the entities is misspelled, or the primary key is wrong.
     - This can happen when you'reusing AutoFixture to create an object graph and don't want to initialize a circular reference.
     - The solution is to create the test instances of the parent entity on the child.
     - However, if didn't `.Map(p => p.MapKey("YourTableForeignKeyName")` then you will get a different error message:
