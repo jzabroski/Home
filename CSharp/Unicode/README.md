@@ -1,5 +1,11 @@
 http://www.aleprojects.com/en/doc/iterate-utf16
 
+#### What's the fastest way to replace a substring of a Unicode string?
+
+> Most "ReplaceAt" commonly methods seen online fail when replace a character at a specific position in a Unicode string.
+> 
+> Source: http://metadataconsulting.blogspot.com/2019/03/A-Unicode-ReplaceAt-string-extension-method-handles-Unicode-string-properly.html
+https://dotnetfiddle.net/DdiKZl
 
 #### What's the right way to get a Substring of a Unicode string?
 
