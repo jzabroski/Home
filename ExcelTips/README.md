@@ -52,6 +52,7 @@ Then press Filter in the data ribbon
 # Refresh
 <kbd>CONTROL</kbd>+<kbd>ALT</kbd>+<kbd>SHIFT</kbd>+<kbd>F9</kbd>:  to recheck all formula dependencies and then recalculate all formulas.
 
-# ExcelFormulaFixer
+# Excel Formula Fixer
 
-https://excelformulafixer.blogspot.com/
+1. https://excelformulafixer.blogspot.com/
+2. https://excelcomplexformula.blogspot.com/
