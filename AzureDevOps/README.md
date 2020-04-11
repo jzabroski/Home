@@ -12,3 +12,12 @@ Discusses:
 This is a terrible hack, but worth noting:
 
 https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/powershell?view=azure-devops
+
+#### Reading the task.json on azure-pipeline-tasks instead of docs
+
+For some reason, the task.json is better documentation than the official site.
+
+Compare:
+
+1. https://github.com/microsoft/azure-pipelines-tasks/blob/master/Tasks/NuGetCommandV2/task.json
+2. https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/package/nuget?view=azure-devops
