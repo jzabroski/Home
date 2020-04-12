@@ -3,6 +3,10 @@
 1. https://gist.github.com/sharwell/a794952cba68edde9083c4e2b66502fa
   - Use Server GC
 
+# Column Guides
+
+https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines
+
 # Export Config
 
 Using Visual Studio Installer, you can Export your Visual Studio Configuration, which contains the full list of all Visual Studio Components you've installed.  This allows consistency, organization wide Visual Studio configurations.
@@ -30,6 +34,7 @@ vs_professional.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 
 1. [BuildVision](https://marketplace.visualstudio.com/items?itemName=stefankert.BuildVision) | [GitHub](https://github.com/StefanKert/BuildVision)
 2. [Invisible Character Visualizer](https://marketplace.visualstudio.com/items?itemName=ShaneRay.InvisibleCharacterVisualizer) | [GitHub](https://github.com/shaneray/ShaneSpace.VisualStudio.InvisibleCharacterVisualizer)
+3. [PaulHarrington.EditorGuidelines](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines) | [GitHub](https://github.com/pharring/EditorGuidelines)
 3. [CodeCleanupOnSave](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave)
 4. [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer) | [GitHub](https://github.com/nbalakin/VSOutputEnhancer)
 5. [HSR Parallel Checker for C# 8 (VS 2019)](https://marketplace.visualstudio.com/items?itemName=LBHSR.HSRParallelCheckerforC7VS2017) | See also https://parallel-checker.com/
