@@ -10,6 +10,10 @@ Two different ways:
 ```
 Or, you can use a [zero width space character](https://en.wikipedia.org/wiki/Zero-width_space) between the `@` sign and `SomeText`.
 
+## How do you manage GitHub project labels?
+
+https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63
+
 # Git Aliases
 
 Taken from github user irisstyle (Ethan Brown)
