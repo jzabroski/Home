@@ -3,6 +3,10 @@ Useful for packaging executables with Nuget's nupkg format
 
 1. https://dev.to/wabbbit/include-both-nuget-package-references-and-project-reference-dll-using-dotnet-pack-2d8p
 
+# How to understand nuget dependencies on target frameworks
+
+https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
+
 # Links
 
 1. https://www.red-gate.com/simple-talk/opinion/opinion-pieces/building-a-better-nuget/
