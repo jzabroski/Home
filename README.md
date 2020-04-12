@@ -441,9 +441,17 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 | ------ | ----- | ----------- | ----------------- |
 | [xunit-performance](https://github.com/Microsoft/xunit-performance) | | | Incoming |
 
-# Web Programming
+# User Interfaces
 
-## HTML5 Controls
+## WinForms
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [DockPanelSuite](https://github.com/dockpanelsuite/dockpanelsuite) | [DockPanelSuite](https://www.nuget.org/packages/DockPanelSuite/3.0.6) | | The docking library for .Net Windows Forms development which mimics Visual Studio .Net. | Incoming |
+
+
+## Web Programming
+
+### HTML5 Controls
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | React.js | | Functional UI | Incoming |
@@ -459,10 +467,10 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 
 See also: https://developers.google.com/web/updates/
 
-## HTML5 Specifications
+### HTML5 Specifications
 [HTML5 Speech Recognition](http://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech)
 
-## HTML Archive/Replay
+### HTML Archive/Replay
 | GitHub | NodeJS Module | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
@@ -494,10 +502,19 @@ https://www.microsoft.com/en-us/download/details.aspx?id=53595
 EXECUTE dbautils.spFixIndexNaming
 ```
 
-# Software Licensing
+# Commercial Software Tooling
+## Software Licensing
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ------------- | ----------- | ----------------- |
 | [Portable.Licensing](https://github.com/dnauck/Portable.Licensing) | [Portable.Licensing](https://www.nuget.org/packages/Portable.Licensing/) | Portable.Licensing is a cross platform software licensing framework which allows you to implement licensing into your application or library. It provides you all tools to create and validate licenses for your software.<br/>Portable.Licensing is using the latest military strength, state-of-the-art cryptographic algorithm to ensure that your software and thus your intellectual property is protected. | Stable |
+
+## Software Obfuscation
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ------------- | ----------- | ----------------- |
+| [Obfuscar](https://github.com/obfuscar/obfuscar) | [Obfuscar](https://www.nuget.org/packages/Obfuscar/) | Obfuscar is a basic obfuscator for .NET assemblies. It uses massive overloading to rename metadata in .NET assemblies (including the names of methods, properties, events, fields, types and namespaces) to a minimal set, distinguishable in most cases only by signature. | Stable |
+| [Obfuscar](https://github.com/obfuscar/obfuscar) | [Obfuscar.GlobalTool](https://www.nuget.org/packages/Obfuscar.GlobalTool/) | .NET Core CLI Tool | Stable |
+
+
 
 # Color / ANSI Escape Codes
 | GitHub | NuGet | Description | Radar Positioning |
