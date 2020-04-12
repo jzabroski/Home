@@ -464,6 +464,7 @@ https://blogs.msdn.microsoft.com/askjay/2011/07/08/troubleshooting-slow-disk-io-
 | [fusioncharts](https://www.fusioncharts.com/) | [fusioncharts](https://www.npmjs.com/package/fusioncharts) | FusionCharts is a JavaScript charting library providing 95+ charts and 1,400+ maps for your web and mobile applications. All the visualizations are interactive and animated, which are rendered in SVG and VML (for IE 6/7/8). | Stable |
 | [kendo UI](https://www.telerik.com/kendo-ui) | [kendo](https://www.npmjs.com/package/kendo) | **Package out of date/legacy** | Stable |
  
+Cerebral, MobX, Redux, atom-react, Redux-saga
 
 See also: https://developers.google.com/web/updates/
 
@@ -471,11 +472,14 @@ See also: https://developers.google.com/web/updates/
 [HTML5 Speech Recognition](http://stephenwalther.com/archive/2015/01/05/using-html5-speech-recognition-and-text-to-speech)
 
 ### HTML Archive/Replay
-| GitHub | NodeJS Module | Description | Radar Positioning |
-| ------ | ------------- | ----------- | ----------------- |
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
 | [HarSharp](https://github.com/giacomelli/HarSharp) | [HarSharp](https://www.nuget.org/packages/HarSharp/) | A small and easy-to-use library to parse HTTP Archive (HAR) format to .NET objects. | Stable |
 
-Cerebral, MobX, Redux, atom-react, Redux-saga
+### HTTP Parsing
+| [Http-Multipart-Data-Parser(https://github.com/Http-Multipart-Data-Parser/Http-Multipart-Data-Parser) | [HttpMultipartParser](https://www.nuget.org/packages/HttpMultipartParser/) | A C# Http Multipart/form-data parser that works correctly on binary data and very large files. | Stable |
+
+
 
 # SQL
 
