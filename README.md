@@ -174,6 +174,7 @@ https://github.com/Cyan4973/xxHash
 # Static Analysis
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
+| [RoslynQuoter](https://github.com/KirillOsenkov/RoslynQuoter) | [RoslynQuoter](https://www.nuget.org/packages/RoslynQuoter/) | See the interactive website here: [RoslynQuoter](http://roslynquoter.azurewebsites.net/) | Stable |
 | [Roslinq](https://github.com/benetkiewicz/Roslinq) | [Roslinq](https://www.nuget.org/packages/Roslinq/) | With Roslinq it's possible to use Linq to browse through source code and modify it. | Assessing |
 | [Roslyn SDK](https://github.com/dotnet/roslyn-sdk) | [src](https://github.com/dotnet/roslyn-sdk/tree/master/tests/Microsoft.CodeAnalysis.Testing) [Myget: Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.XUnit](
 https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.CSharp.CodeFix.Testing.XUnit) | Tools for simpler testing of Roslyn analyzers | Stabe but Beta Channel only! |
