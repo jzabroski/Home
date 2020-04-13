@@ -17,6 +17,11 @@
 9. Click _OK_.
 10. Click _Close_.
 
+## ReSharper_ToggleSuspended
+
+https://stackoverflow.com/questions/19048489/add-resharper-togglesuspended-as-toolbar-button
+
+
 
 # Column Guides
 
