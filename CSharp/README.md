@@ -1,4 +1,7 @@
-http://holowczak.com/ib-api-socket-csharp-console-market-scanners/
+# .NET Jupyter Notebooks
+https://devblogs.microsoft.com/dotnet/net-core-with-juypter-notebooks-is-here-preview-1/
+
+[PROGRAMMING INTERACTIVE BROKERS SOCKET CLIENT API USING C# / CONSOLE – MARKET SCANNERS](http://holowczak.com/ib-api-socket-csharp-console-market-scanners/)
 
 # .NET Core Razor SDK
 ```xml
