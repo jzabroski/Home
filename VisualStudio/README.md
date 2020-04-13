@@ -3,6 +3,21 @@
 1. https://gist.github.com/sharwell/a794952cba68edde9083c4e2b66502fa
   - Use Server GC
 
+# Toolbar Customizations
+
+## Document Format button
+1. Go to the _Tools_ menu
+2. Go to the _Customize_ menu option
+3. In the _Toolbars_ tab, click _New_.
+4. Name the toolbar _Format Document_.
+5. In the _Commands_ tab, select _Toolbar_ radio button.  In the adjacent dropdown, select _Format Document_ toolbar.
+6. Click _Add Command..._.
+7. In the left-hand _Categories_ listbox, select the _Edit_ value.
+8. In the right-hand _Commands_ listbox, select the _Document Format_ value.
+9. Click _OK_.
+10. Click _Close_.
+
+
 # Column Guides
 
 https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines
