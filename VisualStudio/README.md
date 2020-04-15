@@ -60,3 +60,4 @@ vs_professional.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 5. [HSR Parallel Checker for C# 8 (VS 2019)](https://marketplace.visualstudio.com/items?itemName=LBHSR.HSRParallelCheckerforC7VS2017) | See also https://parallel-checker.com/
 6. [FileNesting](https://github.com/madskristensen/FileNesting)
 7. [TabsStudio](https://tabsstudio.com/)
+8. [Flamory with VSCommands](http://flamory.net/en/integrations/app/vscommands)
