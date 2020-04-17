@@ -104,6 +104,11 @@ Most Advanced, Yet Acceptable.
 | ------ | ----- | ----------- | ----------------- |
 | [BouncyCastle](http://www.bouncycastle.org/csharp/) | [BouncyCastle](https://www.nuget.org/packages/BouncyCastle/) | The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols, it was developed by the Legion of the Bouncy Castle, a registered Australian Charity, with a little help! The Legion, and the latest goings on with this package, can be found at [http://www.bouncycastle.org/](http://www.bouncycastle.org/). In addition to providing basic cryptography algorithms, the package also provides support for CMS, TSP, X.509 certificate generation and a variety of other standards such as OpenPGP. | Stable |
 
+# Cryptographically strong random id generator
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [nano-id-net](https://github.com/codeyu/nanoid-net) | [Nanoid](https://www.nuget.org/packages/Nanoid/) | A tiny, secure, URL-friendly, unique string ID generator for .NET Core. More compact, and just as fast, as generating UUIDs. | Stable |
+
 # Non-Cryptographic Hashing functions
 https://github.com/Cyan4973/xxHash
 
