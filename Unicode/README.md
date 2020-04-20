@@ -1,0 +1,1 @@
+https://youtu.be/jC4NNUYIIdM - How Non-Printing Characters Can Cause an Application such as WhatsApp to crash
