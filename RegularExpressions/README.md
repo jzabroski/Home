@@ -2,6 +2,10 @@
 
 http://www.dfrws.org/sites/default/files/session-files/paper-unicode_search_of_dirty_data_or_how_i_learned_to_stop_worrying_and_love_unicode_technical_standard_18.pdf
 
+# Thomas Lord's insights
+
+https://news.ycombinator.com/item?id=1185666
+
 # Any New Line
 
 Here is a GitHub markdown translation of Jeffrey Freidl's Mastering Regular Expressions (2002) coverage of "any new line":
