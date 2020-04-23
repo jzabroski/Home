@@ -1,7 +1,24 @@
 # Date And Time Functions
 
+## Pre-EF6 (EntityFunctions)
 1. [Date and Time Canonical Functions](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bb738563(v=vs.100)?redirectedfrom=MSDN)
 2. [How to: Call Canonical Functions](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/how-to-call-canonical-functions?redirectedfrom=MSDN)
+
+## EF6 (DbFunctions)
+
+As the documentation states [EntityFunctions](http://msdn.microsoft.com/en-us/library/system.data.objects.entityfunctions.aspx)
+
+> Provides common language runtime (CLR) methods that expose conceptual model canonical functions in LINQ to Entities queries. For information about canonical functions, see Canonical Functions (Entity SQL).
+
+where [Canonical functions](http://msdn.microsoft.com/en-us/library/bb738626.aspx)
+
+> are supported by all data providers, and can be used by all querying technologies. Canonical functions cannot be extended by a provider. These canonical functions will be translated to the corresponding data source functionality for the provider. This allows for function invocations expressed in a common form across data sources.
+
+Whereas [SQLFunctions](http://msdn.microsoft.com/en-us/library/system.data.objects.sqlclient.sqlfunctions.aspx)
+
+> Provides common language runtime (CLR) methods that call functions in the database in LINQ to Entities queries.
+
+Therefore although both sets of functions are translated into native SQL, SQLFunctions are SQL Server specific, whereas EntityFunctions aren't.
 
 # Run-time Exceptions
 
