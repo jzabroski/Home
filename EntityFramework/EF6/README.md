@@ -1,3 +1,10 @@
+# Date And Time Functions
+
+1. [Date and Time Canonical Functions](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bb738563(v=vs.100)?redirectedfrom=MSDN)
+2. [How to: Call Canonical Functions](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/how-to-call-canonical-functions?redirectedfrom=MSDN)
+
+# Run-time Exceptions
+
 1. The navigation property '' has been configured with conflicting multiplicities.
     - This can happen because `.Map(s => s.MapKey("CaseSensitiveColumnName");` due to the fact EF uses CLR properties which are case sensitive.
     - See: https://stackoverflow.com/questions/32224102/entity-framework-varchar-foreign-key-case-insensitive
