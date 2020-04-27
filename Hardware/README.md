@@ -25,6 +25,9 @@
     * Logitech MX Master 2S
 8. Keyboard
     * Microsoft Natural Ergonomic 4000
+    * See also: http://darkwyrm-haiku.blogspot.com/2008/07/cleaning-microsoft-ergo-natural.html
+    * See also: [YouTube: How to open Natural Ergonomic Keyboard 4000](https://www.youtube.com/watch?v=IZhCzOOhX2E)
+    * If disassembling anything, remember to take photos as you go to help you re-trace your steps as you put things back together.  It's always the same, except in reverse order, so step-by-step photos can be reviewed in reverse order.
 
 # Potential SAN / NAS Research
 
