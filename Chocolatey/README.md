@@ -200,7 +200,7 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
 
     # Other
     windowclippings 3.1.131 # NOT MODERATOR APPROVED https://chocolatey.org/packages/windowclippings
-
+    carnac # Learn how to use your Keyboard Better!
 
 # TODO
 
@@ -209,6 +209,7 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
    2. Does Not Exist - TODO Create - https://totusoft.com/lanspeed
    3. Does Not Exist - TODO Create - DevArt CodeCompare
    4. Does Not Exist - TODO Create - Duo Authentication
+   5. Does Not Exist - TODO Create - https://github.com/Phaiax/PxKeystrokesForScreencasts
    
 # Chocolatey Packages
 | PackageName | Description | Radar Positioning |
