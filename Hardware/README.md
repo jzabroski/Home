@@ -22,7 +22,7 @@
 6. Desk
     * Autonomous AI SmartDesk 2 Business Edition - XL
 7. Mouse
-    * Logitech MX Master 2S
+    * Logitech MX Master 3 (or 2S)
 8. Keyboard
     * Microsoft Natural Ergonomic 4000
     * See also: http://darkwyrm-haiku.blogspot.com/2008/07/cleaning-microsoft-ergo-natural.html
