@@ -1,3 +1,7 @@
+# Nate McMaster's MSBuild Task with Dependencies
+
+https://natemcmaster.com/blog/2017/11/11/msbuild-task-with-dependencies/
+
 # Daniel Cazzulino's Building like a Pro: A Primer
 
 http://www.cazzulino.com/building-like-a-pro-primer.html
