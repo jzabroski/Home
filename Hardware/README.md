@@ -25,10 +25,12 @@
     * Logitech MX Master 3 (or 2S)
 8. Mousepad
     * Corsair MM600 Aircraft-grade Aluminum Mouse Pad (Impossible to Find, but Lasts Forever)
+      * See [Blade Hawks Gaming Mouse Pad W Double-Sided Aluminum Core Mouse mat, Non-Slip Rubber Base & Micro Sand Blasting Surface for Fast and Accurate Control,13.5"x9.5"](https://www.amazon.com/Blade-Hawks-Double-Sided-Aluminum-Non-Slip/dp/B075ZN8H26/) for new alternative
     * Razer Invicta Dual-sided Aircraft-grade Aluminum Mouse Pad
       * See: [Mouse Pad Buyer's Guide for Gamers](https://www.youtube.com/watch?v=L-rCKUrgwdQ)
       * Review 1: [Razer Invicta, is it the most ridiculous mouse pad ever??????? (unboxing)](https://www.youtube.com/watch?v=_ULmjmU4npk) by PCGoblin
-      * Review 2: [Razer Invicta Elite Dual-sided Gaming Mouse Mat | Unboxing & Overview | MyKeyReviews](https://www.youtube.com/watch?v=ciMiHLL9AQo) by MyKeyReviews
+      * Review 2: [Review of the most ridiculous mouse pad ever, the Razer Invicta](https://www.youtube.com/watch?v=1QVN9OfAfAg)
+      * Review 3: [Razer Invicta Elite Dual-sided Gaming Mouse Mat | Unboxing & Overview | MyKeyReviews](https://www.youtube.com/watch?v=ciMiHLL9AQo) by MyKeyReviews
 9. Keyboard
     * Microsoft Natural Ergonomic 4000
     * See also: http://darkwyrm-haiku.blogspot.com/2008/07/cleaning-microsoft-ergo-natural.html
