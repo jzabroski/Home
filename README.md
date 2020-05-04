@@ -7,7 +7,7 @@ https://developers.google.com/speed/pagespeed/insights/
 * Never stop learning.
 * Don't pay attention to what others think of you.
 * Do what interests you the most.
-* Study hard.
+* "Study less, study smart."
 * Teach others what you know.
 * It's Okay to make mistakes.
 * Make mistakes and learn!
