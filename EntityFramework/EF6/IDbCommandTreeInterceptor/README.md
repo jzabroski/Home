@@ -1,5 +1,5 @@
-The original user story demonstrated by Rowan Miller was to implement Soft Delete, 
-whereby a `DELETE` command was transformed into an `UPDATE` command that set an `IsDeleted`
+The original user story demonstrated by Rowan Miller at [TechEd North America 2014](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B417#fbid=) was to implement [SoftDeleteInterceptor](https://github.com/rowanmiller/Demo-TechEd2014/blob/master/FakeEstate.ListingManager/Models/EFHelpers/SoftDeleteInterceptor.cs), 
+whereby a `DELETE` is transformed into an `UPDATE` of an `IsDeleted` property on the entity.
 
 [Entity Framework 6.0 - Intercepting SQL produced by EF](https://www.skylinetechnologies.com/Blog/Skyline-Blog/December-2013/Entity-Framework-6-Intercepting-SQL-produced) by Dan Lorenz
 
