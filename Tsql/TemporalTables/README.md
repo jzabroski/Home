@@ -72,6 +72,20 @@ FROM dbo.CustomerHistory
 WHERE StartTime<= @PointInTime  AND EndTime > @PointInTime 
 GO
 
+; WITH PointInTime (Date) AS (
+	SELECT Date = @FlashBackDate
+)
+SELECT c.Id, c.Name, c.StartTime, c.EndTime 
+FROM dbo.Customer c
+	INNER JOIN PointInTime PIT ON
+		 c.StartTime<= pit.Date  AND c.EndTime > pit.Date 
+UNION ALL
+SELECT ch.Id, ch.Name, ch.StartTime, ch.EndTime 
+FROM dbo.CustomerHistory ch
+	INNER JOIN PointInTime PIT ON
+		ch.StartTime<= pit.Date  AND ch.EndTime > pit.Date
+GO
+
 -- Second edit
 DECLARE @FlashBackDate DATETIME2 = DATEADD(SECOND, -5, SYSUTCDATETIME())
 SELECT Id, Name, StartTime, EndTime 
@@ -88,6 +102,20 @@ FROM dbo.CustomerHistory
 WHERE StartTime<= @PointInTime  AND EndTime > @PointInTime 
 GO
 
+; WITH PointInTime (Date) AS (
+	SELECT Date = @FlashBackDate
+)
+SELECT c.Id, c.Name, c.StartTime, c.EndTime 
+FROM dbo.Customer c
+	INNER JOIN PointInTime PIT ON
+		 c.StartTime<= pit.Date  AND c.EndTime > pit.Date 
+UNION ALL
+SELECT ch.Id, ch.Name, ch.StartTime, ch.EndTime 
+FROM dbo.CustomerHistory ch
+	INNER JOIN PointInTime PIT ON
+		ch.StartTime<= pit.Date  AND ch.EndTime > pit.Date
+GO
+
 -- Third edit
 DECLARE @FlashBackDate DATETIME2 = DATEADD(SECOND, 0, SYSUTCDATETIME())
 SELECT Id, Name, StartTime, EndTime 
@@ -102,6 +130,20 @@ UNION ALL
 SELECT Id, Name, StartTime, EndTime 
 FROM dbo.CustomerHistory
 WHERE StartTime<= @PointInTime  AND EndTime > @PointInTime 
+GO
+
+; WITH PointInTime (Date) AS (
+	SELECT Date = @FlashBackDate
+)
+SELECT c.Id, c.Name, c.StartTime, c.EndTime 
+FROM dbo.Customer c
+	INNER JOIN PointInTime PIT ON
+		 c.StartTime<= pit.Date  AND c.EndTime > pit.Date 
+UNION ALL
+SELECT ch.Id, ch.Name, ch.StartTime, ch.EndTime 
+FROM dbo.CustomerHistory ch
+	INNER JOIN PointInTime PIT ON
+		ch.StartTime<= pit.Date  AND ch.EndTime > pit.Date
 GO
 
 SET STATISTICS XML OFF;
