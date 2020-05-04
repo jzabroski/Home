@@ -5,7 +5,10 @@ whereby a `DELETE` is transformed into an `UPDATE` of an `IsDeleted` property on
 
 > First, you need to create the Inteceptor class.  There are two interfaces that you can use: `IDbCommandTreeInterceptor` and `IDbCommandInterceptor`.  `IDbCommandTreeInterceptor` allows you to intercept the tree model that was created.  Currently, you can only modify the SELECT queries.  If EF creates a query that does not perform well, you can use this interceptor to modify the tree.  However, this will get cached, so the event will only fire the first time.  `IDbCommandInterceptor` allows you to manipulate the `DbCommand` object before and after Entity Framework makes the call to the database.  You have full access to everything on that command, including `CommandText` and `Parameters`.  You can log the SQL and the parameters.  You can modify the `CommandText` and/or the `Parameters` however you want.  Need to add SQL Server specific calls in the SQL being sent?  No problem!
 
-The following StackOverflow answer suggests [using IDbCommandTreeInterceptor for querying temporal tables](https://stackoverflow.com/a/56829230/1040437):
+
+The following StackOverflow answers use idential code:
+1. [using IDbCommandTreeInterceptor for querying temporal tables](https://stackoverflow.com/a/56829230/1040437)
+2. [Entity Framework not working with temporal table](https://stackoverflow.com/questions/40742142/entity-framework-not-working-with-temporal-table):
 
 
 ```c#
