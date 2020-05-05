@@ -20,6 +20,15 @@ EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type
     > In that we read the following with respect to the `DATETIME` and `DATETIME2` types:
     > 
     > > Under database compatibility level 130, implicit conversions from datetime to datetime2 data types show improved accuracy by accounting for the fractional milliseconds, resulting in different converted values. Use explicit casting to datetime2 datatype whenever a mixed comparison scenario between `datetime` and `datetime2` datatypes exists.
+    See also the following KB4010261: [SQL Server and Azure SQL Database improvements in handling some data types and uncommon operations](https://support.microsoft.com/en-us/help/4010261/sql-server-and-azure-sql-database-improvements-in-handling-data-types)
+3. [values on a .NET DateTime are truncated when stored in a SQL Server DATETIME column, regardless of the database compatibility level](https://github.com/dotnet/ef6/issues/49#issuecomment-265885625):
+    > Note that values on a .NET DateTime are truncated when stored in a SQL Server DATETIME column, regardless of the database compatibility level.
+    Diego then goes on to explain database compatibility level 130 implicit conversions.
+4. Where this gets even trickier is when you write a LINQ query that filters by DateTime values:
+    1. Rounding error introduced by .NET DateTime truncated when stored in a SQL Server DATETIME column
+    2. Rounding error introduced by database compatibility level 130
+    3. Rounding error when compared stored DATETIME column to a .NET DateTime object due to error introduced by database compatibility level 130
+5. Microsoft considered a workaround, but it only works if your whole database uses columns of type `DATETIME` and not `DATETIME2`.  You cannot mix the two column types.
     
 ## Pre-EF6 (EntityFunctions)
 1. [Date and Time Canonical Functions](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bb738563(v=vs.100)?redirectedfrom=MSDN)
