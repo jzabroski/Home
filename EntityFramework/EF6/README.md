@@ -1,5 +1,20 @@
 # Date And Time Functions
 
+## Overview
+
+* Avoid `DATETIME` where possible; use `DATETIME2(3)` instead.
+* When converting from `DATETIME` to `DATETIME2`:
+    * add a new column and copy the data in that column.
+    * drop the old column.
+    * rename the new column to the old column's name.
+* In brownfield software development, use the following query to report on distribution of column data types:
+    ```sql
+    SELECT isc.DATA_TYPE, COUNT(*)
+    FROM INFORMATION_SCHEMA.COLUMNS isc
+    WHERE isc.DATA_TYPE IN ('datetime', 'date', 'datetime2', 'datetimeoffset', 'time')
+    GROUP BY isc.DATA_TYPE
+    ```
+
 ## Differences Between DATETIME and DATETIME2
 
 See [Iman's summary on StackOverflow](https://stackoverflow.com/a/12364243/1040437)
