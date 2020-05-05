@@ -1,4 +1,6 @@
 # Where Shared
+Keeping track of where this page is shared allows me to update trackback links so that there are no 404s to this page.
+
 1. https://github.com/dotnet/efcore/issues/4693#issuecomment-624068637
 2. As a link in client documentation on using SQL Server Temporal Tables with EF
 
