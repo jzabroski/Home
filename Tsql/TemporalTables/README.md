@@ -1,3 +1,5 @@
+This example demonstrates how to de-sugar temporal table `FOR SYSTEM_TIME AS OF` syntactic sugar.
+
 ```sql
 USE master
 GO
