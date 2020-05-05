@@ -1,5 +1,6 @@
 # Where Shared
-https://github.com/dotnet/efcore/issues/4693#issuecomment-624068637
+1. https://github.com/dotnet/efcore/issues/4693#issuecomment-624068637
+2. As a link in client documentation on using SQL Server Temporal Tables with EF
 
 # Overview
 This example demonstrates how to de-sugar temporal table `FOR SYSTEM_TIME AS OF` syntactic sugar.
