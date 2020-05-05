@@ -27,9 +27,62 @@ EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type
 4. Where this gets even trickier is when you write a LINQ query that filters by DateTime values:
     1. Rounding error introduced by .NET DateTime truncated when stored in a SQL Server DATETIME column
     2. Rounding error introduced by database compatibility level 130
-    3. Rounding error when compared stored DATETIME column to a .NET DateTime object due to error introduced by database compatibility level 130
-5. Microsoft considered a workaround, but it only works if your whole database uses columns of type `DATETIME` and not `DATETIME2`.  You cannot mix the two column types.
-    
+    3. Rounding error when compared stored DATETIME column to a .NET DateTime object due to error introduced by database compatibility level 130. See: https://github.com/dotnet/ef6/issues/578 - EF6 assumes .NET DateTime datatype maps to DateTime2 on SQL Server 2008 or Greater.
+5. Microsoft considered a [workaround by Microsoft engineer Andrew Vickers](https://github.com/dotnet/ef6/pull/1147#issue-307843286) based on a [user contribution](https://github.com/dotnet/ef6/issues/578#issuecomment-435438457), but it only works if your whole database uses columns of type `DATETIME` and not `DATETIME2`.  You cannot mix the two column types.   Thus, Microsoft [decided not to accept the PR](https://github.com/dotnet/ef6/pull/1147#pullrequestreview-276892291), and instead document the workaround (the documentation task is still not done).  The workaround is this:
+    ```c#
+    /// <summary>
+    /// DateTimeInterceptor fixes the incorrect behavior of Entity Framework library when for datetime columns it's generating datetime2(7) parameters 
+    /// when using SQL Server 2016 and greater.
+    /// Because of that, there were date comparison issues.
+    /// Links:
+    /// https://github.com/aspnet/EntityFramework6/issues/49
+    /// https://github.com/aspnet/EntityFramework6/issues/578
+    /// Notes:
+    /// Disable it if:
+    /// 1) Database DateTime types will be migrating to DateTime2
+    /// 2) Entity Framework team will fix the problem in a future version
+    /// </summary>
+    public class DateTimeInterceptor : IDbCommandInterceptor
+    {
+        public void ReaderExecuting(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+        {
+            ChangeDateTime2ToDateTime(command);
+        }
+
+        public void NonQueryExecuting(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
+        {
+        }
+
+        public void NonQueryExecuted(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
+        {
+        }
+
+        public void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+        {
+        }
+
+        public void ScalarExecuting(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+        {
+        }
+
+        public void ScalarExecuted(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+        {
+        }
+
+        private static void ChangeDateTime2ToDateTime(DbCommand command)
+        {
+            command.Parameters
+                .OfType<SqlParameter>()
+                .Where(p => p.SqlDbType == SqlDbType.DateTime2)
+                .Where(p => p.Value != DBNull.Value)
+                .Where(p => p.Value is DateTime)
+                .Where(p => p.Value as DateTime? != DateTime.MinValue)
+                .ToList()
+                .ForEach(p => p.SqlDbType = SqlDbType.DateTime);
+        }
+    }
+    ```
+
 ## Pre-EF6 (EntityFunctions)
 1. [Date and Time Canonical Functions](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bb738563(v=vs.100)?redirectedfrom=MSDN)
 2. [How to: Call Canonical Functions](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/how-to-call-canonical-functions?redirectedfrom=MSDN)
