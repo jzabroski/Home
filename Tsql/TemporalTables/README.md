@@ -4,6 +4,10 @@ Keeping track of where this page is shared allows me to update trackback links s
 1. https://github.com/dotnet/efcore/issues/4693#issuecomment-624068637
 2. As a link in client documentation on using SQL Server Temporal Tables with EF
 
+# See Also
+
+You may be able to use IDbCommandTreeInterceptor to solve some of these problems.  A summary of tricks found on StackOverflow can be found here: https://github.com/jzabroski/Home/blob/b68b048692296f8b163a82c9f467a1a784f2bba4/EntityFramework/EF6/IDbCommandTreeInterceptor/README.md
+
 # Overview
 This example demonstrates how to de-sugar temporal table `FOR SYSTEM_TIME AS OF` syntactic sugar.
 
