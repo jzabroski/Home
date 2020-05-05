@@ -28,7 +28,8 @@ EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type
     1. Rounding error introduced by .NET DateTime truncated when stored in a SQL Server DATETIME column
     2. Rounding error introduced by database compatibility level 130
     3. Rounding error when compared stored DATETIME column to a .NET DateTime object due to error introduced by database compatibility level 130. See: https://github.com/dotnet/ef6/issues/578 - EF6 assumes .NET DateTime datatype maps to DateTime2 on SQL Server 2008 or Greater.
-5. Microsoft considered a [workaround by Microsoft engineer Andrew Vickers](https://github.com/dotnet/ef6/pull/1147#issue-307843286) based on a [user contribution](https://github.com/dotnet/ef6/issues/578#issuecomment-435438457), but it only works if your whole database uses columns of type `DATETIME` and not `DATETIME2`.  You cannot mix the two column types.   Thus, Microsoft [decided not to accept the PR](https://github.com/dotnet/ef6/pull/1147#pullrequestreview-276892291), and instead document the workaround (the documentation task is still not done).  The workaround is this:
+5. Microsoft considered a [workaround by Microsoft engineer Andrew Vickers](https://github.com/dotnet/ef6/pull/1147#issue-307843286) based on a [user @stasones contribution](https://github.com/dotnet/ef6/issues/578#issuecomment-435438457), but it only works if your whole database uses columns of type `DATETIME` and not `DATETIME2`.  You cannot mix the two column types.   Thus, Microsoft [decided not to accept the PR](https://github.com/dotnet/ef6/pull/1147#pullrequestreview-276892291), and instead document the workaround (the documentation task is still not done).  Another user, @dbrownems, used a more advanced workaround that [uses sp_describe_undeclared_parameters to infer the correct data type, whether it be datetime, datetime2 or date](https://github.com/dotnet/ef6/issues/578#issuecomment-482901998).
+    @stasones solution - requires db be all `DATETIME` or all `DATETIME2`
     ```c#
     /// <summary>
     /// DateTimeInterceptor fixes the incorrect behavior of Entity Framework library when for datetime columns it's generating datetime2(7) parameters 
@@ -81,6 +82,207 @@ EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type
                 .ForEach(p => p.SqlDbType = SqlDbType.DateTime);
         }
     }
+    ```
+    @dbrownems solution : uses sp_describe_undeclared_parameters to infer the correct data type, whether it be datetime, datetime2 or date
+    ```c#
+    public class DateTimeParameterFixer : IDbCommandInterceptor
+    {
+        public void ReaderExecuting(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+        {
+            var dbContexts = interceptionContext.DbContexts.ToList();
+
+            if (dbContexts.Count == 1)
+            {
+                FixDatetimeParameters(dbContexts[0], command);
+            }
+
+        }
+
+        public void NonQueryExecuting(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
+        {
+        }
+
+        public void NonQueryExecuted(DbCommand command, DbCommandInterceptionContext<int> interceptionContext)
+        {
+        }
+
+        public void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+        {
+        }
+
+        public void ScalarExecuting(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+        {
+        }
+
+        public void ScalarExecuted(DbCommand command, DbCommandInterceptionContext<object> interceptionContext)
+        {
+        }
+
+        private class SuggestedParameterType
+        {
+            public int parameter_ordinal { get; set; }
+            public string name { get; set; }
+            public int suggested_system_type_id { get; set; }
+            public string suggested_system_type_name { get; set; }
+            public Int16 suggested_max_length { get; set; }
+            public byte suggested_precision { get; set; }
+            public byte suggested_scale { get; set; }
+
+        }
+
+        private static ConcurrentDictionary<string, List<SuggestedParameterType>> batchCache = new ConcurrentDictionary<string, List<SuggestedParameterType>>();
+
+        enum SqlTypeId
+        {
+            date = 40,
+            datetime = 61,
+            datetime2 = 42,
+        }
+
+        private static List<SuggestedParameterType> GetSuggestedParameterTypes(DbContext db, string batch, int parameterCount)
+        {
+            if (parameterCount == 0)
+            {
+                return new List<SuggestedParameterType>();
+            }
+            var con = (SqlConnection)db.Database.Connection;
+            var conState = con.State;
+
+            if (conState != ConnectionState.Open)
+            {
+                db.Database.Connection.Open();
+            }
+            var results = batchCache.GetOrAdd(batch, (sqlBatch) =>
+            {
+                var pBatch = new SqlParameter("@batch", SqlDbType.NVarChar, -1);
+                pBatch.Value = batch;
+
+                var rd = new List<SuggestedParameterType>();
+                var cmd = new SqlCommand("exec sp_describe_undeclared_parameters @batch; ", con);
+                cmd.Transaction = (SqlTransaction)db.Database.CurrentTransaction?.UnderlyingTransaction;
+
+                cmd.Parameters.Add(pBatch);
+
+                //sp_describe_undeclared_parameters does not support batches that contain multiple instances of the same parameter
+                //
+                //to workaround a common cause loop and transform on error expressions like:
+                //
+                // WHERE ([Extent1].[Date_Modified] = @p__linq__0) OR (([Extent1].[Date_Modified] IS NULL) AND (@p__linq__0 IS NULL))'
+                //into
+                // WHERE ([Extent1].[Date_Modified] = @p__linq__0) OR (([Extent1].[Date_Modified] IS NULL) AND (1=1))'
+                // 
+                // this works because the @param is null expression is irrelevant to the parameter type discovery.
+                while (true)
+                {
+                    try
+                    {
+                        using (var rdr = cmd.ExecuteReader())
+                        {
+                            while (rdr.Read())
+                            {
+                                var sp = new SuggestedParameterType()
+                                {
+                                    //https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-describe-undeclared-parameters-transact-sql
+                                    parameter_ordinal = rdr.GetInt32(0),
+                                    name = rdr.GetString(1),
+                                    suggested_system_type_id = rdr.GetInt32(2),
+                                    suggested_system_type_name = rdr.GetString(3),
+                                    suggested_max_length = rdr.GetInt16(4),
+                                    suggested_precision = rdr.GetByte(5),
+                                    suggested_scale = rdr.GetByte(6),
+                                };
+
+
+                                if (sp.suggested_system_type_id == (int)SqlTypeId.date || sp.suggested_system_type_id == (int)SqlTypeId.datetime2 || sp.suggested_system_type_id == (int)SqlTypeId.datetime)
+                                {
+                                    if (!sp.name.EndsWith("IgNoRe"))
+                                    {
+                                      rd.Add(sp);
+                                    }
+                                }
+                            }
+                            break;
+                        }
+                    }
+                    catch (SqlException ex) when (ex.Errors[0].Number == 11508)
+                    {
+                        //Msg 11508, Level 16, State 1, Line 14
+                        //The undeclared parameter '@p__linq__0' is used more than once in the batch being analyzed.
+                        var paramName = System.Text.RegularExpressions.Regex.Match(ex.Errors[0].Message, "The undeclared parameter '(?<paramName>.*)' is used more than once in the batch being analyzed.").Groups["paramName"].Value;
+
+                        string sql = (string)pBatch.Value;
+                        if (sql.Contains($"{paramName} IS NULL"))
+                        {
+                            sql = sql.Replace($"{paramName} IS NULL", "1=1");
+                            pBatch.Value = sql;
+                            continue;
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                       
+                    }
+                
+                }
+                return rd;
+
+
+            });
+
+            if (conState == ConnectionState.Closed)
+            {
+                con.Close();
+            }
+            return results;
+
+        }
+
+        private static void FixDatetimeParameters(DbContext db, DbCommand command)
+        {
+            if (!command.Parameters.OfType<SqlParameter>().Any(p => p.SqlDbType == SqlDbType.DateTime2 || p.SqlDbType == SqlDbType.DateTime))
+            {
+                return;
+            }
+            var suggestions = GetSuggestedParameterTypes(db, command.CommandText, command.Parameters.Count);
+
+            if (suggestions.Count == 0)
+            {
+                return;
+            }
+
+            Dictionary<string, SqlParameter> paramLookup = new Dictionary<string, SqlParameter>();
+            foreach (var param in command.Parameters.OfType<SqlParameter>())
+            {
+                if (param.ParameterName[0] == '@')
+                {
+                    paramLookup.Add(param.ParameterName, param);
+                }
+                else
+                {
+                    paramLookup.Add("@" + param.ParameterName, param);
+                }
+            }
+            foreach (var suggestion in suggestions)
+            {
+                var param = paramLookup[suggestion.name];
+
+                if (suggestion.suggested_system_type_id == (int)SqlTypeId.datetime2)
+                {
+                    param.SqlDbType = SqlDbType.DateTime2;
+                    param.Scale = suggestion.suggested_scale;
+                }
+                else if (suggestion.suggested_system_type_id == (int)SqlTypeId.datetime)
+                {
+                    param.SqlDbType = SqlDbType.DateTime;
+                }
+                else if (suggestion.suggested_system_type_id == (int)SqlTypeId.date)
+                {
+                    param.SqlDbType = SqlDbType.Date;
+                }
+
+            }
+        }
     ```
 
 ## Pre-EF6 (EntityFunctions)
