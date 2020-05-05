@@ -1,3 +1,7 @@
+# Where Shared
+https://github.com/dotnet/efcore/issues/4693#issuecomment-624068637
+
+# Overview
 This example demonstrates how to de-sugar temporal table `FOR SYSTEM_TIME AS OF` syntactic sugar.
 
 ```sql
