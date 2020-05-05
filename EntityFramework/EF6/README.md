@@ -1,5 +1,32 @@
 # Date And Time Functions
 
+## Differences Between DATETIME and DATETIME2
+
+See [Iman's summary on StackOverflow](https://stackoverflow.com/a/12364243/1040437)
+
+> * Syntax
+>     * datetime2[(fractional seconds precision=> Look Below Storage Size)]
+> 
+> * Precision, scale
+>     * 0 to 7 digits, with an accuracy of 100ns.
+>     * The default precision is 7 digits.
+> * Storage Size
+>     * 6 bytes for precision less than 3;
+>     * 7 bytes for precision 3 and 4.
+>     * All other precision *require 8 bytes*.
+> * `DateTime2(3)` have the same number of digits as DateTime but uses 7 bytes of storage instead of 8 byte (SQLHINTS- `DateTime` Vs `DateTime2`)
+> Find more on [datetime2 (Transact-SQL) - SQL Server 
+ Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime2-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
+
+In general, if you want to use EF6 with a legacy database that has `DATETIME` column types, you're best off converting all those column types to `DATETIME2`, due to various rounding/truncation issues round-tripping `DATETIME`.  In particular, you can use `DATETIME2(3)` if all you need is milliseconds-level precision, and you can avoid the following rounding error:
+
+### Example of T-SQL `DATETIME` Rounding Error
+```sql
+SELECT CAST('5/5/2020 12:30:59.129' AS DATETIME)
+
+SELECT CAST('5/5/2020 12:30:59.129' AS DATETIME2(3))
+```
+
 ## Bugs
 
 EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type.
