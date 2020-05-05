@@ -1,5 +1,26 @@
 # Date And Time Functions
 
+## Bugs
+
+EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type.
+
+1. SQL Server `datetime` data type only supports [~3.33 ms of accuracy](https://stackoverflow.com/questions/41668677/linq-to-entities-compare-datetime-with-milliseconds-precision#comment70537602_41668677), because of [Rounding of datetime Fractional Second Precision](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime-transact-sql?view=sql-server-ver15#rounding-of-datetime-fractional-second-precision).
+    1. What this means in practice is that if you write an integration test in C#, using a framework like Effort, the following code will be implicitly coerced on save because it can't be represented as a `DateTime` value:
+    ```c#
+    var cutOffTime = new TimeSpan(hours: 16, minutes: 30, seconds: 0);
+    entity.PublishedDateTime = DateTime.Today.Add(cutOffTime.Subtract(TimeSpan.FromTicks(1)));
+    Repository.Save(entity);
+    DbContext.DetachAllEntities();
+    ```
+2. [Queries involving `DATETIME` behave differently on SQL Server 2014 and 2016](https://github.com/dotnet/ef6/issues/325):
+    > Here's the breaking changes list provided by Microsoft:
+    > 
+    > https://docs.microsoft.com/en-us/sql/database-engine/breaking-changes-to-database-engine-features-in-sql-server-2016
+    > 
+    > In that we read the following with respect to the `DATETIME` and `DATETIME2` types:
+    > 
+    > > Under database compatibility level 130, implicit conversions from datetime to datetime2 data types show improved accuracy by accounting for the fractional milliseconds, resulting in different converted values. Use explicit casting to datetime2 datatype whenever a mixed comparison scenario between `datetime` and `datetime2` datatypes exists.
+    
 ## Pre-EF6 (EntityFunctions)
 1. [Date and Time Canonical Functions](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bb738563(v=vs.100)?redirectedfrom=MSDN)
 2. [How to: Call Canonical Functions](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/how-to-call-canonical-functions?redirectedfrom=MSDN)
