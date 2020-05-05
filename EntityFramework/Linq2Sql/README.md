@@ -1,3 +1,9 @@
+# How to dynamically create a database
+
+https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/how-to-dynamically-create-a-database
+
+# Linq2Sql to EF Porting DateTime calculations
+
 Sometimes, you have to port logic from Linq2Sql to EF, there are differences in how each handles DateTime math:
 
 1. https://weblogs.asp.net/zeeshanhirani/comparing-dates-in-linq-to-sql
