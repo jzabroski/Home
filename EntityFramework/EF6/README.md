@@ -10,7 +10,7 @@ EF6 DateTime math is a disaster if your database uses T-SQL `datetime` data type
     var cutOffTime = new TimeSpan(hours: 16, minutes: 30, seconds: 0);
     entity.PublishedDateTime = DateTime.Today.Add(cutOffTime.Subtract(TimeSpan.FromTicks(1)));
     Repository.Save(entity);
-    DbContext.DetachAllEntities();
+    Repository.GetAllPublishedTodayAfter(cutOffTime);
     ```
 2. [Queries involving `DATETIME` behave differently on SQL Server 2014 and 2016](https://github.com/dotnet/ef6/issues/325):
     > Here's the breaking changes list provided by Microsoft:
