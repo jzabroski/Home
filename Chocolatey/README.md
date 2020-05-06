@@ -139,6 +139,7 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
 
 
     # SQL 
+    sql-server-2017        14.0.1000     # Microsoft SQL Server 2017 Developer Edition
     ssms                   15.0.18206.0  # SQL Server Management Studio 18.4 15.0.18206.0
     azure-data-studio      1.16.0        # Azure Data Studio
     azure-data-studio-sql-server-admin-pack 0.0.1 # Admin Pack for SQL Server for Azure Data Studio
@@ -197,6 +198,9 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     
     # Email Client
     thunderbird 68.6.0
+    
+    # Windows Performance Analysis
+    pal 2.7.6.0 # Performance Analysis of Logs (PAL) Tool 2.7.6.0
 
     # Other
     windowclippings 3.1.131 # NOT MODERATOR APPROVED https://chocolatey.org/packages/windowclippings
