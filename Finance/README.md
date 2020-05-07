@@ -9,6 +9,10 @@ https://www.investopedia.com/terms/r/rollscritique.asp
 ## Moving Positions across Brokers
 https://www.investopedia.com/terms/a/acat.asp
 
+## Cross-Currency Basis Swaps
+
+https://www.bondvigilantes.com/blog/2017/12/29/cross-currency-basis-implications/
+
 ## CFD
 https://www.contracts-for-difference.com/Calculating-profits-losses.html
 
