@@ -169,7 +169,7 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
  
     # Screenshot / Picture Editing
     paint.net 4.2.10
- 
+
  
     # Continuous Deployment / Deliver
     OctopusTools 7.3.0
@@ -194,7 +194,7 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     # Modeling / Validating Models
     spawner 0.2.4  # Spawner is a tool for generating test data suitable for populating databases.
     staruml3 3.2.0
-    
+    inkscape 0.92.5   # Inkscape is an open-source vector graphics editor.  Uses SVG as native format. Inkscape supports many advanced SVG features (markers, clones, alpha blending, etc.)
     
     # Email Client
     thunderbird 68.6.0
