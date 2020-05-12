@@ -1,5 +1,42 @@
-# Portfolio Mortgage 
-https://themortgagereports.com/29518/what-is-a-portfolio-mortgage
+# Home Buying
+1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
+2. https://www.provident.com/TodaysRates
+3. https://www.provident.com/MortgageBenefitProgram
+    > 0.25% off loans
+    > Any company that possesses a valid U.S. business license and a roster of at least 25 active employees is eligible to join Provident Funding’s Mortgage Benefit Program.
+4. https://www.allanachmortgage.com/daily-rates.php
+5. https://www.tsbawake24.com/rates/mortgage-rates/
+6. http://www.mortgagenewsdaily.com/data/30-year-mortgage-rates.aspx
+7. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
+8. https://www.calyxsoftware.com loan software 
+
+## Loan Limits
+1. http://www.loanlimits.org/conforming/ 
+    1. In 2020, $510,500 is country-wide conforming loan limit.  Above that is super-conforming loans.
+    2. Excel file: http://www.loanlimits.org/2020-conforming-limits.xlsx
+
+## Mortgage Ratesheet
+[How to Read A Mortgage Rate Sheet - Part 1](https://www.youtube.com/watch?v=fFZWehE763w)
+[How to Read A Mortgage Rate Sheet - Part 2](https://www.youtube.com/watch?v=zq1k0JRMudo)
+[Comparing Lender Rate Sheets, and Rate Buydown](https://www.youtube.com/watch?v=U3uxXQ5l7YY)
+
+## Loan Terminology
+1. A *conforming loan* is any loan amount of $417,000 or less.
+2. A *jumbo loan* is any loan greater than $417,000. Generally speaking, jumbo loans will have slightly higher interest rates than a conforming loan.
+3. On January 1, 2009 the "*super conforming*" or "*agency jumbo*" loan was created for loan amounts up to $729,750.
+4. *YSP* means [yield spread premium](https://www.thetruthaboutmortgage.com/mortgage-dictionary/yield-spread-premium/).
+5. *BACKEND RATIO*
+    > Also known as a debt-to-income ratio which is your total monthly obligations (debt) divided by your gross monthly income. Your monthly obligations include such items as your mortgage payment, property taxes, insurance premiums, installment loans, and revolving debt (credit cards). This ratio is used to determine your capacity to repay the mortgage and all other debts. Your debt-to-income ratio is a crucial calculation in determining the loan amount for which you can qualify.
+6. *PITI*
+    > *P*rincipal, *I*nterest, *T*axes and *I*nsurance. The Principal and Interest can be either fixed for the term of the loan or changed at specific intervals in accordance with the terms of the loan program. The Taxes and Insurance portion may be adjusted to reflect changes in taxes and/or insurance costs.
+7. PITI RATIO*
+    > Compares the amount of the monthly income to the amount the borrower will owe each month in principal, interest, real estate tax and insurance on a mortgage. Lenders use it in deciding whether to give the borrower a loan. (Compare to Qualifying Income Ratio.)
+
+    The broker charges a broker origination fee that is paid to the broker per loan transaction from the lender (assuming lender paid compensation).  The broker origination fee is paid to the broker.  The broker then pays the MLO (whatever compensation plan that is set with). Unless he/she is a producing broker, most broker's make their money on the volume of their MLO's, for obviously taking on the compliance of being the broker, and hopefully helping when needed, etc.
+
+8. *CRA area* refers to Community Reinvestment Act area covered by a local bank.  The Community Reinvestment Act (CRA) is a law intended to encourage depository institutions to help meet the credit needs of the communities in which they operate, including low- and moderate-income (LMI) neighborhoods, consistent with safe and sound banking operations.
+
+9. *Portfolio Mortgage*: See https://themortgagereports.com/29518/what-is-a-portfolio-mortgage
 
 # Glossary
 VOE: Verification of Employment 
@@ -46,3 +83,4 @@ VOE: Verification of Employment
   - Investment Property
 15. How did you hold title to the home?
   - ?
+
