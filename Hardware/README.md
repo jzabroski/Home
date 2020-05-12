@@ -37,6 +37,8 @@
     * See also: http://darkwyrm-haiku.blogspot.com/2008/07/cleaning-microsoft-ergo-natural.html
     * See also: [YouTube: How to open Natural Ergonomic Keyboard 4000](https://www.youtube.com/watch?v=IZhCzOOhX2E)
     * If disassembling anything, remember to take photos as you go to help you re-trace your steps as you put things back together.  It's always the same, except in reverse order, so step-by-step photos can be reviewed in reverse order.
+10. Chair
+    * [Office Star Mesh Back & Seat, 2-to-1 Synchro, Lumbar Support Managers Chair, White](https://www.amazon.com/gp/product/B01L2PWJG4/)
 
 # Potential SAN / NAS Research
 
