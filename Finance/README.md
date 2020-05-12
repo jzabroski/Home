@@ -79,6 +79,10 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 7. https://boards.fool.com/hi-quoti-had-already-ruled-out-the-possibility-15910901.aspx?sort=postdate
 8. https://www.calyxsoftware.com loan software 
 
+## Loan Limits
+1. http://www.loanlimits.org/conforming/ 
+    1. In 2020, $510,500 is country-wide conforming loan limit.  Above that is super-conforming loans.
+
 ## Mortgage Ratesheet
 [How to Read A Mortgage Rate Sheet - Part 1](https://www.youtube.com/watch?v=fFZWehE763w)
 [How to Read A Mortgage Rate Sheet - Part 2](https://www.youtube.com/watch?v=zq1k0JRMudo)
