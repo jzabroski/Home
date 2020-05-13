@@ -1,8 +1,17 @@
 # Broker Perspective 
-
 1. Be the Better Broker, Volume 1: Become A Top Producer: A Study of Mortgage Agents, Originators and Loan Officers by Dustan Woodhouse 
 2. Be the Better Broker, Volume 2: Days 1-100 As A New Broker, Building Lasting Foundations and Surviving in the Meantime by Dustan Woodhouse 
 3. Be The Better Broker, Volume 3: Detailed Mortgage Loan Origination Skills & Scripts by Dustan Woodhouse 
+
+# Fannie Mae Desktop Underwriter
+See the following materials for information on how Fannie Mae underwrites loans that get sold to the federal government:
+1. https://www.fanniemae.com/portal/funding-the-market/credit-risk/credit-risk-management.html
+2. [Desktop Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/media/7726/display)
+3. [Collateral Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter)
+4. [EarlyCheck - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/earlycheck)
+    - Helps identify potential data issues early in the lender’s business process, so they can be remedied more effectively – includes comparisons of data submitted to EarlyCheck against data submitted in Desktop Underwriter® (DU®) and Uniform Collateral Data Portal® (UCDP®)
+    - Access to Collateral Underwriter® (CU®) risk score, flags, and messages, providing lenders with a more holistic view of the loan
+    - Seamless integration capabilities offer real-time feedback
 
 # Home Buying
 1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
