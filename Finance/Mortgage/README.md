@@ -5,7 +5,8 @@
 
 # Fannie Mae Desktop Underwriter
 See the following materials for information on how Fannie Mae underwrites loans that get sold to the federal government:
-1. https://www.fanniemae.com/portal/funding-the-market/credit-risk/credit-risk-management.html
+1. [Fannie Mae Aoolications Technology Overview](https://singlefamily.fanniemae.com/applications-technology/applications-technology)
+1. [Credit Risk Management](https://www.fanniemae.com/portal/funding-the-market/credit-risk/credit-risk-management.html)
 2. [Desktop Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/media/7726/display)
 3. [Collateral Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter)
 4. [EarlyCheck - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/earlycheck)
