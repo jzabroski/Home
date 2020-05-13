@@ -1,3 +1,9 @@
+# Broker Perspective 
+
+1. Be the Better Broker, Volume 1: Become A Top Producer: A Study of Mortgage Agents, Originators and Loan Officers by Dustan Woodhouse 
+2. Be the Better Broker, Volume 2: Days 1-100 As A New Broker, Building Lasting Foundations and Surviving in the Meantime by Dustan Woodhouse 
+3. Be The Better Broker, Volume 3: Detailed Mortgage Loan Origination Skills & Scripts by Dustan Woodhouse 
+
 # Home Buying
 1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
 2. https://www.provident.com/TodaysRates
