@@ -14,6 +14,36 @@ See the following materials for information on how Fannie Mae underwrites loans 
     - Access to Collateral Underwriter® (CU®) risk score, flags, and messages, providing lenders with a more holistic view of the loan
     - Seamless integration capabilities offer real-time feedback
 
+# Primary
+[CloudVirga](https://www.cloudvirga.com/) - best that Jeffrey Decosta has used his whole career
+Primarily for origination, then processing and underwriting.
+1. Order appraisal
+2. Upload docs
+3. Reads applications
+4. Tells you what supporting docs you need
+5. Upload all docs in one shot
+
+
+# Secondary - Optimal Blue QM Trace
+https://optimalblue.freshdesk.com/support/solutions/articles/35000097403-review-qm-trace-in-optimal-lender
+
+BytePro Enterprise for backend processing
+
+# Pricing Hits
+
+Finance of America - Blackstone
+- Retaining everything
+
+* 2.5% - 0.3% points
+* 2.625% - 0 points
+* 2.7% - 
+* 2.8% - $500 hit
+
+25% hit on income for self-employed
+$2500 cost
+475$ for appraisal waiver
+
+
 # Home Buying
 1. https://pfloans.provident.com/ - 12 Day BE means "12 Day Best Efforts" - see also their [NMLS Consumer Access information](https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/3821) 
 2. https://www.provident.com/TodaysRates
