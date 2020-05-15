@@ -97,6 +97,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 - McGovern
 - Ira
 - Lannan
+- Ernie Boch
 
 ## Car Buying
 
