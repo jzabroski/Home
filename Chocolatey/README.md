@@ -88,7 +88,10 @@ In the Chocolatey Package Search, if you start your search with `id:` it will ma
     putty.install 0.73  # PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms, along with an xterm terminal emulator.
     winscp 5.17.2.20200316 # WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer. Beyond this, WinSCP offers scripting and basic file manager functionality.
 
-
+    # Real-time Video Chat
+    zoom            5.0.24046.0510 # Zoom Client for Meetings
+    microsoft-teams 1.3.00.12058   # Microsoft Teams Desktop App
+    slack           4.5.1          # Slack for Windows
         
     # Document Reader
     adobereader 2020.006.20042 # Adobe Acrobat Reader DC 2020.006.20042 - 290 million downloads
