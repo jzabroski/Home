@@ -35,7 +35,7 @@ BytePro Enterprise for backend processing
 
 CostcoFinance.com is a major source of mortgages, and a brief history of those companies is as follows:
 
-1. Western Mortgage was acquired by J.G. Wentworth, which was in turn acquired by Freedom Mortgage.  Freedom Mortgage supposedly acquired J.G. Wentworth because they anticipated a drop in rates following the 2020 Presidential Election.
+1. [WestStar Mortgage was acquired by J.G. Wentworth](https://www.businesswire.com/news/home/20150310006572/en/J.G.-Wentworth-Company%E2%84%A2-Acquire-WestStar-Mortgage) on March 10, 2015 ([completed August 3, 2015](https://www.businesswire.com/news/home/20150803005606/en/J.G.-Wentworth-Company%E2%84%A2%C2%A0Completes-Acquisition-WestStar-Mortgage)), which was in turn acquired by Freedom Mortgage.  Freedom Mortgage supposedly acquired J.G. Wentworth because they anticipated a drop in rates following the 2020 Presidential Election.
 2. Following Western Mortgage being acquired, a faction of Western Mortgage started a new company and joined the Costco Finance portal.
 
 
