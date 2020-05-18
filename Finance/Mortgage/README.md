@@ -31,6 +31,14 @@ https://optimalblue.freshdesk.com/support/solutions/articles/35000097403-review-
 
 BytePro Enterprise for backend processing
 
+# Industry Consolidation
+
+CostcoFinance.com is a major source of mortgages, and a brief history of those companies is as follows:
+
+1. Western Mortgage was acquired by J.G. Wentworth, which was in turn acquired by Freedom Mortgage.  Freedom Mortgage supposedly acquired J.G. Wentworth because they anticipated a drop in rates following the 2020 Presidential Election.
+2. Following Western Mortgage being acquired, a faction of Western Mortgage started a new company and joined the Costco Finance portal.
+
+
 # Pricing Hits
 
 Finance of America - Blackstone
@@ -132,3 +140,6 @@ VOE: Verification of Employment
 15. How did you hold title to the home?
   - ?
 
+# Historical Economics Research Papers
+
+[MORTGAGE BANKING IN THE UNITED STATES, 1870–1940](file:///D:/Users/John.Zabroski/Downloads/86099_13129_RIHA_History_Paper.pdf) by DR. KENNETH A. SNOWDEN
