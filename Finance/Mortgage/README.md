@@ -15,7 +15,7 @@ See the following materials for information on how Fannie Mae underwrites loans 
     - Seamless integration capabilities offer real-time feedback
 
 # Primary
-[CloudVirga](https://www.cloudvirga.com/) - best that Jeffrey Decosta has used his whole career
+[CloudVirga](https://www.cloudvirga.com/) - best that NMLS Loan Originator from eRates/lending has used his whole career
 Primarily for origination, then processing and underwriting.
 1. Order appraisal
 2. Upload docs
