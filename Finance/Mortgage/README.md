@@ -8,6 +8,8 @@ See the following materials for information on how Fannie Mae underwrites loans 
 1. [Fannie Mae Aoolications Technology Overview](https://singlefamily.fanniemae.com/applications-technology/applications-technology)
 1. [Credit Risk Management](https://www.fanniemae.com/portal/funding-the-market/credit-risk/credit-risk-management.html)
 2. [Desktop Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/media/7726/display)
+    - This tool tells the loan originator and underwriter what documents Fannie Mae requires based on the individual borrower's scenario.
+    - For example, if the originator fills out the application as the borrower being self-employed, Fannie Mae DU will tell the originator what documents to request from the borrower to verify self-employment income.
 3. [Collateral Underwriter - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/collateral-underwriter)
 4. [EarlyCheck - Fannie Mae Single-Family Business](https://singlefamily.fanniemae.com/applications-technology/earlycheck)
     - Helps identify potential data issues early in the lender’s business process, so they can be remedied more effectively – includes comparisons of data submitted to EarlyCheck against data submitted in Desktop Underwriter® (DU®) and Uniform Collateral Data Portal® (UCDP®)
