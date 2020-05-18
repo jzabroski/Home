@@ -41,6 +41,10 @@ CostcoFinance.com is a major source of mortgages, and a brief history of those c
 
 # Pricing Hits
 
+- 25% hit on income for self-employed
+- $475 for appraisal waiver
+- Depending on what county you are in and regional risks (e.g. hurricanes in Miami), you may have to pay points above par rate, no matter what.
+
 Finance of America - Blackstone
 - Retaining everything
 
@@ -49,9 +53,8 @@ Finance of America - Blackstone
 * 2.7% - 
 * 2.8% - $500 hit
 
-25% hit on income for self-employed
-$2500 cost
-475$ for appraisal waiver
+
+
 
 
 # Home Buying
