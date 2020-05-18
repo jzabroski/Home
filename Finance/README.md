@@ -63,6 +63,7 @@ Http://www.docketbird.com
 23. HSR Filing Requirements https://www.businessjustice.com/what-are-the-requirements-of-an-hsr-antitrust-filing-for-a-merge.html
 24. https://www.biopharmcatalyst.com/calendars/fda-calendar
 25. https://eic.energy/current-mlps-and-mlp-funds/
+26. [US ABS New Issue & 15G Pipeline Tracker](https://finsight.com/product/us/abs/pipeline)
 
 # Corporate Finance
 http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in the US, lots of free resources
