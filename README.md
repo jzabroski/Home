@@ -26,6 +26,15 @@ The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
 
 Most Advanced, Yet Acceptable. 
 
+# 4 P's of Golf
+
+This also happens to be a great framework for achieving excellence in life.
+
+1. Practice
+2. Prepare
+3. Perform
+4. Progress
+
 # [12 Factor App](https://12factor.net)
 
 1. Codebase
