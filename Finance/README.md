@@ -115,6 +115,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 
 ### Data
 - https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=33288
+- http://www.fuelly.com/ - Track, Share, and Compare your Vehicle.
 
 ### Principles
 - Understand the different between a "salvage title" and a "rebuilt title" or "reconstructed title".
