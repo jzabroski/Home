@@ -165,7 +165,7 @@ http://pages.stern.nyu.edu/~adamodar/ - leading corporate finance professor in t
 The cost of the car is not just the price you pay for it, but its scheduled maintenance costs.
 
 ## Filing a Consumer Complaint
-- dealerrater.com
+- [DealerRater.com](http://dealerrater.com)
 - https://www.mass.gov/how-to/file-a-consumer-complaint
 
 ### Scheduled Maintenance Log
