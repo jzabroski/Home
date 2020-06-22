@@ -1,7 +1,10 @@
 # cursoring
 1. <kbd>control</kbd> + <kbd>down arrow</kbd> - Moves to the last populated cell in a column
-2. <kbd>alt</kbd> + <kbd>h</kbd>, <kbd>o</kbd>, <kbd>i</kbd> - Auto-corrects column width
+2. <kbd>alt</kbd> + <kbd>h</kbd>, <kbd>o</kbd>, <kbd>i</kbd> - Auto-corrects column width to fit selected range
 3. <kbd>alt</kbd> + <kbd>h</kbd>, <kbd>e</kbd>, <kbd>a</kbd> - Clears all formatting in selected range of cells.
+4. <kbd>cntrl</kbd> + <kbd>space</kbd> select column
+5. <kbd>shift</kbd> + <kbd>space</kbd> select row
+6. <kbd>alt</kbd> + <kbd>h</kbd>,<kbd>w</kbd> toggle wrap text
 
 # pasting 
 Paste Special
