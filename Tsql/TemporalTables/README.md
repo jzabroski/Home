@@ -8,6 +8,12 @@ Keeping track of where this page is shared allows me to update trackback links s
 
 You may be able to use IDbCommandTreeInterceptor to solve some of these problems.  A summary of tricks found on StackOverflow can be found here: https://github.com/jzabroski/Home/blob/b68b048692296f8b163a82c9f467a1a784f2bba4/EntityFramework/EF6/IDbCommandTreeInterceptor/README.md
 
+Another common problem with SQL Server Temporal Tables is concurrent updates.  You can get the following exception:
+
+> System.Data.SqlClient.SqlException: Data modification failed on system-versioned table 'WorldWideImporters.Sales.Customers' because transaction time was earlier than period start time for affected records.
+
+Because Temporal Tables use the start time of the transaction, if two concurrent updates on the same row occur, one will get rejected.  For an academic review of temporal tables, see Richard Snodgrass's [A Case Study of Temporal Data](https://cs.ulb.ac.be/public/_media/teaching/infoh415/teradata_temporal_case_study.pdf).  Richard is literally the forefather of temporal tables and effectively wrote the ANSI SQL specification. Teradata had bi-temporal tables for years, and his examples use Teradata's pre-ANSI SQL syntax, but the concepts are the same.
+
 # Overview
 This example demonstrates how to de-sugar temporal table `FOR SYSTEM_TIME AS OF` syntactic sugar.
 
