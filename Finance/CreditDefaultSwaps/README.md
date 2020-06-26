@@ -8,3 +8,4 @@
     > “Did you ever hear the word ‘derivatives’?” he said. “Do you think our guys could have invented, say, credit default swaps? Give me a break! They couldn’t have done the math.”
     > 
     > “When the smart guys started this business of securitizing things that didn’t even exist in the first place, who was running the firms they worked for? Our guys! The lower third of the class! Guys who didn’t have the foggiest notion of what a credit default swap was. All our guys knew was that they were getting disgustingly rich, and they had gotten to like that. All of that easy money had eaten away at their sense of enoughness.”
+4. https://www.capco.com/-/media/CapcoMedia/Capco-Institute/Journal-45/JOURNAL45_ONLINE_v12.ashx
