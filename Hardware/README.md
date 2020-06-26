@@ -40,6 +40,12 @@
 10. Chair
     * [Office Star Mesh Back & Seat, 2-to-1 Synchro, Lumbar Support Managers Chair, White](https://www.amazon.com/gp/product/B01L2PWJG4/)
 
+# Potential Office Additions
+
+Rjae Easton recommends a [walking treadmill](https://appshapes.com/full-body-working/?no_cache=1592226338).
+
+He recommends [LifeSpan TR-800 DT3](https://www.lifespanfitness.com/fitness/exercise-equipment/treadmills/tr800-dt3-under-desk-treadmill), but notes it does require a decent amount of space.
+
 # Potential SAN / NAS Research
 
 ## QNAP TBS-453DX-8G-US 4 Bay, 8GB, Quad-Core M.2 SATA SSD Nasbook with 10GbE w/ 4x Samsung 970 EVO Plus 2TB - NVMe PCIe M.2 2280 SSD
