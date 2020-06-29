@@ -1,3 +1,7 @@
+# Claire Novotny's DeterministicBuild
+
+https://github.com/clairernovotny/DeterministicBuilds
+
 # Nate McMaster's MSBuild Task with Dependencies
 
 https://natemcmaster.com/blog/2017/11/11/msbuild-task-with-dependencies/
