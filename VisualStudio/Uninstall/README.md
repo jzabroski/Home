@@ -14,3 +14,9 @@ rm -recurse -force "C:\Program Files (x86)\Microsoft Visual Studio\2019\Communit
 rm -recurse -force "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional"
 rm -recurse -force "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
 ```
+
+# Step 3 - Uninstall Resharper version-specific installations
+
+Resharper is installed per edition of Visual Studio, e.g. Enterprise, Professional, Community.
+
+To save space, you should uninstall them all.  Not necessary, but a good reminder.
