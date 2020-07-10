@@ -5,6 +5,10 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 - Discount Rates
 - Risk Premia
 
+# "Going Direct" BlackRock Idea
+
+https://www.blackrockblog.com/2019/10/03/going-direct-how-central-banks-could-deal-with-the-next-downturn/
+
 # FASAB 56
 
 Crazy conspiracy theory 
