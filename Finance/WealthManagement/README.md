@@ -1,3 +1,10 @@
+# Do It Yourself
+
+https://realdealretirement.com/toolsresources/
+
+
+# Outsource It
+
 1. [Check the Background of Your Financial Professional on FINRA's BrokerCheck](https://brokercheck.finra.org/)
 2. [Forbe's Top Wealth Advisors 2019](https://www.forbes.com/top-wealth-advisors/#36a084511a14)
 3. [Fidelity: Straightforward and Transparency Pricing](https://www.fidelity.com/why-fidelity/pricing-fees)
