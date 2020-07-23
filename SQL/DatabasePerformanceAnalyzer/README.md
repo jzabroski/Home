@@ -1,4 +1,5 @@
-1. How to get metrics over time [Solved: Re: How to query DPA to get same metrics as PerfStack through dpaim](https://thwack.solarwinds.com/t5/DPA-Discussions/How-to-query-DPA-database-to-get-same-metrics-as-Perfstack/m-p/226610#M1216)
+1. Custom reports https://thwack.solarwinds.com/t5/DPA-Documents/tkb-p/dpa-documents/label-name/sql%20server%20custom%20reports
+2. How to get metrics over time [Solved: Re: How to query DPA to get same metrics as PerfStack through dpaim](https://thwack.solarwinds.com/t5/DPA-Discussions/How-to-query-DPA-database-to-get-same-metrics-as-Perfstack/m-p/226610#M1216)
 
 ```sql
 SET @instanceName := 'PRD-SQL-03';
