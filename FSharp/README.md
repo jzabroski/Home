@@ -2,7 +2,8 @@
 1. https://www.demystifyfp.com/fsharp/blog/generic-programming-made-easy/
 2. https://stackoverflow.com/questions/42598677/what-is-the-best-way-to-pass-generic-function-that-resolves-to-multiple-types
 3. https://www.gresearch.co.uk/2018/08/17/squeezing-more-out-of-the-f-type-system-introducing-crates/
-4. http://eiriktsarpalis.github.io/typeshape/
+4. https://medium.com/@gerardtoconnor/carry-on-continuation-over-binding-pipelines-for-functional-web-58bd7e6ea009
+5. http://eiriktsarpalis.github.io/typeshape/
 
 # Generic Math code
 http://tomasp.net/blog/fsharp-generic-numeric.aspx/
