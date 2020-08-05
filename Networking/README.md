@@ -4,6 +4,16 @@
 
 # Computer Science
 
+1. [Rethinking Computer Architectures and Software Systems for Phase-Change Memory](http://www.cs.newpaltz.edu/~lik/publications/Chengwen-Wu-ACM-JETC-2016.pdf)
+    > CHENGWEN WU and GUANGYAN ZHANG, Tsinghua Universitym, KEQIN LI, State University of New York
+2. [Space-Memory-Memory Architecture for Clos-Network Packet Switches](https://www.cse.ust.hk/~hamdi/Publications_pdf/Space-Memory-Memory%20Architecture%20for%20Clos-Network%20Packet%20Switches.pdf)
+    > Xin Li, Zhen Zhou and Mounir Hamdi
+3. [Minimal Rewiring: Efficient Live Expansion for Clos Data Center Networks](https://www.usenix.org/system/files/nsdi19spring_zhao_prepub.pdf)
+    > Shizhen Zhao, Rui Wang, Junlan Zhou, Joon Ong, Jeffrey C. Mogul, Amin Vahdat
+    > 
+    > Google, Inc.
+
+
 [How to Improve Packet Buffering Performance with Broadcom Smart-Buffer Technology](https://gonorthforge.com/how-to-improve-packet-buffering-performance-with-broadcom-smart-buffer-technology/)
 
 1. Covers how MapReduce has driven a lot of burstiness in cloud data centers.
