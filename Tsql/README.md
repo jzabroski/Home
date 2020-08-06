@@ -23,6 +23,13 @@ https://www.itprotoday.com/sql-server/new-solution-packing-intervals-problem
 [SQL Server 2005 Samples and Sample Databases](https://www.microsoft.com/en-us/download/details.aspx?id=10679) ([alternative link](http://www.microsoft.com/downloads/details.aspx?FamilyId=E719ECF7-9F46-4312-AF89-6AD8702E4E6E&displaylang=en))
   - This includes various samples including the Hierarchical Triangular Mesh solution by Jim Gray for implementing spatial queries using table-valued functions
 
+# Undocumented Query Plans: Equality Comparisons
+
+http://web.archive.org/web/20180422151947/http://sqlblog.com:80/blogs/paul_white/archive/2011/06/22/undocumented-query-plans-equality-comparisons.aspx
+
+
+Taken from: https://stackoverflow.com/a/8948461/1040437
+
 # Bitmap Filters and Hash Joins
 1. https://www.sqlshack.com/hash-join-execution-internals/
 2. https://www.researchgate.net/publication/4330987_Optimizing_Star_Join_Queries_for_Data_Warehousing_in_Microsoft_SQL_Server
