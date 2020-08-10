@@ -1,5 +1,7 @@
 POR-15 makes products to help prevent rust from worsening over time by creating a permanent seal that prevents further metal oxidization.
 
+POR literally stands for "*P*aint *O*ver *R*ust".
+
 In general, you probably don't need to worry about rust unless the area starts to bubble or flake.  Surface rust is generally okay and to be expected.
 
 The best way to deal with rust, of course, is to avoid it by washing the salt off your car in the winter.
