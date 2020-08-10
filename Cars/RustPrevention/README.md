@@ -1,6 +1,6 @@
 POR-15 makes products to help prevent rust from worsening over time by creating a permanent seal that prevents further metal oxidization.
 
-POR literally stands for "*P*aint *O*ver *R*ust".
+POR literally stands for "*P*aint *O*ver *R*ust".  However, it is not quite a simple as that.  POR-15 is a 3-step coating procedure, which involves dissolving the rust with a phosphoric acid treatment.
 
 In general, you probably don't need to worry about rust unless the area starts to bubble or flake.  Surface rust is generally okay and to be expected.
 
