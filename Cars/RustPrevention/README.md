@@ -14,3 +14,7 @@ POR recommends three steps:
 
 # POR Products
 1. [POR-15 45918 Top Coat Chassis Black Spray Paint 15 fl. oz.](https://www.amazon.com/POR-15-45918-Chassis-Black-Coat/dp/B00MBFOHEW/)
+
+# Alternative Methods
+1. Remove Rust with OxyClean https://www.youtube.com/watch?v=fBaTkJjlwMY
+   - This is generally cool but not useful for things like cars where you'd have to disassemble the rusting piece first.
