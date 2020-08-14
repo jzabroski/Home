@@ -24,4 +24,6 @@ https://www.youtube.com/watch?v=Unzc731iCUY
 1. Cycle - usually takes people three times before they understand
 2. Build a Fence (around your idea) - so that people are not confused about how it might relate to something else
 3. Verbal Punctuation -
+4. Question - ask a question to allow people to get back on on the bus.  Answer can't be too obvious, because people will be embarass to speak up and say it.
 
+Paused at 10 minutes.
