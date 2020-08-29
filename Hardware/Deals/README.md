@@ -1,1 +1,1 @@
-https://lw.ofwiz.com/
+https://lw.slob.in/
