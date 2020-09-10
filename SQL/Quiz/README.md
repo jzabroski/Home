@@ -82,10 +82,12 @@ DECLARE @RT INT = 0
     MySum order by id ) update abcd set @RT = MySum = @RT + SomeNumt output inserted.*
 ```
 
-Use grouping sets: 
+Use grouping sets [https://jaceklaskowski.gitbooks.io/mastering-spark-sql/content/spark-sql-multi-dimensional-aggregation.html](multi-dimensional aggregate operators): 
 ```sql
-SELECT id, num, SUM(num)
-FROM t
+SELECT T1.id, T1.num, SUM(T2.num)
+FROM t AS t1
+  INNER JOIN t AS t2
+    ON T1.ID >= T2.ID
 GROUP BY GROUPING SETS (())
 ```
 
@@ -101,5 +103,15 @@ SELECT
   id,
   num,
   SUM(num) OVER (ORDER BY id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumsum
+FROM t ORDER BY id
+```
+
+OR:
+
+```sql
+SELECT
+  id,
+  num,
+  SUM(num) OVER (ORDER BY id RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS cumsum
 FROM t ORDER BY id
 ```
