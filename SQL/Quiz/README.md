@@ -21,7 +21,9 @@ How do I get a cumulative sum column?
 | 4 | 9 | 91 |
 | 5 | 24 | 115 |
 
-## Answer
+## Answers
+
+### Naive
 
 There are several different ways to achieve this. The naive way:
 
@@ -35,6 +37,32 @@ ORDER BY T1.ID
 
 This approach is naive because:
 1. It doesn't make any sense to group by num, as it's not part of the key
-2. It's suboptimal, even for basic SQL dialects that don't support window functions, because you can instead use either:
+2. It's suboptimal, because an `INNER JOIN` will compare all records in a table to all other records to see whether a condition matches.
+3. Even for basic SQL dialects that don't support window functions, you can instead use either:
     1. a no-OP aggregate, e.g. `MIN(t1.num)`
     2. Perform a running aggregation in a derived table expression using `LATERAL` or `APPLY` syntax 
+4. A window function should be the intuitive answer, given that the notion of cumulative sum is basically performing a sum over a window 
+
+### Better
+
+```sql
+SELECT T1.ID, MIN(T1.NUM) AS NUM, SUM(t2.NUM) AS CUMSUM
+FROM t as  T1
+INNER JOIN t AS T2 ON t1.Id >= t2.Id
+GROUP BY T1.ID
+ORDER BY T1.ID
+```
+
+### Best - Window Function
+
+The article by Leis et al (http://www.vldb.org/pvldb/vol8/p1058-leis.pdf) presents a nice perspective on window function complexity in different situations and uses.
+
+In the below example, the computational complexity is `O(N)`:
+
+```sql
+SELECT
+  ID,
+  NUM,
+  SUM(NUM) OVER (ORDER BY ID) AS CUMNUM
+FROM t
+```
