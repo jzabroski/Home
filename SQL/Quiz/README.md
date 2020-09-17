@@ -58,10 +58,10 @@ ORDER BY T1.ID
 
 or, alternatively, use grouping sets: 
 ```sql
-SELECT id, MIN(num), SUM(num)
-FROM t AS t1
+SELECT T1.ID, MIN(T1.NUM), SUM(t2.NUM) AS CUMSUM
+FROM t as  T1
+INNER JOIN t AS T2 ON t1.Id >= t2.Id
 GROUP BY GROUPING SETS (T1.ID)
-ORDER BY T1.ID
 ```
 
 ### Even Better - `CROSS APPLY`
