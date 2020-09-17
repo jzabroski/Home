@@ -56,16 +56,25 @@ GROUP BY T1.ID
 ORDER BY T1.ID
 ```
 
+or, alternatively, use grouping sets: 
+```sql
+SELECT id, MIN(num), SUM(num)
+FROM t AS t1
+GROUP BY GROUPING SETS (T1.ID)
+ORDER BY T1.ID
+```
+
 ### Even Better - `CROSS APPLY`
 ```sql
 SELECT
   T1.id,
+  T1.num,
   T2.CumSum
 FROM
   t AS T1
   CROSS APPLY (
     SELECT
-      SUM(T2.id) AS CumSum
+      SUM(T2.num) AS CumSum
     FROM t AS T2
     WHERE T1.id >= T2.id
   ) T2
@@ -75,23 +84,20 @@ Use [common table expression ORDERED update](https://weblogs.sqlteam.com/mladenp
 
 ```sql
 DECLARE @RT INT = 0
-; WITH abcd AS (
+;WITH RunningTotal AS (
   SELECT TOP 100 PERCENT
     id ,
     num ,
-    MySum order by id
+	cumsum
+  FROM t
+  ORDER by id
 )
-Update abcd
-set @RT = MySum = @RT + SomeNumt
-output inserted.*
+UPDATE RunningTotal
+SET @RT = cumsum = @RT + num
+OUTPUT inserted.*
 ```
 
-Use grouping sets: 
-```sql
-SELECT id, num, SUM(num)
-FROM t
-GROUP BY GROUPING SETS (())
-```
+
 
 
 ### Best - Window Function
