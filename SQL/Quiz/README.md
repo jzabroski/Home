@@ -80,7 +80,9 @@ FROM
   ) T2
 ```
 
-Use [common table expression ORDERED update](https://weblogs.sqlteam.com/mladenp/2009/07/28/sql-server-2005-fast-running-totals/):
+# Bizarre - Use [common table expression ORDERED update](https://weblogs.sqlteam.com/mladenp/2009/07/28/sql-server-2005-fast-running-totals/):
+
+This is a fairly clever trick, in that it behaves much like a window function.
 
 ```sql
 DECLARE @RT INT = 0
@@ -96,9 +98,6 @@ UPDATE RunningTotal
 SET @RT = cumsum = @RT + num
 OUTPUT inserted.*
 ```
-
-
-
 
 ### Best - Window Function
 
