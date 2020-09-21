@@ -1,0 +1,3 @@
+http://blogs.perl.org/users/jt_smith/2016/06/introducing-svgestimate.html
+
+> If you do anything with 2 dimensional CNC machines such as plotters, mills, or lasers, you’ve probably used some form of vector graphics. The most popular open source vector graphics type is called SVG or Scalable Vector Graphics. If you’re doing this professionally, you need to know how to charge for that work, and if you know the length of the shapes included in that vector file, you can do a pretty good job of preparing an estimate for a customer. That’s where `SVG::Estimate` comes in. It does the mind melting math to tell you the length of arbitrary lines and shapes inside a vector file. 
