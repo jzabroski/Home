@@ -4,6 +4,9 @@
 > "Don't solve the problem, describe the solution."
 > ~ John A. De Goes
 
+> When you plant your crops, do you gain anything from your neighbors yard? Investing is you against time. What happens elsewhere is just grass always greener. In reality, not so much.
+> ~ Roy Heh (@ruiheh), AIDVP founder
+
 > There are no scholarships in business.
 
 > Nice bounce pass.
