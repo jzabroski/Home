@@ -38,6 +38,8 @@
 
 > A man is shown in a dream only what is suggested by his own thoughts… ~ [R. Samuel b. Nahmani said in the name of R. Jonathan](https://quoteinvestigator.com/2014/03/09/as-we-are/)
 
+> "A successful inventor is an accident prone scientist that pays attention." ~ Jeffrey Gundlach's uncle, Robert W. Gundlach, a prodigious inventor who played a crucial role in developing the technology that made Xerox synonymous with photocopying
+
 > He builds a mental castle before having to dig a moat. ~ Nelson
 
 > Passwords are like underwear. You shouldn't leave them out where people can see them. You should change them regularly. And you shouldn't loan them out to strangers. ~ Source Unknown
