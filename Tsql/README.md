@@ -249,6 +249,12 @@ See also my StackOverflow answer to: [Receiving “The SELECT permission was den
 
 See also: https://sqlity.net/en/1783/changing-security-context-execute-revert/
 
+## `WITH GRANT OPTION` and `db_securityadmin`
+
+https://www.travisgan.com/2013/12/sql-security-delegation-with-grant.html
+
+> It is important to be aware that permission granted `WITH GRANT OPTION` or using the '`AS`' option resulted the user assigned as grantor. is from the permission granted with '`AS`' option.
+
 ## Using EXECUTE AS LOGIN = 'sa' for DATABASE RESTORE
 
 This idea comes from: https://am2.co/2019/12/testing-as-another-user-without-their-password/
