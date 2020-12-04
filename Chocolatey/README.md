@@ -1,3 +1,14 @@
+# Chocolatey Retrospective
+
+I enjoyed using Chocolatey for many years, but it's simply **not a good package manager** for installing software.  Part of the problem is the many different ways Windows allows software to be installed.
+
+## Problems
+1. Windows itself - too many ways to install software, many proprietary software installers from Windows 95 days
+2. Standardization.  Want to install Python on your D drive?  Good luck.
+3. Packages out of date.
+4. Software (e.g. Notepad++ and paint.net) that auto-updates causes Chocolatey manifest to become inaccurate
+
+
 # Benchmarking Fast - Via Installing tools via Chocolatey
 
 TIP: When benchmarking, it is a good idea to use several different benchmark programs, as some may have bugs. For example, CrystalDiskMark was great for mechanical hard drives, but NVMe SSDs have exposed potential bugs in its timing data. See also https://github.com/aerospike/act/blob/master/README.md
