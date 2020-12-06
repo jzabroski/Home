@@ -8,6 +8,16 @@ I enjoyed using Chocolatey for many years, but it's simply **not a good package 
 3. Packages out of date.
 4. Software (e.g. Notepad++ and paint.net) that auto-updates causes Chocolatey manifest to become inaccurate
 
+## Developing Chocolatey Packages is tedious
+
+### Add --failonstderr When Developing and Testing Chocolatey Packages
+Normally, Chocolatey only considers a package install as failing if the exit code is non-zero.  You can also treat any output to standard error as an error.  This is a really good idea when trying a package for the first time, especially if you’re rolling it out to a lot of users.
+
+The ideal syntax becomes:
+
+```powershell
+choco install packagename -y --failonstderr
+```
 
 # Benchmarking Fast - Via Installing tools via Chocolatey
 
