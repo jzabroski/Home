@@ -12,6 +12,12 @@ https://developers.google.com/speed/pagespeed/insights/
 * It's Okay to make mistakes.
 * Make mistakes and learn!
 
+# State of Happiness
+1. Collect
+2. Reduce
+3. Decide
+4. Move On
+
 My technology radar
 # 6 R's of a Cloud Migration
 The [“6 Rs”](https://spr.com/6-rs-of-a-cloud-migration/) are:
