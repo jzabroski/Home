@@ -2,6 +2,10 @@
 
 https://github.com/juunas11/managedidentity-filesharing/blob/master/Joonasw.ManagedIdentityFileSharingDemo/Data/ManagedIdentityConnectionInterceptor.cs
 
+# Preparing Entity Framework Core for Static Analysis and Nullable Reference Types
+
+https://www.infoq.com/articles/EF-Core-Nullable-Reference-Types/
+
 # Opinions / Perspectives
 
 1. Tim Corey on why he doesn't use Entity Framework
