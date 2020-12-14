@@ -4,6 +4,9 @@
 > "Don't solve the problem, describe the solution."
 > ~ John A. De Goes
 
+> "John Steinbeck once said that socialism never took root in America because the poor see themsleves not as an exploited proletariat but as *temporarily embarassed millionaires.*
+> ~ Ronald Wright, Historian and writer
+
 > When you plant your crops, do you gain anything from your neighbors yard? Investing is you against time. What happens elsewhere is just grass always greener. In reality, not so much.
 > ~ Roy Heh (@ruiheh), AIDVP founder
 
