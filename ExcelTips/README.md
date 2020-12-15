@@ -42,6 +42,10 @@ The false at the end of the formula means you will not accept approximate matche
 =VLOOKUP(A2, MATRIX, 2,FALSE)
 ```
 
+## INDEX + MATCH vs. VLOOKUP
+Use INDEX + MATCH for performance and flexibility.
+See also: https://sites.google.com/site/beyondexcel/project-updates/mlookup which covers VBA formulas MLOOKUP and XLOOKUP.
+
 # Filtering and Sorting
 Put cursor in a1, then press <kbd>shift</kbd>+<kbd>control</kbd>+<kbd>down</kbd> arrow, then <kbd>&gt;</kbd> (right arrow).
 Then press Filter in the data ribbon
