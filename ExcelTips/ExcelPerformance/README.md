@@ -35,3 +35,6 @@ https://techcommunity.microsoft.com/t5/Excel-Blog/Excel-performance-improvements
    1. See also: https://docs.microsoft.com/en-us/javascript/api/excel/excel.application?view=excel-js-preview
    2. See also: https://stackoverflow.com/questions/41382040/why-does-this-context-sync-not-work - may be best to move this to Excel-JS API section
 4. https://docs.google.com/document/d/1T9CCux05aRZIuM1PTy1fwGz9_IoIxjjx2lVwfpvqYuw/edit
+
+
+https://sites.google.com/site/beyondexcel/project-updates/needforspeed
