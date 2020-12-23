@@ -1,5 +1,6 @@
 1. [How to change foreign keys naming convention](https://github.com/fluentmigrator/fluentmigrator/issues/814)
 
+2. Fantastic write-up on the history and theory of transactional ddl: https://nuodb.com/blog/ddlacid-youve-heard-transactional-lets-talk-isolated
 
 # Scripts
 
