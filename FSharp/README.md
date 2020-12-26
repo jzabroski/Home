@@ -11,6 +11,13 @@
 2. https://www.mnie.me/graphqltestingpart2
 3. https://www.mnie.me/graphqltestingpart3
 
+# Error Handling - Torben Rahbek Koch
+1. [Error handling – the easy way](http://softwarepassion.eu/error-handling-the-easy-way/)
+2. [Error handling – part 2 – keeping it easy](https://softwarepassion.eu/error-handling-part-2-keeping-it-easy/)
+3. [Error handling – part 3 – as easy as sliding in SOAP](https://softwarepassion.eu/error-handling-part-3-as-easy-as-sliding-in-soap/)
+4. [Error handling – part 4 – now on to the REST](https://softwarepassion.eu/error-handling-part-4-now-on-to-the-rest/)
+
+
 # Generic Math code
 http://tomasp.net/blog/fsharp-generic-numeric.aspx/
 
