@@ -5,6 +5,12 @@
 4. https://medium.com/@gerardtoconnor/carry-on-continuation-over-binding-pipelines-for-functional-web-58bd7e6ea009
 5. http://eiriktsarpalis.github.io/typeshape/
 
+# Testing GraphQL queries with FsCheck
+
+1. https://www.mnie.me/graphqltesting
+2. https://www.mnie.me/graphqltestingpart2
+3. https://www.mnie.me/graphqltestingpart3
+
 # Generic Math code
 http://tomasp.net/blog/fsharp-generic-numeric.aspx/
 
