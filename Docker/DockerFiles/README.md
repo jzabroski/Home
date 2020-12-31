@@ -1,3 +1,44 @@
+# For creating multi-platform images
+1 - Build and push the two images to docker hub. One using windows containers, other using linux containers:
+https://github.com/dgvives/base-mysql-windows-docker
+
+```
+docker image build . -t davidgarciavivesdn/base-mysql:windows
+docker push davidgarciavivesdn/base-mysql:windows
+```
+
+https://github.com/dgvives/base-mysql-linux-docker
+
+```
+docker image build . -t davidgarciavivesdn/base-mysql:linux
+docker push davidgarciavivesdn/base-mysql:linux
+```
+
+2 - Create a manifest and push to dockerhub
+
+```
+docker manifest create davidgarciavivesdn/base-mysql davidgarciavivesdn/base-mysql:linux davidgarciavivesdn/base-mysql:windows
+
+docker manifest push davidgarciavivesdn/base-mysql:latest
+```
+
+3 - Reference image as `davidgarciavivesdn/base-mysql` and it should pull the proper one based on docker client requesting them. I used this as a sample:
+https://github.com/Deffiss/testenvironment-docker/blob/master/samples/test-bll-with-nunit/BLLlWithNunitSample/BLLTests/TestBase.cs
+
+```
+private DockerEnvironment PrepareDockerEnvironment(DockerEnvironmentBuilder environmentBuilder)
+        {
+            return environmentBuilder
+                     .UseDefaultNetwork()
+                     .AddMariaDBContainer(
+                                name: "dummyContainer",
+                                rootPassword: "someDummyPassword",
+                                imageName: "davidgarciavivesdn/base-mysql"
+            ).Build();
+        }
+```
+
+
 # For running GUI apps on Linux
 
 ```dockerfile
