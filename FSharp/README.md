@@ -11,6 +11,9 @@
 2. https://www.mnie.me/graphqltestingpart2
 3. https://www.mnie.me/graphqltestingpart3
 
+# Testing math libraries (Math.NET) with FsCheck
+1. http://fortysix-and-two.blogspot.com/2009/02/fschecking-dnanalytics.html?m=1
+
 # Error Handling - Torben Rahbek Koch
 1. [Error handling – the easy way](http://softwarepassion.eu/error-handling-the-easy-way/)
 2. [Error handling – part 2 – keeping it easy](https://softwarepassion.eu/error-handling-part-2-keeping-it-easy/)
