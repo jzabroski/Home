@@ -6,13 +6,13 @@ Frankly, I *thought I knew how to do this*, since I had a working Travis CI Ubun
 
 For example, I discovered an MSBuild issue [where CopyAlways Content does not always get copied](https://github.com/xunit/xunit/issues/1796#issuecomment-483218319).  And CopyAlways Content has been [the recommended approach by Microsoft for a decade](https://docs.microsoft.com/en-us/previous-versions/ms182475(v=vs.140)?redirectedfrom=MSDN#how-do-i-deploy-test-files-for-a-local-test), so how this got broken, I have no idea.
 
-In the old days, we would use `Assembly.Location`, which, as the documentation states, in .NET Framework, that is the value *after* the assembly has been shadow copied.
+In the old days, we would use `Assembly.Location`, which, as the documentation states, in .NET Framework, that is the value *after* the [assembly has been shadow copied](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/shadow-copy-assemblies).  Shadow copying is a trick that IDE tools like unit test runners and code coverage tools use to avoid a problem where the Common Language Runtime locks all assemblies loaded into an Application Domain.  ReSharper dotCover 
+[introduced specific features to handle exactly this scenario](https://blog.jetbrains.com/dotnet/2015/12/28/shadow-copying-in-dotcover-if-your-nunit-tests-fail-during-continuous-testing/).
 
 I've even tried to reproduce the problem by forking Andrew Lock's blog-examples repository and customizing his XunitTheoryTests folder.  But... his tests pass.  The key difference between his tests and mine is that he is using `Path.GetCurrentDirectory()` and, I have tried using various approaches, but the more I dig, the more I realize it feels somewhat futile to build a cross-platform, cross-runtime approach to simply get a directory containing my test assets.
 
 Here are the breaking changes for .NET 5, for example.  I know, you might say, "your tests are not a bundled application".  And... I have no idea how I would even know what magic the test runner is doing.
 
-[https://blog.jetbrains.com/dotnet/2015/12/28/shadow-copying-in-dotcover-if-your-nunit-tests-fail-during-continuous-testing/](https://blog.jetbrains.com/dotnet/2015/12/28/shadow-copying-in-dotcover-if-your-nunit-tests-fail-during-continuous-testing/)
 
 
 > **File Location for Bundled Applications**  
