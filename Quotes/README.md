@@ -29,6 +29,10 @@
 
 > Fulton's Folly
 
+> "De theorie dat door vaccins aangemaakte antilichamen een infectie kunnen voorkomen of genezen houdt geen stand"
+> Translation: The theory that antibodies produced by vaccines can prevent or cure an infection does not hold up
+> ~ Dr. Uldrich H. Von Andrian
+
 > The broader the base, the higher the peak.
 
 > It's now how many people know you, it's how you're known.
