@@ -4,6 +4,9 @@
 > "Don't solve the problem, describe the solution."
 > ~ John A. De Goes
 
+> If not you, then who? If not now, when?
+> ~ Hillel.  Also seen in the book, "A More Beautiful Question". Also seen as the rationale behind some of Mark Cuban's Shark Tank invements where the sole reason to invest is for the community, not the money.
+
 > "John Steinbeck once said that socialism never took root in America because the poor see themsleves not as an exploited proletariat but as *temporarily embarassed millionaires.*
 > ~ Ronald Wright, Historian and writer
 
