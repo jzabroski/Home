@@ -3,6 +3,7 @@ There are two major companies that make after-market Android Auto integrations f
 1. Beats Sonic
 2. Grom Audio
 3. Crutchfield
+4. Lexion
 
 # Beats Sonic
 
@@ -15,3 +16,7 @@ There are two major companies that make after-market Android Auto integrations f
 # Crutchfield
 
 [CRUX ACPLX-12Y Wiring Interface](https://www.crutchfield.com/I-rFBKcVSL/p_249CPLX12Y/CRUX-ACPLX-12Y-Wiring-Interface.html)
+
+# Lexion
+
+[Lexion Automotive - from ClubLexus.com](https://www.lexionautomotive.com/) - https://www.youtube.com/watch?v=PREVFhGf-4k
