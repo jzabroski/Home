@@ -5,6 +5,10 @@
 
 # JetBrains Resharper Testing - Parallel Test Execution
 
+Requires xunit 2.4.1
+
+See my comment here: https://github.com/xunit/xunit/issues/318#issuecomment-781711686
+
 https://resharper-support.jetbrains.com/hc/en-us/community/posts/205416730-Parallel-test-running-in-Resharper-with-xUnit-tests
 https://github.com/xunit/xunit/issues/1999
 https://xunit.net/docs/shared-context#collection-fixture
