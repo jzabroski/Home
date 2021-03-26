@@ -131,6 +131,9 @@ See also:
 1. https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-server-spatial-indexes/
 > SQL Server 2012 has added support for the auto grid spatial index, available for both the geography and geometry data types. An auto grid uses eight levels instead of the usual four levels. The advantage of using an auto grid is that when creating an index we can get good index support without studying the queries that will run against the table. In addition, you do not need to add a GRIDS clause to your CREATE SPATIAL INDEX statement because the database engine determines the best strategy to use to maximize performance.
 
+See also https://medium.com/hackernoon/putting-chinas-second-hand-economy-on-the-map-with-geohash-matching-f6eb7626ff96
+
+
 # Working With Partitions
 ## Partition Build Progress
 ```sql
