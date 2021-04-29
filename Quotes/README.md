@@ -19,6 +19,9 @@
 > Nice bounce pass.
 > ~ N.R.
 
+> Play stupid games, win stupid prizes.
+> ~ M.M.
+
 > You should always adapt your consumption to your income. You shouldn't try to adapt your income to your consumption.
 > ~ Warren Buffett 
 
