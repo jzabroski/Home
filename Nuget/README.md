@@ -3,6 +3,12 @@ Useful for packaging executables with Nuget's nupkg format
 
 1. https://dev.to/wabbbit/include-both-nuget-package-references-and-project-reference-dll-using-dotnet-pack-2d8p
 
+2. https://stackoverflow.com/questions/40396161/include-all-dependencies-using-dotnet-pack and  https://josef.codes/dotnet-pack-include-referenced-projects/
+
+3. https://medium.com/@xavierpenya/building-nuget-packages-with-dotnet-core-943f2fa2f4ca
+
+4. 
+https://patriksvensson.se/2019/09/how-to-find-a-nuget-package-path-from-msbuild/
 # How to understand nuget dependencies on target frameworks
 
 https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
