@@ -51,4 +51,10 @@ What are our blindspots?
 # ..
 
 
+# Goldilocks Mode Confidence is the Wrong Approach
+It's not a matter of having too much or too little confidence.
+Humility is often misunderstood; it's not about having little confidence.
+Confidence is a belief in yourself.
+Be confident in your ability to achieve a goal in the future.  Even if you need to acquire skills to get there.
 
+The most effective leaders score high in confidence and humility.
