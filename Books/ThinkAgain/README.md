@@ -65,3 +65,17 @@ The most effective leaders score high in confidence and humility.
 High achievers wrestle with insecurity, and succeed in spite of their doubts.
 
 Build confidence through achieving challenging goals!
+
+
+# The Joy of Being Wrong (Daniel Kahneman)
+
+Discovering you're wrong allows you to re-think assumptions and become less wrong than you were before.
+
+Joyful, because you know you've learned something.
+
+Being wrong, is the only way you're sure you learned something.
+
+## How To Be Wrong
+
+1. Detaching yourself from your identity - past self from present self.  Rethink who you are.  But be able to have a continuous story of how you got to who you are from who you were.
+
