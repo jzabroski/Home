@@ -89,3 +89,7 @@ Superforecasters shows that the best forecasters revise their predictions only a
 
 > One of Kjirste's biggest misses was her forecast for the 2016 U.S. presidential election, where she bet on Hillary Clinton to beat Donald Trump.
 > -- Adam Grant
+
+**Having a bigger stake, in not making a mistake!**
+
+Even a single opinion about why we might be wrong, can help overcome over-confidence.
