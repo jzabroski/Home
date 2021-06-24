@@ -58,3 +58,10 @@ Confidence is a belief in yourself.
 Be confident in your ability to achieve a goal in the future.  Even if you need to acquire skills to get there.
 
 The most effective leaders score high in confidence and humility.
+
+
+# Imposter Syndrome Common Among High Achievers
+
+High achievers wrestle with insecurity, and succeed in spite of their doubts.
+
+Build confidence through achieving challenging goals!
