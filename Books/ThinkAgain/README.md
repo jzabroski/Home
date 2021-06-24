@@ -35,4 +35,5 @@ Anecdote: The thinking that a glass surface phone was unacceptable had spread th
 
 Validation makes us arrogant.  We don't test our beliefs.  Pride can give too much conviction.
 
-
+# Re-think but also Care for the Vision/Mission
+Visions for change are more compelling when they include visions of continuity.
