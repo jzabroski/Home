@@ -13,10 +13,15 @@ Goes into Biases of smart people
 However, scientist mode is when we achieve mental agility.
 Only one trait predicted Presidential Greatness.  Intellectual curiousity and openness.  Interested in hearing new views, viewed 
 
-Blackberry / Apple
-Alternative ways to present "why do people fail to innovate in ways that kill their core product":
-1. Innovator's Dilemma
-2. Slingshot Syndrome
+# Blackberry / Apple
+
+Don't de-celerate your thinking.  Accelerate your re-thinking.
+Anecdote: The thinking that a glass surface phone was unacceptable had spread throughout the organization, even as the CEO realized he was wrong.
+
+> # My notes
+> Alternative ways to present "why do people fail to innovate in ways that kill their core product":
+> 1. Innovator's Dilemma
+> 2. Slingshot Syndrome
 
 # Rethinking Cycle
 
