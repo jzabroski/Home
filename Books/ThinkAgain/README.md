@@ -75,7 +75,7 @@ Joyful, because you know you've learned something.
 
 Being wrong, is the only way you're sure you learned something.
 
-## How To Be Wrong
+## How To Be Wrong (In Order to be Less Wrong Moving Forward)
 
 > "Two kinds of detachment are particularly useful for clear thinking: detaching your present from your past and detaching your opinions from your identity."
 > -- Adam Grant
@@ -84,3 +84,5 @@ Being wrong, is the only way you're sure you learned something.
 2. Detaching your opinions.  Be passionately dispassionate.  Jean Pierre predicting Trump would win.  Paid more attention to factors that were hard to quantify but more predictive.  **Forecasting skill is less of what we know, 3x forecaster success was how often they updated their beliefs.**
 
 Superforecasters shows that the best forecasters revise their predictions only a few more times than non-superforecasters, and were willing to update their beliefs as new evidence came in.
+
+
