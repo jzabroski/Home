@@ -77,5 +77,8 @@ Being wrong, is the only way you're sure you learned something.
 
 ## How To Be Wrong
 
-1. Detaching yourself from your identity - past self from present self.  Rethink who you are.  But be able to have a continuous story of how you got to who you are from who you were.
+> "Two kinds of detachment are particularly useful for clear thinking: detaching your present from your past and detaching your opinions from your identity."
+> -- Adam Grant
 
+1. Detaching yourself from your past self from present self.  Rethink who you are.  But be able to have a continuous story of how you got to who you are from who you were.
+2. Detaching your opinions.  Be passionately dispassionate.  Jean Pierre predicting Trump would win.  Paid more attention to factors that were hard to quantify but more predictive.  **Forecasting skill is less of what we know, 3x forecaster success was how often they updated their beliefs.**
