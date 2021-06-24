@@ -18,3 +18,16 @@ Alternative ways to present "why do people fail to innovate in ways that kill th
 1. Innovator's Dilemma
 2. Slingshot Syndrome
 
+# Rethinking Cycle
+
+## List of areas we're ignorant
+
+1. Start with humility.
+2. Question our understanding.
+3. "Humility drives doubt, which feuls curiosity, motivates discovery, and re-inforces humility."
+
+# Over-confidence Cycle
+
+Validation makes us arrogant.  We don't test our beliefs.  Pride can give too much conviction.
+
+
