@@ -1,0 +1,14 @@
+Mann Gulch Fire - 
+
+
+The higher you score on an IQ test, the faster you are to stereotype based on patterns.
+
+Scientific-based thinking towards sales outperformed control group.
+-> Is this really the right conclusion?
+
+Goes into Biases of smart people
+-> Being good at thinking, can make you worse at thinking.
+-> We often require evidence, rather than intuition.
+
+However, scientist mode is when we achieve mental agility.
+Only one trait predicted Presidential Greatness.  Intellectual curiousity and openness.  Interested in hearing new views, viewed 
