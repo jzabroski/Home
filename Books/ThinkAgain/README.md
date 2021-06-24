@@ -93,3 +93,9 @@ Superforecasters shows that the best forecasters revise their predictions only a
 **Having a bigger stake, in not making a mistake!**
 
 Even a single opinion about why we might be wrong, can help overcome over-confidence.
+
+# Arguing Well
+
+Wilbur and Orville Wright on flying and fighting with each other.
+
+
