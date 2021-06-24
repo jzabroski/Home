@@ -85,4 +85,7 @@ Being wrong, is the only way you're sure you learned something.
 
 Superforecasters shows that the best forecasters revise their predictions only a few more times than non-superforecasters, and were willing to update their beliefs as new evidence came in.
 
+### Transform the pain of being wrong - Kjirste
 
+> One of Kjirste's biggest misses was her forecast for the 2016 U.S. presidential election, where she bet on Hillary Clinton to beat Donald Trump.
+> -- Adam Grant
