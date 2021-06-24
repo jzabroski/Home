@@ -38,3 +38,17 @@ Validation makes us arrogant.  We don't test our beliefs.  Pride can give too mu
 # Re-think but also Care for the Vision/Mission
 Visions for change are more compelling when they include visions of continuity.
 Ex: apple is not a phone company, it's a computer company putting the best computers inside phones.
+
+# Ursula Mercz (Anton's Syndrome) - being blind to our blindness
+Did not realize she was blind, despite not being intellectually unimpaired.
+People who have gone blind but claimed otherwise.
+Doctors reported patients denying their circumstances, despite being assured they were blind.
+
+Damage to our occipital lobe in the brain.  Leads us to being blind to our blindness.
+
+What are our blindspots?
+
+# ..
+
+
+
