@@ -120,3 +120,4 @@ Miller and Roenick.  Ask for change talk.  Inquire about their motivations.
 
 Overlooked a key step.  4th step.  Summarizing.  Understand people's reasons for change, and inquire about their next steps.  So excited someone wanted to change, that we didnt ask how they would convey that change, or do it.
 
+If your goals are not aligned with the person you are doing motivational interviewing with, how do you expect to change their mind?
