@@ -103,4 +103,6 @@ Wilbur and Orville Wright on flying and fighting with each other.
 
 Use it to get people to reconsider their views.
 
-> Personal Note: This reminds me of the question Peter Attia likes to ask, "What would it take for you to believe this were true?"
+> Personal Note: This reminds me of the question Peter Attia likes to play, The "What would you have to believe?" game, which is a "way to probe the limits of what biology could tell us".  We got a little deep in the weeds.  Suppose two scenarios.  Scenario one, total nothing burger.  If that is true, how would you explain the data?  Scenario two, illness that wipes us off the map.  If that is true, what would you have to believe?
+
+
