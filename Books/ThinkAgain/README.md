@@ -115,3 +115,8 @@ Use it to get people to reconsider their views.
 - Arno told her, whether you chose to vaccinate or not, **I respect your decision as someone who wants what is best for you kids.**
 
 "Abra cadabra" - hebrew phrase, I create as I speak.
+
+Miller and Roenick.  Ask for change talk.  Inquire about their motivations.
+
+Overlooked a key step.  4th step.  Summarizing.  Understand people's reasons for change, and inquire about their next steps.  So excited someone wanted to change, that we didnt ask how they would convey that change, or do it.
+
