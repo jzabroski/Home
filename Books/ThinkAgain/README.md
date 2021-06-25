@@ -99,3 +99,8 @@ Even a single opinion about why we might be wrong, can help overcome over-confid
 Wilbur and Orville Wright on flying and fighting with each other.
 
 
+# Counter-factual Thinking
+
+Use it to get people to reconsider their views.
+
+> Personal Note: This reminds me of the question Peter Attia likes to ask, "What would it take for you to believe this were true?"
