@@ -252,4 +252,31 @@ var q = from c in db.Bs
 ```
   
 Comments: The workarounds solve the join duplication issue but outer apply remains.
+  
+Comments: No OuterApply with EF6.0:
+ ```sql
+SELECT
+  [Project2].[Id] AS [Id],
+  [Extent4].[X] AS [X],
+  [Extent5].[Y] AS [Y]
+FROM (
+  SELECT
+    [Extent1].[Id] AS [Id],
+    [Extent1].[C_Id] AS [C_Id],
+    (
+      SELECT TOP (1)
+        [Extent2].[Id] AS [Id]
+      FROM [dbo].[A] AS [Extent2]
+      WHERE [Extent1].[Id] = [Extent2].[B_Id]
+    ) AS [C1]
+  FROM [dbo].[B] AS [Extent1]
+) AS [Project2]
+LEFT OUTER JOIN [dbo].[A] AS [Extent3]
+  ON ([Extent3].[Id] = [Project2].[C1]) AND ([Project2].[C1 ] IS NOT NULL)
+LEFT OUTER JOIN [dbo].[C] AS [Extent4]
+  ON [Project2].[C_Id] = [Extent4].[Id]
+LEFT OUTER JOIN [dbo].[C] AS [Extent5]
+  ON [Project2].[C_Id] = [Extent5].[Id]
+```
 
+Comments: It seems the regression that re-introduced the outer apply occurred from 6.1.1 to 6.1.2
