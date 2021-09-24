@@ -41,6 +41,8 @@ This also happens to be a great framework for achieving excellence in life.
 3. Perform
 4. Progress
 
+See also: [Golf Tough: Practice, Prepare, Perform, Progress](https://www.amazon.com/dp/B00J9ULYOI/) by Dan Abrahams
+
 # [12 Factor App](https://12factor.net)
 
 1. Codebase
