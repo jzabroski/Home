@@ -6,8 +6,8 @@ https://golf.com/instruction/driving/swing-speed-300-yard-drives/
 ForeSight Sports Optimized Launch Data
 
 | Club Speed | Ball Speed | Optimum Launch Angle Range | Optimum Spin Range | Typical Carry Distance Range | Typical Total Distance Range |
-| MPH        | MPH        | DEGREES                    | RPM                | YARDS                        | YARDS                        |
 | ---------- | ---------- | -------------------------- | ------------------ | ---------------------------- | ---------------------------- |
+| *MPH*      | *MPH*      | *DEGREES*                  | *RPM*              | *YARDS*                      | *YARDS*                      |
 | 69         | 100        | 10.0 - 14.0                | 3500 - 2500        | 130 - 142                    | 159 - 169                    |
 | 76         | 110        | 10.0 - 14.0                | 3400 - 2400        | 157 - 170                    | 181 - 194                    |
 | 83         | 120        | 10.0 - 14.0                | 3300 - 2300        | 183 - 197                    | 204 - 221                    |
