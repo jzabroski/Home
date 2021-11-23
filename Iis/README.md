@@ -1,7 +1,7 @@
 [https://techcommunity.microsoft.com/t5/iis-support-blog/windows-authentication-http-request-flow-in-iis/ba-p/324645](Windows Authentication HTTP Request Flow in IIS) by Priyanka Pillai
 
-[https://journeyofthegeek.com/2016/11/03/deep-dive-into-resource-based-constrained-delegation/](Deep Dive Into Resource-Based Constrained Delegation – Part 1)
-[https://journeyofthegeek.com/2016/11/03/deep-dive-into-resource-based-constrained-delegation-part-2/](Deep Dive Into Resource-Based Constrained Delegation – Part 2)
+1. [https://journeyofthegeek.com/2016/11/03/deep-dive-into-resource-based-constrained-delegation/](Deep Dive Into Resource-Based Constrained Delegation – Part 1)
+2. [https://journeyofthegeek.com/2016/11/03/deep-dive-into-resource-based-constrained-delegation-part-2/](Deep Dive Into Resource-Based Constrained Delegation – Part 2)
 
 # DelegConfig
 In the 2000s, Brian Murphy-Booth of Microsoft had released the DelegConfig tool for testing Kerberos double hop scenarios.  That tool is still available at https://www.iis.net/downloads/community/2009/06/delegconfig-v2-beta-delegation-kerberos-configuration-tool
