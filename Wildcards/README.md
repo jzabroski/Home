@@ -8,6 +8,21 @@
 
 [Enforcing Design Constraints with Object Logic](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.4113&rep=rep1&type=pdf) by Daniel Jackson
 
+> ## 3.1 Exploring Queries in COM
+> In attempting to use Microsoft COM to implement a novel component architecture, Sullivan and his colleagues came across an interesting anomaly [24]. COM allows one component to aggregate other components, with the outer component passing off one or more
+> services of inner components as its own, thus avoiding the cost of explicitly delegating service requests from outer to inner. Surprisingly, the rules of COM require in such a situation
+> that every service of an inner component be visible through the outer component: in other
+words, hiding is compromised. Since this is clearly not the intent of the designers of COM,
+> the published rules of COM must be amended. It turns out to be sufficient to weaken the
+rules for inner components.
+> 
+> Sullivan explored this problem by formalizing the published rules of COM in the Z formal specification language [23]. He then proved, by hand, a theorem stating that, whenever
+> aggregation is present, hiding is lost. By introducing a distinction between ‘legal’ and ‘illegal’ components, he was able to qualify this theorem so that it applies only when the inner
+> components are legal.
+
+24. Kevin Sullivan, M. Marchukov and D. Socha. Analysis of a conflict between interface negotiation
+and aggregation in Microsoft’s component object model. IEEE Transactions on Software Engineering, July/August, 1999.
+
 > ## 3.2 Checking an Intentional Naming Scheme
 > An intentional naming scheme allows objects to be looked up by their specifications rather
 > than their identities or locations. A recent framework supporting this idea [1] allows queries called ‘name specifiers’ in the form of trees of alternating attributes and values. These
@@ -26,3 +41,6 @@
 > that generates different prestates for lookup by executing operations that mutate the name
 > tree. Instead, the analysis considered all lookup scenarios (within a bounded scope) that
 > began in states satisfying the given invariants.
+
+16. Sarfraz Khurshid and Daniel Jackson. Exploring the Design of an Intentional Naming Scheme with
+an Automatic Constraint Analyzer. Submitted for publication. Available at: http://sdg.lcs.mit.edu/~dnj/publications
