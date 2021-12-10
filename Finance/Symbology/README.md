@@ -1,4 +1,7 @@
 
+# FIGI Allocation Rules
+https://www.openfigi.com/assets/local/figi-allocation-rules.pdf
+
 # Preferred Symbol Names
 From: https://www.quantumonline.com/PfdSymbolsNames.cfm
 
