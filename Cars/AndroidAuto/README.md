@@ -7,7 +7,7 @@ There are four major companies that make after-market Android Auto integrations 
 
 The first two are **by far** the most popular.
 
-Most after-market integrations also, incidentally, targeted Lexus customers, as Lexus was the last luxury car brand to adopt either Car Play or Android Auto.
+Most after-market integrations also, incidentally, targeted Lexus customers, as Lexus was the last luxury car brand to adopt either Car Play or Android Auto.  Lexus allowed certain 2019 cars to have a Lexus OEM Android Auto after-market installed that wouldn't void the warranty, but only on certain vehicle types and only certain VIN number ranges.  From 2020 onwards, most Lexus vehicles had Android Auto equipped, and by 2021 it became standard in all models.
 
 # Beats Sonic
 
