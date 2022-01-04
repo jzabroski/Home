@@ -11,14 +11,19 @@ Most after-market integrations also, incidentally, targeted Lexus customers, as 
 
 # Beats Sonic
 
-1. YouTube video: [2013-2019 LEXUS RX Apple CarPlay Android Auto Install / Demo](https://www.youtube.com/watch?v=GSs1QF7Z6Vo)
+To install Grom Audio, see their YouTube videos:
+
+1. Android Auto YouTube video: [2013-2019 LEXUS RX Apple CarPlay Android Auto Install / Demo](https://www.youtube.com/watch?v=GSs1QF7Z6Vo)
+2. Apple CarPlay YouTube video: [Apple CarPlay Demo on Lexus RX 350 450h 2016 2017 2018 2019 stereo - GROM VLine VL2 System](https://www.youtube.com/watch?v=yj9dJpC2Wu4)
+
+These videos are basically identical to each other, except for the part where they show you everything connected to your phone.
 
 # Grom Audio
 
 1. [2017 Lexus RX450h GROM VLine 2 "VL2"](https://gromaudio.com/store/vline/all/lexus-rx-350-450h-2018-vline-carplay-android-auto-infotainment-system-navigation-upgrade.html)
 2. [2017 Lexus RX450h GROM VLite "VT2" - Phone Mirroring](https://gromaudio.com/store/vlite/lexus-2013-2019-vlite-iphone-android-smartphone-mirroring-carplay-and-android-auto-bluetooth-backup-camera-kit.html)
 
-To install Grom Audio, see their YouTube video: [Apple CarPlay Demo on Lexus RX 350 450h 2016 2017 2018 2019 stereo - GROM VLine VL2 System](https://www.youtube.com/watch?v=yj9dJpC2Wu4) - the video says Apple CarPlay in the title, but the same interface principles apply to Android Auto.
+Installation Video: [How to disassemble car stereo in Lexus RX 350 450H 2016 2017 2018 2019 and install VLine](https://www.youtube.com/watch?v=2N0u4ccWroI)
 
 # Crutchfield
 
