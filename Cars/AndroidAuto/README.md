@@ -18,6 +18,8 @@ Most after-market integrations also, incidentally, targeted Lexus customers, as 
 1. [2017 Lexus RX450h GROM VLine 2 "VL2"](https://gromaudio.com/store/vline/all/lexus-rx-350-450h-2018-vline-carplay-android-auto-infotainment-system-navigation-upgrade.html)
 2. [2017 Lexus RX450h GROM VLite "VT2" - Phone Mirroring](https://gromaudio.com/store/vlite/lexus-2013-2019-vlite-iphone-android-smartphone-mirroring-carplay-and-android-auto-bluetooth-backup-camera-kit.html)
 
+To install Grom Audio, see their YouTube video: [Apple CarPlay Demo on Lexus RX 350 450h 2016 2017 2018 2019 stereo - GROM VLine VL2 System](https://www.youtube.com/watch?v=yj9dJpC2Wu4) - the video says Apple CarPlay in the title, but the same interface principles apply to Android Auto.
+
 # Crutchfield
 
 [CRUX ACPLX-12Y Wiring Interface](https://www.crutchfield.com/I-rFBKcVSL/p_249CPLX12Y/CRUX-ACPLX-12Y-Wiring-Interface.html)
