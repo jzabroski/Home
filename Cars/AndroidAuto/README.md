@@ -1,13 +1,17 @@
-There are two major companies that make after-market Android Auto integrations for older model Lexus vehicles.
+There are four major companies that make after-market Android Auto integrations for older model Lexus vehicles.
 
 1. Beats Sonic
 2. Grom Audio
 3. Crutchfield
 4. Lexion
 
+The first two are **by far** the most popular.
+
+Most after-market integrations also, incidentally, targeted Lexus customers, as Lexus was the last luxury car brand to adopt either Car Play or Android Auto.
+
 # Beats Sonic
 
-1. [2013-2019 LEXUS RX Apple CarPlay Android Auto Install / Demo](https://www.youtube.com/watch?v=GSs1QF7Z6Vo)
+1. YouTube video: [2013-2019 LEXUS RX Apple CarPlay Android Auto Install / Demo](https://www.youtube.com/watch?v=GSs1QF7Z6Vo)
 
 # Grom Audio
 
@@ -21,3 +25,5 @@ There are two major companies that make after-market Android Auto integrations f
 # Lexion
 
 [Lexion Automotive - from ClubLexus.com](https://www.lexionautomotive.com/) - https://www.youtube.com/watch?v=PREVFhGf-4k
+
+Lexion Automotive primarily targeted ClubLexus.com forum members, similar to Grom Audio.
