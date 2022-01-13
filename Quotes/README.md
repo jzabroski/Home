@@ -165,4 +165,4 @@ p. 672
 
 
 
-> 
+> There are two types of errors - errors of commision, when you do something wrong, and errors of omission, when you fail to do something that should've been done. In most systems of accountability, only errors of commision are registered. Hence rational people choose not to pursue change.
