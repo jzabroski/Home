@@ -624,6 +624,9 @@ Group MSA Accounts are a great way to avoid using passwords for service accounts
 Set-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Fusion\ -Name EnableLog -Value 1
 ```
 ### .NET Core (New)
+
+This is the new approach/replacement for "fusion logging" that was used in .NET Framwork.
+
 Note: See issue I logged for problems with .NET Core tracing https://github.com/dotnet/coreclr/issues/24035
 ```powershell
 setx CORE_HOSTTRACE 1
