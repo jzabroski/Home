@@ -1,3 +1,7 @@
+# Dependency Confusion Attacks
+
+https://dev.to/sharpninja/dependency-confusion-yes-it-affects-nuget-packages-too-2h2g
+
 # How to embed dependencies as unlisted dependencies
 Useful for packaging executables with Nuget's nupkg format
 
@@ -18,7 +22,7 @@ https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
 1. https://www.red-gate.com/simple-talk/opinion/opinion-pieces/building-a-better-nuget/
 2. https://www.waitingimpatiently.com/package-reference-nuget/
 3. https://www.codemag.com/article/0207071/End-DLL-Hell-with-.NET-Version-Control-and-Code-Sharing
-4. https://www.waitingimpatiently.com/package-reference-nuget/
+
 
 # Rant
 
