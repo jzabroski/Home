@@ -155,6 +155,7 @@ https://github.com/Cyan4973/xxHash
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [RSocket.Net](https://github.com/rsocket/rsocket-net) | [RSocket.Net](https://www.nuget.org/packages/RSocket.Core/) | Reactive Streams socket programming, See [motivations](https://github.com/rsocket/rsocket/blob/master/Motivations.md) | Assessing |
+| [BedrockFramework](https://github.com/davidfowl/BedrockFramework/) | [Bedrock.Framework](https://www.nuget.org/packages/Bedrock.Framework/0.1.62-alpha.g8a965bbcba) | High performance, low level networking APIs for building custom severs and clients. | Assessing |
 
 
 # Parsing
