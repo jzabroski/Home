@@ -4,6 +4,7 @@ https://developers.google.com/speed/pagespeed/insights/
 # Core Values
 * Read everyday.
 * Ask questions.
+* Determine what is relevant!
 * Never stop learning.
 * Don't pay attention to what others think of you.
 * Do what interests you the most.
