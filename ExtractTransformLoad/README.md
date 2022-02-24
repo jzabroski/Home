@@ -31,3 +31,20 @@ The criteria that we identified and that might be useful to others were:
 
 Finally, in some cases, you might be interested in HIPAA compliance and other stuff like that. 
 Here you will likely be limiting your cloud vendors to only those who host a separate instance for you.
+
+# Features for ETL Connectors
+
+## Key Questions
+First, the key questions you should ask about any ETL connector are:
+
+1. What happens when a column is added in the source?
+2. What happens when the TYPE of a column is changed in the source?
+3. What happens when a row is deleted in the source?
+
+## Buy vs. Build
+Second, nearly everyone should use SOME commercial ETL tool rather than build it themselves. It’s not that hard to write some scripts that sync your data; the hard part is keeping up with schema changes, and the REALLY hard part is dealing with turnover on your data team. For whatever reason, data engineering teams experience a lot of turnover. In my experience, there are only two scenarios where it CAN make sense to write your own ETL:
+
+* Your source schema is extremely stable so you rarely have to update your scripts.
+* ETL is part of your core business and you have a dedicated team that will maintain and monitor your ETL.
+
+Lastly, some vendors (e.g., Fivetran) does not support transformation, because those vendors believe this to be an anti-feature: in the long run, it’s a lot easier to maintain looker derived-tables. But not everyone agrees, and this is an important difference between the no-transformation vendors (FiveTran, Stitch) and our pro-transformation friends (Alooma, ETLeap, Boomi, …).
