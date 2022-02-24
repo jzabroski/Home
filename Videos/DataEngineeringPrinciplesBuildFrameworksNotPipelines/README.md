@@ -1,3 +1,6 @@
+# Link
+https://www.youtube.com/watch?v=pzfgbSfzhXg
+
 # Logistics
 Easier to scale quality for profit than scale horizontally 
 
