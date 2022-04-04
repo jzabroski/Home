@@ -2,6 +2,11 @@
 
 https://www.lemon.markets/blog/mapping-a-ticker-symbol-to-isin-using-openfigi-and-lemonmarkets
 
+# OMG: How FIGI Relates to other Standards
+https://issues.omg.org/issues/FIGI-20
+
+> FIGI, while a stand-alone standard, is seemingly related to other standards in the Finance space. In particular, ISO 6166 (ISIN), ISO 10962 (CFI), and ISO 20022 (UNIFI) seem much more closely related to FIGI than others. This item calls for some explicit treatment of if and how FIGI relates to these standards and any restrictions in place regarding possible mappings to those standards.
+
 # FIGI Allocation Rules
 https://www.openfigi.com/assets/local/figi-allocation-rules.pdf
 
