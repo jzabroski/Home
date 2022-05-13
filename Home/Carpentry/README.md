@@ -19,6 +19,8 @@ https://www.youtube.com/watch?v=95_jg0Hms1s
 
 # How to Pour Concrete that will NEVER Crack
 
+Note: The comments in this video are arguably more educational than the video itself.
+
 https://www.youtube.com/watch?v=BQNvl98qWxw
 
 # Fascia Boards
