@@ -7,6 +7,12 @@ https://www.timbertech.com/ideas/what-is-a-rip-cut/
 > * When your house shape dictates that some boards be custom widths to properly adhere to the edge of your home.
 > * When your deck shape or size doesn’t perfectly accommodate a full width final deck board.
 
+# Picture Frame the Landing
+
+* [How to Picture Frame a Deck](https://www.youtube.com/watch?v=OHQOb7kH9dg)
+
+Recommends using a Fascia Board for the Picture Frame to avoid showing the grooves for water channeling at the edges.
+
 # Fascia Boards
 
 https://www.fiberondecking.com/faq/what-are-fascia-and-riser-boards-and-how-do-i-install-them
