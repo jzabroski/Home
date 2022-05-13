@@ -30,3 +30,7 @@ https://www.fiberondecking.com/faq/what-are-fascia-and-riser-boards-and-how-do-i
 > # Azek Fascia Mitre Cuts
 > 
 > **Check manufacturer specifications for temperature to avoid warping caused by extreme temperatures in your climate.**
+> 
+> # [Importance of Installation Direction 11:19 minute mark](https://youtu.be/MFky6W4Y0Ag?t=684)
+> 
+> When looking from inside the house, if you put the last board on the outside, it will look very ugly. Thus, installation direction is important.
