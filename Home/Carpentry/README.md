@@ -13,6 +13,10 @@ https://www.timbertech.com/ideas/what-is-a-rip-cut/
 
 Recommends using a Fascia Board for the Picture Frame to avoid showing the grooves for water channeling at the edges.
 
+# Options for Fastening Deck Posts to Footing
+
+https://www.youtube.com/watch?v=95_jg0Hms1s
+
 # Fascia Boards
 
 https://www.fiberondecking.com/faq/what-are-fascia-and-riser-boards-and-how-do-i-install-them
