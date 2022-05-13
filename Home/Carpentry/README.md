@@ -17,8 +17,16 @@ https://www.fiberondecking.com/faq/what-are-fascia-and-riser-boards-and-how-do-i
 
 [DIY Deck (Part 9): How to picture framing Azek deck boards and install fascia like a pro? - 04:19 mark](https://youtu.be/MFky6W4Y0Ag?t=259)
 
-> Azek Fascia boards DRAWBACK
+> # Azek Fascia boards DRAWBACK
 > 
 > Dimensions: 11 3/4" x 1/2" x 12'
 > 
 > **They don't have 8" or 10"**
+> 
+> # Lesson Learned
+> 
+> I could have saved A LOT of time and less wasted material
+> 
+> # Azek Fascia Mitre Cuts
+> 
+> **Check manufacturer specifications for temperature to avoid warping caused by extreme temperatures in your climate.**
