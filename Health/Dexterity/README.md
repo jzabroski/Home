@@ -24,3 +24,7 @@ https://youtube.com/clip/UgkxVoFxfKZei1sbuzf9xAEFfReS381Tjjzi
 Trigger finger release for each finger that has the issue. Occasionally all 4, but unusual. May be two triggering, four hurting.
 
 https://youtube.com/clip/UgkxDpYj9uBvR6V8cuiy8PisWUY_Qws8gLyz
+
+# Ultrasound Guided Percutaneous Trigger Finger Release 
+
+https://www.andrewssportsmedicine.com/conditions-and-treatments/percutaneous-trigger-finger-release-under-ultrasound-guidance
