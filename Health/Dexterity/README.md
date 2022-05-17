@@ -4,6 +4,16 @@ See: http://wbericson.org/About.html
 
 See also: [Dr. William Ericson presents “Orthopedic Issues in the EDS Hand, Wrist and Arm”](https://www.youtube.com/watch?v=5oYcTbBt3zI)
 
+# Ulnar Nerve Flossing
+
+## Ulnar Nerve Flossing & Tensioning
+
+https://youtu.be/d85QKyWvrbI?t=140
+
+## Palm Over Ear Exercise 
+
+https://youtu.be/d85QKyWvrbI?t=195
+
 # Carpal Tunnel & Cubital Tunnel Syndrome 
 
 1. Dr. John Kung, MD. Orthopedic Hand Surgeon.
