@@ -25,6 +25,12 @@ Trigger finger release for each finger that has the issue. Occasionally all 4, b
 
 https://youtube.com/clip/UgkxDpYj9uBvR6V8cuiy8PisWUY_Qws8gLyz
 
+## Rheumatoid Arthritis 
+
+Rheumatoid arthritis damage requires rubber knuckles, extensive surgery. Drugs work so well they don't see ianymore unless drugs didn't work
+
+https://youtube.com/clip/UgkxpasKYXF2vfMk2iYr7pI5avnvVyKcOLkJ
+
 # Ultrasound Guided Percutaneous Trigger Finger Release 
 
 https://www.andrewssportsmedicine.com/conditions-and-treatments/percutaneous-trigger-finger-release-under-ultrasound-guidance
