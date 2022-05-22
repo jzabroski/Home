@@ -44,3 +44,12 @@ https://youtube.com/clip/UgkxpasKYXF2vfMk2iYr7pI5avnvVyKcOLkJ
 # Ultrasound Guided Percutaneous Trigger Finger Release 
 
 https://www.andrewssportsmedicine.com/conditions-and-treatments/percutaneous-trigger-finger-release-under-ultrasound-guidance
+
+# [\[VIDEO\] How Do I Know If I Have Carpal Tunnel?](https://youtu.be/nZhlT-XU2Uc)
+
+- If you have a neck adjustment and your hand pain goes away, it's probably not carpal tunnel.
+
+- We can use ultrasound to measure the size of the median nerve, and if it's larger than 10mm, and you have symptoms suggestive of carpal tunnel, it's about as effective a diagnosis as electromyography.
+
+- There are three ways to do a carpal tunnel surgery. Microinvasive is the latest and newest and people can return to work in 4 days
+
