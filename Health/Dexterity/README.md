@@ -53,6 +53,12 @@ https://www.andrewssportsmedicine.com/conditions-and-treatments/percutaneous-tri
 
 - There are three ways to do a carpal tunnel surgery. Microinvasive is the latest and newest and people can return to work in 4 days
 
+# RESEARCH: The Efficacy of Steroid Injection in the Treatment of Trigger Finger
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3504690/
+
 # Dupuytren's Contracture and Xiaflex
 
 Dupuytren’s contracture is a condition in which the connective tissue under the skin in your palms and fingers thickens and tightens. Over time, cords of connective tissue can develop that pull your finger in toward your palm and prevent you from straightening it. Xiaflex is approved to treat Dupuytren’s contracture where a cord can be felt.
