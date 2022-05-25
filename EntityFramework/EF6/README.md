@@ -350,8 +350,11 @@ Therefore although both sets of functions are translated into native SQL, SQLFun
 # Run-time Exceptions
 
 1. The navigation property '' has been configured with conflicting multiplicities.
-    - This can happen because `.Map(s => s.MapKey("CaseSensitiveColumnName");` due to the fact EF uses CLR properties which are case sensitive.
-    - See: https://stackoverflow.com/questions/32224102/entity-framework-varchar-foreign-key-case-insensitive
+    1. This can happen because `.Map(s => s.MapKey("CaseSensitiveColumnName");` due to the fact EF uses CLR properties which are case sensitive.
+        - See: https://stackoverflow.com/questions/32224102/entity-framework-varchar-foreign-key-case-insensitive
+    2. This can happen because the primary key is spelled differently than the foreign key.
+        - e.g., Conversion_ID, ConversionId
+        - When the column names don't match, MapKey won't help, because EF MapKey assumes there is a new shadow property not mentioned in the model.
 
 2. System.Data.Entity.Infrastructure.DbUpdateException
 Entities in 'YourDbContext.ChildEntity' participate in the 'ParentEntity_ChildEntityPropertyNameOnParentEntity' relationship. 0 related 'ParentEntity_ChildEntityPropertyNameOnParentEntity_Source' were found. 1 'ParentEntity_ChildEntityPropertyNameOnParentEntity_Source' is expected.
