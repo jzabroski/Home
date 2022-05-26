@@ -1,6 +1,11 @@
-Exponential memory/performance with regards to the object graph size.
+# Exponential memory/performance with regards to the object graph size.
+
+https://web.archive.org/web/20200702150542/https://bitbucket.org/dadhi/dryioc/issues/152/exponential-memory-performance-with
+
 Issue #152 RESOLVED
+
 Fyodor Soikin created an issue 2015-08-31
+
 Imagine the following architecture:
 
 Plugins of two types - say `IP` and `IQ`.
