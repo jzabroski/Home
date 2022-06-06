@@ -44,6 +44,10 @@ https://support.microsoft.com/en-us/help/4027538/windows-create-a-system-restore
     * If disassembling anything, remember to take photos as you go to help you re-trace your steps as you put things back together.  It's always the same, except in reverse order, so step-by-step photos can be reviewed in reverse order.
 10. Chair
     * [Office Star Mesh Back & Seat, 2-to-1 Synchro, Lumbar Support Managers Chair, White](https://www.amazon.com/gp/product/B01L2PWJG4/)
+11. Microphone
+    * [Logitech for Creators Blue Yeti Nano USB Microphone for PC, Podcast, Gaming, Streaming, Studio, Computer Mic - Shadow Grey](https://www.amazon.com/gp/product/B07DTTGZ7M/)
+    * [YOUSHARES Yeti Nano Microphone Foam Windscreen - Mic Wind Cover Pop Filter Foam Cover, Professional Customized for Blue Yeti Nano](https://www.amazon.com/gp/product/B07JNCZ1RJ/)
+    * [InnoGear Microphone Stand, Adjustable Mic Stand Set for Blue Yeti Nano Suspension Boom Scissor Arm Stand with 5/8" to 3/8" Screw, 5/8" to 1/4 Screw, Nano Mic Windscreen and Dual Layered Mic Pop Filter](https://www.amazon.com/gp/product/B08BYCNTPC/)
 
 # Potential Office Additions
 
