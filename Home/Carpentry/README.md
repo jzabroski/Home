@@ -23,6 +23,14 @@ Note: The comments in this video are arguably more educational than the video it
 
 https://www.youtube.com/watch?v=BQNvl98qWxw
 
+# Stringer Spacing and Tread Deflection
+
+https://www.youtube.com/watch?v=TVEkeCp_6vU
+
+Interesting video that goes into board deflection with a visual demo of the difference in deflection from 16" to 12" spacing.
+
+Note: Azek manual actually says for extreme weather, to use 6-8".
+
 # Fascia Boards
 
 https://www.fiberondecking.com/faq/what-are-fascia-and-riser-boards-and-how-do-i-install-them
