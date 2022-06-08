@@ -3,6 +3,47 @@
 2. Be the Better Broker, Volume 2: Days 1-100 As A New Broker, Building Lasting Foundations and Surviving in the Meantime by Dustan Woodhouse 
 3. Be The Better Broker, Volume 3: Detailed Mortgage Loan Origination Skills & Scripts by Dustan Woodhouse 
 
+# Zillow iBuying Algorithm
+
+https://dolinskigroup.com/selling-home/why-zestimate-so-low
+
+> ## Zillow’s Data Is Missing Or Wrong
+> When using an automated value model, like the Zestimate, data accuracy plays a critical role. In accurate data causes all sorts of problems with the Zestimate.
+> 
+> One common cause of data inaccuracy is data decay. Gartner reports that every month around 3 percent of data is decayed globally.
+> 
+> While this applies to all data, it’s reasonable to a degree to interpolate and assume that Zillow’s data is decayed by 3% every single month.
+> 
+> Without additional data points being added, like when a home is listed, the more decay that is going to happen. In other words, it’s reasonable to conclude that the longer a home is owned, the more likely the Zestimate is to be wrong.
+> 
+> For example, it’s common for homeowners to:
+> 
+> * Add bathrooms
+> * Finish a basement
+> * Add other amenities
+> * Bump out their garage
+
+...
+
+> ## Poor Choice In Comparables
+> Every good home valuation method relies on comparing your home to similar homes in the neighborhood that sold within a certain time frame given the real estate market’s conditions.
+> 
+> As a general rule of thumb, real estate agents and appraisers will look for similar homes that sold within the last six months.
+> 
+> Zillow’s Zestimate algorithm holds fast to this rule, regardless of market conditions. Six months is only a general rule and will be shifted based on how the real estate market is doing.
+> 
+> * In a seller’s market, like the one in 2021 and into 2022, comparables should be within 3 months.
+> * In a buyer’s market, like the years during the Great Recession, comparables may be as far as 12 months out.
+Given the inflationary period we are experiencing at the end of 2021, house values are climbing quickly. Zillow’s algorithm, unfortunately, doesn’t reflect this reality when it is pulling comparable homes that sold six months ago.
+
+# Certified Pricing Advisor Real Estate agent
+
+https://dolinskigroup.com/probate/sellers-work-with-certified-pricing-strategy-advisor
+
+1. Less Time on Market
+2. Maximum Value
+3. Less Surprises
+
 # Fannie Mae Desktop Underwriter
 See the following materials for information on how Fannie Mae underwrites loans that get sold to the federal government:
 1. [Fannie Mae Aoolications Technology Overview](https://singlefamily.fanniemae.com/applications-technology/applications-technology)
