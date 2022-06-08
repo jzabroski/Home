@@ -2,6 +2,8 @@
 
 To get a deal, you have to take someone else's problem.
 
+When you get a deal, you are literally getting a problem—you’re getting somebody else’s problem.
+
 # Broker Perspective 
 1. Be the Better Broker, Volume 1: Become A Top Producer: A Study of Mortgage Agents, Originators and Loan Officers by Dustan Woodhouse 
 2. Be the Better Broker, Volume 2: Days 1-100 As A New Broker, Building Lasting Foundations and Surviving in the Meantime by Dustan Woodhouse 
