@@ -1,4 +1,8 @@
+# Takeaways
 
+- As a general principle, it is important to look for evidence that discriminates between hypotheses. It is especially important to look for evidence that can falsify a hypothesis (Karl Popper). Falsification is a more powerful discrimination tool than confirmation.
+
+- The goal of Analysis of Competing Hypothesis (ACH) thinking tool is to get a deeper understanding of the range of possible explanations of reality and of the evidence that supports/refutes these world views. The resulting probabilities assigned to each Hypothesis are a reflection of that understanding (and not the main objective of the exercise).
 
 # Introduction
 
