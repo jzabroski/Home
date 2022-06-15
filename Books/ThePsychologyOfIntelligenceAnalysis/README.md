@@ -46,7 +46,7 @@
 
 # Related Articles
 
-https://www.the-american-interest.com/2007/09/01/wising-up/
+## https://www.the-american-interest.com/2007/09/01/wising-up/
 
 > His real business was not producing spies, or even producing information.
 > His real business was producing useful insights in the heads of national officials charged with making decisions.
@@ -54,3 +54,31 @@ https://www.the-american-interest.com/2007/09/01/wising-up/
 > Russell defines strategic intelligence very broadly as “the use of information, whether clandestinely or publicly acquired, 
 > that is synthesized into analysis and read by senior-most policymakers charged with setting the objectives of grand strategy 
 > and ensuring that military force is exercised for purposes of achieving national interests.”1
+
+## [Honing our enterprise BS filters - with tips from Carl Sagan's Baloney Detection Kit](https://diginomica.com/honing-our-enterprise-bs-filters-tips-carl-sagans-baloney-detection-kit)
+
+> ### Sagan's fine art of baloney detection - an enterprise review
+> Pickings and Popova pulled Sagan's rules from his book, [The Demon-Haunted World: Science as a Candle in the Dark](https://www.amazon.com/Demon-Haunted-World-Science-Candle-Dark/dp/0345409469), via the chapter "The Fine Art of Baloney Detection." Here's nine rules of scientific inquiry Sagan believes we can apply to everyday life - along with my take on the enterprise relevance of each.
+> 
+> 1. Wherever possible there must be independent confirmation of the “facts.”
+> 2. Encourage substantive debate on the evidence by knowledgeable proponents of all points of view.
+> 3. Arguments from authority carry little weight — "authorities" have made mistakes in the past. They will do so again in the future. Perhaps a better way to say it is that in science there are no authorities; at most, there are experts.
+> 4. Spin more than one hypothesis. If there's something to be explained, think of all the different ways in which it could be explained. Then think of tests by which you might systematically disprove each of the alternatives. What survives, the hypothesis that resists disproof in this Darwinian selection among "multiple working hypotheses," has a much better chance of being the right answer than if you had simply run with the first idea that caught your fancy.
+> 5. Try not to get overly attached to a hypothesis just because it's yours. It's only a way station in the pursuit of knowledge. Ask yourself why you like the idea. Compare it fairly with the alternatives. See if you can find reasons for rejecting it. If you don't, others will.
+> 6. Quantify. If whatever it is you're explaining has some measure, some numerical quantity attached to it, you'll be much better able to discriminate among competing hypotheses. What is vague and qualitative is open to many explanations. Of course there are truths to be sought in the many qualitative issues we are obliged to confront, but finding them is more challenging.
+> 7. If there's a chain of argument, every link in the chain must work (including the premise) — not just most of them.
+> 8. Occam's Razor. This convenient rule-of-thumb urges us when faced with two hypotheses that explain the data equally well to choose the simpler
+> 9. Always ask whether the hypothesis can be, at least in principle, falsified. Propositions that are untestable, unfalsifiable are not worth much. Consider the grand idea that our Universe and everything in it is just an elementary particle — an electron, say — in a much bigger Cosmos. But if we can never acquire information from outside our Universe, is not the idea incapable of disproof? You must be able to check assertions out. Inveterate skeptics must be given the chance to follow your reasoning, to duplicate your experiments and see if they get the same result.
+
+Alternatively:
+
+1. How reliable is the source of the claim?
+2. Does this source often make similar claims?
+3. Have the claims been verified by another source?
+4. How does this claim fit with what we know about how the world works?
+5. Has anyone gone out of the way to disprove the claim, or has only supportive evidence been sought?
+6. Does the preponderance of evidence point to the claimant's conclusion or to a different one?
+7. Is the claimant employing the accepted rules of reason and tools of research, or have these been abandoned in favor of others that lead to the desired conclusion?
+8. Is the claimant providing an explanation for the observed phenomena or merely denying the existing explanation?
+9. If the claimant prefers a new explanation, does it account for as many phenomena as the old explanation did?
+10. Do the claimaint's personal beliefs and biases drive the conclusions, or vice versa?
