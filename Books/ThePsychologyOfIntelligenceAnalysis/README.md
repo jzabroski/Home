@@ -82,3 +82,12 @@ Alternatively:
 8. Is the claimant providing an explanation for the observed phenomena or merely denying the existing explanation?
 9. If the claimant prefers a new explanation, does it account for as many phenomena as the old explanation did?
 10. Do the claimaint's personal beliefs and biases drive the conclusions, or vice versa?
+
+## GoExplore ACH Manual
+
+### Methodology
+As explained in the GoExplore ACH Manual, the method for this technique consists of three steps:
+
+1. Imagine a wide range of hypotheses.
+2. Investigate evidence and arguments and map against hypotheses.
+3. Repeat.
