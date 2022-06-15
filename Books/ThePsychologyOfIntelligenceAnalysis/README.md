@@ -6,15 +6,15 @@
 
 2. "Perception: Why Can't We See What Is There to Be Seen?"
    - Encourage Products That:
-      A. Clearly delineate their assumptions and chains of inference.
-      B. Specify the degree and source of uncertainty involved in the conclusions.
-      C. Emphasize procedures that expose and elaborate alternative points of view.
-      D. Analytic Debates.
-      E. Devil's Advocate.
-      F. Interdisciplinary brainstorming.
-      F. Competitive Analysis.
-      G. Intra-office peer review of production
-      H. Elicitation of outside expertise.
+       - Clearly delineate their assumptions and chains of inference.
+       - Specify the degree and source of uncertainty involved in the conclusions.
+       - Emphasize procedures that expose and elaborate alternative points of view.
+       - Analytic Debates.
+       - Devil's Advocate.
+       - Interdisciplinary brainstorming.
+       - Competitive Analysis.
+       - Intra-office peer review of production
+       - Elicitation of outside expertise.
       
 3. Dangers of Mental Models or Mindsets. 
       
@@ -38,7 +38,9 @@
   - Too often, foreign behavior 
 
   - Analysts often reject deception
-4. ACH
+
+4. ACH (Alternative Competing Hypotheses)
+   - See: http://www.pherson.org/wp-content/uploads/2013/06/06.-How-Does-ACH-Improve-Analysis_FINAL.pdf
 
 
 
