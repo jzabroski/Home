@@ -5,6 +5,19 @@ https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 - Discount Rates
 - Risk Premia
 
+# Securities Lending
+
+[Securities lending, shorting, and pricing](http://faculty.haas.berkeley.edu/garleanu/DGP2_published.pdf) by Darrell Duffie, Nicolae Garleanu, Lasse Heje Pedersen
+
+> We present a model of asset valuation in which short-selling requires searching for security
+> lenders and bargaining over the lending fee. If lendable securities are difficult to locate, then
+> the price of the security is initially elevated, and expected to decline. This price decline is to be
+> anticipated, for example, after an initial public offering, and is increasing in the degree of
+> heterogeneity of beliefs about the future value of the security. The prospect of lending fees may
+> push the initial price of a security above even the most optimistic buyer’s valuation of the
+> security’s future dividends. A higher price can thus be obtained with some shorting than if
+> shorting is disallowed.
+
 # Tax Treatment
 
 https://www.thetaxadviser.com/issues/2010/feb/sec475mark-to-marketelection.html
