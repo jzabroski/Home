@@ -32,3 +32,17 @@ From: https://www.quantumonline.com/PfdSymbolsNames.cfm
 > | TD Ameritrade  | -                    | ALP-N                       | BHC-                      | C-S                           |
 > | Vanguard       | \_p                  | ALP_pN                      | BHC_p                     | C_pS                          |
 > | Yahoo!         | -p                   | ALP-pN                      | BHC-p                     | C-pS                          |
+
+# Problems with using SEDOL for Matching
+
+Bloomberg does not always issue a different ticket for each SEDOL and security/exchange. For instance, FSV U PDF (FirstService Corporation, CA33761N2086) has two SEDOLs:
+
+1. B23GH30 in Canada
+2. B23TF27 in the US
+
+# Problems with Matching, Generally
+
+1. Forward currency contracts, deliverable and non-deliverable, are non-standard, unlisted contracts.
+2. Credit default swaps are unlisted contracts without standard identifiers
+3. Money markets are ssentially cash. Typically no standard identifiers.
+4. Futures don't typically have standard identifiers, outside their exchange tickers.
