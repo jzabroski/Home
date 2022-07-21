@@ -4,6 +4,12 @@
 
 - The goal of Analysis of Competing Hypothesis (ACH) thinking tool is to get a deeper understanding of the range of possible explanations of reality and of the evidence that supports/refutes these world views. The resulting probabilities assigned to each Hypothesis are a reflection of that understanding (and not the main objective of the exercise).
 
+## Computer Programs
+
+1. https://www.opensynthesis.org/ - Open Synthesis is an open-source verison of ACH Software
+
+2. https://github.com/arguman/arguman.org - Argument Mapping software
+
 # Introduction
 
 1. Douglas McEachin - Linchpin Analysis.  Less academic way to say key variables.
