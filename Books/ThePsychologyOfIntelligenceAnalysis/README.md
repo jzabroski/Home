@@ -10,9 +10,9 @@
     1. To properly see most of the feature set, make sure to:
         1. click the "Change View" button; as well as:
         2. click into any of the individual evidence entries 
-    1. Ex:
+    1. Ex: Compare a long list of links on Reddit, [pointing to Russia and Trump collouding](https://www.reddit.com/r/politics/comments/7u1vra/comment/dth0x7i/?utm_source=reddit&utm_medium=web2x&context=3), to the following examples
         1. https://www.opensynthesis.org/boards/9/what-is-the-relationship-between-edward-snowden-and-the-kremlin/
-        2. Ex: https://www.opensynthesis.org/boards/4/is-russia-attempting-to-tamper-with-the-2016-us-election/ 
+        2. https://www.opensynthesis.org/boards/4/is-russia-attempting-to-tamper-with-the-2016-us-election/ 
 
 2. https://github.com/arguman/arguman.org - Argument Mapping software
 
