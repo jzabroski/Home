@@ -16,6 +16,13 @@
 
 2. https://github.com/arguman/arguman.org - Argument Mapping software
 
+3. recon-ng
+    1. General information recon tool
+4. TheHarvester
+    1. More for pen testing
+5. Maltego
+    1. see: https://www.youtube.com/watch?v=TtTOp-o-TOs for example of Person of Interest investigation
+
 # Introduction
 
 1. Douglas McEachin - Linchpin Analysis.  Less academic way to say key variables.
