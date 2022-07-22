@@ -27,6 +27,7 @@
 8. Reverse Image Searches
     1. TinEyes
     2. PimEyes
+9. [Discover Scripts by Lee Baird](https://github.com/leebaird/discover) aka "Discover"
 
 ## Alternative Perspectives
 
