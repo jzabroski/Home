@@ -22,6 +22,19 @@
     1. More for pen testing
 5. Maltego
     1. see: https://www.youtube.com/watch?v=TtTOp-o-TOs for example of Person of Interest investigation
+6. Google Dorks aka Boolean Searching
+7. Shodan
+8. Reverse Image Searches
+    1. TinEyes
+    2. PimEyes
+
+## Alternative Perspectives
+
+[Justified true belief theory for intelligence analysis](https://www.tandfonline.com/doi/full/10.1080/02684527.2022.2076332) by Martha Whitesmith
+
+## Other Websites
+
+https://inteltechniques.com/ - Michael Bazzell's website, contains lots of information on how to avoid being dox'd
 
 # Introduction
 
