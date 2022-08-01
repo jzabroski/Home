@@ -79,6 +79,17 @@ https://inteltechniques.com/ - Michael Bazzell's website, contains lots of infor
 4. ACH (Alternative Competing Hypotheses)
    - See: http://www.pherson.org/wp-content/uploads/2013/06/06.-How-Does-ACH-Improve-Analysis_FINAL.pdf
 
+## Chapter 3: How do we remember what we know?
+
+1. Rote
+2. Assimilation
+3. Mnemonic devices - appropriate for any information conceptual structure or schema already in memory.  Supplies the mental file categories.
+
+### Memory and Intelligence Analysis
+
+Two types of input:
+1. Factual historical input
+2. Schemata used to determine the meaning of newly acquired information
 
 
 # Related Articles
