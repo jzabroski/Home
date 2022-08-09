@@ -31,7 +31,10 @@
 
 ## Alternative Perspectives
 
-[Justified true belief theory for intelligence analysis](https://www.tandfonline.com/doi/full/10.1080/02684527.2022.2076332) by Martha Whitesmith
+1. [Justified true belief theory for intelligence analysis](https://www.tandfonline.com/doi/full/10.1080/02684527.2022.2076332) by Martha Whitesmith
+    1. But - Justified true belief theory has problems in "knowledge analysis" known as Gettier Problems.
+    2. Experimental philosophy has a parallel to Gettier Problems called a Knobe Effect.
+    3. Researchers have studied the two phenomenon together, [Gettierized Knobe Effects](https://experimentalphilosophy.typepad.com/files/beebe-shea-gettierized-knobe-effects.pdf)
 
 ## Other Websites
 
