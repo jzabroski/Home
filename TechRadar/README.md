@@ -350,6 +350,11 @@ See also: https://mssqlwiki.com/2012/05/04/copy-database-wizard-or-replication-s
 | [MailKit](https://github.com/jstedfast/MailKit) | [MailKit](https://www.nuget.org/packages/MailKit/) | MailKit is an Open Source cross-platform .NET mail-client library that is based on MimeKit and optimized for mobile devices.<br />Microsoft recommended: https://github.com/dotnet/platform-compat/blob/master/docs/DE0005.md | Stable |
 | [MailDemon](https://github.com/DigitalRuby/MailDemon) | n/a - it's an smtp server | Mail Demon is a simple and lightweight C# smtp server and mail list system for sending unlimited emails and text messages. With a focus on simplicity, async and performance, you'll be able to easily send thousands of messages per second even on a cheap Linux VPS. Memory usage and CPU usage are optimized to the max. Security and spam prevention is also built in using SPF validation. | Incoming |
 
+# Messaging
+| GitHub | NuGet | Description | Radar Positioning |
+| ------ | ----- | ----------- | ----------------- |
+| [Horse Messaging](https://github.com/horse-framework/horse-messaging) | [Horse.Messaging.Server](https://www.nuget.org/packages/Horse.Messaging.Server)<br/>[Horse.Messaging.Client](https://www.nuget.org/packages/Horse.Messaging.Client) | Horse Messaging is a communcation framework. It provides many features. All features can be used over only once client and one connection full asynchronously. <br /><ul><li>Push State Messaging Queues (supports persistent queues)<li>Pull State Messaging<li>Queues (supports persistent queues)<li>Message Broadcasting over Channels<li>Distributed Cache Management<li>Direct Messaging Between Clients<li>Proxy for <li>Request and Response Messaging<li>Remote Transactions<li>Event Management<li>Message Routing</ul> | Incoming |
+
 # Logging
 
 ## Better Stack Traces
