@@ -1,3 +1,26 @@
+# Montecarlo simulation
+
+See: https://arxiv.org/pdf/1810.02071.pdf
+
+Leave-One-Out Least Square Monte Carlo Algorithm for Pricing American Options
+* Jeechul Woo
+  * Department of Mathematics, University of Illinois Urbana-Champaign, jcw@illinois.edu
+* Chenru Liu
+  * Department of Management Science and Engineering, Stanford University, liucr@stanford.edu
+* Jaehyuk Choi
+  * Peking University HSBC Business School, jaehyuk@phbs.pku.edu.cn
+  
+> The least square Monte Carlo (LSM) algorithm proposed by Longstaff and Schwartz (2001) is widely used
+> for pricing American options. The LSM estimator contains undesirable look-ahead bias, and the conventional
+> technique of removing it necessitates doubling simulations. We present the leave-one-out LSM (LOOLSM)
+> algorithm for efficiently eliminating look-ahead bias. We also show that look-ahead bias is asymptotically
+> proportional to the regressors-to-simulation paths ratio. Our findings are demonstrated with several option
+> examples, including the multi-asset cases that the LSM algorithm significantly overvalues. The LOOLSM
+> method can be extended to other regression-based algorithms improving the LSM method.
+
+
+# Bob Prince's Plan for All Seasons
+
 https://www.ipe.com/bob-prince-plan-for-all-seasons/10022080.article
 
 - Growth Assets
