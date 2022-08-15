@@ -95,6 +95,9 @@ https://github.com/Cyan4973/xxHash
 [Using Scrutor to automatically register your services with the ASP.NET Core DI container](https://andrewlock.net/using-scrutor-to-automatically-register-your-services-with-the-asp-net-core-di-container/)
 
 ## Function Detouring / Function Hooking
+
+For an explanation of what this category is about, see: https://tryfinally.dev/detours-redirecting-csharp-methods-at-runtime
+
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
 | [Detours.net](https://github.com/citronneur/detours.net) | n/a | Hook native API with C# | Assessing |
