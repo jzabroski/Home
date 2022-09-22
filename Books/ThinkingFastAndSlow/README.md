@@ -2,11 +2,12 @@ _Thinking, Fast and Thinking Slow_, by Daniel Kahneman
 
 # See Also
 
+## Commentary on Impossibly Hungry Judges
 https://daniellakens.blogspot.com/2017/07/impossibly-hungry-judges.html
 
 https://errorstatistics.com/2017/07/01/s-senn-fishing-for-fakes-with-fisher-guest-post/
 
-##
+### Exact Explanation for Impossibly Hungry Judges
 
 Here is the refutation being referred to in the article, the article author did a poor job explaining it, and the reason to reject isn't "effect is too large", because the effect is real -- but this study explains it https://journal.sjdm.org/16/16823/jdm16823.html
 
@@ -19,6 +20,12 @@ Here is the refutation being referred to in the article, the article author did 
 So after reading this, the graph means: Ratio of cases with a lawyer that can be finished in the remaining time in the session.
 
 Both values are decreasing as the session continues, so it produces a heavy down sloping graph that resets each session to some approximately random value (.65).
+
+## Interviews with Daniel Kahneman
+
+https://www.theguardian.com/books/2015/jul/18/daniel-kahneman-books-interview
+
+> What’s fascinating is that Kahneman’s work explicitly swims against the current of human thought. Not even he believes that the various flaws that bedevil decision-making can be successfully corrected. The most damaging of these is overconfidence: the kind of optimism that leads governments to believe that wars are quickly winnable and capital projects will come in on budget despite statistics predicting exactly the opposite. It is the bias he says he would most like to eliminate if he had a magic wand. But it “is built so deeply into the structure of the mind that you couldn’t change it without changing many other things”.
 
 
 
