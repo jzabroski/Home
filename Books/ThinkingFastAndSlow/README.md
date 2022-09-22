@@ -82,3 +82,7 @@ Model of the world that instantly evaluates events as normal or surprising.
 - Reacting to pictures of single bird drowning.
   - Number of birds does not matter.
   - People react to the negative image of a single bird drowning.
+
+### See Also
+
+[The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments](https://www.science.org/doi/10.1126/sciadv.abc4046)
