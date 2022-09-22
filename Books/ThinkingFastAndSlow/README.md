@@ -60,3 +60,25 @@ Model of the world that instantly evaluates events as normal or surprising.
 - Turkish companies analyzed by brokerage analyst firms.  Easier to pronounce firm name was ignored/discarded in favor of easier to pronounce name.
 
 - Psychologists believe all of us live much of our lives guided by the impressions of System 1.
+
+# Chapter 7: A Machine for Jumping to Conclusions
+
+# Chapter 8: How Judgments Happen
+
+- Situations are constantly evaluated.
+- "Good Mood" and "Cognitive Ease", are the human equivalents of assessments of safety and familiarity.
+- Identifying "Friend" and "Foe".  
+
+## Alexander Todorov
+
+- Accuracy of Face Reading.
+  - Not perfect. But imperfect ability confers survival advantage.
+  - "Valence" and "Dominance" predict winning and losing, suggesting we are biologically pre-disposed to elect candidates with facial characteristics we prefer
+
+  - Politically uninformed voters who watch a great deal of television.
+  - Effect of "facial competence on voting" is about 3 times larger for "information poor" and "TV prone" voters.
+    - How did they determine what "information poor" is?
+
+- Reacting to pictures of single bird drowning.
+  - Number of birds does not matter.
+  - People react to the negative image of a single bird drowning.
