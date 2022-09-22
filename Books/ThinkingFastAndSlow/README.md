@@ -2,6 +2,15 @@ _Thinking, Fast and Thinking Slow_, by Daniel Kahneman
 
 # See Also
 
+## Commentary on whether Emotion has a place in Rational Decision Making
+
+[BELICHICK, RATIONALITY AND WHY THE COLTS ARE 14-1](https://www.sentientdecisionscience.com/belichick-rationality-and-why-the-colts-are-14-1/) By Aaron Reid. December 31, 2009.
+
+> This is why Frigo’s request to leave emotion on the sideline is so problematic. Economists have long argued that emotions are irrational and have no place in decision theory. However, **recent research has shown that the including emotion in rational choice models actually improves the accuracy of choice prediction (Reid & Gonzalez-Vallejo, 2009)**. And while we are led to believe, here in New England, that Bill Belichick is as stoically rational and calculated as they come, there are emotions that are driving his decisions just as they are driving yours and mine. To understand the role of emotion in decision making it is useful to consider recent advances in motivational research.
+> 
+> From a motivational perspective, Bill Belichick is something social psychologists would call “promotion focused” (Higgins, 1998). A promotion focused motivational disposition leads to the strong pursuit of achievement outcomes even at the risk of failure. For a promotion focused individual, taking chances to succeed is much more motivational emotionally than being conservative to avoid a negative outcome. On Belichick’s 4th and 2 decision, there was much more going on than the rational calculation of probabilities of success embodied by a ZEUS type algorithm. Yes, the estimate of success is important in the decision, but the outcome of having tried and failed carries different emotional weight than the same failed outcome having not tried to make the first down at all.
+Consider Bill Belichick’s motivational style by reading his own words:
+
 ## Commentary on Impossibly Hungry Judges
 https://daniellakens.blogspot.com/2017/07/impossibly-hungry-judges.html
 
