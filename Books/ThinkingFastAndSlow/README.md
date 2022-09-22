@@ -1,5 +1,27 @@
 _Thinking, Fast and Thinking Slow_, by Daniel Kahneman
 
+# See Also
+
+https://daniellakens.blogspot.com/2017/07/impossibly-hungry-judges.html
+
+https://errorstatistics.com/2017/07/01/s-senn-fishing-for-fakes-with-fisher-guest-post/
+
+##
+
+Here is the refutation being referred to in the article, the article author did a poor job explaining it, and the reason to reject isn't "effect is too large", because the effect is real -- but this study explains it https://journal.sjdm.org/16/16823/jdm16823.html
+
+1. Prisoners are ordered by whether they have an attorney (so those going last in a session are self-represented)
+
+2. Judges order prisoners often by "complexity of the case", so the ones taking most time are first (and therefore most likely to have a favorable decision, a short/easy case is probably a no-parole situation)
+
+3. Statistically, the cases that gained parole take longer than those that don't, so even if they are random/normally distributed, then if one falls at the end, it will come back to the beginning of next session. A simulation shows that even with random ordering, you still get the same graph (because the long/complex cases that could be paroled tend to be moved to next session when the session is almost out of time).
+
+So after reading this, the graph means: Ratio of cases with a lawyer that can be finished in the remaining time in the session.
+
+Both values are decreasing as the session continues, so it produces a heavy down sloping graph that resets each session to some approximately random value (.65).
+
+
+
 # Chapter 3: The Lazy Controller
 
 Correlation between ability to control their attention and control their emotions.
