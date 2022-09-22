@@ -79,6 +79,11 @@ Model of the world that instantly evaluates events as normal or surprising.
   - Effect of "facial competence on voting" is about 3 times larger for "information poor" and "TV prone" voters.
     - How did they determine what "information poor" is?
 
+  - See also: https://www.newyorker.com/tech/annals-of-technology/on-the-face-of-it-the-psychology-of-electability
+    >  In one study of fifty-eight gubernatorial races, the only element that outperformed the thin-slice impression was a combination of two of the political factors most closely tied to electoral success: incumbency status and campaign spending. While we are never forced to vote based on one factor alone, the apparent predictive power of competence judgements reveal how deeply that quick impression may color our evaluation of more serious considerations.
+    > 
+    > The more data that Todorov gathered, the stronger his conclusion seemed. A few years after his initial research, he determined that even a one-second cutoff was unnecessary—the judgments that people made after a mere hundred milliseconds predicted election outcomes just as accurately as if they’d had an unlimited time to look at the photographs. **But the more that his subjects reflected on their impressions—if they were asked explicitly to make a good judgment and think carefully about their choice—the less accurately their responses tracked with actual outcomes, and they became no different than a chance guess.** Moreover, he found that judgments of trust and likability were not nearly as predictive as judgments of competence. It was competence alone that had the snap-judgment predictive power.
+
 - Reacting to pictures of single bird drowning.
   - Number of birds does not matter.
   - People react to the negative image of a single bird drowning.
