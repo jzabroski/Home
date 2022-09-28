@@ -41,7 +41,7 @@ Other useful tags for execution management are 110 (MinQty) - minimum quantity i
 
 ## Date and time
 
-FIX protocl has the following fields for carrying different date/time information in orders and execution reports. Note that most date/time fields in FIX use UTC/GMT times.
+FIX protocol has the following fields for carrying different date/time information in orders and execution reports. Note that most date/time fields in FIX use UTC/GMT times.
 
 * 60 (TransactTime): Time when a trading instruction, e.g. an order was created in the trading system.
 * 52 (SendingTime): Time when a FIX message was sent out by the FIX engine.
