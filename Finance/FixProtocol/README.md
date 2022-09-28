@@ -105,7 +105,17 @@ https://www.yumpu.com/en/document/read/5501151/market-level-sedol-allocation-lon
 > 
 > This paper also outlines information and examples on the allocation of new market level SEDOL codes to securities traded on multiple trading platforms within the same country, whilst retaining the existing country SEDOL identifiers. The allocaiton of market SEDOLs is due to commence in September 2008.
 
+and
 
+> 3. Country Level Identification
+> 
+> As per the diagram below, the current allocation rule is that SEDOLs are assigned to the Official Places of Listing (OPOL), or in absence of listings, the places of trade, but only one SEDOL is allocated per country. Two exceptions apply to this, one being UK Exchange Traded Funds (ETFs) where a separate SEDOL code is allocated for each trading currency on the Exchange's trading platform, and the Singapore Stock Exchange securities due to different lot size.
+> 
+> ...
+> 
+> Although allocation at the country level uniquely identifies instruments where there is one trading venue per country, this does not provide instrument uniqueness for countries with multiple pools of liquidity (e.g., the US, Germany and Japan). In this instance, Daimler AG (DE0007100000) currently has one country SEDOL for Germany, but is traded on eight different exchanges within Germany, currently differentiated by Market Identifier Codes (MICs).
+> 
+> The introduction of MITFs such as Virt-X and ChiX operate outside set geographical boundaries and carry multiple priced lines of the same stock from different markets. As a consequence, mapping the country level SEDOL to the MIC of the MTFs cannot gaurantee uniqueness.
 
 # Exchanges
 
