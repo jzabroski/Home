@@ -77,6 +77,7 @@ If you're doing a parallel cutover with ability to rollback, you will need each 
 ## Symbology Conventions
 
 - Don't use [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) for symbology, because it's not guaranteed to be on every message.  For example, it's not proper FIX to send [Tag 15 Currency](https://btobits.com/fixopaedia/fixdic42/tag_15_Currency_.html) on Cancel Order messages.  Most middleware will reject this message by default.  Instead, use [Tag 22 IDSource](https://www.onixs.biz/fix-dictionary/4.2/tagnum_22.html), [Tag 48 SecurityID](https://www.onixs.biz/fix-dictionary/4.2/tagnum_48.html), and [Tag 207](https://www.onixs.biz/fix-dictionary/4.2/tagnum_207.html).  Tag 207 is needed if using ISIN on buy-side, and your executing broker likely uses Sedol, as an ISIN can be thought of as the "stock entity" whereas the SEDOL is the "line of stock".   As of FIX 4.3, Tag 207 should be the ISO 10383 standard Market Identifier Code (see: [Appendix 6-C: Exchange Codes - ISO 10383 Market Identifier Code (MIC)](https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html)).
+- Tag 207 can be used on the sell-side if Tag 48 supplied by the buy-side is a country SEDOL as opposed to an exchange SEDOL.
 
 ## Currency Conventions
 
@@ -94,7 +95,17 @@ If your broker lets you route to a specific venue, you can test this by checking
 
 # Market Level Allocation
 
-https://www.londonstockexchange.com/products-and-services/reference-data/sedol-master-file/sedolmarketlevelpaper12022008.pdf
+https://www.yumpu.com/en/document/read/5501151/market-level-sedol-allocation-london-stock-exchange
+
+> This paper provides notification that from May 2008 the London Stock Exchange (the Exchange) will:
+> 
+> a) Begin allocation of SEDOL codes to securities traded on multi-lateral trading facilities (MTFs) that track listed instruments, such as Virt-x and Chi-x.
+> 
+> b) Begin allocation of separate SEDOL codes to recognize securities trading in multiple currencies on the same trading platform.
+> 
+> This paper also outlines information and examples on the allocation of new market level SEDOL codes to securities traded on multiple trading platforms within the same country, whilst retaining the existing country SEDOL identifiers. The allocaiton of market SEDOLs is due to commence in September 2008.
+
+
 
 # Exchanges
 
