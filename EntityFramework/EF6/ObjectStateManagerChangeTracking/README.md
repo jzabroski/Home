@@ -11,6 +11,17 @@ In this post let’s see how we can use `ObjectStateManager` to track object cha
 5. Removing item to a collection type property of an existing item
 6. Deleting an existing item
 
+# `ObjectStateManager` and `ObjectStateEntry`
+
+The `ObjectStateManager` can have two kinds of `ObjectStateEntry`:
+
+1. Relationships
+2. Entities
+
+However, it does not directly represent the concept of updating a complex property of an existing item.
+
+
+
 ```c#
 private static void LogAddedEntries(ObjectStateEntry entry)
 {
