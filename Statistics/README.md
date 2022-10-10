@@ -9,6 +9,12 @@ With p-Values, there is a system effect, where other people can rely on your res
 
 One problem with replication is that a lot of studies might measure for a 0.05 p-value, and so you end up with a lot of 0.04999 p-values in studies, so the question becomes: Did the researchers massage their data until they got the answer they were looking for?
 
+# PCA vs. Factor Analysis
+
+The fundamental difference is that Principal Components Analysis does not impose testable restrictions on the parameterization of the covariance matrix. This is because any real symmetric matrix can be decomposed into its eigenvalues and eigenvectors. PCA computes that decomposition, and then the user selects the linear combinations he thinks are most important. However, the identity between the covariance matrix and its decomposition means that PCA does not restrict the structure of the covariance matrix. Every covariance matrix can be decomposed into its principal components.
+
+On the other hand, when the Factor Analysis model is written mathematically and the covariance matrix is computed, one can see that the factor loadings enter into the covariance matrix as squares and cross products. Factor analysis therefore imposes parameter restrictions on the covariance matrix that can be tested statistically. Therefore, unlike PCA, NOT every covariance matrix can be represented by the Factor Analysis model.
+
 # Signal Detection Theory 
 
 ## True Positive Fraction (TPF)
