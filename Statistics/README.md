@@ -1,3 +1,14 @@
+# p-Values vs. Bayesian Inference
+
+With Bayes, you only care about the likelihood of something occurring, so it is well-suited to "private analysis" for your own purposes.
+
+With p-Values, there is a system effect, where other people can rely on your results (e.g., scientific community).
+
+
+# Replication Crisis, R-INDEX and Inflation Rates
+
+One problem with replication is that a lot of studies might measure for a 0.05 p-value, and so you end up with a lot of 0.04999 p-values in studies, so the question becomes: Did the researchers massage their data until they got the answer they were looking for?
+
 # Signal Detection Theory 
 
 ## True Positive Fraction (TPF)
