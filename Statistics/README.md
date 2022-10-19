@@ -1,3 +1,8 @@
+# Books
+1. Statistical Re-thinking
+2. [Modern Data Science in R](https://mdsr-book.github.io/mdsr2e/) - 4* on amazon; negative reviews were about print in black and white, not color.
+3. [R for Data Science](https://r4ds.had.co.nz/) - 4.7* on amazon, 1,395 reviews.
+
 # p-Values vs. Bayesian Inference
 
 With Bayes, you only care about the likelihood of something occurring, so it is well-suited to "private analysis" for your own purposes.
