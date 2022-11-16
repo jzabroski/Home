@@ -75,3 +75,33 @@ Use CreateItem task and output the value you need:
     </CreateItem>
   </Target>
 ```
+
+# Build-time Code Generation
+
+https://mhut.ch/journal/2015/06/30/build-time-code-generation-in-msbuild#live-update-on-project-change
+
+There are two possible ways to tell Roslyn Language Services that a generator should run:
+
+1. Live Update on Project Change
+2. Live Update on File Change
+
+## Live Update on Project Change
+> So how do the types from the generated file show up in code completion before the project has been compiled? This takes advantage of the way that Visual Studio initializes its in-process compiler that’s used for code completion.
+> 
+> When the project is loaded in Visual Studio, or when the project file is changed, Visual Studio runs the `CoreCompile` target. It intercepts the call to the compiler via a host hook in the the MSBuild `Csc` task and uses the file list and arguments to initialize the in-process compiler.
+
+## Live Update on File Change
+
+> So, the generated code is updated whenever the project changes. But what happens when the contents of the ResourceFile files that it depends on change?
+> 
+> This is handled via Generator metadata on each of the ResourceFile files:
+> 
+> ```xml
+> <ItemGroup>
+>   <ResourceFile Include="Foo.png">
+>     <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+>   </ResourceFile>
+> </ItemGroup>
+> ```
+> 
+> This takes advantage of another Visual Studio feature. Whenever the file is saved, VS runs the UpdateGeneratedFiles target. The code completion system detects the change to the generated file and reparses it.
