@@ -3,6 +3,10 @@
 3. https://www.hackerrank.com/
 4. http://www.boundvariable.org/
 
+# Technical Program Management 
+
+https://www.mariogerard.com/interview-questions-for-a-technical-program-manager-tpm/
+
 # Questions
 https://www.topechelon.com/blog/recruiter-training/attention-detail-interview-questions-tests/
 
