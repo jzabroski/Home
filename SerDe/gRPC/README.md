@@ -21,4 +21,4 @@ As every single technology, gRPC has disadvantages as well. A non-extensive list
 * gRPC is not as highly adopted as REST.
 * Request / response is binary and so not human readable. At application level though you can still log or debug in the same way you do with REST.
 * Tooling around gRPC is still limited and except from Go where this is pretty well-established you might face challenges. In the meantime, you might find this list useful!
-* There’s no 1:1 mapping between gRPC and HTTP status codes. Error messages are also not quite useful. But you can work around that by implementing interceptors or/and by using Google’s gRPC error model.
+* There’s no 1:1 mapping between gRPC and HTTP status codes. Error messages are also not quite useful. But you can work around that by implementing interceptors or/and by using Google’s [gRPC error model](https://grpc.io/docs/guides/error/).
