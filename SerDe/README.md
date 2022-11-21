@@ -5,6 +5,7 @@
 2. [Benchmarking - REST vs. gRPC](https://medium.com/sahibinden-technology/benchmarking-rest-vs-grpc-5d4b34360911)
 3. [A Thorough Guide to Bond for C#](https://microsoft.github.io/bond/manual/bond_cs.html#deserializer)
 4. [API Versioning at Stripe](https://stripe.com/blog/api-versioning) 
+5. [Introducing gRPC to our Hotels.com Platform: Part 1](https://medium.com/expedia-group-tech/introducing-grpc-to-our-hotels-com-platform-part-1-61716af50b13) - contains good FAQ.
 
 # Google Protobuf vs. Microsoft Bond
 
