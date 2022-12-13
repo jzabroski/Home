@@ -11,6 +11,16 @@
 > "John Steinbeck once said that socialism never took root in America because the poor see themselves not as an exploited proletariat but as *temporarily embarrassed millionaires.*
 > ~ Ronald Wright, Historian and writer
 
+> "'The best thing for being sad,' replied Merlyn, beginning to puff and blow, 'is to learn something. That is the only thing that never fails. You may grow old and trembling in your anatomies, you may lie awake at night listening to the disorder of your veins, you may miss your only love, you may see the world about you devastated by evil lunatics, or know your honour trampled in the sewers of baser minds. There is only one thing for it then -- to learn. Learn why the world wags and what wags it. That is the only thing which the mind can never exhaust, never alienate, never be tortured by, never fear or distrust, and never dream of regretting.'"
+> 
+> ~ from "The Once and Future King" by T.H. White
+
+> On The Importance of Planning [the ant] knew that a certain arrangement had to be made, but it could not figure how to make it. It was like a man with a tea-cup in one hand and a sandwich in the other, who wants to light a cigarette with a match. But, where the man would invent the idea of putting down the cup and sandwich--- before picking up the cigarette and the match--- T. H. White, The Once and Future King
+> 
+> ~ from "The Once and Future King" by T.H. White
+>
+> Interpretation: This ant would have put down the sandwich and picked up the match, then it would have been down with the match and up with the cigarette, then down with the cigarette and up with the sandwich, then down with the cup and up with the cigarette, until finally it had put down the sandwich and picked up the match. It was inclined to rely on a series of accidents to achieve its object.
+
 > When you plant your crops, do you gain anything from your neighbors yard? Investing is you against time. What happens elsewhere is just grass always greener. In reality, not so much.
 > ~ Roy Heh (@ruiheh), AIDVP founder
 
