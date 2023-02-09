@@ -109,7 +109,9 @@ https://www.brookings.edu/blog/up-front/2019/05/17/the-feds-bigger-balance-sheet
 
 > Under this approach, banks are willing to hold large amounts of deposits at the Fed because they are remunerated at market rates. This approach has been described as an “ample reserves” framework in contrast to the previous approach, which has been dubbed a “scarce reserves” framework. The new approach is also known as a “floor” system because the Fed’s IOER, set by fiat, establishes a floor on the federal funds rate. Under this approach, the Fed’s balance sheet will remain much larger than it was prior to the financial crisis.
 
+https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/goodfriend/EPR-2002.pdf
 
+^ Original paper that outlined the ample reserves framework.
 
 https://www.zerohedge.com/news/2019-04-27/jpmorgan-we-are-approaching-point-again-where-us-banks-run-out-liquidity
 
