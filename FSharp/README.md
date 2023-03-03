@@ -1,3 +1,6 @@
+# Libraries
+1. https://github.com/crowded/ply - fast async/await in F#. Benchmarked to C# async/await
+
 # Complex Dependency Injection
 1. https://www.bartoszsypytkowski.com/dealing-with-complex-dependency-injection-in-f/
 
