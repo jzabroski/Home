@@ -1,3 +1,6 @@
+# Complex Dependency Injection
+1. https://www.bartoszsypytkowski.com/dealing-with-complex-dependency-injection-in-f/
+
 # Reflection and generics
 1. https://www.demystifyfp.com/fsharp/blog/generic-programming-made-easy/
 2. https://stackoverflow.com/questions/42598677/what-is-the-best-way-to-pass-generic-function-that-resolves-to-multiple-types
