@@ -1,0 +1,2 @@
+"Everyone times the market. Some people buy when they have money, and sell when they need money, while others use methods that are more sophisticated." 
+- - Marian McClellan (1934-2003), co-creator of the McClellan Oscillator and Summation Index
