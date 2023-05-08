@@ -1,3 +1,9 @@
+# Overview
+
+This is a classic problem in Expert Systems theory - separating Traits vs. Skill. Professionals exhibit professional traits, but their skill may vary due to right-tail range restriction phenomena.
+
+# Testing Tools
+
 1. https://www.criteriacorp.com/solution/hireselect_pro.php
 2. https://coderpad.io/
 3. https://www.hackerrank.com/
