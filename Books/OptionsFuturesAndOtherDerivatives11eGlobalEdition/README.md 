@@ -1,0 +1,180 @@
+# Chapter 1: Introduction
+
+# 1.1 Question
+
+Explain carefully the difference between selling a call option and buying a put option. 
+
+# 1.1 Answer
+
+Selling a call option and buying a put option are two distinct strategies used in options trading. Let's break down each strategy and highlight their differences:
+
+Selling a Call Option: When you sell a call option, you are assuming the role of the option writer, also known as the seller or the "short" position. By selling a call option, you give the buyer (the option holder) the right, but not the obligation, to purchase a specific underlying asset (such as stocks, commodities, or currencies) from you at a predetermined price (strike price) within a specified period (expiration date).
+
+Key points about selling a call option:
+
+You receive a premium upfront from the buyer of the call option.
+
+You have the obligation to sell the underlying asset if the buyer decides to exercise the option.
+
+Your profit potential is limited to the premium received, regardless of how much the underlying asset's price rises.
+
+Selling a call option is generally considered a bearish or neutral strategy, as it profits from the underlying asset's price staying below the strike price.
+
+Buying a Put Option: When you buy a put option, you become the option holder or the buyer. By purchasing a put option, you acquire the right, but not the obligation, to sell a specific underlying asset at a predetermined price (strike price) within a specified period (expiration date).
+
+Key points about buying a put option:
+
+You pay a premium upfront to the seller (option writer) of the put option.
+
+You have the right, but not the obligation, to sell the underlying asset at the strike price if you choose to exercise the option.
+
+Your profit potential is significant if the price of the underlying asset decreases significantly, as the put option gains value.
+
+Buying a put option is generally considered a bearish strategy, as it profits from the underlying asset's price decline.
+
+Key differences between selling a call option and buying a put option:
+
+Position: Selling a call option involves assuming the role of the option writer (short position), while buying a put option means becoming the option holder or buyer.
+
+Obligations: Selling a call option obligates you to sell the underlying asset if the buyer exercises the option, whereas buying a put option grants you the right, but not the obligation, to sell the underlying asset.
+
+Profit Potential: Selling a call option offers limited profit potential, capped at the premium received, while buying a put option has unlimited profit potential if the underlying asset's price significantly declines.
+
+Market Outlook: Selling a call option can be used in a bearish or neutral market outlook, as it profits from the underlying asset's price staying below the strike price. Buying a put option is typically used in a bearish market outlook, as it profits from the underlying asset's price decrease.
+
+It's important to note that options trading involves risks, and it's advisable to have a good understanding of the underlying asset, market conditions, and options strategies before engaging in such trades. Consulting with a financial advisor or broker can provide further guidance tailored to your specific needs and goals.
+
+# 1.2 Question 
+
+An investor enters into a short forward contract to sell 100,000 British pounds for U. S. dollars at an exchange rate of 1.3000 USD per pound. How much does the investor gain or lose if the exchange rate at the end of the contract is (a) 1.2900 and (b) 1.3200?
+
+# 1.2 Answer
+
+To calculate the gain or loss for the investor in a short forward contract, we need to compare the contracted exchange rate with the actual exchange rate at the end of the contract. Let's calculate the gain or loss for each scenario:
+
+(a) Exchange rate at the end of the contract: 1.2900 USD per pound
+
+To calculate the gain or loss, we need to determine the difference between the contracted exchange rate and the actual exchange rate and then multiply it by the amount of British pounds involved in the contract.
+
+Difference in exchange rates = Contracted exchange rate - Actual exchange rate
+
+= 1.3000 USD/pound - 1.2900 USD/pound
+
+= 0.0100 USD/pound
+
+The investor is short on British pounds, so the investor will gain when the exchange rate decreases.
+
+Gain = Difference in exchange rates * Amount of British pounds
+
+= 0.0100 USD/pound * 100,000 pounds
+
+= 1,000 USD
+
+Therefore, the investor gains 1,000 USD if the exchange rate at the end of the contract is 1.2900 USD per pound.
+
+(b) Exchange rate at the end of the contract: 1.3200 USD per pound
+
+Difference in exchange rates = Contracted exchange rate - Actual exchange rate
+
+= 1.3000 USD/pound - 1.3200 USD/pound
+
+= -0.0200 USD/pound
+
+Since the investor is short on British pounds, the investor will incur a loss if the exchange rate increases.
+
+Loss = Difference in exchange rates * Amount of British pounds
+
+= -0.0200 USD/pound * 100,000 pounds
+
+= -2,000 USD
+
+Therefore, the investor incurs a loss of 2,000 USD if the exchange rate at the end of the contract is 1.3200 USD per pound.
+
+In summary: (a) If the exchange rate is 1.2900 USD per pound, the investor gains 1,000 USD. (b) If the exchange rate is 1.3200 USD per pound, the investor incurs a loss of 2,000 USD.
+
+# 1.3 Question
+
+A trader enters into a short cotton futures contract when the futures price is 50 cents per pound. The contract is for the delivery of 50,000 pounds. How much does the trader gain or lose if the cotton price at the end of the contract is (a) 48.20 cents per pound and (b) 51.30 cents per pound? 
+
+# 1.3 Answer
+
+To calculate the gain or loss for the trader in a short cotton futures contract, we need to consider the difference between the futures price at the initiation of the contract and the cotton price at the end of the contract. Let's calculate the gain or loss for each scenario:
+
+(a) Cotton price at the end of the contract: 48.20 cents per pound
+
+To calculate the gain or loss, we need to determine the difference between the futures price and the actual cotton price and then multiply it by the quantity of cotton involved in the contract.
+
+Difference in prices = Futures price - Cotton price
+
+= 50 cents/pound - 48.20 cents/pound
+
+= 1.80 cents/pound
+
+Since the trader is short on the cotton futures contract, a decrease in the cotton price results in a gain for the trader.
+
+Gain = Difference in prices * Quantity of cotton
+
+= 1.80 cents/pound * 50,000 pounds
+
+= $900
+
+Therefore, the trader gains $900 if the cotton price at the end of the contract is 48.20 cents per pound.
+
+(b) Cotton price at the end of the contract: 51.30 cents per pound
+
+Difference in prices = Futures price - Cotton price
+
+= 50 cents/pound - 51.30 cents/pound
+
+= -1.30 cents/pound
+
+Since the trader is short on the cotton futures contract, an increase in the cotton price results in a loss for the trader.
+
+Loss = Difference in prices * Quantity of cotton
+
+= -1.30 cents/pound * 50,000 pounds
+
+= -$650
+
+Therefore, the trader incurs a loss of $650 if the cotton price at the end of the contract is 51.30 cents per pound.
+
+In summary: (a) If the cotton price is 48.20 cents per pound at the end of the contract, the trader gains $900. (b) If the cotton price is 51.30 cents per pound at the end of the contract, the trader incurs a loss of $650.
+
+# 1.4 Question 
+
+Suppose that you write a put contract with a strike price of $40 and an expiration date in 3 months. The current stock price is $41 and the contract is on 100 shares. What have you committed yourself to? How much could you gain or lose? 
+
+# 1.4 Answer
+
+When you write a put contract, you commit yourself to certain obligations and potential gains or losses. Let's break down the details of the scenario you provided:
+
+Put Contract Details:
+
+Strike Price: $40
+
+Expiration Date: 3 months from now
+
+Current Stock Price: $41
+
+Number of Shares: 100
+
+By writing a put contract, you are assuming the role of the option writer or the seller of the put option.
+
+Commitments as the Option Writer: By writing the put contract with a strike price of $40, you commit yourself to the following obligations:
+
+If the put option holder (the buyer) decides to exercise the option before or on the expiration date, you must buy 100 shares of the underlying stock at the strike price of $40 per share.
+* You must hold the necessary funds in your account to cover the potential stock purchase if the put option is exercised.
+
+* Potential Gain or Loss: To calculate the potential gain or loss, we need to consider different scenarios based on the stock price at expiration.
+
+(a) Stock price at expiration is above the strike price ($40): If the stock price is above the strike price of $40, the put option is out of the money, and the buyer is unlikely to exercise the option. In this case, you, as the option writer, keep the premium received from the buyer as your profit.
+
+(b) Stock price at expiration is below the strike price ($40): If the stock price is below the strike price of $40, the put option is in the money, and the buyer may choose to exercise the option. In this scenario, you would need to buy 100 shares of the underlying stock at the strike price of $40 per share, regardless of the actual stock price.
+
+To calculate the potential gain or loss, we need to consider the premium received for writing the put option. Let's assume you received a premium of $2 per share, totaling $200 for the 100-share contract.
+
+* Maximum Gain: The maximum gain is the premium received, which in this case is $200. You achieve this gain if the put option expires worthless, i.e., the stock price remains above the strike price ($40).
+* Maximum Loss: The maximum loss is unlimited. If the stock price at expiration is below the strike price ($40), you would need to buy the 100 shares at $40 per share, even if the market price is lower. The potential loss depends on how far the stock price declines below the strike price.
+
+In summary, by writing the put contract, you commit yourself to potentially buying 100 shares of the underlying stock at the strike price of $40 if the option is exercised. Your potential gain is limited to the premium received ($200), while the potential loss is unlimited if the stock price drops significantly below the strike price.
+
