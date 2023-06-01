@@ -1,5 +1,6 @@
 1. https://crt.freddiemac.com/_assets/docs/hot-topics-and-announcements/analyzing-stacr-transactions-using-bloomberg.pdf
 2. https://data.bloomberglp.com/professional/sites/10/2017/03/BLPAPI-Core-User-Guide.pdf
+3. https://data.bloomberglp.com/notices/sites/3/2016/04/bfix_methodology.pdf
 
 # Bloomberg Functions
 1. https://www.quora.com/What-are-the-coolest-functions-on-Bloomberg
