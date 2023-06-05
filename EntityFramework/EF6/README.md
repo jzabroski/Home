@@ -393,3 +393,5 @@ Entities in 'YourDbContext.ChildEntity' participate in the 'ChildEntity_ChildEnt
         HOWEVER, you might then get a DIFFERENT error IF you only mapped one side of the entity relationship AND you mapped the other side's primary key to something other than the CLR Property Name (case-sensitive)!  The following error is what you'll approximately see:
         
         The ONLY workaround in this situation is to map both ends of the relationship, unfortunately.
+4. Conflicting changes to the role 'x' of the relationship 'y' have been detected.
+   - This can happen when `MyEntity.Group.MyEntity` seems to be "new and not the same" as `MyEntity`. When adding `MyEntity` to the context, it found a conflict.
