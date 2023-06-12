@@ -15,6 +15,7 @@
         2. https://www.opensynthesis.org/boards/4/is-russia-attempting-to-tamper-with-the-2016-us-election/ 
 
 2. https://github.com/arguman/arguman.org - Argument Mapping software
+    1. See also: https://github.com/jzabroski/threatintel-resources for an example of applying ACH to Cyberwarefare Threat Inteligence
 
 3. recon-ng
     1. General information recon tool
