@@ -1,3 +1,7 @@
+# Log-Normal Distribution of Asset Prices
+
+[Fallacy of the Log-Normal Approximation to Optimal Portfolio Decision-Making Over Many Periods](http://dspace.mit.edu/bitstream/handle/1721.1/47987/fallacyoflognorm00mert.pdf?sequence=1) by Robert C. Merton.
+
 # Montecarlo simulation
 
 See: https://arxiv.org/pdf/1810.02071.pdf
