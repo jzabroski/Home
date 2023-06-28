@@ -395,3 +395,5 @@ Entities in 'YourDbContext.ChildEntity' participate in the 'ChildEntity_ChildEnt
         The ONLY workaround in this situation is to map both ends of the relationship, unfortunately.
 4. Conflicting changes to the role 'x' of the relationship 'y' have been detected.
    - This can happen when `MyEntity.Group.MyEntity` seems to be "new and not the same" as `MyEntity`. When adding `MyEntity` to the context, it found a conflict.
+5. "Column name or number of supplied values does not match table definition."
+   - This awful error can happen if there is a trigger on the underlying table that has a SELECT * statement.
