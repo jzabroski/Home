@@ -30,3 +30,6 @@
     > ```
 2. [Using Microsoft XML Serializer Generator on .NET Core](https://docs.microsoft.com/en-us/dotnet/core/additional-tools/xml-serializer-generator)
    > Like the [Xml Serializer Generator (sgen.exe)](https://docs.microsoft.com/en-us/dotnet/standard/serialization/xml-serializer-generator-tool-sgen-exe) for the .NET Framework, the [Microsoft.XmlSerializer.Generator NuGet package](https://www.nuget.org/packages/Microsoft.XmlSerializer.Generator) is the equivalent for .NET Core and .NET Standard projects. It creates an XML serialization assembly for types contained in an assembly to improve the startup performance of XML serialization when serializing or de-serializing objects of those types using XmlSerializer.
+3. XmlSerializer has a constructor that will dynamically compile assemblies every time you call it.
+     1. https://kalapos.net/Blog/ShowPost/how-the-evil-system-xml-serialization-xmlserializer-class-can-bring-a-server-with-32gb-ram-down
+     2. [dotnet/runtime#28122 - XmlSerializer.FromTypes() memory leak](https://github.com/dotnet/runtime/issues/28122  )
