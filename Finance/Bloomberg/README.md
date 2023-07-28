@@ -8,3 +8,7 @@
 3. RCL - paste the loaded ticker (into another panel/tab)
 4. LLP - Launch the function as a Launchpad window
 5. STDY - customize and create your own technicals
+
+# Test Securities
+
+https://www.interactivebrokers.com/en/index.php?f=4587&cntry=usa&tag=United%20States&ib_entity=jp&ln=&asset=BOND&b=CSN&e=CVS
