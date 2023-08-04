@@ -1,3 +1,45 @@
+# gRPC Hidden Features
+
+https://groups.google.com/g/protobuf/c/oKLb32LLIiM
+
+> Protobuf supports creating message types dynamically at runtime and use them for parsing/serialization/etc.
+> 
+> First you need to build up a DescriptorPool that contains all types that you may want to use. There are two approaches to construct this pool. One is to call DescriptorPool::BuildFile() directly with parsed proto files. For example:
+> ```c++
+>   // Convert .proto files into parsed FileDescriptorProto
+>   bool ParseProtoFile(string filename, FileDescriptorProto* result) {
+>     FileInputStream stream(filename);
+>     google::protobuf::io::Tokenizer tokenizer(&stream);
+>     google::protobuf::compiler::Parser parser;
+>     return parser.Parse(&tokenizer, result);
+>   }
+>   // Build the descriptor pool
+>   DescriptorPool pool;
+>   for (string filename : proto_files) {
+>     FileDescriptorProto proto;
+>     ParseProtoFile(filename, &proto);
+>     pool.BuildFile(proto);
+>   }
+> ```
+> 
+> After you have the pool, you can query for a type by its name. For example, DescriptorPool::FindMessageTypeByName().
+> 
+> Then to actually parse/serialize/use message types in the pool, you need to construct message objects around them. `DynamicMessage` is used for that:
+> ```c++
+>   // Suppose you want to parse a message type with a specific type name.
+>   Descriptor* descriptor = pool.FindMessageTypeByName(message_type_to_parse);
+>   DynamicMessageFactory factory;
+>   unique_ptr<Message> message = factory.GetPrototype(descriptor)->New();
+>   // Use the message object for parsing/etc.
+>   message->ParseFromString(input_data);
+>   // Access a specific field in the message
+>   FieldDescriptor* field = descriptor->FindFieldByName(field_to_read);
+>   switch (field->type()) {
+>     case TYPE_INT32: message->GetReflection()->GetInt32(*message, field); break;
+>     ...
+>   }
+> ```
+
 # FAQ
 
 When presenting our PoC outcome to our engineers we received great questions. Here are a few of those questions with answers (to the best of our knowledge).
