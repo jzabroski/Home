@@ -1,3 +1,60 @@
+# Practical API Design at Netflix, Part 1: Using Protobuf FieldMask
+[Practical API Design at Netflix, Part 1: Using Protobuf FieldMask](https://netflixtechblog.com/practical-api-design-at-netflix-part-1-using-protobuf-fieldmask-35cfdc606518)
+
+* How can we understand which fields the caller doesn’t need to be supplied in the response, so we can avoid making unnecessary computations and remove calls?
+    * **GraphQL**: field selectors
+    * **JSON:API**: [Sparse FieldSets](https://jsonapi.org/format/#fetching-sparse-fieldsets)
+    * **Protobuf**: `FieldMask`
+ 
+* What is FieldMask?
+    > FieldMask is a protobuf message. There are a number of utilities and conventions on how to use this message when it is present in an RPC request. A FieldMask message contains a single field named paths, which is used to specify fields that should be returned by a read operation or modified by an update operation.
+    > 
+    > ```proto
+    > message FieldMask {
+    >     // The set of field mask paths.
+    >     repeated string paths = 1;
+    > }
+    > ```
+
+* How to use FieldMask in a Request?
+    ```proto
+    import "google/protobuf/field_mask.proto";
+    
+    message GetProductionRequest {
+      string production_id = 1;
+      google.protobuf.FieldMask field_mask = 2;
+    }
+    ```
+
+* How to retain performance benefits of using Protobuf serialization?
+    * Protobuf Field Names vs Field Numbers
+        > You might notice that paths in the `FieldMask` are specified using field names, whereas on the wire, encoded protocol buffers messages contain only field numbers, not field names. This (alongside some other techniques like [ZigZag encoding](https://en.wikipedia.org/wiki/Variable-length_quantity#Zigzag_encoding) for signed types) makes protobuf messages space-efficient.
+        >
+        > Here at Netflix we are using field numbers and convert them to field names using [`FieldMaskUtil.fromFieldNumbers()`](https://developers.google.com/protocol-buffers/docs/reference/java/com/google/protobuf/util/FieldMaskUtil.html#fromFieldNumbers-java.lang.Class-int...-) utility method.
+        
+* Dealing with Renames to Fields when using `FieldMask` approach
+    * There are multiple ways to deal with this limitation:
+      * Never rename fields when FieldMask is used. This is the simplest solution, but it’s not always possible
+      * Require the backend to support all the old field names. This solves the backward compatibility issue but requires extra code on the backend to keep track of all historical field names
+      * Deprecate old and create a new field instead of renaming. In our example, we would create the title_name field number 6. This option has some advantages over the previous one: it allows the producer to keep using generated descriptors instead of custom converters; also, deprecating a field makes it more prominent on the consumer side
+
+* Using `FieldMask` on the Producer (Server) Side
+    > On the producer (server) side, unnecessary fields can be removed from the response payload using the FieldMaskUtil.merge() method (lines ##8 and 9):
+    >
+    > ```java
+    > @Override
+    > public void getProduction(GetProductionRequest request, 
+    >                           StreamObserver<GetProductionResponse> response) {
+    > 
+    > Production production = fetchProduction(request.getProductionId());
+    > FieldMask fieldMask = request.getFieldMask();
+    > 
+    > Production.Builder productionWithMaskedFields = Production.newBuilder();
+    > FieldMaskUtil.merge(fieldMask, production, productionWithMaskedFields);
+    > ```
+
+(!) Not finished taking notes.
+
 # gRPC Hidden Features
 
 https://groups.google.com/g/protobuf/c/oKLb32LLIiM
