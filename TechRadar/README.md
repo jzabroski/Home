@@ -316,6 +316,12 @@ https://github.com/ngs-doo/json-benchmark
 | [Microsoft/Bond](https://github.com/Microsoft/bond) | [Bond.CSharp](https://www.nuget.org/packages/Bond.CSharp/) | Bond is an open source, cross-platform framework for working with schematized data. It supports cross-language serialization/deserialization and powerful generic mechanisms for efficiently manipulating data. | Incoming |
 | [Ceras](https://github.com/rikimaru0345/Ceras) | Ceras | Universal binary serializer for a wide variety of scenarios https://discord.gg/FGaCX4c https://rikidev.com/ | Incoming |
 
+## XML Serialization
+| GitHub
+| [ExtendedXmlSerializer](https://extendedxmlserializer.github.io/) | [ExtendedXmlSerializer](https://www.nuget.org/packages/ExtendedXmlSerializer/) | An extensible Xml Serializer for .NET that builds on the functionality of the classic XmlSerializer with a powerful and robust extension model. |  Assessing |
+| [XmlSchemaClassGenerator](https://github.com/mganss/XmlSchemaClassGenerator) | [dotnet-xscgen](https://www.nuget.org/packages/dotnet-xscgen) | A .NET Core CLI tool to generate XmlSerializer compatible C# classes from XML Schema files. | Stable |
+
+
 ## JSON Serialization
 | GitHub | NuGet | Description | Radar Positioning |
 | ------ | ----- | ----------- | ----------------- |
