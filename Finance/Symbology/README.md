@@ -14,6 +14,10 @@ https://issues.omg.org/issues/FIGI-20
 # FIGI Allocation Rules
 https://www.openfigi.com/assets/local/figi-allocation-rules.pdf
 
+# All Symbol Naming Conventions
+
+https://gist.github.com/prerak-proof/b7e7d68a51c653edd6f3f80e074f8de6#file-symbology_rosetta-csv
+
 # Preferred Symbol Names
 From: https://www.quantumonline.com/PfdSymbolsNames.cfm
 
