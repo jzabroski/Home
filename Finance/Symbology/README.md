@@ -1,3 +1,7 @@
+# Compiling a US Equities Security Master every morning
+
+https://medium.com/prooftrading/proof-engineering-security-master-4e2ac164511f
+
 # OpenFIGI Symbology Crosswalk Tutorials
 
 https://www.lemon.markets/blog/mapping-a-ticker-symbol-to-isin-using-openfigi-and-lemonmarkets
