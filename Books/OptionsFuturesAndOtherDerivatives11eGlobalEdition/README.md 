@@ -178,3 +178,4 @@ To calculate the potential gain or loss, we need to consider the premium receive
 
 In summary, by writing the put contract, you commit yourself to potentially buying 100 shares of the underlying stock at the strike price of $40 if the option is exercised. Your potential gain is limited to the premium received ($200), while the potential loss is unlimited if the stock price drops significantly below the strike price.
 
+# 1.5 You would like to speculate on a rise in the price of a certain stock. The current stock price is $29 and a 3-month call with a strike price of $30 costs $2.90. You have $5,800 to invest. Identify two alternative investment strategies, one in the stock, and the other in an option on the stock. What are the potential gains and losses from each? 
