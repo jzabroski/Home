@@ -2,6 +2,9 @@
 
 https://medium.com/prooftrading/proof-engineering-security-master-4e2ac164511f
 
+# BSYM Bloomberg Open Symbology - SEC Comments Letter
+https://www.sec.gov/comments/df-title-vii/swap-data-repositories/swapdatarepositories-2.pdf
+
 # OpenFIGI Symbology Crosswalk Tutorials
 
 https://www.lemon.markets/blog/mapping-a-ticker-symbol-to-isin-using-openfigi-and-lemonmarkets
