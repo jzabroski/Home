@@ -1,3 +1,15 @@
+# The Mathematics of Scalping
+
+[The Mathematics of Scalping](https://jonathankinlay.com/2018/09/the-mathematics-of-scalping/)
+
+> I will define a scalping strategy as one in which we seek to take small profits by posting limit orders on alternate side of the book. Scalping, as I define it, is a strategy rather like market making, except that we “lean” on one side of the book. So, at any given time, we may have a long bias and so look to enter with a limit buy order. If this is filled, we will then look to exit with a subsequent limit sell order, taking a profit of a few ticks. Conversely, we may enter with a limit sell order and look to exit with a limit buy order.
+> The strategy relies on two critical factors:
+> 
+> (i) the alpha signal which tells us from moment to moment whether we should prefer to be long or short
+> (ii) the execution strategy, or “trade expression”
+> 
+> In this article I want to focus on the latter, making the assumption that we have some kind of alpha generation model already in place (more about this in later posts).
+
 # Log-Normal Distribution of Asset Prices
 
 [Fallacy of the Log-Normal Approximation to Optimal Portfolio Decision-Making Over Many Periods](http://dspace.mit.edu/bitstream/handle/1721.1/47987/fallacyoflognorm00mert.pdf?sequence=1) by Robert C. Merton.
