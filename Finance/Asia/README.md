@@ -1,6 +1,8 @@
-[Bond Markets and Their Infrastructures in ASEAN+3: Part 1](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part1.pdf)
-[Bond Markets and Their Infrastructures in ASEAN+3: Part 1 - Country Reports](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part2.pdf)
-[Part 3 - Bond Market Infrastructure Diagrams, Domestic Bond Transaction Flows, and Cross-border Bond Transaction Flows](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part2.pdf)
+1. [Bond Markets and Their Infrastructures in ASEAN+3: Part 1](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part1.pdf)
+
+2. [Bond Markets and Their Infrastructures in ASEAN+3: Part 1 - Country Reports](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part2.pdf)
+
+3. [Part 3 - Bond Market Infrastructure Diagrams, Domestic Bond Transaction Flows, and Cross-border Bond Transaction Flows](https://asianbondsonline.adb.org/documents/abmg/abmf-sf2-part2.pdf)
 
 # Appendix 6 Abbreviations
 ABMF – ASEAN+3 Bond Market Forum
