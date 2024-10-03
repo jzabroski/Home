@@ -1,3 +1,6 @@
+# Chasing an MSBuild task devenv.exe file lock
+https://jaylee.org/archive/2019/01/18/chasing-an-msbuild-task-lock.html
+
 # Claire Novotny's DeterministicBuild
 
 https://github.com/clairernovotny/DeterministicBuilds
