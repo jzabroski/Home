@@ -13,6 +13,10 @@ https://natemcmaster.com/blog/2017/11/11/msbuild-task-with-dependencies/
 
 http://www.cazzulino.com/building-like-a-pro-primer.html
 
+# Xamarin FAQ on MSBuild Best Practices
+
+https://github.com/dotnet/android/blob/main/Documentation/guides/MSBuildBestPractices.md
+
 # Stephen Cleary: Filtering an ItemGroup Based on a Property
 
 https://blog.stephencleary.com/2009/05/msbuild-filtering-itemgroup-based-on.html
