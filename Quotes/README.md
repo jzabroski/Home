@@ -26,6 +26,13 @@
 
 > There are no scholarships in business.
 
+> According to Dre Baldwin, the three levels of speed are Tactical Speed, Strategic Speed, and a third level which is not explicitly named but can be inferred as the discipline to produce your best on your toughest days.
+> 
+> *Tactical Speed*: This refers to the moment-by-moment, hour-by-hour speed that most people are talking about when they want to move faster. It involves completing tasks faster than usual, such as reducing the time it takes to write an article or finish a workout.
+> *Strategic Speed*: This involves a change in plans and applications to achieve goals more efficiently. For example, Baldwin applied the strategies from Tim Ferriss' "Four Hour Body" to his weightlifting routine, achieving better results in shorter workouts.
+> *Discipline to Produce Your Best on Your Toughest Days*: This level emphasizes the importance of maintaining high performance even on challenging days, which is not a speed but a critical component of achieving success.
+> -- https://dreallday.medium.com/the-3-levels-of-speed-%EF%B8%8F-f25c2198da5b
+
 > Nice bounce pass.
 > ~ N.R.
 
