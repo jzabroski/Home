@@ -71,6 +71,12 @@ See also: [Golf Tough: Practice, Prepare, Perform, Progress](https://www.amazon.
 12. Admin processes
     - Run admin/management tasks as one-off processes
 
+# https://www.sscce.org/
+
+Short, Self Contained, Correct (Compilable), Example
+
+See also: "Code That Fits In Your Head." a book about simple engineering. https://www.amazon.com/Code-That-Fits-Your-Head/dp/0137464401/
+
 # [Reactive Manifesto](https://www.reactivemanifesto.org/)
 
 
