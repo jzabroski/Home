@@ -22,8 +22,10 @@ https://support.microsoft.com/en-us/help/4027538/windows-create-a-system-restore
 4. Motherboard
     * [ASRock Z390 Phantom Gaming 4](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming%204/index.us.asp#Download)
 5. Monitors
-    * 2 Dell U3818DW (UltraSharp 38" Curved Monitor)
-    * Loctek Monitor Mount Heavy Duty Gas Spring Swing Monitor Arm Desk Mount Stand Fits for 10"-34" Monitor Weighting 13.2-33 lbs - D7L [Amazon](https://www.amazon.com/gp/product/B01BXP9LT6/)
+    * 2 Dell U3818DW (UltraSharp 38" Curved Monitor - 2018 model)
+    * 2 Dell U3824DW (UltraSharp 38" Curved Monitor - 2024 model)
+    * ErgoUnion Dual Monitor Mount, Holds Screens up to 40 Inches and 25 lbs, Fully Adjustable Dual Monitor Arm with C-Clamp and Grommet Base, Aluminum, Silver [Amazon](https://www.amazon.com/dp/B0BM3KKCFH)
+    * 2018 - 2023, used Loctek Monitor Mount Heavy Duty Gas Spring Swing Monitor Arm Desk Mount Stand Fits for 10"-34" Monitor Weighting 13.2-33 lbs - D7L [Amazon](https://www.amazon.com/gp/product/B01BXP9LT6/)
 6. Desk
     * Autonomous AI SmartDesk 2 Business Edition - XL
 7. Mouse
