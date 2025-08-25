@@ -68,6 +68,11 @@ Get-Process VisualCronService | select name,starttime
 Get-EventLog -LogName System -After $(Get-Date).AddMonths(-1) | Where { 6009,6005,6006 -contains $_.EventID}
 ```
 
+# File Owners
+```powershell
+get-item D:\path\to\directory\or\file | select fullname, LastAccessTime, LastWriteTime, CreationTime, @{N='Owner';E={$_.GetAccessControl().Owner}}
+```
+
 # Get Monitor
 ```powershell
 $Monitors = Get-WmiObject WmiMonitorID -Namespace root\wmi
