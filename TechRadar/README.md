@@ -23,6 +23,11 @@
   16. dmd5 : Just generate MD5 hash value in CLI.
 3. https://github.com/RSuter/DNT
 
+# Vendor Integrations
+1. https://www.nuget.org/packages/nsoftware.SecureBlackbox - Components for Data Protection, Secure Storage, Secure Transfer, and Advanced Electronic Signatures, including PAdES for PDF, XAdES for XML, and full support for Hardware Security Modules (HSM).
+2. https://www.nuget.org/packages/Microsoft.CrmSdk.Deployment - Microsoft.Xrm.Sdk.Deployment.dll
+3. https://www.nuget.org/packages/Microsoft.CrmSdk.Extensions - Microsoft.Xrm.Client.dll and Microsoft.Xrm.Portal.dll
+
 # API Development Tools
 1. https://rapidapi.com/developers
 2. https://konghq.com/cloud/ - whitepaper: [GigaOm: API Management Benchmark Report: Product Profile and Evaluation: Kong Enterprise and Apigee Edge](https://konghq.com/wp-content/uploads/2019/01/GigaOm-API-Platform-Benchmark-Kong-Apigee-1-25-19-1.pdf)
@@ -597,3 +602,4 @@ https://github.com/digitalcreations/MaxTo/issues - for multi monitor displays
 
 # Amazon RDS
 https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.SQLServer.CommonDBATasks.html
+
